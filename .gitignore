@@ -1,3 +1,7 @@
-.claude/
-_to_delete/
+.claude/_to_delete/
 .DS_Store
+backups/
+_audio_gen_tmp/
+*.log
+*.tmp
+zi[A-Za-z0-9]*
