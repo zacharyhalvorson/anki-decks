@@ -39,10 +39,8 @@ Import the `.apkg` on the AnkiWeb site. Media is included in the file, no extra 
 
 ### Kanji breakdowns
 
-Every note with kanji has an expandable "Kanji breakdown" section built from KANJIDIC2. For each kanji it shows:
+Every note with kanji has an expandable "Kanji breakdown" section built from KANJIDIC2. Each kanji entry shows a stat row (stroke count and JLPT level as value-over-label columns), then:
 
-- Stroke count
-- JLPT level
 - English meanings
 - On'yomi (音読み) in katakana
 - Kun'yomi (訓読み) in hiragana with okurigana in parens

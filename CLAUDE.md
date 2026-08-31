@@ -37,7 +37,13 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
   played by tap targets in the templates — don't change the field HTML shapes.
 - KanjiBreakdown HTML comes from KANJIDIC2/JMdict via jamdict, with Nihongo app
   deep links (`nihongo-app.com/dictionary/...`). Follow existing markup classes
-  (`k-brk`, `k-head`, `k-link`, …) when adding entries.
+  when adding entries. Since Aug 2026 restyle: each `k-brk` has a `k-head`
+  (kanji link + `k-stats` stat columns: `k-stat` > `k-stat-v`/`k-stat-l` for
+  strokes and JLPT — no `k-meta` span, no grade), a `k-mean` line with NO
+  "Meanings:" prefix, and `k-radical`/`k-components` labels wrapped in
+  `<span class="k-label">`. Kanji entries are separated by CSS rules
+  (`.k-brk + .k-brk` border-top), not boxes; tap affordance is dotted
+  underlines. Match this shape for any new entry.
 
 ## Invariants for import-merge (do not break)
 
