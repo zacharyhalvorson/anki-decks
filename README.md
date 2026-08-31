@@ -94,7 +94,7 @@ Two card templates per note:
 - Kanji data: [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project) via [jamdict](https://github.com/neocl/jamdict)
 - Component decomposition: KRADFILE / RADKFILE (Jim Breen / EDRDG)
 - Word POS classification: [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html) via jamdict
-- Example sentence audio: [gTTS](https://github.com/pndurette/gTTS) (Japanese voice)
+- Word and example sentence audio: [gTTS](https://github.com/pndurette/gTTS) (Japanese voice)
 - Deep link target: [Nihongo](https://nihongo-app.com) by Serpenti Sei LLC
 
 ## Notes
