@@ -8,6 +8,7 @@ Personal Japanese-learning decks for Anki (desktop, AnkiMobile iOS, AnkiWeb).
 |---|---|---|---|
 | `GENKI II Vocab.apkg` | ~589 | ~1178 | GENKI 2 (intermediate) |
 | `JLPT N4.apkg` | ~1150 | ~2300 | JLPT N4 |
+| `Quartet I Vocab.apkg` | 92 | 184 | Quartet I (early-intermediate; L1 so far) |
 | `Intermediate 5.apkg` | 120 | 240 | Class deck |
 | `Intermediate 5 + 6.apkg` | ~240 | ~480 | Class deck (merged) |
 | `Intermediate 6.apkg` | 121 | 242 | Class deck |

@@ -103,3 +103,11 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
 - Furigana in study material only on first occurrence of harder words; common
   N4-level words need none.
 - Example sentences should stay at Genki-level grammar (class is at L23).
+- Per-deck override for Quartet decks: example sentences match the source
+  book's lesson level (Quartet I is early-intermediate, roughly N3-adjacent),
+  not Genki L23. Use patterns like 〜ば / 〜ように / 〜ために / 〜そう /
+  〜ばかり / 〜ながら / 〜のに / 〜ても / 〜わけ / 〜たびに / 〜ところ where
+  they fit, and don't shy away from compound sentences. Base kanji usage
+  matches Quartet's assumed reader (little furigana in ExampleJA), but
+  FuriganaExample still supplies furigana for kanji outside Genki 1-2 so a
+  beginner could still parse it. Same rule for future Quartet lessons.
