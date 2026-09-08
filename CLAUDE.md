@@ -44,6 +44,14 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
   `<span class="k-label">`. Kanji entries are separated by CSS rules
   (`.k-brk + .k-brk` border-top), not boxes; tap affordance is dotted
   underlines. Match this shape for any new entry.
+- Template wrapper (Sep 2026): the breakdown is rendered inside
+  `<div class="kanji-breakdown"><div class="kb-content">…</div></div>` — a plain
+  always-open div, no `<details>`/`<summary>`. It shares the `.example` card
+  look (`#f5f5f5`, 10px radius, 14/16/12px padding, 3px left border) with the
+  blue accent (`#1a5276` light / `#6cb4ee` dark). `.k-brk + .k-brk` separator
+  is 14px each side. `.example` also got `padding: 10px 16px 12px`,
+  `.example-ja { margin-bottom: 0 }` and a zeroed margin on the hidden
+  `.example-audio` wrapper. All four decks carry identical CSS/templates.
 
 ## Invariants for import-merge (do not break)
 
