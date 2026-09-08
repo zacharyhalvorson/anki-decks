@@ -47,8 +47,11 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
 - Template wrapper (Sep 2026): the breakdown is rendered inside
   `<div class="kanji-breakdown"><div class="kb-content">…</div></div>` — a plain
   always-open div, no `<details>`/`<summary>`. It shares the `.example` card
-  look (`#f5f5f5`, 10px radius, 14/16/12px padding, 3px left border) with the
-  blue accent (`#1a5276` light / `#6cb4ee` dark). `.k-brk + .k-brk` separator
+  look (`#f5f5f5`, 10px radius, 14/16/12px padding, 3px left border) with a
+  Nihongo-green accent: border `#1fa77c` light / `#3ed3a4` dark; radical and
+  component links `#1f665b` / `#63c2b1` (sampled from the Nihongo app icon);
+  the big kanji in `k-head` stays body-black (`#222` / `#ddd`) with a dotted
+  underline in the link green. `.k-brk + .k-brk` separator
   is 14px each side. `.example` also got `padding: 10px 16px 12px`,
   `.example-ja { margin-bottom: 0 }` and a zeroed margin on the hidden
   `.example-audio` wrapper. All four decks carry identical CSS/templates.

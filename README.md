@@ -41,7 +41,7 @@ Import the `.apkg` on the AnkiWeb site. Media is included in the file, no extra 
 
 ### Kanji breakdowns
 
-Every note with kanji has a "Kanji breakdown" card on the back, built from KANJIDIC2. It is always visible (no header to tap), styled like the example-sentence card with a blue left border, and lists every kanji in the word in one card separated by hairlines. Each kanji entry shows a stat row (stroke count and JLPT level as value-over-label columns), then:
+Every note with kanji has a "Kanji breakdown" card on the back, built from KANJIDIC2. It is always visible (no header to tap), styled like the example-sentence card with a green left border (Nihongo green, to match the app the links open), and lists every kanji in the word in one card separated by hairlines. Each kanji entry shows a stat row (stroke count and JLPT level as value-over-label columns), then:
 
 - English meanings
 - On'yomi (音読み) in katakana
