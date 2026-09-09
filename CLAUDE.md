@@ -51,7 +51,12 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
   Nihongo-green accent: border `#1fa77c` light / `#3ed3a4` dark; radical and
   component links `#1f665b` / `#63c2b1` (sampled from the Nihongo app icon);
   the big kanji in `k-head` stays body-black (`#222` / `#ddd`) with a dotted
-  underline in the link green. `.k-brk + .k-brk` separator
+  underline in the link green. Compact pass (Sep 2026): `.k-components` is
+  hidden via CSS (data kept in the field); `.k-reading` divs render inline so
+  On/Kun share a line, and each individual reading is wrapped in
+  `<span class="k-r">` (nowrap) so a reading never breaks before its
+  okurigana paren — new entries must wrap readings the same way.
+  `.k-brk + .k-brk` separator
   is 14px each side. `.example` also got `padding: 10px 16px 12px`,
   `.example-ja { margin-bottom: 0 }` and a zeroed margin on the hidden
   `.example-audio` wrapper. All four decks carry identical CSS/templates.

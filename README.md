@@ -44,10 +44,10 @@ Import the `.apkg` on the AnkiWeb site. Media is included in the file, no extra 
 Every note with kanji has a "Kanji breakdown" card on the back, built from KANJIDIC2. It is always visible (no header to tap), styled like the example-sentence card with a green left border (Nihongo green, to match the app the links open), and lists every kanji in the word in one card separated by hairlines. Each kanji entry shows a stat row (stroke count and JLPT level as value-over-label columns), then:
 
 - English meanings
-- On'yomi (音読み) in katakana
-- Kun'yomi (訓読み) in hiragana with okurigana in parens
+- On'yomi (音読み) in katakana and kun'yomi (訓読み) in hiragana with okurigana in parens, on one line
 - Radical (with English name)
-- Components (with English gloss for each)
+
+(Component decomposition is still stored in the field but hidden by CSS to keep cards short.)
 
 ### Nihongo iOS app deep links
 
