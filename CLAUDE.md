@@ -56,6 +56,8 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
   On/Kun share a line, and each individual reading is wrapped in
   `<span class="k-r">` (nowrap) so a reading never breaks before its
   okurigana paren — new entries must wrap readings the same way.
+  Tight-rhythm pass: `.k-brk` line-height 1.45, `k-head` margin-bottom 4px,
+  `k-mean` margin-bottom 2px, `.k-brk + .k-brk` separator 10px each side.
   `.k-brk + .k-brk` separator
   is 14px each side. `.example` also got `padding: 10px 16px 12px`,
   `.example-ja { margin-bottom: 0 }` and a zeroed margin on the hidden
