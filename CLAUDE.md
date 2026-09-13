@@ -88,6 +88,17 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
     / play tap calls `stopPropagation` on click + touchend so it never reaches
     Anki's tap gestures. The old `.reading` line and `.pos-tag` pill are gone
     from the templates (CSS kept).
+  - Furigana over the word is aligned to the kanji by `runtime.js`
+    (`alignFurigana`): the word is split into kanji/kana runs, kana runs are
+    matched literally against the (hiragana-normalised) Reading, and each kanji
+    run gets the kana in between — お願いします → お願[ねが]いします. Readings
+    with okurigana parens / `a/b` alternates / `〜` are normalised first. If no
+    match, the whole reading stays over the whole word. `<rt>` text is wrapped
+    in a `<span>` so it centres as one unit (`ruby-align: center` + inline-block)
+    instead of being justified across the word.
+  - `@media (max-width: 480px)`: `body` side margins 0 and `.card` padding
+    `14px 12px 24px`, so on iPhone the side margin equals the 12px gap between
+    sections; wider screens keep max-width 600 + 20px padding.
 
 ## Invariants for import-merge (do not break)
 

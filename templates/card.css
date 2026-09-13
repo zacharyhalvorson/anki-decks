@@ -296,7 +296,9 @@
 .word-block:active { opacity: 0.55; }
 .front-word-ruby { margin: 18px 0 0; line-height: 1.15; }
 .front-word-ruby ruby { ruby-position: over; -webkit-ruby-position: before; }
-.front-word-ruby rt { font-size: 0.4em; font-weight: 500; color: #d63964; letter-spacing: 0.04em; line-height: 1.3; padding-bottom: 0.15em; }
+.front-word-ruby ruby { ruby-align: center; }
+.front-word-ruby rt { font-size: 0.4em; font-weight: 500; color: #d63964; line-height: 1.3; padding-bottom: 0.15em; text-align: center; }
+.front-word-ruby rt > span { display: inline-block; letter-spacing: 0.02em; white-space: nowrap; }
 .word-block .meaning { margin-bottom: 0; }
 .word-block .meaning { margin-top: 4px; }
 .card.prod .front-english { margin-bottom: 0; }
@@ -311,6 +313,7 @@
 
 /* --- example card: the whole card taps to play the sentence --- */
 .example { margin-top: 12px; }
+.kanji-breakdown { margin-top: 12px; }
 .example.tap-play-ex { cursor: pointer; -webkit-tap-highlight-color: transparent; user-select: none; -webkit-user-select: none; }
 .example.tap-play-ex:active { opacity: 0.55; }
 .example .audio.example-audio { display: none; margin: 0; }
@@ -347,6 +350,12 @@
 .kb-v2 .k-play svg { width: 12px; height: 12px; margin-left: 2px; }
 .kb-v2 .k-box:active .k-play, .kb-v2 .k-play:active { background: #dcdcdc; }
 .kb-v2 .k-box.animating .k-play { opacity: 0.55; }
+
+/* --- narrow screens (iPhone): trim the side margins; wider screens keep max-width 600 + 20px padding --- */
+@media (max-width: 480px) {
+  body { margin-left: 0; margin-right: 0; }
+  .card { padding: 14px 12px 24px; }
+}
 
 /* dark (Anki .nightMode) */
 .nightMode .front-word-ruby rt { color: #f0826e; }

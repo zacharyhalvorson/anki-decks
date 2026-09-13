@@ -80,7 +80,7 @@ Verb POS labels are broken out by conjugation class using JMdict:
 
 Two card templates per note:
 
-- **Recognition** (Japanese → English): front shows the word in Japanese; back shows the same word with its reading as furigana above it, the English meaning, a part-of-speech row, the example sentence, and the kanji breakdown.
+- **Recognition** (Japanese → English): front shows the word in Japanese; back shows the same word with its reading as furigana above the kanji (aligned per kanji run, e.g. お願[ねが]いします), the English meaning, a part-of-speech row, the example sentence, and the kanji breakdown.
 - **Production** (English → Japanese): front shows the English gloss; back adds the Japanese word (with furigana), part of speech, example, and kanji breakdown.
 
 Template sources live in `templates/` (`card.css`, `recognition_back.html`, `production_back.html`, `runtime.js`) and the stroke-data asset in `assets/_kanji_strokes.js` (KanjiVG paths for every kanji that appears in the decks, embedded in each `.apkg` as a `_`-prefixed media file). `python3 scripts/apply_templates.py <tag>` backs up every deck and re-applies the templates and asset — see `CLAUDE.md` for the invariants it respects. Fronts are untouched by that script.

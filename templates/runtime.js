@@ -10,13 +10,69 @@
   if (cs && cs.closest) root = cs.closest('.card');
   if (!root) { var cards = document.querySelectorAll('.card'); root = cards.length ? cards[cards.length - 1] : document; }
 
-  /* ---- 1. furigana over the word: drop it when it adds nothing ---- */
+  /* ---- align a kana reading to the kanji runs of a word: お願いします + おねがいします -> お<ruby>願<rt>ねが</rt></ruby>います ---- */
+  function toHira(s){ return s.replace(/[ァ-ヶ]/g, function(c){ return String.fromCharCode(c.charCodeAt(0) - 0x60); }); }
+  function isKanji(c){ return KANJI_RE.test(c); }
+  function isKana(c){ return /[ぁ-ゟ゠-ヿ]/.test(c); }
+  function esc(s){ return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+  function alignFurigana(word, reading){
+    reading = (reading || '').replace(/\s+/g, '');
+    if (word.indexOf('(') < 0) reading = reading.replace(/[（(][^)）]*[)）]/g, '');
+    if (word.indexOf('/') < 0 && reading.indexOf('/') >= 0) reading = reading.split('/')[0];
+    var hira = toHira(reading);
+    // split the word into runs: kanji / kana / other
+    var runs = [], i, c, t, cur = null;
+    for (i = 0; i < word.length; i++) {
+      c = word.charAt(i); t = isKanji(c) ? 'k' : (isKana(c) ? 'a' : 'o');
+      if (c === '々' && cur && cur.t === 'k') t = 'k';
+      if (cur && cur.t === t) cur.s += c; else { cur = {t:t, s:c}; runs.push(cur); }
+    }
+    var kanjiRuns = 0; for (i = 0; i < runs.length; i++) if (runs[i].t === 'k') kanjiRuns++;
+    if (!kanjiRuns) return null;
+    var pat = '^';
+    for (i = 0; i < runs.length; i++) {
+      if (runs[i].t === 'k') pat += '(.+?)';
+      else if (runs[i].t === 'a') pat += esc(toHira(runs[i].s));
+      else pat += '(?:' + esc(runs[i].s) + ')?';
+    }
+    pat += '$';
+    var m = hira.match(new RegExp(pat));
+    if (!m) return null;
+    var out = [], gi = 1, pos = 0;
+    for (i = 0; i < runs.length; i++) {
+      if (runs[i].t === 'k') {
+        // take the kana slice from the original reading (keeps katakana if it was katakana)
+        var idx = hira.indexOf(m[gi], pos); if (idx < 0) return null;
+        out.push({kanji: runs[i].s, kana: reading.substr(idx, m[gi].length)});
+        pos = idx + m[gi].length; gi++;
+      } else { out.push({text: runs[i].s}); if (runs[i].t === 'a') pos += runs[i].s.length; }
+    }
+    return out;
+  }
+  function renderFurigana(container, word, reading){
+    var parts = alignFurigana(word, reading);
+    if (!parts) return false;
+    while (container.firstChild) container.removeChild(container.firstChild);
+    for (var i = 0; i < parts.length; i++) {
+      if (parts[i].kanji) {
+        var rb = document.createElement('ruby'); rb.appendChild(document.createTextNode(parts[i].kanji));
+        var rt = document.createElement('rt'), sp = document.createElement('span'); sp.textContent = parts[i].kana; rt.appendChild(sp); rb.appendChild(rt);
+        container.appendChild(rb);
+      } else container.appendChild(document.createTextNode(parts[i].text));
+    }
+    return true;
+  }
+  function wrapRt(rt){ if (rt && !rt.querySelector('span')) { var sp = document.createElement('span'); sp.textContent = rt.textContent; while (rt.firstChild) rt.removeChild(rt.firstChild); rt.appendChild(sp); } }
+
+  /* ---- 1. furigana over the word: only over the kanji; dropped entirely when it adds nothing ---- */
   var ruby = root.querySelector('.front-word-ruby ruby');
   if (ruby) {
-    var rt = ruby.querySelector('rt'), base = '';
-    for (var c = ruby.firstChild; c; c = c.nextSibling) if (!(c.nodeType === 1 && c.tagName === 'RT')) base += c.textContent || '';
+    var rt = ruby.querySelector('rt'), base = '', c;
+    for (c = ruby.firstChild; c; c = c.nextSibling) if (!(c.nodeType === 1 && c.tagName === 'RT')) base += c.textContent || '';
     base = base.trim();
-    if (rt && (!KANJI_RE.test(base) || txt(rt) === base || !txt(rt))) rt.parentNode.removeChild(rt);
+    var reading = txt(rt);
+    if (!rt || !KANJI_RE.test(base) || reading === base || !reading) { if (rt) rt.parentNode.removeChild(rt); }
+    else if (!renderFurigana(ruby.parentNode, base, reading)) { wrapRt(rt); /* couldn't align: keep the whole-word reading, centred */ }
   }
 
   /* ---- 2. audio tap targets must never reach the card's tap gestures ---- */
