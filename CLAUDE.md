@@ -6,8 +6,12 @@ Anki (AnkiMobile iOS is the primary platform) via import-merge. Zach studies at
 
 ## What's here
 
+- `GENKI I Vocab.apkg` — 66 notes (L1 so far)
 - `GENKI II Vocab.apkg` — 589 notes, GENKI II lessons 13–23
 - `JLPT N4.apkg` — 1150 notes
+- `Quartet I Vocab.apkg` — 92 notes (L1 so far)
+- `templates/`, `assets/`, `scripts/` — template sources, stroke-data asset and the
+  apply script (see the stroke-order pass below)
 - `backups/` — local-only snapshots, gitignored. Before modifying a deck, copy
   the current `.apkg` into `backups/` with a date suffix.
 - `.apkg` files are binary (zip); `git diff` is meaningless on them.
@@ -46,22 +50,44 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
   underlines. Match this shape for any new entry.
 - Template wrapper (Sep 2026): the breakdown is rendered inside
   `<div class="kanji-breakdown"><div class="kb-content">…</div></div>` — a plain
-  always-open div, no `<details>`/`<summary>`. It shares the `.example` card
-  look (`#f5f5f5`, 10px radius, 14/16/12px padding, 3px left border) with a
-  Nihongo-green accent: border `#1fa77c` light / `#3ed3a4` dark; radical and
-  component links `#1f665b` / `#63c2b1` (sampled from the Nihongo app icon);
-  the big kanji in `k-head` stays body-black (`#222` / `#ddd`) with a dotted
-  underline in the link green. Compact pass (Sep 2026): `.k-components` is
-  hidden via CSS (data kept in the field); `.k-reading` divs render inline so
-  On/Kun share a line, and each individual reading is wrapped in
-  `<span class="k-r">` (nowrap) so a reading never breaks before its
-  okurigana paren — new entries must wrap readings the same way.
-  Tight-rhythm pass: `.k-brk` line-height 1.45, `k-head` margin-bottom 4px,
-  `k-mean` margin-bottom 2px, `.k-brk + .k-brk` separator 10px each side.
-  `.k-brk + .k-brk` separator
-  is 14px each side. `.example` also got `padding: 10px 16px 12px`,
-  `.example-ja { margin-bottom: 0 }` and a zeroed margin on the hidden
-  `.example-audio` wrapper. All four decks carry identical CSS/templates.
+  always-open div, no `<details>`/`<summary>`, `.example`-style card with a
+  Nihongo-green left border.
+- **Stroke-order pass (Sep 13 2026)** — presentation now comes from the
+  template, not the field. Sources are tracked in `templates/` and applied with
+  `python3 scripts/apply_templates.py <tag>` (backs up, patches all four decks,
+  verifies guids/media, replaces in place). Do NOT hand-edit the CSS/templates
+  inside an `.apkg`; edit `templates/` and re-run the script.
+  - `templates/runtime.js` (inlined into both back templates) re-lays out each
+    `.k-brk` at render time into `.k-head2` (`.k-box` grid box + `.k-readings`
+    with `.k-reading2` On/Kun rows and a floated `.k-stats2` column: green `語`
+    kanji deep link, `N画` stroke count, JLPT level only if present) and
+    `.k-mean2`; radical/components are dropped from view. It adds `kb-v2` on
+    `.kanji-breakdown` when done, so the `.kb-v2` CSS only applies after the
+    script has run and the old `.k-brk` CSS remains as a no-JS fallback. The
+    field markup shape is therefore UNCHANGED — keep generating entries exactly
+    as before (`k-head` > `k-link` > `k-char`, `k-stats` with `k-stat-v`/
+    `k-stat-l` labelled "Strokes"/"JLPT", `k-mean`, `k-reading` On/Kun with
+    `k-label` + `k-r` spans, `k-radical`, `k-components`).
+  - Stroke data: `assets/_kanji_strokes.js` sets `window.KANJI_STROKES`
+    (kanji → KanjiVG path list, viewBox 0 0 109 109) for every kanji in the
+    four decks (844). It is embedded in each `.apkg` as a `_`-prefixed media
+    file and loaded by `<script src="_kanji_strokes.js">` at the top of the back
+    templates. Adding notes with a kanji not in the map just shows the plain
+    glyph in the box (`.k-fallback`); to extend, fetch
+    `raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/<5-hex codepoint>.svg`,
+    take the `<path d>` values in stroke order, add them to the map, re-run the
+    apply script. Animation: ghost `#bdbdbd`, ink `#1f1f1f`, cursor `#49c248`
+    (sampled from Nihongo), 90 ms + 4.6 ms/unit per stroke, 70 ms gap.
+  - Back templates: Recognition = `word-block` (`<ruby>{{Word}}<rt>{{Reading}}
+    </rt></ruby>` + `.meaning`; the whole block taps to click the hidden
+    WordAudio button; the script removes the `<rt>` when the word has no kanji
+    or reading == word) → `.wordinfo` (POS text + grey `語` word deep link;
+    gradient rises behind the meaning) → `.example` (whole card taps to play
+    the sentence `<audio>`) → breakdown. Production = `front-english` on top,
+    then the same blocks (card gets class `prod`). Fronts unchanged. Every audio
+    / play tap calls `stopPropagation` on click + touchend so it never reaches
+    Anki's tap gestures. The old `.reading` line and `.pos-tag` pill are gone
+    from the templates (CSS kept).
 
 ## Invariants for import-merge (do not break)
 

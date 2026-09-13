@@ -1,0 +1,25 @@
+<script src="_kanji_strokes.js"></script>
+<div class="card prod">
+<div class="front-english">{{Meaning}}</div>
+<div class="word-block tap-play" onclick="event.stopPropagation();var b=this.parentNode.querySelector('.word-audio-hidden a');if(b)b.click();">
+<div class="front-word front-word-ruby"><ruby>{{Word}}<rt>{{Reading}}</rt></ruby></div>
+</div>
+<div class="word-audio-hidden">{{WordAudio}}</div>
+<div class="wordinfo">
+<div class="wordinfo-pos">{{PartOfSpeech}}</div>
+<a class="wordinfo-nih" href="https://nihongo-app.com/dictionary/word/{{Word}}">語</a>
+</div>
+<div class="example tap-play-ex" onclick="event.stopPropagation();var a=this.querySelector('audio');if(a){a.currentTime=0;a.play();}">
+<div class="example-ja">{{#FuriganaExample}}{{furigana:FuriganaExample}}{{/FuriganaExample}}{{^FuriganaExample}}{{ExampleJA}}{{/FuriganaExample}}</div>
+<div class="example-en">{{ExampleEN}}</div>
+<div class="audio example-audio">{{ExampleAudio}}</div>
+</div>
+{{#KanjiBreakdown}}
+<div class="kanji-breakdown">
+<div class="kb-content">{{KanjiBreakdown}}</div>
+</div>
+{{/KanjiBreakdown}}
+<script>
+__RUNTIME__
+</script>
+</div>

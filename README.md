@@ -41,28 +41,29 @@ Import the `.apkg` on the AnkiWeb site. Media is included in the file, no extra 
 
 ### Kanji breakdowns
 
-Every note with kanji has a "Kanji breakdown" card on the back, built from KANJIDIC2. It is always visible (no header to tap), styled like the example-sentence card with a green left border (Nihongo green, to match the app the links open), and lists every kanji in the word in one card separated by hairlines. Each kanji entry shows a stat row (stroke count and JLPT level as value-over-label columns), then:
+Every note with kanji has a "Kanji breakdown" card on the back, built from KANJIDIC2. It is always visible, styled like the example-sentence card with a green left border (Nihongo green, to match the app the links open), and lists every kanji in the word in one card separated by hairlines. Each kanji entry shows:
 
-- English meanings
-- On'yomi (音読み) in katakana and kun'yomi (訓読み) in hiragana with okurigana in parens, on one line
-- Radical (with English name)
+- A dotted grid box with the kanji drawn from [KanjiVG](https://kanjivg.tagaini.net) stroke data (handwritten-style, the same source the Nihongo app uses). Tap the box or its play badge to replay the stroke order Nihongo-style: a grey ghost of the character, strokes inked in order, and a green cursor riding the pen tip. Kanji arrive fully drawn when the card flips.
+- On'yomi (音読み) in katakana and kun'yomi (訓読み) in hiragana with okurigana in parens, beside the box
+- A green 語 link to the kanji's Nihongo page, the stroke count (画) and the JLPT level (omitted when the kanji has none), stacked at the right
+- English meanings below
 
-(Component decomposition is still stored in the field but hidden by CSS to keep cards short.)
+(Radical and component decomposition are still stored in the field but no longer shown; the layout is applied by the template script, so the field markup is unchanged.)
 
 ### Nihongo iOS app deep links
 
-Tappable links throughout the breakdown open the [Nihongo](https://apps.apple.com/us/app/japanese-dictionary-nihongo/id881697245) iOS dictionary app to the exact entry:
+Tappable links open the [Nihongo](https://apps.apple.com/us/app/japanese-dictionary-nihongo/id881697245) iOS dictionary app to the exact entry:
 
-- Tap the big kanji character → `nihongo-app.com/dictionary/kanji/<char>` (kanji detail page)
-- Tap the radical or a component → `.../kanji-element/<char>` (element page)
-- Tap the part-of-speech pill (Ichidan Verb, い-Adjective, etc.) → `.../word/<word>` (full word entry)
+- Tap the green 語 on a kanji entry → `nihongo-app.com/dictionary/kanji/<char>` (kanji detail page)
+- Tap the grey 語 in the part-of-speech row → `.../word/<word>` (full word entry)
 
 Links are universal links, so if Nihongo isn't installed they fall through to the mobile web page with an install prompt. On Android or desktop Anki they open the same web page in a browser.
 
 ### Audio
 
-- Every word has an audio recording (`{{WordAudio}}`), rendered as a hidden player triggered by tapping the reading.
-- Every example sentence has audio (`{{ExampleAudio}}`), triggered by tapping the Japanese sentence line.
+- Every word has an audio recording (`{{WordAudio}}`), rendered as a hidden player. Tap anywhere on the word / furigana / meaning block to play it.
+- Every example sentence has audio (`{{ExampleAudio}}`), triggered by tapping anywhere on the example card.
+- Audio taps never trigger Anki's tap-to-advance gestures.
 - Filenames are ASCII-safe hashes so iOS media resolution never breaks on non-ASCII characters.
 
 ### Verb classification
@@ -79,8 +80,10 @@ Verb POS labels are broken out by conjugation class using JMdict:
 
 Two card templates per note:
 
-- **Recognition** (Japanese → English): front shows the word in Japanese, back shows reading + English + POS + example + kanji breakdown.
-- **Production** (English → Japanese): front shows the English gloss + POS pill, back shows the Japanese word with audio.
+- **Recognition** (Japanese → English): front shows the word in Japanese; back shows the same word with its reading as furigana above it, the English meaning, a part-of-speech row, the example sentence, and the kanji breakdown.
+- **Production** (English → Japanese): front shows the English gloss; back adds the Japanese word (with furigana), part of speech, example, and kanji breakdown.
+
+Template sources live in `templates/` (`card.css`, `recognition_back.html`, `production_back.html`, `runtime.js`) and the stroke-data asset in `assets/_kanji_strokes.js` (KanjiVG paths for every kanji that appears in the decks, embedded in each `.apkg` as a `_`-prefixed media file). `python3 scripts/apply_templates.py <tag>` backs up every deck and re-applies the templates and asset — see `CLAUDE.md` for the invariants it respects. Fronts are untouched by that script.
 
 ## Compatibility
 
@@ -92,6 +95,7 @@ Two card templates per note:
 ## Data sources
 
 - Kanji data: [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project) via [jamdict](https://github.com/neocl/jamdict)
+- Stroke order: [KanjiVG](https://kanjivg.tagaini.net) (CC BY-SA 3.0, Ulrich Apel)
 - Component decomposition: KRADFILE / RADKFILE (Jim Breen / EDRDG)
 - Word POS classification: [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html) via jamdict
 - Word and example sentence audio: [gTTS](https://github.com/pndurette/gTTS) (Japanese voice)
