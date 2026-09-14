@@ -95,7 +95,13 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
     with okurigana parens / `a/b` alternates / `〜` are normalised first. If no
     match, the whole reading stays over the whole word. `<rt>` text is wrapped
     in a `<span>` so it centres as one unit (`ruby-align: center` + inline-block)
-    instead of being justified across the word.
+    instead of being justified across the word. (Superseded Sep 14: no
+    `<ruby>` at all — the template emits `<span class="fw-base">{{Word}}</span>
+    <span class="fw-read">{{Reading}}</span>`, the script rewrites that into
+    `.fk` spans (kanji run + absolutely positioned `.fr` kana above it), and
+    `.front-word-ruby` keeps the front word's exact box (margin 24px/-10px,
+    line-height 1.6) so the word does not move on flip; the furigana hangs in
+    the leading/top margin out of flow.)
   - `@media (max-width: 480px)`: `body` side margins 0 and `.card` padding
     `14px 12px 24px`, so on iPhone the side margin equals the 12px gap between
     sections; wider screens keep max-width 600 + 20px padding.

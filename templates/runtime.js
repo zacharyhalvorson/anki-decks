@@ -49,30 +49,33 @@
     }
     return out;
   }
+  function fk(kanji, kana){
+    var s = document.createElement('span'); s.className = 'fk'; s.appendChild(document.createTextNode(kanji));
+    var r = document.createElement('span'); r.className = 'fr'; r.textContent = kana; s.appendChild(r);
+    return s;
+  }
   function renderFurigana(container, word, reading){
     var parts = alignFurigana(word, reading);
     if (!parts) return false;
     while (container.firstChild) container.removeChild(container.firstChild);
     for (var i = 0; i < parts.length; i++) {
-      if (parts[i].kanji) {
-        var rb = document.createElement('ruby'); rb.appendChild(document.createTextNode(parts[i].kanji));
-        var rt = document.createElement('rt'), sp = document.createElement('span'); sp.textContent = parts[i].kana; rt.appendChild(sp); rb.appendChild(rt);
-        container.appendChild(rb);
-      } else container.appendChild(document.createTextNode(parts[i].text));
+      if (parts[i].kanji) container.appendChild(fk(parts[i].kanji, parts[i].kana));
+      else container.appendChild(document.createTextNode(parts[i].text));
     }
     return true;
   }
-  function wrapRt(rt){ if (rt && !rt.querySelector('span')) { var sp = document.createElement('span'); sp.textContent = rt.textContent; while (rt.firstChild) rt.removeChild(rt.firstChild); rt.appendChild(sp); } }
+  function renderWhole(container, word, reading){
+    while (container.firstChild) container.removeChild(container.firstChild);
+    if (reading) container.appendChild(fk(word, reading)); else container.appendChild(document.createTextNode(word));
+  }
 
-  /* ---- 1. furigana over the word: only over the kanji; dropped entirely when it adds nothing ---- */
-  var ruby = root.querySelector('.front-word-ruby ruby');
-  if (ruby) {
-    var rt = ruby.querySelector('rt'), base = '', c;
-    for (c = ruby.firstChild; c; c = c.nextSibling) if (!(c.nodeType === 1 && c.tagName === 'RT')) base += c.textContent || '';
-    base = base.trim();
-    var reading = txt(rt);
-    if (!rt || !KANJI_RE.test(base) || reading === base || !reading) { if (rt) rt.parentNode.removeChild(rt); }
-    else if (!renderFurigana(ruby.parentNode, base, reading)) { wrapRt(rt); /* couldn't align: keep the whole-word reading, centred */ }
+  /* ---- 1. furigana over the word: only over the kanji, hung above the glyphs so the word sits exactly where it does on the front ---- */
+  var fw = root.querySelector('.front-word-ruby');
+  if (fw) {
+    var baseEl = fw.querySelector('.fw-base'), readEl = fw.querySelector('.fw-read');
+    var base = txt(baseEl), reading = txt(readEl);
+    if (!KANJI_RE.test(base) || reading === base || !reading) renderWhole(fw, base, '');
+    else if (!renderFurigana(fw, base, reading)) renderWhole(fw, base, reading);
   }
 
   /* ---- 2. audio tap targets must never reach the card's tap gestures ---- */

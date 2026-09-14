@@ -1,7 +1,7 @@
 <script src="_kanji_strokes.js"></script>
 <div class="card">
 <div class="word-block tap-play" onclick="event.stopPropagation();var b=this.parentNode.querySelector('.word-audio-hidden a');if(b)b.click();">
-<div class="front-word front-word-ruby"><ruby>{{Word}}<rt>{{Reading}}</rt></ruby></div>
+<div class="front-word front-word-ruby"><span class="fw-base">{{Word}}</span><span class="fw-read">{{Reading}}</span></div>
 <div class="meaning">{{Meaning}}</div>
 </div>
 <div class="word-audio-hidden">{{WordAudio}}</div>
