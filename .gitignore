@@ -3,3 +3,4 @@ _to_delete/
 *.log
 *.tmp
 zi[A-Za-z0-9]*
+__pycache__/
