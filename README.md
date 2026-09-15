@@ -10,9 +10,6 @@ Personal Japanese-learning decks for Anki (desktop, AnkiMobile iOS, AnkiWeb).
 | `GENKI II Vocab.apkg` | ~589 | ~1178 | GENKI 2 (intermediate) |
 | `JLPT N4.apkg` | ~1150 | ~2300 | JLPT N4 |
 | `Quartet I Vocab.apkg` | 92 | 184 | Quartet I (early-intermediate; L1 so far) |
-| `Intermediate 5.apkg` | 120 | 240 | Class deck |
-| `Intermediate 5 + 6.apkg` | ~240 | ~480 | Class deck (merged) |
-| `Intermediate 6.apkg` | 121 | 242 | Class deck |
 
 Every deck is self-contained. All media (audio, images) is bundled inside the `.apkg`. No extra setup, no external files to download.
 
@@ -83,7 +80,7 @@ Two card templates per note:
 - **Recognition** (Japanese → English): front shows the word in Japanese; back shows the same word with its reading as furigana above the kanji (aligned per kanji run, e.g. お願[ねが]いします), the English meaning, a part-of-speech row, the example sentence, and the kanji breakdown.
 - **Production** (English → Japanese): front shows the English gloss; back adds the Japanese word (with furigana), part of speech, example, and kanji breakdown.
 
-Template sources live in `templates/` (`card.css`, `recognition_back.html`, `production_back.html`, `runtime.js`) and the stroke-data asset in `assets/_kanji_strokes.js` (KanjiVG paths for every kanji that appears in the decks, embedded in each `.apkg` as a `_`-prefixed media file). `python3 scripts/apply_templates.py <tag>` backs up every deck and re-applies the templates and asset — see `CLAUDE.md` for the invariants it respects. Fronts are untouched by that script.
+Template sources live in `templates/` (`card.css`, `recognition_back.html`, `production_back.html`, `runtime.js`) and the stroke-data asset in `assets/_kanji_strokes.js` (KanjiVG paths for every kanji that appears in the decks, embedded in each `.apkg` as a `_`-prefixed media file). `python3 scripts/apply_templates.py` re-applies the templates and asset — see `CLAUDE.md` for the invariants it respects. Fronts are untouched by that script.
 
 ## Compatibility
 
@@ -104,5 +101,4 @@ Template sources live in `templates/` (`card.css`, `recognition_back.html`, `pro
 ## Notes
 
 - Decks are for personal study. Content includes editable JMdict / KANJIDIC data (public domain / CC).
-- `backups/` directory is local-only (gitignored); do not commit backup snapshots.
 - `.apkg` files are binary (SQLite + zip); `git diff` won't show meaningful changes.

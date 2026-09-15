@@ -12,8 +12,8 @@ Anki (AnkiMobile iOS is the primary platform) via import-merge. Zach studies at
 - `Quartet I Vocab.apkg` — 92 notes (L1 so far)
 - `templates/`, `assets/`, `scripts/` — template sources, stroke-data asset and the
   apply script (see the stroke-order pass below)
-- `backups/` — local-only snapshots, gitignored. Before modifying a deck, copy
-  the current `.apkg` into `backups/` with a date suffix.
+- No backup snapshots — every deck version is in git history (`git show
+  <rev>:"JLPT N4.apkg" > old.apkg` to recover one).
 - `.apkg` files are binary (zip); `git diff` is meaningless on them.
 
 ## .apkg format (legacy packaging — keep it)
@@ -54,7 +54,7 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
   Nihongo-green left border.
 - **Stroke-order pass (Sep 13 2026)** — presentation now comes from the
   template, not the field. Sources are tracked in `templates/` and applied with
-  `python3 scripts/apply_templates.py <tag>` (backs up, patches all four decks,
+  `python3 scripts/apply_templates.py` (patches all four decks,
   verifies guids/media, replaces in place). Do NOT hand-edit the CSS/templates
   inside an `.apkg`; edit `templates/` and re-run the script.
   - `templates/runtime.js` (inlined into both back templates) re-lays out each
@@ -78,30 +78,26 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
     take the `<path d>` values in stroke order, add them to the map, re-run the
     apply script. Animation: ghost `#bdbdbd`, ink `#1f1f1f`, cursor `#49c248`
     (sampled from Nihongo), 90 ms + 4.6 ms/unit per stroke, 70 ms gap.
-  - Back templates: Recognition = `word-block` (`<ruby>{{Word}}<rt>{{Reading}}
-    </rt></ruby>` + `.meaning`; the whole block taps to click the hidden
-    WordAudio button; the script removes the `<rt>` when the word has no kanji
-    or reading == word) → `.wordinfo` (POS text + grey `語` word deep link;
+  - Back templates: Recognition = `word-block` (`.front-word-ruby` word with
+    furigana + `.meaning`; the whole block taps to click the hidden WordAudio
+    button; no furigana when the word has no kanji or reading == word) → `.wordinfo` (POS text + grey `語` word deep link;
     gradient rises behind the meaning) → `.example` (whole card taps to play
     the sentence `<audio>`) → breakdown. Production = `front-english` on top,
     then the same blocks (card gets class `prod`). Fronts unchanged. Every audio
     / play tap calls `stopPropagation` on click + touchend so it never reaches
     Anki's tap gestures. The old `.reading` line and `.pos-tag` pill are gone
     from the templates (CSS kept).
-  - Furigana over the word is aligned to the kanji by `runtime.js`
-    (`alignFurigana`): the word is split into kanji/kana runs, kana runs are
-    matched literally against the (hiragana-normalised) Reading, and each kanji
-    run gets the kana in between — お願いします → お願[ねが]いします. Readings
-    with okurigana parens / `a/b` alternates / `〜` are normalised first. If no
-    match, the whole reading stays over the whole word. `<rt>` text is wrapped
-    in a `<span>` so it centres as one unit (`ruby-align: center` + inline-block)
-    instead of being justified across the word. (Superseded Sep 14: no
-    `<ruby>` at all — the template emits `<span class="fw-base">{{Word}}</span>
-    <span class="fw-read">{{Reading}}</span>`, the script rewrites that into
-    `.fk` spans (kanji run + absolutely positioned `.fr` kana above it), and
-    `.front-word-ruby` keeps the front word's exact box (margin 24px/-10px,
-    line-height 1.6) so the word does not move on flip; the furigana hangs in
-    the leading/top margin out of flow.)
+  - Furigana over the word: no `<ruby>`. The template emits
+    `<span class="fw-base">{{Word}}</span><span class="fw-read">{{Reading}}</span>`
+    and `runtime.js` rewrites it into `.fk` spans (kanji run + absolutely
+    positioned `.fr` kana centred above it). The word is split into kanji/kana
+    runs, kana runs are matched literally against the (hiragana-normalised)
+    Reading, and each kanji run gets the kana in between — お願いします →
+    お願[ねが]いします. Readings with okurigana parens / `a/b` alternates / `〜`
+    are normalised first; if no match, the whole reading sits over the whole
+    word. `.front-word-ruby` keeps the front word's exact box (margin
+    24px/-10px, line-height 1.6) so the word does not move on flip; the
+    furigana hangs in the top margin out of flow.
   - `@media (max-width: 480px)`: `body` side margins 0 and `.card` padding
     `14px 12px 24px`, so on iPhone the side margin equals the 12px gap between
     sections; wider screens keep max-width 600 + 20px padding.
@@ -138,15 +134,14 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
 
 ## Workflow
 
-1. Back up the current `.apkg` into `backups/`.
-2. Unzip, edit `collection.anki21`, regenerate media as needed.
-3. Rezip; verify before delivering: note count and guids unchanged, every
+1. Unzip, edit `collection.anki21`, regenerate media as needed.
+2. Rezip; verify before delivering: note count and guids unchanged, every
    `[sound:]` / `src="…"` reference resolves to a media entry, example audio
    untouched unless intentionally changed.
-4. Write the new `.apkg` back here, update README.md if features changed,
+3. Write the new `.apkg` back here, update README.md if features changed,
    git commit with a conventional message (`fix:`/`feat:`/`docs:`) — but only
    commit when Zach asks; he also works on this repo from another computer.
-5. Zach then imports the `.apkg` in Anki (merge by guid) and runs Check Media
+4. Zach then imports the `.apkg` in Anki (merge by guid) and runs Check Media
    to purge superseded audio.
 
 ## Cowork/cloud session notes

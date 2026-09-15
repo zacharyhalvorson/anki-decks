@@ -1,18 +1,16 @@
 #!/usr/bin/env python3
 """Apply templates/ + assets/ to every .apkg in the repo (import-merge safe).
 
-- backs up each deck to backups/<name> - backup <date>-<tag>.apkg
 - replaces the note type's CSS and both back templates (fronts untouched)
 - embeds assets/_kanji_strokes.js as a template media file
 - bumps model mod/usn and col.mod so Anki's import picks the change up
 - verifies note count, guids and media references before replacing the deck
 """
-import json, os, re, shutil, sqlite3, sys, time, zipfile, tempfile
+import json, os, re, shutil, sqlite3, time, zipfile, tempfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DECKS = ["GENKI I Vocab", "GENKI II Vocab", "JLPT N4", "Quartet I Vocab"]
 ASSET = "_kanji_strokes.js"
-tag = sys.argv[1] if len(sys.argv) > 1 else "templates"
 
 def rd(p): return open(p, encoding="utf8").read()
 runtime = rd(f"{ROOT}/templates/runtime.js").strip()
@@ -22,7 +20,6 @@ afmt = {
     "Production": rd(f"{ROOT}/templates/production_back.html").replace("__RUNTIME__", runtime),
 }
 asset_bytes = open(f"{ROOT}/assets/{ASSET}", "rb").read()
-date = time.strftime("%Y-%m-%d")
 
 def snapshot(dbpath):
     con = sqlite3.connect(dbpath)
@@ -38,9 +35,6 @@ for deck in DECKS:
     src = f"{ROOT}/{deck}.apkg"
     if not os.path.exists(src):
         print(f"-- {deck}: not found, skipping"); continue
-    os.makedirs(f"{ROOT}/backups", exist_ok=True)
-    bak = f"{ROOT}/backups/{deck} - backup {date}-pre-{tag}.apkg"
-    if not os.path.exists(bak): shutil.copy2(src, bak)
 
     work = tempfile.mkdtemp(prefix="apkg-")
     zin = zipfile.ZipFile(src)
@@ -96,4 +90,4 @@ for deck in DECKS:
 
     with open(src, "wb") as f, open(out, "rb") as g: shutil.copyfileobj(g, f)
     shutil.rmtree(work, ignore_errors=True)
-    print(f"ok {deck}: notes={len(after_notes)} media={len(media2)} asset member={idx} size={os.path.getsize(src)//1024} KB  backup={os.path.basename(bak)}")
+    print(f"ok {deck}: notes={len(after_notes)} media={len(media2)} asset member={idx} size={os.path.getsize(src)//1024} KB")
