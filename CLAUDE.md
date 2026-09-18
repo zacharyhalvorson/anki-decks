@@ -9,7 +9,7 @@ Anki (AnkiMobile iOS is the primary platform) via import-merge. Zach studies at
 - `GENKI I Vocab.apkg` — 66 notes (L1 so far)
 - `GENKI II Vocab.apkg` — 589 notes, GENKI II lessons 13–23
 - `JLPT N4.apkg` — 1150 notes
-- `Quartet I Vocab.apkg` — 92 notes (L1 so far)
+- `Quartet I Vocab.apkg` — 175 notes (L1–L2 so far; tags `lesson-1`, `lesson-2`)
 - `templates/`, `assets/`, `scripts/` — template sources, stroke-data asset and the
   apply script (see the stroke-order pass below)
 - No backup snapshots — every deck version is in git history (`git show
@@ -70,7 +70,7 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
     `k-label` + `k-r` spans, `k-radical`, `k-components`).
   - Stroke data: `assets/_kanji_strokes.js` sets `window.KANJI_STROKES`
     (kanji → KanjiVG path list, viewBox 0 0 109 109) for every kanji in the
-    four decks (844). It is embedded in each `.apkg` as a `_`-prefixed media
+    four decks (857). It is embedded in each `.apkg` as a `_`-prefixed media
     file and loaded by `<script src="_kanji_strokes.js">` at the top of the back
     templates. Adding notes with a kanji not in the map just shows the plain
     glyph in the box (`.k-fallback`); to extend, fetch
@@ -167,3 +167,13 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
   matches Quartet's assumed reader (little furigana in ExampleJA), but
   FuriganaExample still supplies furigana for kanji outside Genki 1-2 so a
   beginner could still parse it. Same rule for future Quartet lessons.
+- Quartet vocab source: the textbook's 単語リスト appendix (Quartet I 1st ed. PDF
+  pages 290–293 = L1, 294–297 = L2, four pages per lesson; book page = PDF page − 26;
+  the PDF is a scan with no text layer, so render pages and read/OCR them).
+  The deck takes the 読み物1 + 読み物2 lists, skipping proper nouns (names, titles)
+  and bare grammar patterns; (お)-words are stored with the お (お花見/お弁当/お酒).
+  Meanings lead with the textbook gloss. L2 added Sep 2026 (83 notes; POS labels
+  added for it: Conjunction, Suffix, Counter, の-Adjective). New kanji get
+  breakdowns from KANJIDIC2/KRADFILE (JLPT shown as "N"+old KANJIDIC level, same
+  as jamdict) and strokes from KanjiVG, appended to `assets/_kanji_strokes.js`,
+  then `scripts/apply_templates.py` embeds the asset in every deck.
