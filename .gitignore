@@ -4,3 +4,4 @@ _to_delete/
 *.tmp
 zi[A-Za-z0-9]*
 __pycache__/
+.claude/
