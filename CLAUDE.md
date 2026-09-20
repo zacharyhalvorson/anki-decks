@@ -6,9 +6,10 @@ Anki (AnkiMobile iOS is the primary platform) via import-merge. Zach studies at
 
 ## What's here
 
-- `GENKI I Vocab.apkg` — 66 notes (L1 so far)
+- `GENKI I Vocab.apkg` — 66 notes (L1 so far; tags `genki-01` + part of speech)
 - `GENKI II Vocab.apkg` — 589 notes, GENKI II lessons 13–23
 - `JLPT N4.apkg` — 1150 notes
+- `JLPT N5.apkg` — 751 notes (built Sep 2026; see "JLPT N5 deck" below)
 - `Quartet I Vocab.apkg` — 175 notes (L1–L2 so far; tags `lesson-1`, `lesson-2`)
 - `templates/`, `assets/`, `scripts/` — template sources, stroke-data asset and the
   apply script (see the stroke-order pass below)
@@ -177,3 +178,48 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
   breakdowns from KANJIDIC2/KRADFILE (JLPT shown as "N"+old KANJIDIC level, same
   as jamdict) and strokes from KanjiVG, appended to `assets/_kanji_strokes.js`,
   then `scripts/apply_templates.py` embeds the asset in every deck.
+
+## Tag conventions
+
+- GENKI decks: one lesson tag per note, `genki-NN` zero-padded to two digits
+  (`genki-01` … `genki-12` in GENKI I, `genki-13` … `genki-23` in GENKI II), plus a
+  lowercase part-of-speech tag (`noun`, `u-verb`, `ru-verb`, `irregular-verb`,
+  `i-adjective`, `na-adjective`, `adverb-expression`, `counter`, `number`, `suffix`).
+  GENKI I used `lesson-1` until Sep 19 2026 — that collided with Quartet's `lesson-N`
+  tags inside one Anki collection, so new GENKI I lessons must use `genki-NN`.
+- Quartet: `lesson-N`. JLPT decks: `JLPT-N4` / `JLPT-N5` + POS + topic tags.
+
+## JLPT N5 deck (Sep 19 2026)
+
+- Source list: the 718-entry community N5 list (tanos.co.uk-derived, via
+  `jamsinclair/open-anki-jlpt-decks` `src/n5.csv`, MIT). There is no official list —
+  this is the old Level-4 test spec that every N5 resource uses. 有る/在る, 掛ける/かける
+  and the two 九 rows were merged (715 notes), archaic kanji spellings were modernised
+  (綺麗→きれい, 沢山→たくさん, 眼鏡→めがね, 醤油→しょうゆ, 鞄→かばん …), plus 36
+  everyday words the list omits (greetings, months, 彼/彼女/僕, 日本/日本語 …) tagged
+  `supplement`.
+- ~540 notes reuse the wording of the `JLPT-N5`-tagged notes in `JLPT N4.apkg`, but
+  every FuriganaExample was regenerated (every kanji run gets furigana) and checked
+  against a morphological analyser; duplicate example sentences were rewritten. The
+  N5 notes have their OWN guids (`md5("jlptn5:"+word+":"+reading)[:10]`), model
+  `Vocab+Furigana+Audio (JLPT N5)` id 1800000000005, deck id 1800000000006, so the
+  same word can exist in both JLPT decks.
+- Audio: gTTS for words (from the kana reading) and sentences. Sentences were
+  verified with whisper forced to kana output; the ones gTTS misread from kanji
+  (時々, 二十歳, 角, 開きました, 木の下, 花瓶, 歌を, 私=わたくし, 十分 …) were
+  synthesised from kana / digits instead, so the filename hash is of the text that
+  was actually synthesised, not always of ExampleJA.
+- New-card order is topical (greetings → pronouns → numbers/counters → time →
+  family → daily life → …), not gojūon order.
+
+## Audio reality check (Sep 19 2026 audit)
+
+- GENKI II: word clips are gTTS (`genki2_wd_*`), but the ~586 example-sentence clips
+  are still the original edge-tts `ja-JP-NanamiNeural` −10% clips
+  (`genki2-<md5(voice+"|"+text)[:24]>.mp3`), NOT gTTS as the section above says.
+  edge-tts cannot be reached from the cloud container (the proxy blocks WebSockets)
+  but works from the on-device shell (`pip install --user edge-tts`).
+- Verifying audio: whisper `small` via faster-whisper with a hiragana
+  `initial_prompt` and kanji/digit tokens suppressed gives kana transcripts that can
+  be diffed against the card reading; normal whisper output hides misreadings
+  behind kanji.

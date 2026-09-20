@@ -9,7 +9,7 @@
 import json, os, re, shutil, sqlite3, time, zipfile, tempfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DECKS = ["GENKI I Vocab", "GENKI II Vocab", "JLPT N4", "Quartet I Vocab"]
+DECKS = ["GENKI I Vocab", "GENKI II Vocab", "JLPT N4", "JLPT N5", "Quartet I Vocab"]
 ASSET = "_kanji_strokes.js"
 
 def rd(p): return open(p, encoding="utf8").read()

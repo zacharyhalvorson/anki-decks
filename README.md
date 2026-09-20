@@ -9,6 +9,7 @@ Personal Japanese-learning decks for Anki (desktop, AnkiMobile iOS, AnkiWeb).
 | `GENKI I Vocab.apkg` | 66 | 132 | GENKI 1 (beginner; L1 so far) |
 | `GENKI II Vocab.apkg` | ~589 | ~1178 | GENKI 2 (intermediate) |
 | `JLPT N4.apkg` | ~1150 | ~2300 | JLPT N4 |
+| `JLPT N5.apkg` | 751 | 1502 | JLPT N5 (715-word community N5 list + 36 everyday extras tagged `supplement`) |
 | `Quartet I Vocab.apkg` | 175 | 350 | Quartet I (early-intermediate; L1–L2 so far) |
 
 Every deck is self-contained. All media (audio, images) is bundled inside the `.apkg`. No extra setup, no external files to download.
