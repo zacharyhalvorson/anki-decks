@@ -3,6 +3,7 @@
 
 - replaces the note type's CSS and both back templates (fronts untouched)
 - embeds assets/_kanji_strokes.js as a template media file
+- embeds the on/kun reading clips (assets/kr/_kr_<hex>.mp3) that the deck's kanji breakdowns need
 - bumps model mod/usn and col.mod so Anki's import picks the change up
 - verifies note count, guids and media references before replacing the deck
 """
@@ -20,6 +21,21 @@ afmt = {
     "Production": rd(f"{ROOT}/templates/production_back.html").replace("__RUNTIME__", runtime),
 }
 asset_bytes = open(f"{ROOT}/assets/{ASSET}", "rb").read()
+KR_DIR = f"{ROOT}/assets/kr"
+
+def hira(s): return "".join(chr(ord(c) - 0x60) if "ァ" <= c <= "ヶ" else c for c in s)
+def kr_name(reading):
+    """same rule as krFile() in templates/runtime.js"""
+    sp = hira(re.sub(r"[-.()（）\s‐－]", "", reading))
+    if not sp or not re.fullmatch(r"[ぁ-ゖー]+", sp): return None
+    return "_kr_" + "".join("%04x" % ord(c) for c in sp) + ".mp3"
+def kr_needed(dbpath):
+    con = sqlite3.connect(dbpath); need = set()
+    for (flds,) in con.execute("select flds from notes"):
+        for r in re.findall(r'<span class="k-r">(.*?)</span>', flds.split("\x1f")[7]):
+            n = kr_name(r)
+            if n: need.add(n)
+    con.close(); return need
 
 def snapshot(dbpath):
     con = sqlite3.connect(dbpath)
@@ -60,16 +76,25 @@ for deck in DECKS:
     if idx is None:
         idx = str(max([int(k) for k in media] + [-1]) + 1)
         media[idx] = ASSET
+    # reading clips this deck needs and does not have yet
+    have = set(media.values()); kr_add = {}; kr_missing = []
+    nxt = max([int(k) for k in media] + [-1]) + 1
+    for fn in sorted(kr_needed(db)):
+        if fn in have: continue
+        if not os.path.exists(f"{KR_DIR}/{fn}"): kr_missing.append(fn); continue
+        kr_add[str(nxt)] = fn; media[str(nxt)] = fn; nxt += 1
+    if kr_missing: print(f"   !! {deck}: {len(kr_missing)} reading clips missing from assets/kr, e.g. {kr_missing[:3]}")
     out = f"{work}/out.apkg"
     with zipfile.ZipFile(out, "w") as zout:
         for n in names:
-            if n in ("collection.anki21", "media", idx): continue
+            if n in ("collection.anki21", "media", idx) or n in kr_add: continue
             data = zin.read(n)
             comp = zipfile.ZIP_STORED if media.get(n, "").endswith(".mp3") else zipfile.ZIP_DEFLATED
             zout.writestr(n, data, comp)
         zout.write(db, "collection.anki21", zipfile.ZIP_DEFLATED)
         zout.writestr("media", json.dumps(media, ensure_ascii=False), zipfile.ZIP_DEFLATED)
         zout.writestr(idx, asset_bytes, zipfile.ZIP_DEFLATED)
+        for k, fn in kr_add.items(): zout.write(f"{KR_DIR}/{fn}", k, zipfile.ZIP_STORED)
     zin.close()
 
     # verify
@@ -83,6 +108,8 @@ for deck in DECKS:
     missing = [r for r in refs2 if r not in files]
     assert not missing, f"unresolved media refs: {missing[:5]}"
     assert all(k in members for k in media2), "media map points at a missing member"
+    assert len(files) == len(media2), "duplicate media names"
+    assert all(fn in files for fn in kr_add.values())
     assert media2[idx] == ASSET and zchk.read(idx) == asset_bytes
     m2 = json.loads(sqlite3.connect(f"{work}/chk/collection.anki21").execute("select models from col").fetchone()[0])
     assert all(m["css"] == css for m in m2.values())
@@ -90,4 +117,4 @@ for deck in DECKS:
 
     with open(src, "wb") as f, open(out, "rb") as g: shutil.copyfileobj(g, f)
     shutil.rmtree(work, ignore_errors=True)
-    print(f"ok {deck}: notes={len(after_notes)} media={len(media2)} asset member={idx} size={os.path.getsize(src)//1024} KB")
+    print(f"ok {deck}: notes={len(after_notes)} media={len(media2)} (+{len(kr_add)} reading clips) asset member={idx} size={os.path.getsize(src)//1024} KB")

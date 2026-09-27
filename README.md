@@ -60,7 +60,8 @@ Links are universal links, so if Nihongo isn't installed they fall through to th
 ### Audio
 
 - Every word has an audio recording (`{{WordAudio}}`), rendered as a hidden player. Tap anywhere on the word / furigana / meaning block to play it.
-- Every example sentence has audio (`{{ExampleAudio}}`), triggered by tapping anywhere on the example card.
+- Every note has two example sentences (the second shows the word with the words it normally goes with, at the grammar level of its source lesson). Each sentence is its own row in the example card and has its own audio: tap anywhere on a row to play it.
+- Every on'yomi and kun'yomi in the kanji breakdown is tappable (dotted underline) and plays that reading.
 - Audio taps never trigger Anki's tap-to-advance gestures.
 - Filenames are ASCII-safe hashes so iOS media resolution never breaks on non-ASCII characters.
 
@@ -78,7 +79,7 @@ Verb POS labels are broken out by conjugation class using JMdict:
 
 Two card templates per note:
 
-- **Recognition** (Japanese → English): front shows the word in Japanese; back shows the same word with its reading as furigana above the kanji (aligned per kanji run, e.g. お願[ねが]いします), the English meaning, a part-of-speech row, the example sentence, and the kanji breakdown.
+- **Recognition** (Japanese → English): front shows the word in Japanese; back shows the same word with its reading as furigana above the kanji (aligned per kanji run, e.g. お願[ねが]いします), the English meaning, a part-of-speech row, the two example sentences, and the kanji breakdown.
 - **Production** (English → Japanese): front shows the English gloss; back adds the Japanese word (with furigana), part of speech, example, and kanji breakdown.
 
 Template sources live in `templates/` (`card.css`, `recognition_back.html`, `production_back.html`, `runtime.js`) and the stroke-data asset in `assets/_kanji_strokes.js` (KanjiVG paths for every kanji that appears in the decks, embedded in each `.apkg` as a `_`-prefixed media file). `python3 scripts/apply_templates.py` re-applies the templates and asset — see `CLAUDE.md` for the invariants it respects. Fronts are untouched by that script.
@@ -96,7 +97,7 @@ Template sources live in `templates/` (`card.css`, `recognition_back.html`, `pro
 - Stroke order: [KanjiVG](https://kanjivg.tagaini.net) (CC BY-SA 3.0, Ulrich Apel)
 - Component decomposition: KRADFILE / RADKFILE (Jim Breen / EDRDG)
 - Word POS classification: [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html) via jamdict
-- Word and example sentence audio: [gTTS](https://github.com/pndurette/gTTS) (Japanese voice)
+- Word, reading and example sentence audio: [gTTS](https://github.com/pndurette/gTTS) (Japanese voice); GENKI II example sentences use Microsoft `ja-JP-NanamiNeural`
 - Deep link target: [Nihongo](https://nihongo-app.com) by Serpenti Sei LLC
 
 ## Notes

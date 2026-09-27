@@ -103,6 +103,58 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
     `14px 12px 24px`, so on iPhone the side margin equals the 12px gap between
     sections; wider screens keep max-width 600 + 20px padding.
 
+## Two example sentences per note (Sep 20 2026)
+
+Every note in all five decks carries TWO example sentences. The note type was NOT changed (a schema change breaks
+import-merge); the second sentence lives in the same fields, after a separator:
+
+- `ExampleJA`, `FuriganaExample`, `ExampleEN` = `first<hr class="ex-sep">second` (FuriganaExample may stay empty only
+  when neither sentence has furigana; if only one has, the other half is the plain sentence).
+- `ExampleAudio` = two `<audio src="…" preload="none"></audio>` tags back to back, in sentence order.
+- `templates/runtime.js` (section 2b) splits the rendered fields on the `<hr>` into `.ex-item` rows inside `.example`
+  (adds `ex-v2`); each WHOLE row (padding included) is the tap target for its own clip, a rule like the kanji entries
+  separates them, and the card swallows every tap inside it. Anki's `{{furigana:}}` filter passes the `<hr>` through.
+- Max two sentences. New notes should be built with two from the start; anything that regenerates example audio must
+  split ExampleJA on the separator first.
+- Content rule for the second sentence: show the word in its most typical collocation / with commonly paired words (or a
+  second common sense the first sentence lacks), clearly different from the first, one sentence, grammar no higher than
+  the note's source level (GENKI lesson tag, N5/N4 tag, Quartet lesson). Kanji numerals, no Latin letters in the TTS text.
+- Furigana convention per deck: every kanji annotated in GENKI I/II and N5; in `JLPT N4` only words that are not in
+  the N5 deck's word list get furigana; Quartet has none (FuriganaExample blank, since Sep 27 2026).
+- In `JLPT N4`, the 564 notes whose word+reading also exist in `JLPT N5` reuse the N5 deck's second sentence.
+- Audio: gTTS for GENKI I / N4 / N5 / Quartet (`<prefix>_ex_<md5("gtts-ja:"+text)[:16]>.mp3`), Nanami −10% for GENKI II.
+  Every clip was transcribed with whisper (kana output) and compared with the furigana; clips where the engine picked
+  another valid reading were re-synthesised with that word in kana (the hash is of the text actually synthesised).
+  Words the engines get wrong from kanji: Nanami — 町(ちょう), 開く(ひらく), 来ない(くない), 辛い(つらい), この間(このかん),
+  間に合う, 何に(なんに), 私=わたくし; gTTS — 角(つの/かく), 怒る(いかる), 後(のち), 間(ま), 方(かた), 降りる(ふりる), 通う(とおう),
+  二十歳, 一月=ひとつき, 花瓶, 九つ, 開く, 五分. Write these in kana in the TTS text from the start.
+
+## Tappable on/kun readings (Sep 20 2026)
+
+- Every `.k-r` reading in the kanji breakdown is tappable and plays `_kr_<hex>.mp3`, where `<hex>` is the 4-digit hex
+  code of each character of the reading after: dropping `-`, `.`, parentheses (okurigana stays: `ねが(う)` → ねがう) and
+  converting katakana to hiragana. So on and kun share clips (キ and き are the same file). `krFile()` in
+  `templates/runtime.js` and `kr_name()` in `scripts/apply_templates.py` implement the same rule — keep them in sync.
+- Clips live in `assets/kr/` (1,639 files, gTTS from the hiragana; readings ending in は/へ are synthesised from katakana
+  so they are not read as particles). `apply_templates.py` embeds into each deck only the clips its breakdowns need, as
+  `_`-prefixed template media (not referenced by any field, so they survive Check Media), and warns about missing ones.
+  New kanji → generate the missing clips into `assets/kr/` with the same naming, then re-run the script.
+- CSS: dotted grey underline (`.k-r-tap`), green flash while playing; the whole `.k-head2` row swallows taps so a near
+  miss never flips the card. `apply_templates.py` now accepts deck names as arguments to patch a subset.
+
+## Tap handling on iOS (Sep 27 2026)
+
+- Zach saw some stroke-order boxes not reacting to a tap. The stroke data and the animation were verified for all 883
+  kanji in WebKit and Chromium (headless Playwright), so the misses were the taps themselves: iOS drops the `click` after a
+  touch that stops a momentum scroll (the breakdown is at the bottom of long cards) or that it takes for a double-tap,
+  and the runtime used to give the 740 KB `_kanji_strokes.js` only 3 s to load before giving up on the boxes.
+- `tap(node, fn)` in `templates/runtime.js` now drives the kanji boxes, the on/kun readings and the example rows: on
+  touch devices it fires on `touchend` of an unmoved single touch and calls `preventDefault()` so the synthetic click is
+  not fired again; mouse/desktop still use `click`. All tap targets have `touch-action: manipulation`. The asset poll
+  waits ~27 s and also hooks the script's `load` event; a box tapped before its SVG was built builds it on the spot.
+- Test page: one `.k-brk` entry per kanji in the stroke map plus the real templates, run under Playwright `webkit`
+  (`node <global playwright>/cli.js install webkit` works in the cloud container).
+
 ## Invariants for import-merge (do not break)
 
 - NEVER change note `guid`s or the model/deck IDs — Anki merges by guid and
@@ -125,7 +177,8 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
   field, normalized first: strip `〜`/`～`, drop parenthesized parts
   (`しあわせ(な)` → `しあわせ`), turn `/`-separated alternate readings into a
   pause (`し/よん` → `し、よん`), strip whitespace. Fall back to Word if empty.
-- Example audio is generated from ExampleJA (plain sentence, no furigana markup).
+- Example audio is generated from ExampleJA (plain sentence, no furigana markup) — one clip per sentence; see
+  "Two example sentences per note" for the separator.
 - Filenames: `<deck>_wd_<md5("gtts-ja:"+text)[:16]>.mp3` — deterministic, so
   identical texts dedupe and reruns are idempotent.
 - Rate-limit gTTS: ~0.25 s between calls, retry with backoff; sanity-check each
@@ -164,10 +217,12 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
   book's lesson level (Quartet I is early-intermediate, roughly N3-adjacent),
   not Genki L23. Use patterns like 〜ば / 〜ように / 〜ために / 〜そう /
   〜ばかり / 〜ながら / 〜のに / 〜ても / 〜わけ / 〜たびに / 〜ところ where
-  they fit, and don't shy away from compound sentences. Base kanji usage
-  matches Quartet's assumed reader (little furigana in ExampleJA), but
-  FuriganaExample still supplies furigana for kanji outside Genki 1-2 so a
-  beginner could still parse it. Same rule for future Quartet lessons.
+  they fit, and don't shy away from compound sentences. Kanji usage matches
+  Quartet's assumed reader. Since Sep 27 2026 the Quartet deck shows NO furigana
+  on example sentences: FuriganaExample is blank on every note (the template then
+  renders ExampleJA as-is). Keep it blank for new Quartet notes; the annotated
+  versions are in git history / `_to_delete/claude-tmp-ex2/patch_all.json` if
+  ever needed again.
 - Quartet vocab source: the textbook's 単語リスト appendix (Quartet I 1st ed. PDF
   pages 290–293 = L1, 294–297 = L2, four pages per lesson; book page = PDF page − 26;
   the PDF is a scan with no text layer, so render pages and read/OCR them).

@@ -57,18 +57,19 @@
   font-size: 19px;
   color: #222;
   margin-bottom: 6px;
-  line-height: 1.9;
+  line-height: 1.7;
 }
 .example-ja ruby rt {
+  line-height: 1;
   font-size: 0.55em;
   color: #888;
   font-weight: 400;
 }
 .example-en {
-  font-size: 16px;
+  font-size: 15px;
   color: #555;
   font-style: italic;
-  line-height: 1.5;
+  line-height: 1.45;
 }
 .divider {
   border: none;
@@ -85,7 +86,7 @@
   margin: 8px 0;
 }
 
-/* --- Example card: even out top/bottom (furigana rides in the 1.9 line-height leading; hidden <audio> wrapper added 8px) --- */
+/* --- Example card: even out top/bottom (furigana rides in the 1.7 line-height leading; hidden <audio> wrapper added 8px) --- */
 .example { padding-top: 10px; padding-bottom: 12px; }
 .example .example-ja { margin-bottom: 0; }
 .example .audio.example-audio { margin: 0; }
@@ -318,6 +319,18 @@
 .example.tap-play-ex:active { opacity: 0.55; }
 .example .audio.example-audio { display: none; margin: 0; }
 
+/* --- example list (.ex-v2 is added by the template script): one .ex-item per sentence, split like the kanji entries.
+   The card itself has no padding - each item carries it, so the whole row (edge to edge) is the tap target --- */
+.example.ex-v2 { padding: 0; overflow: hidden; }
+.ex-v2 .ex-item { position: relative; padding: 10px 16px 12px; cursor: pointer; -webkit-tap-highlight-color: transparent; user-select: none; -webkit-user-select: none; }
+.ex-v2 .ex-item + .ex-item::before { content: ""; position: absolute; top: 0; left: 16px; right: 16px; border-top: 1px solid rgba(128,128,128,0.13); }
+.ex-v2 .ex-item:active { opacity: 0.55; }
+.ex-v2 .ex-item audio { display: none; }
+/* no-JS fallback: the separator stored in the fields still reads as a rule */
+.example hr.ex-sep { border: none; border-top: 1px solid rgba(128,128,128,0.13); margin: 8px 0; }
+.nightMode .ex-v2 .ex-item + .ex-item::before, .nightMode .example hr.ex-sep { border-top-color: rgba(200,200,200,0.13); }
+@media (prefers-color-scheme: dark) { .ex-v2 .ex-item + .ex-item::before, .example hr.ex-sep { border-top-color: rgba(200,200,200,0.13); } }
+
 /* --- kanji entries (re-laid out by the template script; .kb-v2 is added once that has run) --- */
 .kb-v2 .k-brk { line-height: 1.45; }
 .kb-v2 .k-brk + .k-brk { margin-top: 10px; padding-top: 10px; }
@@ -333,6 +346,17 @@
 .kb-v2 .k-unit { font-size: 0.9em; font-weight: 600; margin-left: 1px; }
 .kb-v2 .k-brk a.k-nih { font-weight: 800; font-size: 1.35em; line-height: 1; color: #1f665b !important; text-decoration: none !important; padding: 0 0 2px; margin: -2px 0 2px; border-bottom: 2px dotted #1f665b; -webkit-tap-highlight-color: transparent; }
 .kb-v2 .k-brk a.k-nih:active { background: rgba(31,102,91,0.15); }
+
+/* --- on/kun readings tap to play their clip (class added by the template script); dotted underline = tappable --- */
+.kb-v2 .k-r.k-r-tap { cursor: pointer; text-decoration: underline dotted #a9a9a9; text-decoration-thickness: 1.5px; text-underline-offset: 4px; padding: 5px 2px; margin: 0 -2px; -webkit-tap-highlight-color: transparent; user-select: none; -webkit-user-select: none; }
+.kb-v2 .k-r.k-r-tap:active { opacity: 0.55; }
+.kb-v2 .k-r.k-r-tap.playing { color: #1f665b; text-decoration-color: #1f665b; }
+.nightMode .kb-v2 .k-r.k-r-tap { text-decoration-color: #6a6a6a; }
+.nightMode .kb-v2 .k-r.k-r-tap.playing { color: #63c2b1; text-decoration-color: #63c2b1; }
+@media (prefers-color-scheme: dark) { .kb-v2 .k-r.k-r-tap { text-decoration-color: #6a6a6a; } .kb-v2 .k-r.k-r-tap.playing { color: #63c2b1; text-decoration-color: #63c2b1; } }
+
+/* --- every tap target: no double-tap zoom / 300 ms click delay on iOS --- */
+.word-block, .ex-v2 .ex-item, .kb-v2 .k-box, .kb-v2 .k-r.k-r-tap, .kb-v2 .k-head2, .card a.wordinfo-nih, .kb-v2 .k-brk a.k-nih { touch-action: manipulation; }
 
 /* --- the kanji grid box --- */
 .kb-v2 .k-box { position: relative; flex: none; width: 66px; height: 66px; box-sizing: border-box; border: 1.5px dotted #d2d2d2; border-radius: 4px; cursor: pointer; -webkit-tap-highlight-color: transparent; user-select: none; -webkit-user-select: none; --k-ink: #1f1f1f; --k-ghost: #bdbdbd; --k-grid: #c4c4c4; --k-dot: #49c248; }

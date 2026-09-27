@@ -5,6 +5,16 @@
   function txt(n){ return n ? (n.textContent || '').replace(/\s+/g, ' ').trim() : ''; }
   function stop(e){ e.stopPropagation(); }
   function guard(node){ node.addEventListener('click', stop, false); node.addEventListener('touchend', stop, false); }
+  /* run fn on a tap. iOS drops the click after a touch that stops a momentum scroll or that it takes for a double-tap,
+     so on touch devices we act on touchend of an unmoved touch and suppress the synthetic click; mouse/desktop use click */
+  function tap(node, fn){
+    var sx = 0, sy = 0, moved = true, handled = false;
+    node.addEventListener('touchstart', function(e){ var t = e.touches[0]; if (!t || e.touches.length > 1) { moved = true; return; } sx = t.clientX; sy = t.clientY; moved = false; handled = false; }, {passive: true});
+    node.addEventListener('touchmove', function(e){ var t = e.touches[0]; if (!t || Math.abs(t.clientX - sx) > 12 || Math.abs(t.clientY - sy) > 12) moved = true; }, {passive: true});
+    node.addEventListener('touchend', function(e){ if (moved) return; moved = true; handled = true; if (e.cancelable) e.preventDefault(); fn(); }, {passive: false});
+    node.addEventListener('touchcancel', function(){ moved = true; }, {passive: true});
+    node.addEventListener('click', function(){ if (handled) { handled = false; return; } fn(); }, false);
+  }
   // scope everything to the card this script lives in (falls back to the last card on the page)
   var root = null, cs = document.currentScript;
   if (cs && cs.closest) root = cs.closest('.card');
@@ -82,12 +92,75 @@
   var taps = root.querySelectorAll('.tap-play, .tap-play-ex, .wordinfo-nih');
   for (var i = 0; i < taps.length; i++) guard(taps[i]);
 
+  /* ---- 2b. example sentences: the fields may hold two sentences separated by <hr class="ex-sep">.
+     Re-lay them out as list items (.ex-item = Japanese + English + its own clip); the WHOLE item,
+     padding included, is the tap target, and nothing inside the red card ever reaches Anki's tap gestures ---- */
+  var ex = root.querySelector('.example');
+  if (ex && !ex.classList.contains('ex-v2')) {
+    var splitAtHr = function(node){
+      var groups = [[]]; if (!node) return groups;
+      var n = node.firstChild;
+      while (n) { var nx = n.nextSibling; if (n.nodeType === 1 && n.tagName === 'HR') groups.push([]); else groups[groups.length - 1].push(n); n = nx; }
+      return groups;
+    };
+    var jaG = splitAtHr(ex.querySelector('.example-ja')), enG = splitAtHr(ex.querySelector('.example-en'));
+    var auds = ex.querySelectorAll('audio'), items = [], g, k;
+    for (g = 0; g < jaG.length; g++) {
+      var item = document.createElement('div'); item.className = 'ex-item'; item.setAttribute('role', 'button');
+      var ja = document.createElement('div'); ja.className = 'example-ja';
+      for (k = 0; k < jaG[g].length; k++) ja.appendChild(jaG[g][k]);
+      item.appendChild(ja);
+      if (enG[g]) { var en = document.createElement('div'); en.className = 'example-en'; for (k = 0; k < enG[g].length; k++) en.appendChild(enG[g][k]); item.appendChild(en); }
+      if (auds[g]) item.appendChild(auds[g]);
+      items.push(item);
+    }
+    while (ex.firstChild) ex.removeChild(ex.firstChild);
+    ex.removeAttribute('onclick'); ex.onclick = null;
+    ex.classList.remove('tap-play-ex'); ex.classList.add('ex-v2');
+    var playItem = function(item){
+      var all = ex.querySelectorAll('audio'), mine = item.querySelector('audio');
+      for (var a = 0; a < all.length; a++) if (all[a] !== mine) { try { all[a].pause(); all[a].currentTime = 0; } catch (e) {} }
+      if (mine) { try { mine.currentTime = 0; } catch (e) {} var pr = mine.play(); if (pr && pr.catch) pr.catch(function(){}); }
+    };
+    for (g = 0; g < items.length; g++) {
+      ex.appendChild(items[g]); guard(items[g]);
+      (function(it){ tap(it, function(){ playItem(it); }); })(items[g]);
+    }
+  }
+
   /* ---- 3. re-lay out each kanji breakdown entry (field markup stays unchanged) ---- */
   var kb = root.querySelector('.kanji-breakdown');
   if (kb && !kb.classList.contains('kb-v2')) {
     var brks = kb.querySelectorAll('.k-brk');
     for (var b = 0; b < brks.length; b++) relayout(brks[b]);
     kb.classList.add('kb-v2');
+
+    /* ---- 3b. tappable on/kun readings: each .k-r plays `_kr_<hex of the hiragana reading>.mp3`
+       (a _-prefixed template media file; okurigana marks, dots and hyphens are dropped, katakana -> hiragana).
+       The whole head row swallows taps so a near miss never flips the card. ---- */
+    var krAudio = null;
+    var krFile = function(t){
+      var sp = toHira(t.replace(/[-.()（）\s‐－]/g, '')), hex = '';
+      if (!sp || !/^[ぁ-ゖー]+$/.test(sp)) return null;
+      for (var i = 0; i < sp.length; i++) hex += ('0000' + sp.charCodeAt(i).toString(16)).slice(-4);
+      return '_kr_' + hex + '.mp3';
+    };
+    var playKr = function(node, file){
+      if (!krAudio) { krAudio = document.createElement('audio'); krAudio.setAttribute('preload', 'none'); krAudio.style.display = 'none'; root.appendChild(krAudio); }
+      var others = root.querySelectorAll('.example audio');
+      for (var o = 0; o < others.length; o++) { try { others[o].pause(); } catch (e) {} }
+      var on = kb.querySelectorAll('.k-r.playing'); for (var q = 0; q < on.length; q++) on[q].classList.remove('playing');
+      node.classList.add('playing'); setTimeout(function(){ node.classList.remove('playing'); }, 700);
+      try { krAudio.pause(); krAudio.src = file; krAudio.currentTime = 0; } catch (e) {}
+      var pr = krAudio.play(); if (pr && pr.catch) pr.catch(function(){});
+    };
+    var krs = kb.querySelectorAll('.k-r');
+    for (var r2 = 0; r2 < krs.length; r2++) (function(node){
+      var file = krFile(txt(node)); if (!file) return;
+      node.classList.add('k-r-tap'); node.setAttribute('role', 'button');
+      guard(node); tap(node, function(){ playKr(node, file); });
+    })(krs[r2]);
+    var heads = kb.querySelectorAll('.k-head2'); for (var h2 = 0; h2 < heads.length; h2++) guard(heads[h2]);
   }
 
   function relayout(brk){
@@ -134,7 +207,7 @@
     while (brk.firstChild) brk.removeChild(brk.firstChild);
     brk.appendChild(head); brk.appendChild(mean);
     guard(box); guard(nih);
-    box.addEventListener('click', function(){ animate(box); }, false);
+    tap(box, function(){ animate(box); });
   }
 
   /* ---- 4. stroke-order boxes (KanjiVG paths from _kanji_strokes.js) ---- */
@@ -165,6 +238,7 @@
     box.classList.remove('animating'); box.classList.remove('done');
   }
   function animate(box){
+    if (!box._k && window.KANJI_STROKES) buildBox(box);   // asset arrived after this box was laid out
     var s = box._k; if (!s) return;
     cancel(box);
     var lens = [], i, p;
@@ -197,7 +271,10 @@
     if (window.KANJI_STROKES) {
       var boxes = root.querySelectorAll('.k-box:not(.has-svg)');
       for (var i = 0; i < boxes.length; i++) buildBox(boxes[i]);
-    } else if (tries++ < 30) { setTimeout(fill, 100); }   // external asset may still be loading
+    } else if (tries++ < 150) { setTimeout(fill, tries < 20 ? 50 : 200); }   // external asset may still be loading (waits up to ~27 s)
   }
   fill();
+  // if the asset script is still in flight, fill as soon as it lands (covers WebViews that load it asynchronously)
+  var ks = document.querySelectorAll('script[src$="_kanji_strokes.js"]');
+  for (var si = 0; si < ks.length; si++) ks[si].addEventListener('load', fill, false);
 })();
