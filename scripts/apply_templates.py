@@ -7,11 +7,14 @@
 - bumps model mod/usn and col.mod so Anki's import picks the change up
 - verifies note count, guids and media references before replacing the deck
 """
-import json, os, re, shutil, sqlite3, time, zipfile, tempfile
+import json, os, re, shutil, sqlite3, sys, time, zipfile, tempfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DECKS = ["GENKI I Vocab", "GENKI II Vocab", "JLPT N4", "JLPT N5", "Quartet I Vocab"]
-ASSET = "_kanji_strokes.js"
+DECKS = sys.argv[1:] or ["GENKI I Vocab", "GENKI II Vocab", "JLPT N4", "JLPT N5", "Quartet I Vocab"]  # optional: deck names as arguments
+# The stroke asset is embedded under a content-hashed name (`_kanji_strokes_<md5[:8]>.js`): Anki's import does not
+# reliably replace a media file that already exists under the same name, so a deck imported before kanji were added
+# kept the old file and those kanji fell back to the plain glyph. A new name per content sidesteps that.
+ASSET_SRC = "_kanji_strokes.js"
 
 def rd(p): return open(p, encoding="utf8").read()
 runtime = rd(f"{ROOT}/templates/runtime.js").strip()
@@ -20,7 +23,11 @@ afmt = {
     "Recognition": rd(f"{ROOT}/templates/recognition_back.html").replace("__RUNTIME__", runtime),
     "Production": rd(f"{ROOT}/templates/production_back.html").replace("__RUNTIME__", runtime),
 }
-asset_bytes = open(f"{ROOT}/assets/{ASSET}", "rb").read()
+asset_bytes = open(f"{ROOT}/assets/{ASSET_SRC}", "rb").read()
+import hashlib
+ASSET = f"_kanji_strokes_{hashlib.md5(asset_bytes).hexdigest()[:8]}.js"
+for k in afmt: afmt[k] = afmt[k].replace(f'src="{ASSET_SRC}"', f'src="{ASSET}"')
+assert all(f'src="{ASSET}"' in v for v in afmt.values()), "back templates must load _kanji_strokes.js"
 KR_DIR = f"{ROOT}/assets/kr"
 
 def hira(s): return "".join(chr(ord(c) - 0x60) if "ァ" <= c <= "ヶ" else c for c in s)
@@ -71,7 +78,9 @@ for deck in DECKS:
     con.execute("update col set models = ?, mod = ?", (json.dumps(models), now * 1000))
     con.commit(); con.close()
 
-    # media map: replace an existing asset entry or append a new one
+    # media map: drop every other stroke-asset version, then reuse or add the entry for this one
+    stale = [k for k, v in media.items() if re.fullmatch(r"_kanji_strokes(_[0-9a-f]{8})?\.js", v) and v != ASSET]
+    for k in stale: del media[k]
     idx = next((k for k, v in media.items() if v == ASSET), None)
     if idx is None:
         idx = str(max([int(k) for k in media] + [-1]) + 1)
@@ -87,7 +96,7 @@ for deck in DECKS:
     out = f"{work}/out.apkg"
     with zipfile.ZipFile(out, "w") as zout:
         for n in names:
-            if n in ("collection.anki21", "media", idx) or n in kr_add: continue
+            if n in ("collection.anki21", "media", idx) or n in kr_add or n in stale: continue
             data = zin.read(n)
             comp = zipfile.ZIP_STORED if media.get(n, "").endswith(".mp3") else zipfile.ZIP_DEFLATED
             zout.writestr(n, data, comp)
@@ -111,10 +120,12 @@ for deck in DECKS:
     assert len(files) == len(media2), "duplicate media names"
     assert all(fn in files for fn in kr_add.values())
     assert media2[idx] == ASSET and zchk.read(idx) == asset_bytes
+    assert not [v for v in files if v.startswith("_kanji_strokes") and v != ASSET], "stale stroke asset left in media"
     m2 = json.loads(sqlite3.connect(f"{work}/chk/collection.anki21").execute("select models from col").fetchone()[0])
+    assert all(f'src="{ASSET}"' in t["afmt"] for m in m2.values() for t in m["tmpls"]), "template does not load the embedded asset"
     assert all(m["css"] == css for m in m2.values())
     zchk.close()
 
     with open(src, "wb") as f, open(out, "rb") as g: shutil.copyfileobj(g, f)
     shutil.rmtree(work, ignore_errors=True)
-    print(f"ok {deck}: notes={len(after_notes)} media={len(media2)} (+{len(kr_add)} reading clips) asset member={idx} size={os.path.getsize(src)//1024} KB")
+    print(f"ok {deck}: notes={len(after_notes)} media={len(media2)} (+{len(kr_add)} reading clips) asset={ASSET} member={idx} dropped={len(stale)} size={os.path.getsize(src)//1024} KB")

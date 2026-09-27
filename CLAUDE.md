@@ -71,9 +71,16 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
     `k-label` + `k-r` spans, `k-radical`, `k-components`).
   - Stroke data: `assets/_kanji_strokes.js` sets `window.KANJI_STROKES`
     (kanji → KanjiVG path list, viewBox 0 0 109 109) for every kanji in the
-    four decks (857). It is embedded in each `.apkg` as a `_`-prefixed media
-    file and loaded by `<script src="_kanji_strokes.js">` at the top of the back
-    templates. Adding notes with a kanji not in the map just shows the plain
+    five decks (883). `apply_templates.py` embeds it in each `.apkg` as a
+    `_`-prefixed media file under a CONTENT-HASHED name
+    (`_kanji_strokes_<md5[:8]>.js`) and rewrites the templates' `<script src>`
+    to match (the template sources keep the plain name). Reason (found Sep 27
+    2026): Anki's import does not replace a media file that already exists
+    under the same name, so after kanji were appended (Quartet L2 on Sep 18,
+    N5 on Sep 19) Zach's phone still had the Sep 13 file and those kanji
+    (件和啓宛居拝旬流異突解過頃 …) showed the plain fallback glyph and did not
+    animate. Every edit to the asset now gets a new filename automatically;
+    old versions are dropped from the media map. Adding notes with a kanji not in the map just shows the plain
     glyph in the box (`.k-fallback`); to extend, fetch
     `raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/<5-hex codepoint>.svg`,
     take the `<path d>` values in stroke order, add them to the map, re-run the
@@ -163,7 +170,9 @@ import-merge); the second sentence lives in the same fields, after a separator:
   or the merge will not pick up the change. Also bump `col.mod` (milliseconds).
 - Media filenames must be ASCII-safe hashes (iOS media resolution breaks on
   non-ASCII names). When replacing a media file, give it a NEW name and update
-  the field reference — same-name replacement is unreliable on import.
+  the field reference — same-name replacement is unreliable on import. This
+  applies to template assets too — `_kanji_strokes.js` is versioned by hash for
+  this reason; reading clips (`_kr_*.mp3`) are never edited in place.
 - When rebuilding, drop media files no longer referenced by any field (keep
   `_`-prefixed files, which are template assets). Old audio left in the zip
   bloats every import.

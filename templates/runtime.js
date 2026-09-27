@@ -275,6 +275,6 @@
   }
   fill();
   // if the asset script is still in flight, fill as soon as it lands (covers WebViews that load it asynchronously)
-  var ks = document.querySelectorAll('script[src$="_kanji_strokes.js"]');
+  var ks = document.querySelectorAll('script[src*="_kanji_strokes"]');
   for (var si = 0; si < ks.length; si++) ks[si].addEventListener('load', fill, false);
 })();
