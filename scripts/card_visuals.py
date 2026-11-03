@@ -9,6 +9,20 @@ from pathlib import Path
 
 FIGURE = re.compile(r'<figure class="vocab-visual">.*?</figure>', re.S)
 
+def visual_lookup(catalog):
+    """Exact sense overrides take precedence over legacy word/reading artwork."""
+    entries = json.loads((catalog / 'manifest.json').read_text())
+    general = {(e['word'], e['reading']): e for e in entries}
+    assert len(general) == len(entries), 'duplicate illustration keys'
+    path = catalog / 'sense-overrides.json'
+    overrides = json.loads(path.read_text()) if path.exists() else []
+    senses = {(e['word'], e['reading'], e['meaning']): e for e in overrides}
+    assert len(senses) == len(overrides), 'duplicate illustration sense keys'
+    return general, senses
+
+def select_visual(general, senses, fields):
+    return senses.get(tuple(fields[:3]), general.get(tuple(fields[:2])))
+
 def image_bytes(catalog, entry):
     """Keep original artwork; package a small transparent copy for card display."""
     source = catalog / 'images' / entry['image']
@@ -28,16 +42,14 @@ def image_bytes(catalog, entry):
 
 def apply_visuals(con, media, root, now):
     catalog = Path(root) / 'assets/card-visuals'
-    entries = json.loads((catalog / 'manifest.json').read_text())
-    lookup = {(e['word'], e['reading']): e for e in entries}
-    assert len(lookup) == len(entries), 'duplicate illustration keys'
+    lookup, senses = visual_lookup(catalog)
     added, illustrated, changed = {}, 0, 0
     models = json.loads(con.execute('select models from col').fetchone()[0])
     for nid, mid, fields, modified in con.execute('select id, mid, flds, mod from notes').fetchall():
         names = [f['name'] for f in models[str(mid)]['flds']]
         assert names[:3] == ['Word', 'Reading', 'Meaning'] and names[7] == 'KanjiBreakdown'
         f = fields.split('\x1f')
-        entry = lookup.get((f[0], f[1]))
+        entry = select_visual(lookup, senses, f)
         if entry is None:
             continue
         blob = image_bytes(catalog, entry)

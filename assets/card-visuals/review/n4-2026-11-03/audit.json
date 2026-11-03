@@ -1,0 +1,7078 @@
+{
+  "date": "2026-11-03",
+  "deck": "JLPT N4",
+  "reviewed_notes": 1150,
+  "illustrated_notes": 1137,
+  "method": "Visually inspected all 24 labeled contact sheets against card word, reading and meaning; checked conflicting catalog descriptions and examples; visually inspected all seven new images. Images are contextual memory cues, not exhaustive definitions.",
+  "changes": [
+    {
+      "index": 398,
+      "before": {
+        "word": "する",
+        "reading": "する",
+        "image": "vocab-43c4e6d7ad12.png",
+        "alt": "Illustration of to decide on (an item) (item に)",
+        "reason": "Answer-side visual cue for the primary meaning."
+      },
+      "after": {
+        "word": "する",
+        "reading": "する",
+        "meaning": "to do",
+        "image": "n4-sense-398-20261103.png",
+        "alt": "A student doing homework in a workbook",
+        "reason": "Choosing clothes illustrated a narrower decide-on sense, not the primary do sense."
+      },
+      "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1a29b-1ff8-7172-a3f1-09076bfe731a/exec-0e776735-ac2e-4e25-93f4-b899f2869f93.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "index": 465,
+      "before": {
+        "word": "上がる",
+        "reading": "あがる",
+        "image": "vocab-3b21f87c7316.png",
+        "alt": "Illustration of to go up; rise",
+        "reason": "Answer-side visual cue for the primary meaning."
+      },
+      "after": {
+        "word": "上がる",
+        "reading": "あがる",
+        "meaning": "to go up; rise",
+        "image": "n4-sense-465-20261103.png",
+        "alt": "A person ascending stairs with an upward arrow",
+        "reason": "Entering an elevator did not clearly show upward movement."
+      },
+      "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1a29b-1ff8-7172-a3f1-09076bfe731a/exec-1f261534-6e15-4bc0-bcae-6231bc02f014.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "index": 766,
+      "before": {
+        "word": "開く",
+        "reading": "あく",
+        "image": "vocab-94484e6f86dd-corrected.png",
+        "alt": "Illustration of (something) opens (〜が)",
+        "reason": "Answer-side visual cue for the primary meaning."
+      },
+      "after": {
+        "word": "開く",
+        "reading": "あく",
+        "meaning": "to open (intrans.)",
+        "image": "n4-sense-766-20261103.png",
+        "alt": "Automatic sliding doors change from closed to open without anyone touching them",
+        "reason": "A person opening a door suggested the transitive verb instead."
+      },
+      "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1a29b-1ff8-7172-a3f1-09076bfe731a/exec-c79aac02-a55f-429e-b877-c47360b867c5.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "index": 768,
+      "before": {
+        "word": "動く",
+        "reading": "うごく",
+        "image": "vocab-64f624263bc6.png",
+        "alt": "Illustration of to move",
+        "reason": "Answer-side visual cue for the primary meaning."
+      },
+      "after": {
+        "word": "動く",
+        "reading": "うごく",
+        "meaning": "to move",
+        "image": "n4-sense-768-20261103.png",
+        "alt": "A car moving along a road",
+        "reason": "Pushing a cart suggested moving an object, rather than the subject moving."
+      },
+      "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1a29b-1ff8-7172-a3f1-09076bfe731a/exec-890a90aa-d24d-4dd1-a6f1-7fea01322ca1.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "index": 907,
+      "before": {
+        "word": "最後",
+        "reading": "さいご",
+        "image": "vocab-112a0a2dedec.png",
+        "alt": "Illustration of last; end",
+        "reason": "Answer-side visual cue for the primary meaning."
+      },
+      "after": {
+        "word": "最後",
+        "reading": "さいご",
+        "meaning": "last; end",
+        "image": "n4-sense-907-20261103.png",
+        "alt": "An arrow highlights the last person in a queue",
+        "reason": "A runner breaking a finish ribbon suggested first place, not last."
+      },
+      "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1a29b-1ff8-7172-a3f1-09076bfe731a/exec-2973a9ec-bd4d-4506-a5a3-29df5f472a9e.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "index": 901,
+      "before": {
+        "word": "以上",
+        "reading": "いじょう",
+        "image": "vocab-21987980081d.png",
+        "alt": "Illustration of more than; above",
+        "reason": "Answer-side visual cue for the primary meaning."
+      },
+      "after": {
+        "word": "以上",
+        "reading": "いじょう",
+        "meaning": "more than; above",
+        "image": "n4-sense-901-20261103.png",
+        "alt": "A number line highlights five and all greater values: at least five",
+        "reason": "Make the inclusive lower limit explicit instead of suggesting only an increase."
+      },
+      "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1a29b-1ff8-7172-a3f1-09076bfe731a/exec-f7b77e20-fe44-439d-a3f3-292866ce6be3.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "index": 902,
+      "before": {
+        "word": "以下",
+        "reading": "いか",
+        "image": "vocab-b608019fdf71.png",
+        "alt": "Illustration of less than; below",
+        "reason": "Answer-side visual cue for the primary meaning."
+      },
+      "after": {
+        "word": "以下",
+        "reading": "いか",
+        "meaning": "less than; below",
+        "image": "n4-sense-902-20261103.png",
+        "alt": "A number line highlights five and all smaller values: at most five",
+        "reason": "Make the inclusive upper limit explicit; a strict less-than sign was misleading."
+      },
+      "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1a29b-1ff8-7172-a3f1-09076bfe731a/exec-ea321235-7cbc-4c1a-bcfb-29ad6d565dd6.png",
+      "method": "built-in image_gen"
+    },
+    {
+      "index": 470,
+      "before": {
+        "word": "つく",
+        "reading": "つく",
+        "image": "vocab-bbe1f5ab3104.png",
+        "alt": "Illustration of (something) turns on (〜が)",
+        "reason": "Answer-side visual cue for the primary meaning."
+      },
+      "after": {
+        "word": "つく",
+        "reading": "つく",
+        "meaning": "to arrive; reach",
+        "image": "vocab-20ba5fe46a81.png",
+        "alt": "A traveler arriving at a railway station",
+        "reason": "The previous lamp image represented the homograph meaning turn on, not arrive."
+      },
+      "source": null,
+      "method": "existing reviewed arrival artwork"
+    }
+  ],
+  "decisions": [
+    {
+      "index": 0,
+      "word": "おはようございます",
+      "meaning": "good morning (polite)",
+      "decision": "retained"
+    },
+    {
+      "index": 1,
+      "word": "こんにちは",
+      "meaning": "hello; good afternoon",
+      "decision": "retained"
+    },
+    {
+      "index": 2,
+      "word": "こんばんは",
+      "meaning": "good evening",
+      "decision": "retained"
+    },
+    {
+      "index": 3,
+      "word": "さようなら",
+      "meaning": "goodbye",
+      "decision": "retained"
+    },
+    {
+      "index": 4,
+      "word": "おやすみなさい",
+      "meaning": "good night",
+      "decision": "retained"
+    },
+    {
+      "index": 5,
+      "word": "ありがとうございます",
+      "meaning": "thank you (polite)",
+      "decision": "retained"
+    },
+    {
+      "index": 6,
+      "word": "すみません",
+      "meaning": "excuse me; sorry",
+      "decision": "retained"
+    },
+    {
+      "index": 7,
+      "word": "いただきます",
+      "meaning": "bon appetit (before eating)",
+      "decision": "retained"
+    },
+    {
+      "index": 8,
+      "word": "ごちそうさまでした",
+      "meaning": "thank you for the meal",
+      "decision": "retained"
+    },
+    {
+      "index": 9,
+      "word": "はじめまして",
+      "meaning": "nice to meet you",
+      "decision": "retained"
+    },
+    {
+      "index": 10,
+      "word": "どういたしまして",
+      "meaning": "you're welcome",
+      "decision": "retained"
+    },
+    {
+      "index": 11,
+      "word": "いらっしゃいませ",
+      "meaning": "welcome (to a shop)",
+      "decision": "retained"
+    },
+    {
+      "index": 12,
+      "word": "お願いします",
+      "meaning": "please (request)",
+      "decision": "retained"
+    },
+    {
+      "index": 13,
+      "word": "ごめんなさい",
+      "meaning": "I'm sorry",
+      "decision": "retained"
+    },
+    {
+      "index": 14,
+      "word": "お元気ですか",
+      "meaning": "how are you?",
+      "decision": "retained"
+    },
+    {
+      "index": 15,
+      "word": "私",
+      "meaning": "I; me",
+      "decision": "retained"
+    },
+    {
+      "index": 16,
+      "word": "僕",
+      "meaning": "I; me (male)",
+      "decision": "retained"
+    },
+    {
+      "index": 17,
+      "word": "あなた",
+      "meaning": "you",
+      "decision": "retained"
+    },
+    {
+      "index": 18,
+      "word": "彼",
+      "meaning": "he; boyfriend",
+      "decision": "retained"
+    },
+    {
+      "index": 19,
+      "word": "彼女",
+      "meaning": "she; girlfriend",
+      "decision": "retained"
+    },
+    {
+      "index": 20,
+      "word": "私たち",
+      "meaning": "we; us",
+      "decision": "retained"
+    },
+    {
+      "index": 21,
+      "word": "皆さん",
+      "meaning": "everyone",
+      "decision": "retained"
+    },
+    {
+      "index": 22,
+      "word": "家族",
+      "meaning": "family",
+      "decision": "retained"
+    },
+    {
+      "index": 23,
+      "word": "父",
+      "meaning": "father (own)",
+      "decision": "retained"
+    },
+    {
+      "index": 24,
+      "word": "お父さん",
+      "meaning": "father (someone else's)",
+      "decision": "retained"
+    },
+    {
+      "index": 25,
+      "word": "母",
+      "meaning": "mother (own)",
+      "decision": "retained"
+    },
+    {
+      "index": 26,
+      "word": "お母さん",
+      "meaning": "mother (someone else's)",
+      "decision": "retained"
+    },
+    {
+      "index": 27,
+      "word": "兄",
+      "meaning": "older brother (own)",
+      "decision": "retained"
+    },
+    {
+      "index": 28,
+      "word": "お兄さん",
+      "meaning": "older brother (someone else's)",
+      "decision": "retained"
+    },
+    {
+      "index": 29,
+      "word": "姉",
+      "meaning": "older sister (own)",
+      "decision": "retained"
+    },
+    {
+      "index": 30,
+      "word": "お姉さん",
+      "meaning": "older sister (someone else's)",
+      "decision": "retained"
+    },
+    {
+      "index": 31,
+      "word": "弟",
+      "meaning": "younger brother",
+      "decision": "retained"
+    },
+    {
+      "index": 32,
+      "word": "妹",
+      "meaning": "younger sister",
+      "decision": "retained"
+    },
+    {
+      "index": 33,
+      "word": "主人",
+      "meaning": "husband (own)",
+      "decision": "retained"
+    },
+    {
+      "index": 34,
+      "word": "奥さん",
+      "meaning": "wife (someone else's)",
+      "decision": "retained"
+    },
+    {
+      "index": 35,
+      "word": "子供",
+      "meaning": "child; children",
+      "decision": "retained"
+    },
+    {
+      "index": 36,
+      "word": "男の子",
+      "meaning": "boy",
+      "decision": "retained"
+    },
+    {
+      "index": 37,
+      "word": "女の子",
+      "meaning": "girl",
+      "decision": "retained"
+    },
+    {
+      "index": 38,
+      "word": "赤ちゃん",
+      "meaning": "baby",
+      "decision": "retained"
+    },
+    {
+      "index": 39,
+      "word": "一",
+      "meaning": "one",
+      "decision": "retained"
+    },
+    {
+      "index": 40,
+      "word": "二",
+      "meaning": "two",
+      "decision": "retained"
+    },
+    {
+      "index": 41,
+      "word": "三",
+      "meaning": "three",
+      "decision": "retained"
+    },
+    {
+      "index": 42,
+      "word": "四",
+      "meaning": "four",
+      "decision": "retained"
+    },
+    {
+      "index": 43,
+      "word": "五",
+      "meaning": "five",
+      "decision": "retained"
+    },
+    {
+      "index": 44,
+      "word": "六",
+      "meaning": "six",
+      "decision": "retained"
+    },
+    {
+      "index": 45,
+      "word": "七",
+      "meaning": "seven",
+      "decision": "retained"
+    },
+    {
+      "index": 46,
+      "word": "八",
+      "meaning": "eight",
+      "decision": "retained"
+    },
+    {
+      "index": 47,
+      "word": "九",
+      "meaning": "nine",
+      "decision": "retained"
+    },
+    {
+      "index": 48,
+      "word": "十",
+      "meaning": "ten",
+      "decision": "retained"
+    },
+    {
+      "index": 49,
+      "word": "百",
+      "meaning": "hundred",
+      "decision": "retained"
+    },
+    {
+      "index": 50,
+      "word": "千",
+      "meaning": "thousand",
+      "decision": "retained"
+    },
+    {
+      "index": 51,
+      "word": "万",
+      "meaning": "ten thousand",
+      "decision": "retained"
+    },
+    {
+      "index": 52,
+      "word": "零",
+      "meaning": "zero",
+      "decision": "retained"
+    },
+    {
+      "index": 53,
+      "word": "一つ",
+      "meaning": "one (counter)",
+      "decision": "retained"
+    },
+    {
+      "index": 54,
+      "word": "二つ",
+      "meaning": "two (counter)",
+      "decision": "retained"
+    },
+    {
+      "index": 55,
+      "word": "三つ",
+      "meaning": "three (counter)",
+      "decision": "retained"
+    },
+    {
+      "index": 56,
+      "word": "四つ",
+      "meaning": "four (counter)",
+      "decision": "retained"
+    },
+    {
+      "index": 57,
+      "word": "五つ",
+      "meaning": "five (counter)",
+      "decision": "retained"
+    },
+    {
+      "index": 58,
+      "word": "六つ",
+      "meaning": "six (counter)",
+      "decision": "retained"
+    },
+    {
+      "index": 59,
+      "word": "七つ",
+      "meaning": "seven (counter)",
+      "decision": "retained"
+    },
+    {
+      "index": 60,
+      "word": "八つ",
+      "meaning": "eight (counter)",
+      "decision": "retained"
+    },
+    {
+      "index": 61,
+      "word": "九つ",
+      "meaning": "nine (counter)",
+      "decision": "retained"
+    },
+    {
+      "index": 62,
+      "word": "十",
+      "meaning": "ten (counter)",
+      "decision": "retained"
+    },
+    {
+      "index": 63,
+      "word": "今",
+      "meaning": "now",
+      "decision": "retained"
+    },
+    {
+      "index": 64,
+      "word": "今日",
+      "meaning": "today",
+      "decision": "retained"
+    },
+    {
+      "index": 65,
+      "word": "明日",
+      "meaning": "tomorrow",
+      "decision": "retained"
+    },
+    {
+      "index": 66,
+      "word": "昨日",
+      "meaning": "yesterday",
+      "decision": "retained"
+    },
+    {
+      "index": 67,
+      "word": "朝",
+      "meaning": "morning",
+      "decision": "retained"
+    },
+    {
+      "index": 68,
+      "word": "昼",
+      "meaning": "noon; daytime",
+      "decision": "retained"
+    },
+    {
+      "index": 69,
+      "word": "夜",
+      "meaning": "night",
+      "decision": "retained"
+    },
+    {
+      "index": 70,
+      "word": "夕方",
+      "meaning": "evening",
+      "decision": "retained"
+    },
+    {
+      "index": 71,
+      "word": "今朝",
+      "meaning": "this morning",
+      "decision": "retained"
+    },
+    {
+      "index": 72,
+      "word": "今晩",
+      "meaning": "tonight",
+      "decision": "retained"
+    },
+    {
+      "index": 73,
+      "word": "毎日",
+      "meaning": "every day",
+      "decision": "retained"
+    },
+    {
+      "index": 74,
+      "word": "毎朝",
+      "meaning": "every morning",
+      "decision": "retained"
+    },
+    {
+      "index": 75,
+      "word": "毎晩",
+      "meaning": "every night",
+      "decision": "retained"
+    },
+    {
+      "index": 76,
+      "word": "毎週",
+      "meaning": "every week",
+      "decision": "retained"
+    },
+    {
+      "index": 77,
+      "word": "毎月",
+      "meaning": "every month",
+      "decision": "retained"
+    },
+    {
+      "index": 78,
+      "word": "毎年",
+      "meaning": "every year",
+      "decision": "retained"
+    },
+    {
+      "index": 79,
+      "word": "先週",
+      "meaning": "last week",
+      "decision": "retained"
+    },
+    {
+      "index": 80,
+      "word": "今週",
+      "meaning": "this week",
+      "decision": "retained"
+    },
+    {
+      "index": 81,
+      "word": "来週",
+      "meaning": "next week",
+      "decision": "retained"
+    },
+    {
+      "index": 82,
+      "word": "先月",
+      "meaning": "last month",
+      "decision": "retained"
+    },
+    {
+      "index": 83,
+      "word": "今月",
+      "meaning": "this month",
+      "decision": "retained"
+    },
+    {
+      "index": 84,
+      "word": "来月",
+      "meaning": "next month",
+      "decision": "retained"
+    },
+    {
+      "index": 85,
+      "word": "去年",
+      "meaning": "last year",
+      "decision": "retained"
+    },
+    {
+      "index": 86,
+      "word": "今年",
+      "meaning": "this year",
+      "decision": "retained"
+    },
+    {
+      "index": 87,
+      "word": "来年",
+      "meaning": "next year",
+      "decision": "retained"
+    },
+    {
+      "index": 88,
+      "word": "午前",
+      "meaning": "morning; AM",
+      "decision": "retained"
+    },
+    {
+      "index": 89,
+      "word": "午後",
+      "meaning": "afternoon; PM",
+      "decision": "retained"
+    },
+    {
+      "index": 90,
+      "word": "時間",
+      "meaning": "time; hour",
+      "decision": "retained"
+    },
+    {
+      "index": 91,
+      "word": "分",
+      "meaning": "minute",
+      "decision": "retained"
+    },
+    {
+      "index": 92,
+      "word": "半",
+      "meaning": "half",
+      "decision": "retained"
+    },
+    {
+      "index": 93,
+      "word": "月曜日",
+      "meaning": "Monday",
+      "decision": "retained"
+    },
+    {
+      "index": 94,
+      "word": "火曜日",
+      "meaning": "Tuesday",
+      "decision": "retained"
+    },
+    {
+      "index": 95,
+      "word": "水曜日",
+      "meaning": "Wednesday",
+      "decision": "retained"
+    },
+    {
+      "index": 96,
+      "word": "木曜日",
+      "meaning": "Thursday",
+      "decision": "retained"
+    },
+    {
+      "index": 97,
+      "word": "金曜日",
+      "meaning": "Friday",
+      "decision": "retained"
+    },
+    {
+      "index": 98,
+      "word": "土曜日",
+      "meaning": "Saturday",
+      "decision": "retained"
+    },
+    {
+      "index": 99,
+      "word": "日曜日",
+      "meaning": "Sunday",
+      "decision": "retained"
+    },
+    {
+      "index": 100,
+      "word": "一月",
+      "meaning": "January",
+      "decision": "retained"
+    },
+    {
+      "index": 101,
+      "word": "二月",
+      "meaning": "February",
+      "decision": "retained"
+    },
+    {
+      "index": 102,
+      "word": "三月",
+      "meaning": "March",
+      "decision": "retained"
+    },
+    {
+      "index": 103,
+      "word": "四月",
+      "meaning": "April",
+      "decision": "retained"
+    },
+    {
+      "index": 104,
+      "word": "五月",
+      "meaning": "May",
+      "decision": "retained"
+    },
+    {
+      "index": 105,
+      "word": "六月",
+      "meaning": "June",
+      "decision": "retained"
+    },
+    {
+      "index": 106,
+      "word": "七月",
+      "meaning": "July",
+      "decision": "retained"
+    },
+    {
+      "index": 107,
+      "word": "八月",
+      "meaning": "August",
+      "decision": "retained"
+    },
+    {
+      "index": 108,
+      "word": "九月",
+      "meaning": "September",
+      "decision": "retained"
+    },
+    {
+      "index": 109,
+      "word": "十月",
+      "meaning": "October",
+      "decision": "retained"
+    },
+    {
+      "index": 110,
+      "word": "十一月",
+      "meaning": "November",
+      "decision": "retained"
+    },
+    {
+      "index": 111,
+      "word": "十二月",
+      "meaning": "December",
+      "decision": "retained"
+    },
+    {
+      "index": 112,
+      "word": "学校",
+      "meaning": "school",
+      "decision": "retained"
+    },
+    {
+      "index": 113,
+      "word": "大学",
+      "meaning": "university",
+      "decision": "retained"
+    },
+    {
+      "index": 114,
+      "word": "教室",
+      "meaning": "classroom",
+      "decision": "retained"
+    },
+    {
+      "index": 115,
+      "word": "図書館",
+      "meaning": "library",
+      "decision": "retained"
+    },
+    {
+      "index": 116,
+      "word": "病院",
+      "meaning": "hospital",
+      "decision": "retained"
+    },
+    {
+      "index": 117,
+      "word": "銀行",
+      "meaning": "bank",
+      "decision": "retained"
+    },
+    {
+      "index": 118,
+      "word": "郵便局",
+      "meaning": "post office",
+      "decision": "retained"
+    },
+    {
+      "index": 119,
+      "word": "駅",
+      "meaning": "station",
+      "decision": "retained"
+    },
+    {
+      "index": 120,
+      "word": "空港",
+      "meaning": "airport",
+      "decision": "retained"
+    },
+    {
+      "index": 121,
+      "word": "店",
+      "meaning": "shop; store",
+      "decision": "retained"
+    },
+    {
+      "index": 122,
+      "word": "デパート",
+      "meaning": "department store",
+      "decision": "retained"
+    },
+    {
+      "index": 123,
+      "word": "スーパー",
+      "meaning": "supermarket",
+      "decision": "retained"
+    },
+    {
+      "index": 124,
+      "word": "レストラン",
+      "meaning": "restaurant",
+      "decision": "retained"
+    },
+    {
+      "index": 125,
+      "word": "喫茶店",
+      "meaning": "cafe; coffee shop",
+      "decision": "retained"
+    },
+    {
+      "index": 126,
+      "word": "会社",
+      "meaning": "company",
+      "decision": "retained"
+    },
+    {
+      "index": 127,
+      "word": "公園",
+      "meaning": "park",
+      "decision": "retained"
+    },
+    {
+      "index": 128,
+      "word": "映画館",
+      "meaning": "movie theater",
+      "decision": "retained"
+    },
+    {
+      "index": 129,
+      "word": "ホテル",
+      "meaning": "hotel",
+      "decision": "retained"
+    },
+    {
+      "index": 130,
+      "word": "トイレ",
+      "meaning": "toilet; bathroom",
+      "decision": "retained"
+    },
+    {
+      "index": 131,
+      "word": "お手洗い",
+      "meaning": "bathroom (polite)",
+      "decision": "retained"
+    },
+    {
+      "index": 132,
+      "word": "家",
+      "meaning": "house; home",
+      "decision": "retained"
+    },
+    {
+      "index": 133,
+      "word": "部屋",
+      "meaning": "room",
+      "decision": "retained"
+    },
+    {
+      "index": 134,
+      "word": "台所",
+      "meaning": "kitchen",
+      "decision": "retained"
+    },
+    {
+      "index": 135,
+      "word": "玄関",
+      "meaning": "entrance",
+      "decision": "retained"
+    },
+    {
+      "index": 136,
+      "word": "庭",
+      "meaning": "garden; yard",
+      "decision": "retained"
+    },
+    {
+      "index": 137,
+      "word": "窓",
+      "meaning": "window",
+      "decision": "retained"
+    },
+    {
+      "index": 138,
+      "word": "ドア",
+      "meaning": "door",
+      "decision": "retained"
+    },
+    {
+      "index": 139,
+      "word": "門",
+      "meaning": "gate",
+      "decision": "retained"
+    },
+    {
+      "index": 140,
+      "word": "階段",
+      "meaning": "stairs",
+      "decision": "retained"
+    },
+    {
+      "index": 141,
+      "word": "お風呂",
+      "meaning": "bath",
+      "decision": "retained"
+    },
+    {
+      "index": 142,
+      "word": "電気",
+      "meaning": "electricity; light",
+      "decision": "retained"
+    },
+    {
+      "index": 143,
+      "word": "ご飯",
+      "meaning": "rice; meal",
+      "decision": "retained"
+    },
+    {
+      "index": 144,
+      "word": "朝ご飯",
+      "meaning": "breakfast",
+      "decision": "retained"
+    },
+    {
+      "index": 145,
+      "word": "昼ご飯",
+      "meaning": "lunch",
+      "decision": "retained"
+    },
+    {
+      "index": 146,
+      "word": "晩ご飯",
+      "meaning": "dinner",
+      "decision": "retained"
+    },
+    {
+      "index": 147,
+      "word": "パン",
+      "meaning": "bread",
+      "decision": "retained"
+    },
+    {
+      "index": 148,
+      "word": "卵",
+      "meaning": "egg",
+      "decision": "retained"
+    },
+    {
+      "index": 149,
+      "word": "肉",
+      "meaning": "meat",
+      "decision": "retained"
+    },
+    {
+      "index": 150,
+      "word": "魚",
+      "meaning": "fish",
+      "decision": "retained"
+    },
+    {
+      "index": 151,
+      "word": "野菜",
+      "meaning": "vegetable",
+      "decision": "retained"
+    },
+    {
+      "index": 152,
+      "word": "果物",
+      "meaning": "fruit",
+      "decision": "retained"
+    },
+    {
+      "index": 153,
+      "word": "りんご",
+      "meaning": "apple",
+      "decision": "retained"
+    },
+    {
+      "index": 154,
+      "word": "みかん",
+      "meaning": "mandarin orange",
+      "decision": "retained"
+    },
+    {
+      "index": 155,
+      "word": "水",
+      "meaning": "water",
+      "decision": "retained"
+    },
+    {
+      "index": 156,
+      "word": "お茶",
+      "meaning": "tea",
+      "decision": "retained"
+    },
+    {
+      "index": 157,
+      "word": "コーヒー",
+      "meaning": "coffee",
+      "decision": "retained"
+    },
+    {
+      "index": 158,
+      "word": "牛乳",
+      "meaning": "milk",
+      "decision": "retained"
+    },
+    {
+      "index": 159,
+      "word": "お酒",
+      "meaning": "alcohol; sake",
+      "decision": "retained"
+    },
+    {
+      "index": 160,
+      "word": "砂糖",
+      "meaning": "sugar",
+      "decision": "retained"
+    },
+    {
+      "index": 161,
+      "word": "塩",
+      "meaning": "salt",
+      "decision": "retained"
+    },
+    {
+      "index": 162,
+      "word": "料理",
+      "meaning": "cooking; food",
+      "decision": "retained"
+    },
+    {
+      "index": 163,
+      "word": "弁当",
+      "meaning": "lunch box",
+      "decision": "retained"
+    },
+    {
+      "index": 164,
+      "word": "体",
+      "meaning": "body",
+      "decision": "retained"
+    },
+    {
+      "index": 165,
+      "word": "頭",
+      "meaning": "head",
+      "decision": "retained"
+    },
+    {
+      "index": 166,
+      "word": "顔",
+      "meaning": "face",
+      "decision": "retained"
+    },
+    {
+      "index": 167,
+      "word": "目",
+      "meaning": "eye",
+      "decision": "retained"
+    },
+    {
+      "index": 168,
+      "word": "耳",
+      "meaning": "ear",
+      "decision": "retained"
+    },
+    {
+      "index": 169,
+      "word": "口",
+      "meaning": "mouth",
+      "decision": "retained"
+    },
+    {
+      "index": 170,
+      "word": "鼻",
+      "meaning": "nose",
+      "decision": "retained"
+    },
+    {
+      "index": 171,
+      "word": "歯",
+      "meaning": "tooth",
+      "decision": "retained"
+    },
+    {
+      "index": 172,
+      "word": "手",
+      "meaning": "hand",
+      "decision": "retained"
+    },
+    {
+      "index": 173,
+      "word": "足",
+      "meaning": "foot; leg",
+      "decision": "retained"
+    },
+    {
+      "index": 174,
+      "word": "指",
+      "meaning": "finger",
+      "decision": "retained"
+    },
+    {
+      "index": 175,
+      "word": "お腹",
+      "meaning": "stomach",
+      "decision": "retained"
+    },
+    {
+      "index": 176,
+      "word": "背",
+      "meaning": "back; height",
+      "decision": "retained"
+    },
+    {
+      "index": 177,
+      "word": "声",
+      "meaning": "voice",
+      "decision": "retained"
+    },
+    {
+      "index": 178,
+      "word": "天気",
+      "meaning": "weather",
+      "decision": "retained"
+    },
+    {
+      "index": 179,
+      "word": "雨",
+      "meaning": "rain",
+      "decision": "retained"
+    },
+    {
+      "index": 180,
+      "word": "雪",
+      "meaning": "snow",
+      "decision": "retained"
+    },
+    {
+      "index": 181,
+      "word": "風",
+      "meaning": "wind",
+      "decision": "retained"
+    },
+    {
+      "index": 182,
+      "word": "空",
+      "meaning": "sky",
+      "decision": "retained"
+    },
+    {
+      "index": 183,
+      "word": "山",
+      "meaning": "mountain",
+      "decision": "retained"
+    },
+    {
+      "index": 184,
+      "word": "川",
+      "meaning": "river",
+      "decision": "retained"
+    },
+    {
+      "index": 185,
+      "word": "海",
+      "meaning": "sea; ocean",
+      "decision": "retained"
+    },
+    {
+      "index": 186,
+      "word": "花",
+      "meaning": "flower",
+      "decision": "retained"
+    },
+    {
+      "index": 187,
+      "word": "木",
+      "meaning": "tree",
+      "decision": "retained"
+    },
+    {
+      "index": 188,
+      "word": "池",
+      "meaning": "pond",
+      "decision": "retained"
+    },
+    {
+      "index": 189,
+      "word": "犬",
+      "meaning": "dog",
+      "decision": "retained"
+    },
+    {
+      "index": 190,
+      "word": "猫",
+      "meaning": "cat",
+      "decision": "retained"
+    },
+    {
+      "index": 191,
+      "word": "鳥",
+      "meaning": "bird",
+      "decision": "retained"
+    },
+    {
+      "index": 192,
+      "word": "動物",
+      "meaning": "animal",
+      "decision": "retained"
+    },
+    {
+      "index": 193,
+      "word": "人",
+      "meaning": "person",
+      "decision": "retained"
+    },
+    {
+      "index": 194,
+      "word": "男",
+      "meaning": "man; male",
+      "decision": "retained"
+    },
+    {
+      "index": 195,
+      "word": "女",
+      "meaning": "woman; female",
+      "decision": "retained"
+    },
+    {
+      "index": 196,
+      "word": "友達",
+      "meaning": "friend",
+      "decision": "retained"
+    },
+    {
+      "index": 197,
+      "word": "先生",
+      "meaning": "teacher",
+      "decision": "retained"
+    },
+    {
+      "index": 198,
+      "word": "学生",
+      "meaning": "student",
+      "decision": "retained"
+    },
+    {
+      "index": 199,
+      "word": "会社員",
+      "meaning": "office worker",
+      "decision": "retained"
+    },
+    {
+      "index": 200,
+      "word": "医者",
+      "meaning": "doctor",
+      "decision": "retained"
+    },
+    {
+      "index": 201,
+      "word": "警察",
+      "meaning": "police",
+      "decision": "retained"
+    },
+    {
+      "index": 202,
+      "word": "留学生",
+      "meaning": "exchange student",
+      "decision": "retained"
+    },
+    {
+      "index": 203,
+      "word": "大人",
+      "meaning": "adult",
+      "decision": "retained"
+    },
+    {
+      "index": 204,
+      "word": "外国人",
+      "meaning": "foreigner",
+      "decision": "retained"
+    },
+    {
+      "index": 205,
+      "word": "物",
+      "meaning": "thing; object",
+      "decision": "retained"
+    },
+    {
+      "index": 206,
+      "word": "本",
+      "meaning": "book",
+      "decision": "retained"
+    },
+    {
+      "index": 207,
+      "word": "新聞",
+      "meaning": "newspaper",
+      "decision": "retained"
+    },
+    {
+      "index": 208,
+      "word": "雑誌",
+      "meaning": "magazine",
+      "decision": "retained"
+    },
+    {
+      "index": 209,
+      "word": "辞書",
+      "meaning": "dictionary",
+      "decision": "retained"
+    },
+    {
+      "index": 210,
+      "word": "手紙",
+      "meaning": "letter",
+      "decision": "retained"
+    },
+    {
+      "index": 211,
+      "word": "切手",
+      "meaning": "stamp",
+      "decision": "retained"
+    },
+    {
+      "index": 212,
+      "word": "鍵",
+      "meaning": "key",
+      "decision": "retained"
+    },
+    {
+      "index": 213,
+      "word": "傘",
+      "meaning": "umbrella",
+      "decision": "retained"
+    },
+    {
+      "index": 214,
+      "word": "鞄",
+      "meaning": "bag",
+      "decision": "retained"
+    },
+    {
+      "index": 215,
+      "word": "財布",
+      "meaning": "wallet",
+      "decision": "retained"
+    },
+    {
+      "index": 216,
+      "word": "時計",
+      "meaning": "watch; clock",
+      "decision": "retained"
+    },
+    {
+      "index": 217,
+      "word": "カメラ",
+      "meaning": "camera",
+      "decision": "retained"
+    },
+    {
+      "index": 218,
+      "word": "電話",
+      "meaning": "telephone",
+      "decision": "retained"
+    },
+    {
+      "index": 219,
+      "word": "テレビ",
+      "meaning": "television",
+      "decision": "retained"
+    },
+    {
+      "index": 220,
+      "word": "ラジオ",
+      "meaning": "radio",
+      "decision": "retained"
+    },
+    {
+      "index": 221,
+      "word": "パソコン",
+      "meaning": "computer",
+      "decision": "retained"
+    },
+    {
+      "index": 222,
+      "word": "写真",
+      "meaning": "photo",
+      "decision": "retained"
+    },
+    {
+      "index": 223,
+      "word": "机",
+      "meaning": "desk",
+      "decision": "retained"
+    },
+    {
+      "index": 224,
+      "word": "椅子",
+      "meaning": "chair",
+      "decision": "retained"
+    },
+    {
+      "index": 225,
+      "word": "テーブル",
+      "meaning": "table",
+      "decision": "retained"
+    },
+    {
+      "index": 226,
+      "word": "ベッド",
+      "meaning": "bed",
+      "decision": "retained"
+    },
+    {
+      "index": 227,
+      "word": "服",
+      "meaning": "clothes",
+      "decision": "retained"
+    },
+    {
+      "index": 228,
+      "word": "靴",
+      "meaning": "shoes",
+      "decision": "retained"
+    },
+    {
+      "index": 229,
+      "word": "帽子",
+      "meaning": "hat; cap",
+      "decision": "retained"
+    },
+    {
+      "index": 230,
+      "word": "メガネ",
+      "meaning": "glasses",
+      "decision": "retained"
+    },
+    {
+      "index": 231,
+      "word": "シャツ",
+      "meaning": "shirt",
+      "decision": "retained"
+    },
+    {
+      "index": 232,
+      "word": "ズボン",
+      "meaning": "pants; trousers",
+      "decision": "retained"
+    },
+    {
+      "index": 233,
+      "word": "スカート",
+      "meaning": "skirt",
+      "decision": "retained"
+    },
+    {
+      "index": 234,
+      "word": "ネクタイ",
+      "meaning": "necktie",
+      "decision": "retained"
+    },
+    {
+      "index": 235,
+      "word": "お金",
+      "meaning": "money",
+      "decision": "retained"
+    },
+    {
+      "index": 236,
+      "word": "紙",
+      "meaning": "paper",
+      "decision": "retained"
+    },
+    {
+      "index": 237,
+      "word": "箱",
+      "meaning": "box",
+      "decision": "retained"
+    },
+    {
+      "index": 238,
+      "word": "コップ",
+      "meaning": "cup; glass",
+      "decision": "retained"
+    },
+    {
+      "index": 239,
+      "word": "皿",
+      "meaning": "plate",
+      "decision": "retained"
+    },
+    {
+      "index": 240,
+      "word": "茶碗",
+      "meaning": "rice bowl; teacup",
+      "decision": "retained"
+    },
+    {
+      "index": 241,
+      "word": "箸",
+      "meaning": "chopsticks",
+      "decision": "retained"
+    },
+    {
+      "index": 242,
+      "word": "スプーン",
+      "meaning": "spoon",
+      "decision": "retained"
+    },
+    {
+      "index": 243,
+      "word": "フォーク",
+      "meaning": "fork",
+      "decision": "retained"
+    },
+    {
+      "index": 244,
+      "word": "ナイフ",
+      "meaning": "knife",
+      "decision": "retained"
+    },
+    {
+      "index": 245,
+      "word": "鉛筆",
+      "meaning": "pencil",
+      "decision": "retained"
+    },
+    {
+      "index": 246,
+      "word": "ペン",
+      "meaning": "pen",
+      "decision": "retained"
+    },
+    {
+      "index": 247,
+      "word": "ノート",
+      "meaning": "notebook",
+      "decision": "retained"
+    },
+    {
+      "index": 248,
+      "word": "消しゴム",
+      "meaning": "eraser",
+      "decision": "retained"
+    },
+    {
+      "index": 249,
+      "word": "封筒",
+      "meaning": "envelope",
+      "decision": "retained"
+    },
+    {
+      "index": 250,
+      "word": "はがき",
+      "meaning": "postcard",
+      "decision": "retained"
+    },
+    {
+      "index": 251,
+      "word": "切符",
+      "meaning": "ticket",
+      "decision": "retained"
+    },
+    {
+      "index": 252,
+      "word": "地図",
+      "meaning": "map",
+      "decision": "retained"
+    },
+    {
+      "index": 253,
+      "word": "車",
+      "meaning": "car",
+      "decision": "retained"
+    },
+    {
+      "index": 254,
+      "word": "タクシー",
+      "meaning": "taxi",
+      "decision": "retained"
+    },
+    {
+      "index": 255,
+      "word": "バス",
+      "meaning": "bus",
+      "decision": "retained"
+    },
+    {
+      "index": 256,
+      "word": "電車",
+      "meaning": "train",
+      "decision": "retained"
+    },
+    {
+      "index": 257,
+      "word": "地下鉄",
+      "meaning": "subway",
+      "decision": "retained"
+    },
+    {
+      "index": 258,
+      "word": "飛行機",
+      "meaning": "airplane",
+      "decision": "retained"
+    },
+    {
+      "index": 259,
+      "word": "自転車",
+      "meaning": "bicycle",
+      "decision": "retained"
+    },
+    {
+      "index": 260,
+      "word": "船",
+      "meaning": "ship; boat",
+      "decision": "retained"
+    },
+    {
+      "index": 261,
+      "word": "道",
+      "meaning": "road; way",
+      "decision": "retained"
+    },
+    {
+      "index": 262,
+      "word": "交差点",
+      "meaning": "intersection",
+      "decision": "retained"
+    },
+    {
+      "index": 263,
+      "word": "信号",
+      "meaning": "traffic light",
+      "decision": "retained"
+    },
+    {
+      "index": 264,
+      "word": "橋",
+      "meaning": "bridge",
+      "decision": "retained"
+    },
+    {
+      "index": 265,
+      "word": "上",
+      "meaning": "above; on top",
+      "decision": "retained"
+    },
+    {
+      "index": 266,
+      "word": "下",
+      "meaning": "below; under",
+      "decision": "retained"
+    },
+    {
+      "index": 267,
+      "word": "中",
+      "meaning": "inside; middle",
+      "decision": "retained"
+    },
+    {
+      "index": 268,
+      "word": "外",
+      "meaning": "outside",
+      "decision": "retained"
+    },
+    {
+      "index": 269,
+      "word": "前",
+      "meaning": "front; before",
+      "decision": "retained"
+    },
+    {
+      "index": 270,
+      "word": "後ろ",
+      "meaning": "behind; back",
+      "decision": "retained"
+    },
+    {
+      "index": 271,
+      "word": "右",
+      "meaning": "right",
+      "decision": "retained"
+    },
+    {
+      "index": 272,
+      "word": "左",
+      "meaning": "left",
+      "decision": "retained"
+    },
+    {
+      "index": 273,
+      "word": "隣",
+      "meaning": "next to; neighbor",
+      "decision": "retained"
+    },
+    {
+      "index": 274,
+      "word": "間",
+      "meaning": "between; interval",
+      "decision": "retained"
+    },
+    {
+      "index": 275,
+      "word": "近く",
+      "meaning": "near; nearby",
+      "decision": "retained"
+    },
+    {
+      "index": 276,
+      "word": "遠く",
+      "meaning": "far away",
+      "decision": "retained"
+    },
+    {
+      "index": 277,
+      "word": "向こう",
+      "meaning": "over there",
+      "decision": "retained"
+    },
+    {
+      "index": 278,
+      "word": "側",
+      "meaning": "beside; near",
+      "decision": "retained"
+    },
+    {
+      "index": 279,
+      "word": "こちら",
+      "meaning": "this way (polite)",
+      "decision": "retained"
+    },
+    {
+      "index": 280,
+      "word": "そちら",
+      "meaning": "that way (polite)",
+      "decision": "retained"
+    },
+    {
+      "index": 281,
+      "word": "あちら",
+      "meaning": "over there (polite)",
+      "decision": "retained"
+    },
+    {
+      "index": 282,
+      "word": "どちら",
+      "meaning": "which way (polite)",
+      "decision": "retained"
+    },
+    {
+      "index": 283,
+      "word": "ここ",
+      "meaning": "here",
+      "decision": "retained"
+    },
+    {
+      "index": 284,
+      "word": "そこ",
+      "meaning": "there",
+      "decision": "retained"
+    },
+    {
+      "index": 285,
+      "word": "あそこ",
+      "meaning": "over there",
+      "decision": "retained"
+    },
+    {
+      "index": 286,
+      "word": "どこ",
+      "meaning": "where",
+      "decision": "retained"
+    },
+    {
+      "index": 287,
+      "word": "これ",
+      "meaning": "this",
+      "decision": "retained"
+    },
+    {
+      "index": 288,
+      "word": "それ",
+      "meaning": "that",
+      "decision": "retained"
+    },
+    {
+      "index": 289,
+      "word": "あれ",
+      "meaning": "that (over there)",
+      "decision": "retained"
+    },
+    {
+      "index": 290,
+      "word": "どれ",
+      "meaning": "which one",
+      "decision": "retained"
+    },
+    {
+      "index": 291,
+      "word": "この",
+      "meaning": "this (adj)",
+      "decision": "retained"
+    },
+    {
+      "index": 292,
+      "word": "その",
+      "meaning": "that (adj)",
+      "decision": "retained"
+    },
+    {
+      "index": 293,
+      "word": "あの",
+      "meaning": "that (over there, adj)",
+      "decision": "retained"
+    },
+    {
+      "index": 294,
+      "word": "どの",
+      "meaning": "which (adj)",
+      "decision": "retained"
+    },
+    {
+      "index": 295,
+      "word": "何",
+      "meaning": "what",
+      "decision": "retained"
+    },
+    {
+      "index": 296,
+      "word": "誰",
+      "meaning": "who",
+      "decision": "retained"
+    },
+    {
+      "index": 297,
+      "word": "いつ",
+      "meaning": "when",
+      "decision": "retained"
+    },
+    {
+      "index": 298,
+      "word": "どう",
+      "meaning": "how",
+      "decision": "retained"
+    },
+    {
+      "index": 299,
+      "word": "なぜ",
+      "meaning": "why",
+      "decision": "retained"
+    },
+    {
+      "index": 300,
+      "word": "どうして",
+      "meaning": "why",
+      "decision": "retained"
+    },
+    {
+      "index": 301,
+      "word": "いくら",
+      "meaning": "how much",
+      "decision": "retained"
+    },
+    {
+      "index": 302,
+      "word": "いくつ",
+      "meaning": "how many; how old",
+      "decision": "retained"
+    },
+    {
+      "index": 303,
+      "word": "どうぞ",
+      "meaning": "please; go ahead",
+      "decision": "retained"
+    },
+    {
+      "index": 304,
+      "word": "色",
+      "meaning": "color",
+      "decision": "retained"
+    },
+    {
+      "index": 305,
+      "word": "赤",
+      "meaning": "red",
+      "decision": "retained"
+    },
+    {
+      "index": 306,
+      "word": "青",
+      "meaning": "blue",
+      "decision": "retained"
+    },
+    {
+      "index": 307,
+      "word": "白",
+      "meaning": "white",
+      "decision": "retained"
+    },
+    {
+      "index": 308,
+      "word": "黒",
+      "meaning": "black",
+      "decision": "retained"
+    },
+    {
+      "index": 309,
+      "word": "黄色",
+      "meaning": "yellow",
+      "decision": "retained"
+    },
+    {
+      "index": 310,
+      "word": "緑",
+      "meaning": "green",
+      "decision": "retained"
+    },
+    {
+      "index": 311,
+      "word": "茶色",
+      "meaning": "brown",
+      "decision": "retained"
+    },
+    {
+      "index": 312,
+      "word": "大きい",
+      "meaning": "big; large",
+      "decision": "retained"
+    },
+    {
+      "index": 313,
+      "word": "小さい",
+      "meaning": "small; little",
+      "decision": "retained"
+    },
+    {
+      "index": 314,
+      "word": "新しい",
+      "meaning": "new",
+      "decision": "retained"
+    },
+    {
+      "index": 315,
+      "word": "古い",
+      "meaning": "old (things)",
+      "decision": "retained"
+    },
+    {
+      "index": 316,
+      "word": "良い",
+      "meaning": "good",
+      "decision": "retained"
+    },
+    {
+      "index": 317,
+      "word": "悪い",
+      "meaning": "bad; evil",
+      "decision": "retained"
+    },
+    {
+      "index": 318,
+      "word": "高い",
+      "meaning": "high; expensive",
+      "decision": "retained"
+    },
+    {
+      "index": 319,
+      "word": "安い",
+      "meaning": "cheap; inexpensive",
+      "decision": "retained"
+    },
+    {
+      "index": 320,
+      "word": "長い",
+      "meaning": "long",
+      "decision": "retained"
+    },
+    {
+      "index": 321,
+      "word": "短い",
+      "meaning": "short (length)",
+      "decision": "retained"
+    },
+    {
+      "index": 322,
+      "word": "暑い",
+      "meaning": "hot (weather)",
+      "decision": "retained"
+    },
+    {
+      "index": 323,
+      "word": "寒い",
+      "meaning": "cold (weather)",
+      "decision": "retained"
+    },
+    {
+      "index": 324,
+      "word": "暖かい",
+      "meaning": "warm",
+      "decision": "retained"
+    },
+    {
+      "index": 325,
+      "word": "涼しい",
+      "meaning": "cool",
+      "decision": "retained"
+    },
+    {
+      "index": 326,
+      "word": "熱い",
+      "meaning": "hot (things)",
+      "decision": "retained"
+    },
+    {
+      "index": 327,
+      "word": "冷たい",
+      "meaning": "cold (things)",
+      "decision": "retained"
+    },
+    {
+      "index": 328,
+      "word": "おいしい",
+      "meaning": "delicious",
+      "decision": "retained"
+    },
+    {
+      "index": 329,
+      "word": "まずい",
+      "meaning": "bad-tasting",
+      "decision": "retained"
+    },
+    {
+      "index": 330,
+      "word": "甘い",
+      "meaning": "sweet",
+      "decision": "retained"
+    },
+    {
+      "index": 331,
+      "word": "辛い",
+      "meaning": "spicy",
+      "decision": "retained"
+    },
+    {
+      "index": 332,
+      "word": "忙しい",
+      "meaning": "busy",
+      "decision": "retained"
+    },
+    {
+      "index": 333,
+      "word": "楽しい",
+      "meaning": "fun; enjoyable",
+      "decision": "retained"
+    },
+    {
+      "index": 334,
+      "word": "面白い",
+      "meaning": "interesting; funny",
+      "decision": "retained"
+    },
+    {
+      "index": 335,
+      "word": "つまらない",
+      "meaning": "boring",
+      "decision": "retained"
+    },
+    {
+      "index": 336,
+      "word": "嬉しい",
+      "meaning": "happy; glad",
+      "decision": "retained"
+    },
+    {
+      "index": 337,
+      "word": "悲しい",
+      "meaning": "sad",
+      "decision": "retained"
+    },
+    {
+      "index": 338,
+      "word": "怖い",
+      "meaning": "scary",
+      "decision": "retained"
+    },
+    {
+      "index": 339,
+      "word": "痛い",
+      "meaning": "painful; hurts",
+      "decision": "retained"
+    },
+    {
+      "index": 340,
+      "word": "重い",
+      "meaning": "heavy",
+      "decision": "retained"
+    },
+    {
+      "index": 341,
+      "word": "軽い",
+      "meaning": "light (weight)",
+      "decision": "retained"
+    },
+    {
+      "index": 342,
+      "word": "広い",
+      "meaning": "wide; spacious",
+      "decision": "retained"
+    },
+    {
+      "index": 343,
+      "word": "狭い",
+      "meaning": "narrow; cramped",
+      "decision": "retained"
+    },
+    {
+      "index": 344,
+      "word": "太い",
+      "meaning": "thick; fat",
+      "decision": "retained"
+    },
+    {
+      "index": 345,
+      "word": "細い",
+      "meaning": "thin; slender",
+      "decision": "retained"
+    },
+    {
+      "index": 346,
+      "word": "速い",
+      "meaning": "fast",
+      "decision": "retained"
+    },
+    {
+      "index": 347,
+      "word": "遅い",
+      "meaning": "slow; late",
+      "decision": "retained"
+    },
+    {
+      "index": 348,
+      "word": "早い",
+      "meaning": "early",
+      "decision": "retained"
+    },
+    {
+      "index": 349,
+      "word": "近い",
+      "meaning": "near; close",
+      "decision": "retained"
+    },
+    {
+      "index": 350,
+      "word": "遠い",
+      "meaning": "far",
+      "decision": "retained"
+    },
+    {
+      "index": 351,
+      "word": "多い",
+      "meaning": "many; a lot",
+      "decision": "retained"
+    },
+    {
+      "index": 352,
+      "word": "少ない",
+      "meaning": "few; little",
+      "decision": "retained"
+    },
+    {
+      "index": 353,
+      "word": "若い",
+      "meaning": "young",
+      "decision": "retained"
+    },
+    {
+      "index": 354,
+      "word": "白い",
+      "meaning": "white",
+      "decision": "retained"
+    },
+    {
+      "index": 355,
+      "word": "黒い",
+      "meaning": "black",
+      "decision": "retained"
+    },
+    {
+      "index": 356,
+      "word": "赤い",
+      "meaning": "red",
+      "decision": "retained"
+    },
+    {
+      "index": 357,
+      "word": "青い",
+      "meaning": "blue",
+      "decision": "retained"
+    },
+    {
+      "index": 358,
+      "word": "丸い",
+      "meaning": "round",
+      "decision": "retained"
+    },
+    {
+      "index": 359,
+      "word": "汚い",
+      "meaning": "dirty",
+      "decision": "retained"
+    },
+    {
+      "index": 360,
+      "word": "うるさい",
+      "meaning": "noisy; annoying",
+      "decision": "retained"
+    },
+    {
+      "index": 361,
+      "word": "明るい",
+      "meaning": "bright",
+      "decision": "retained"
+    },
+    {
+      "index": 362,
+      "word": "暗い",
+      "meaning": "dark",
+      "decision": "retained"
+    },
+    {
+      "index": 363,
+      "word": "強い",
+      "meaning": "strong",
+      "decision": "retained"
+    },
+    {
+      "index": 364,
+      "word": "弱い",
+      "meaning": "weak",
+      "decision": "retained"
+    },
+    {
+      "index": 365,
+      "word": "難しい",
+      "meaning": "difficult",
+      "decision": "retained"
+    },
+    {
+      "index": 366,
+      "word": "易しい",
+      "meaning": "easy",
+      "decision": "retained"
+    },
+    {
+      "index": 367,
+      "word": "欲しい",
+      "meaning": "wanted; desired",
+      "decision": "retained"
+    },
+    {
+      "index": 368,
+      "word": "すごい",
+      "meaning": "amazing; great",
+      "decision": "retained"
+    },
+    {
+      "index": 369,
+      "word": "危ない",
+      "meaning": "dangerous",
+      "decision": "retained"
+    },
+    {
+      "index": 370,
+      "word": "眠い",
+      "meaning": "sleepy",
+      "decision": "retained"
+    },
+    {
+      "index": 371,
+      "word": "元気",
+      "meaning": "healthy; energetic",
+      "decision": "retained"
+    },
+    {
+      "index": 372,
+      "word": "きれい",
+      "meaning": "beautiful; clean",
+      "decision": "retained"
+    },
+    {
+      "index": 373,
+      "word": "有名",
+      "meaning": "famous",
+      "decision": "retained"
+    },
+    {
+      "index": 374,
+      "word": "静か",
+      "meaning": "quiet",
+      "decision": "retained"
+    },
+    {
+      "index": 375,
+      "word": "賑やか",
+      "meaning": "lively; bustling",
+      "decision": "retained"
+    },
+    {
+      "index": 376,
+      "word": "暇",
+      "meaning": "free time; not busy",
+      "decision": "retained"
+    },
+    {
+      "index": 377,
+      "word": "便利",
+      "meaning": "convenient",
+      "decision": "retained"
+    },
+    {
+      "index": 378,
+      "word": "不便",
+      "meaning": "inconvenient",
+      "decision": "retained"
+    },
+    {
+      "index": 379,
+      "word": "上手",
+      "meaning": "skillful; good at",
+      "decision": "retained"
+    },
+    {
+      "index": 380,
+      "word": "下手",
+      "meaning": "unskillful; poor at",
+      "decision": "retained"
+    },
+    {
+      "index": 381,
+      "word": "好き",
+      "meaning": "liked; favorite",
+      "decision": "retained"
+    },
+    {
+      "index": 382,
+      "word": "嫌い",
+      "meaning": "disliked; hated",
+      "decision": "retained"
+    },
+    {
+      "index": 383,
+      "word": "大好き",
+      "meaning": "love; really like",
+      "decision": "retained"
+    },
+    {
+      "index": 384,
+      "word": "大嫌い",
+      "meaning": "really dislike; hate",
+      "decision": "retained"
+    },
+    {
+      "index": 385,
+      "word": "大切",
+      "meaning": "important; precious",
+      "decision": "retained"
+    },
+    {
+      "index": 386,
+      "word": "大丈夫",
+      "meaning": "all right; OK",
+      "decision": "retained"
+    },
+    {
+      "index": 387,
+      "word": "簡単",
+      "meaning": "easy; simple",
+      "decision": "retained"
+    },
+    {
+      "index": 388,
+      "word": "親切",
+      "meaning": "kind; helpful",
+      "decision": "retained"
+    },
+    {
+      "index": 389,
+      "word": "丈夫",
+      "meaning": "strong; durable",
+      "decision": "retained"
+    },
+    {
+      "index": 390,
+      "word": "立派",
+      "meaning": "splendid; fine",
+      "decision": "retained"
+    },
+    {
+      "index": 391,
+      "word": "色々",
+      "meaning": "various",
+      "decision": "retained"
+    },
+    {
+      "index": 392,
+      "word": "同じ",
+      "meaning": "same",
+      "decision": "retained"
+    },
+    {
+      "index": 393,
+      "word": "行く",
+      "meaning": "to go",
+      "decision": "retained"
+    },
+    {
+      "index": 394,
+      "word": "来る",
+      "meaning": "to come",
+      "decision": "retained"
+    },
+    {
+      "index": 395,
+      "word": "帰る",
+      "meaning": "to return; go home",
+      "decision": "retained"
+    },
+    {
+      "index": 396,
+      "word": "ある",
+      "meaning": "to exist (inanimate)",
+      "decision": "retained"
+    },
+    {
+      "index": 397,
+      "word": "いる",
+      "meaning": "to exist (animate)",
+      "decision": "retained"
+    },
+    {
+      "index": 398,
+      "word": "する",
+      "meaning": "to do",
+      "decision": "replaced"
+    },
+    {
+      "index": 399,
+      "word": "食べる",
+      "meaning": "to eat",
+      "decision": "retained"
+    },
+    {
+      "index": 400,
+      "word": "飲む",
+      "meaning": "to drink",
+      "decision": "retained"
+    },
+    {
+      "index": 401,
+      "word": "見る",
+      "meaning": "to see; look; watch",
+      "decision": "retained"
+    },
+    {
+      "index": 402,
+      "word": "聞く",
+      "meaning": "to listen; ask",
+      "decision": "retained"
+    },
+    {
+      "index": 403,
+      "word": "読む",
+      "meaning": "to read",
+      "decision": "retained"
+    },
+    {
+      "index": 404,
+      "word": "書く",
+      "meaning": "to write",
+      "decision": "retained"
+    },
+    {
+      "index": 405,
+      "word": "話す",
+      "meaning": "to speak; talk",
+      "decision": "retained"
+    },
+    {
+      "index": 406,
+      "word": "買う",
+      "meaning": "to buy",
+      "decision": "retained"
+    },
+    {
+      "index": 407,
+      "word": "待つ",
+      "meaning": "to wait",
+      "decision": "retained"
+    },
+    {
+      "index": 408,
+      "word": "会う",
+      "meaning": "to meet",
+      "decision": "retained"
+    },
+    {
+      "index": 409,
+      "word": "歩く",
+      "meaning": "to walk",
+      "decision": "retained"
+    },
+    {
+      "index": 410,
+      "word": "走る",
+      "meaning": "to run",
+      "decision": "retained"
+    },
+    {
+      "index": 411,
+      "word": "泳ぐ",
+      "meaning": "to swim",
+      "decision": "retained"
+    },
+    {
+      "index": 412,
+      "word": "乗る",
+      "meaning": "to ride; board",
+      "decision": "retained"
+    },
+    {
+      "index": 413,
+      "word": "降りる",
+      "meaning": "to get off",
+      "decision": "retained"
+    },
+    {
+      "index": 414,
+      "word": "作る",
+      "meaning": "to make; create",
+      "decision": "retained"
+    },
+    {
+      "index": 415,
+      "word": "使う",
+      "meaning": "to use",
+      "decision": "retained"
+    },
+    {
+      "index": 416,
+      "word": "入る",
+      "meaning": "to enter",
+      "decision": "retained"
+    },
+    {
+      "index": 417,
+      "word": "出る",
+      "meaning": "to go out; leave",
+      "decision": "retained"
+    },
+    {
+      "index": 418,
+      "word": "出す",
+      "meaning": "to take out; submit",
+      "decision": "retained"
+    },
+    {
+      "index": 419,
+      "word": "立つ",
+      "meaning": "to stand",
+      "decision": "retained"
+    },
+    {
+      "index": 420,
+      "word": "座る",
+      "meaning": "to sit",
+      "decision": "retained"
+    },
+    {
+      "index": 421,
+      "word": "寝る",
+      "meaning": "to sleep; lie down",
+      "decision": "retained"
+    },
+    {
+      "index": 422,
+      "word": "起きる",
+      "meaning": "to get up; wake up",
+      "decision": "retained"
+    },
+    {
+      "index": 423,
+      "word": "開ける",
+      "meaning": "to open",
+      "decision": "retained"
+    },
+    {
+      "index": 424,
+      "word": "閉める",
+      "meaning": "to close",
+      "decision": "retained"
+    },
+    {
+      "index": 425,
+      "word": "つける",
+      "meaning": "to turn on",
+      "decision": "retained"
+    },
+    {
+      "index": 426,
+      "word": "消す",
+      "meaning": "to turn off; erase",
+      "decision": "retained"
+    },
+    {
+      "index": 427,
+      "word": "持つ",
+      "meaning": "to hold; have",
+      "decision": "retained"
+    },
+    {
+      "index": 428,
+      "word": "置く",
+      "meaning": "to put; place",
+      "decision": "retained"
+    },
+    {
+      "index": 429,
+      "word": "切る",
+      "meaning": "to cut",
+      "decision": "retained"
+    },
+    {
+      "index": 430,
+      "word": "着る",
+      "meaning": "to wear (upper body)",
+      "decision": "retained"
+    },
+    {
+      "index": 431,
+      "word": "脱ぐ",
+      "meaning": "to take off (clothes)",
+      "decision": "retained"
+    },
+    {
+      "index": 432,
+      "word": "履く",
+      "meaning": "to wear (lower body)",
+      "decision": "retained"
+    },
+    {
+      "index": 433,
+      "word": "かぶる",
+      "meaning": "to put on (head)",
+      "decision": "retained"
+    },
+    {
+      "index": 434,
+      "word": "かける",
+      "meaning": "to put on (glasses); call",
+      "decision": "retained"
+    },
+    {
+      "index": 435,
+      "word": "洗う",
+      "meaning": "to wash",
+      "decision": "retained"
+    },
+    {
+      "index": 436,
+      "word": "働く",
+      "meaning": "to work",
+      "decision": "retained"
+    },
+    {
+      "index": 437,
+      "word": "休む",
+      "meaning": "to rest; be absent",
+      "decision": "retained"
+    },
+    {
+      "index": 438,
+      "word": "遊ぶ",
+      "meaning": "to play",
+      "decision": "retained"
+    },
+    {
+      "index": 439,
+      "word": "歌う",
+      "meaning": "to sing",
+      "decision": "retained"
+    },
+    {
+      "index": 440,
+      "word": "弾く",
+      "meaning": "to play (instrument); to play (strings)",
+      "decision": "retained"
+    },
+    {
+      "index": 441,
+      "word": "撮る",
+      "meaning": "to take (photo)",
+      "decision": "retained"
+    },
+    {
+      "index": 442,
+      "word": "取る",
+      "meaning": "to take; get",
+      "decision": "retained"
+    },
+    {
+      "index": 443,
+      "word": "送る",
+      "meaning": "to send; to see off",
+      "decision": "retained"
+    },
+    {
+      "index": 444,
+      "word": "貸す",
+      "meaning": "to lend",
+      "decision": "retained"
+    },
+    {
+      "index": 445,
+      "word": "借りる",
+      "meaning": "to borrow",
+      "decision": "retained"
+    },
+    {
+      "index": 446,
+      "word": "返す",
+      "meaning": "to return (something)",
+      "decision": "retained"
+    },
+    {
+      "index": 447,
+      "word": "教える",
+      "meaning": "to teach; tell",
+      "decision": "retained"
+    },
+    {
+      "index": 448,
+      "word": "習う",
+      "meaning": "to learn",
+      "decision": "retained"
+    },
+    {
+      "index": 449,
+      "word": "勉強する",
+      "meaning": "to study",
+      "decision": "retained"
+    },
+    {
+      "index": 450,
+      "word": "練習する",
+      "meaning": "to practice",
+      "decision": "retained"
+    },
+    {
+      "index": 451,
+      "word": "知る",
+      "meaning": "to know",
+      "decision": "retained"
+    },
+    {
+      "index": 452,
+      "word": "分かる",
+      "meaning": "to understand",
+      "decision": "retained"
+    },
+    {
+      "index": 453,
+      "word": "思う",
+      "meaning": "to think",
+      "decision": "retained"
+    },
+    {
+      "index": 454,
+      "word": "言う",
+      "meaning": "to say",
+      "decision": "retained"
+    },
+    {
+      "index": 455,
+      "word": "答える",
+      "meaning": "to answer",
+      "decision": "retained"
+    },
+    {
+      "index": 456,
+      "word": "呼ぶ",
+      "meaning": "to call",
+      "decision": "retained"
+    },
+    {
+      "index": 457,
+      "word": "死ぬ",
+      "meaning": "to die",
+      "decision": "retained"
+    },
+    {
+      "index": 458,
+      "word": "住む",
+      "meaning": "to live; reside",
+      "decision": "retained"
+    },
+    {
+      "index": 459,
+      "word": "売る",
+      "meaning": "to sell",
+      "decision": "retained"
+    },
+    {
+      "index": 460,
+      "word": "払う",
+      "meaning": "to pay",
+      "decision": "retained"
+    },
+    {
+      "index": 461,
+      "word": "曲がる",
+      "meaning": "to turn",
+      "decision": "retained"
+    },
+    {
+      "index": 462,
+      "word": "渡る",
+      "meaning": "to cross",
+      "decision": "retained"
+    },
+    {
+      "index": 463,
+      "word": "止まる",
+      "meaning": "to stop",
+      "decision": "retained"
+    },
+    {
+      "index": 464,
+      "word": "飛ぶ",
+      "meaning": "to fly; jump",
+      "decision": "retained"
+    },
+    {
+      "index": 465,
+      "word": "上がる",
+      "meaning": "to go up; rise",
+      "decision": "replaced"
+    },
+    {
+      "index": 466,
+      "word": "降る",
+      "meaning": "to fall (rain/snow)",
+      "decision": "retained"
+    },
+    {
+      "index": 467,
+      "word": "吹く",
+      "meaning": "to blow",
+      "decision": "retained"
+    },
+    {
+      "index": 468,
+      "word": "押す",
+      "meaning": "to push; press",
+      "decision": "retained"
+    },
+    {
+      "index": 469,
+      "word": "引く",
+      "meaning": "to pull; draw",
+      "decision": "retained"
+    },
+    {
+      "index": 470,
+      "word": "つく",
+      "meaning": "to arrive; reach",
+      "decision": "replaced"
+    },
+    {
+      "index": 471,
+      "word": "困る",
+      "meaning": "to be troubled",
+      "decision": "retained"
+    },
+    {
+      "index": 472,
+      "word": "笑う",
+      "meaning": "to laugh; smile",
+      "decision": "retained"
+    },
+    {
+      "index": 473,
+      "word": "泣く",
+      "meaning": "to cry",
+      "decision": "retained"
+    },
+    {
+      "index": 474,
+      "word": "怒る",
+      "meaning": "to get angry",
+      "decision": "retained"
+    },
+    {
+      "index": 475,
+      "word": "疲れる",
+      "meaning": "to get tired",
+      "decision": "retained"
+    },
+    {
+      "index": 476,
+      "word": "始まる",
+      "meaning": "to begin (intrans.)",
+      "decision": "retained"
+    },
+    {
+      "index": 477,
+      "word": "終わる",
+      "meaning": "to end (intrans.)",
+      "decision": "retained"
+    },
+    {
+      "index": 478,
+      "word": "なくす",
+      "meaning": "to lose",
+      "decision": "retained"
+    },
+    {
+      "index": 479,
+      "word": "忘れる",
+      "meaning": "to forget",
+      "decision": "retained"
+    },
+    {
+      "index": 480,
+      "word": "覚える",
+      "meaning": "to memorize; remember",
+      "decision": "retained"
+    },
+    {
+      "index": 481,
+      "word": "並ぶ",
+      "meaning": "to line up",
+      "decision": "retained"
+    },
+    {
+      "index": 482,
+      "word": "変わる",
+      "meaning": "to change",
+      "decision": "retained"
+    },
+    {
+      "index": 483,
+      "word": "違う",
+      "meaning": "to differ; be wrong",
+      "decision": "retained"
+    },
+    {
+      "index": 484,
+      "word": "要る",
+      "meaning": "to need",
+      "decision": "retained"
+    },
+    {
+      "index": 485,
+      "word": "出来る",
+      "meaning": "to be able to",
+      "decision": "retained"
+    },
+    {
+      "index": 486,
+      "word": "掃除する",
+      "meaning": "to clean",
+      "decision": "retained"
+    },
+    {
+      "index": 487,
+      "word": "洗濯する",
+      "meaning": "to do laundry",
+      "decision": "retained"
+    },
+    {
+      "index": 488,
+      "word": "料理する",
+      "meaning": "to cook",
+      "decision": "retained"
+    },
+    {
+      "index": 489,
+      "word": "散歩する",
+      "meaning": "to take a walk",
+      "decision": "retained"
+    },
+    {
+      "index": 490,
+      "word": "旅行する",
+      "meaning": "to travel",
+      "decision": "retained"
+    },
+    {
+      "index": 491,
+      "word": "電話する",
+      "meaning": "to telephone",
+      "decision": "retained"
+    },
+    {
+      "index": 492,
+      "word": "結婚する",
+      "meaning": "to marry",
+      "decision": "retained"
+    },
+    {
+      "index": 493,
+      "word": "買い物する",
+      "meaning": "to shop",
+      "decision": "retained"
+    },
+    {
+      "index": 494,
+      "word": "とても",
+      "meaning": "very",
+      "decision": "retained"
+    },
+    {
+      "index": 495,
+      "word": "たくさん",
+      "meaning": "a lot; many",
+      "decision": "retained"
+    },
+    {
+      "index": 496,
+      "word": "少し",
+      "meaning": "a little",
+      "decision": "retained"
+    },
+    {
+      "index": 497,
+      "word": "ちょっと",
+      "meaning": "a little; slightly",
+      "decision": "retained"
+    },
+    {
+      "index": 498,
+      "word": "全然",
+      "meaning": "not at all",
+      "decision": "retained"
+    },
+    {
+      "index": 499,
+      "word": "もう",
+      "meaning": "already; anymore",
+      "decision": "retained"
+    },
+    {
+      "index": 500,
+      "word": "まだ",
+      "meaning": "still; not yet",
+      "decision": "retained"
+    },
+    {
+      "index": 501,
+      "word": "いつも",
+      "meaning": "always",
+      "decision": "retained"
+    },
+    {
+      "index": 502,
+      "word": "よく",
+      "meaning": "often; well",
+      "decision": "retained"
+    },
+    {
+      "index": 503,
+      "word": "時々",
+      "meaning": "sometimes",
+      "decision": "retained"
+    },
+    {
+      "index": 504,
+      "word": "あまり",
+      "meaning": "not very; not much",
+      "decision": "retained"
+    },
+    {
+      "index": 505,
+      "word": "大変",
+      "meaning": "very; greatly; tough; terrible",
+      "decision": "retained"
+    },
+    {
+      "index": 506,
+      "word": "もっと",
+      "meaning": "more",
+      "decision": "retained"
+    },
+    {
+      "index": 507,
+      "word": "一番",
+      "meaning": "the most; number one",
+      "decision": "retained"
+    },
+    {
+      "index": 508,
+      "word": "だんだん",
+      "meaning": "gradually",
+      "decision": "retained"
+    },
+    {
+      "index": 509,
+      "word": "初めて",
+      "meaning": "for the first time",
+      "decision": "retained"
+    },
+    {
+      "index": 510,
+      "word": "多分",
+      "meaning": "maybe; probably",
+      "decision": "retained"
+    },
+    {
+      "index": 511,
+      "word": "本当に",
+      "meaning": "really; truly",
+      "decision": "retained"
+    },
+    {
+      "index": 512,
+      "word": "一緒に",
+      "meaning": "together",
+      "decision": "retained"
+    },
+    {
+      "index": 513,
+      "word": "ゆっくり",
+      "meaning": "slowly",
+      "decision": "retained"
+    },
+    {
+      "index": 514,
+      "word": "すぐ",
+      "meaning": "immediately; soon",
+      "decision": "retained"
+    },
+    {
+      "index": 515,
+      "word": "真っ直ぐ",
+      "meaning": "straight",
+      "decision": "retained"
+    },
+    {
+      "index": 516,
+      "word": "大体",
+      "meaning": "approximately",
+      "decision": "retained"
+    },
+    {
+      "index": 517,
+      "word": "そして",
+      "meaning": "and then",
+      "decision": "retained"
+    },
+    {
+      "index": 518,
+      "word": "しかし",
+      "meaning": "however",
+      "decision": "retained"
+    },
+    {
+      "index": 519,
+      "word": "でも",
+      "meaning": "but",
+      "decision": "retained"
+    },
+    {
+      "index": 520,
+      "word": "それから",
+      "meaning": "after that; and then",
+      "decision": "retained"
+    },
+    {
+      "index": 521,
+      "word": "だから",
+      "meaning": "therefore; so",
+      "decision": "retained"
+    },
+    {
+      "index": 522,
+      "word": "けれども",
+      "meaning": "however; but",
+      "decision": "retained"
+    },
+    {
+      "index": 523,
+      "word": "名前",
+      "meaning": "name",
+      "decision": "retained"
+    },
+    {
+      "index": 524,
+      "word": "言葉",
+      "meaning": "word; language",
+      "decision": "retained"
+    },
+    {
+      "index": 525,
+      "word": "意味",
+      "meaning": "meaning",
+      "decision": "retained"
+    },
+    {
+      "index": 526,
+      "word": "問題",
+      "meaning": "problem; question",
+      "decision": "retained"
+    },
+    {
+      "index": 527,
+      "word": "質問",
+      "meaning": "question",
+      "decision": "retained"
+    },
+    {
+      "index": 528,
+      "word": "答え",
+      "meaning": "answer",
+      "decision": "retained"
+    },
+    {
+      "index": 529,
+      "word": "テスト",
+      "meaning": "test",
+      "decision": "retained"
+    },
+    {
+      "index": 530,
+      "word": "宿題",
+      "meaning": "homework",
+      "decision": "retained"
+    },
+    {
+      "index": 531,
+      "word": "授業",
+      "meaning": "class; lesson",
+      "decision": "retained"
+    },
+    {
+      "index": 532,
+      "word": "仕事",
+      "meaning": "work; job",
+      "decision": "retained"
+    },
+    {
+      "index": 533,
+      "word": "休み",
+      "meaning": "holiday; rest",
+      "decision": "retained"
+    },
+    {
+      "index": 534,
+      "word": "旅行",
+      "meaning": "trip; travel",
+      "decision": "retained"
+    },
+    {
+      "index": 535,
+      "word": "映画",
+      "meaning": "movie",
+      "decision": "retained"
+    },
+    {
+      "index": 536,
+      "word": "音楽",
+      "meaning": "music",
+      "decision": "retained"
+    },
+    {
+      "index": 537,
+      "word": "スポーツ",
+      "meaning": "sports",
+      "decision": "retained"
+    },
+    {
+      "index": 538,
+      "word": "歌",
+      "meaning": "song",
+      "decision": "retained"
+    },
+    {
+      "index": 539,
+      "word": "絵",
+      "meaning": "picture; painting",
+      "decision": "retained"
+    },
+    {
+      "index": 540,
+      "word": "荷物",
+      "meaning": "luggage; baggage",
+      "decision": "retained"
+    },
+    {
+      "index": 541,
+      "word": "お土産",
+      "meaning": "souvenir",
+      "decision": "retained"
+    },
+    {
+      "index": 542,
+      "word": "約束",
+      "meaning": "promise; appointment",
+      "decision": "retained"
+    },
+    {
+      "index": 543,
+      "word": "誕生日",
+      "meaning": "birthday",
+      "decision": "retained"
+    },
+    {
+      "index": 544,
+      "word": "お祭り",
+      "meaning": "festival",
+      "decision": "retained"
+    },
+    {
+      "index": 545,
+      "word": "プール",
+      "meaning": "pool",
+      "decision": "retained"
+    },
+    {
+      "index": 546,
+      "word": "エレベーター",
+      "meaning": "elevator",
+      "decision": "retained"
+    },
+    {
+      "index": 547,
+      "word": "エアコン",
+      "meaning": "air conditioner",
+      "decision": "retained"
+    },
+    {
+      "index": 548,
+      "word": "冷蔵庫",
+      "meaning": "refrigerator",
+      "decision": "retained"
+    },
+    {
+      "index": 549,
+      "word": "石鹸",
+      "meaning": "soap",
+      "decision": "retained"
+    },
+    {
+      "index": 550,
+      "word": "タオル",
+      "meaning": "towel",
+      "decision": "retained"
+    },
+    {
+      "index": 551,
+      "word": "お皿",
+      "meaning": "plate (polite)",
+      "decision": "retained"
+    },
+    {
+      "index": 552,
+      "word": "コート",
+      "meaning": "coat",
+      "decision": "retained"
+    },
+    {
+      "index": 553,
+      "word": "セーター",
+      "meaning": "sweater",
+      "decision": "retained"
+    },
+    {
+      "index": 554,
+      "word": "ポケット",
+      "meaning": "pocket",
+      "decision": "retained"
+    },
+    {
+      "index": 555,
+      "word": "日本",
+      "meaning": "Japan",
+      "decision": "retained"
+    },
+    {
+      "index": 556,
+      "word": "日本語",
+      "meaning": "Japanese language",
+      "decision": "retained"
+    },
+    {
+      "index": 557,
+      "word": "英語",
+      "meaning": "English language",
+      "decision": "retained"
+    },
+    {
+      "index": 558,
+      "word": "中国",
+      "meaning": "China",
+      "decision": "retained"
+    },
+    {
+      "index": 559,
+      "word": "韓国",
+      "meaning": "South Korea",
+      "decision": "retained"
+    },
+    {
+      "index": 560,
+      "word": "アメリカ",
+      "meaning": "America; USA",
+      "decision": "retained"
+    },
+    {
+      "index": 561,
+      "word": "外国",
+      "meaning": "foreign country",
+      "decision": "retained"
+    },
+    {
+      "index": 562,
+      "word": "国",
+      "meaning": "country",
+      "decision": "retained"
+    },
+    {
+      "index": 563,
+      "word": "町",
+      "meaning": "town",
+      "decision": "retained"
+    },
+    {
+      "index": 564,
+      "word": "村",
+      "meaning": "village",
+      "decision": "retained"
+    },
+    {
+      "index": 565,
+      "word": "番号",
+      "meaning": "number",
+      "decision": "retained"
+    },
+    {
+      "index": 566,
+      "word": "ページ",
+      "meaning": "page",
+      "decision": "retained"
+    },
+    {
+      "index": 567,
+      "word": "方",
+      "meaning": "person (polite); direction",
+      "decision": "retained"
+    },
+    {
+      "index": 568,
+      "word": "所",
+      "meaning": "place",
+      "decision": "retained"
+    },
+    {
+      "index": 569,
+      "word": "事",
+      "meaning": "thing (abstract)",
+      "decision": "retained"
+    },
+    {
+      "index": 570,
+      "word": "〜人",
+      "meaning": "person of ~",
+      "decision": "retained"
+    },
+    {
+      "index": 571,
+      "word": "〜語",
+      "meaning": "language of ~",
+      "decision": "retained text-only"
+    },
+    {
+      "index": 572,
+      "word": "〜円",
+      "meaning": "~ yen",
+      "decision": "retained"
+    },
+    {
+      "index": 573,
+      "word": "〜枚",
+      "meaning": "counter for flat objects",
+      "decision": "retained"
+    },
+    {
+      "index": 574,
+      "word": "〜冊",
+      "meaning": "counter for books",
+      "decision": "retained"
+    },
+    {
+      "index": 575,
+      "word": "〜匹",
+      "meaning": "counter for small animals",
+      "decision": "retained"
+    },
+    {
+      "index": 576,
+      "word": "〜本",
+      "meaning": "counter for long objects",
+      "decision": "retained"
+    },
+    {
+      "index": 577,
+      "word": "〜杯",
+      "meaning": "counter for cups/glasses",
+      "decision": "retained"
+    },
+    {
+      "index": 578,
+      "word": "〜台",
+      "meaning": "counter for machines",
+      "decision": "retained"
+    },
+    {
+      "index": 579,
+      "word": "〜個",
+      "meaning": "counter for small objects",
+      "decision": "retained"
+    },
+    {
+      "index": 580,
+      "word": "〜階",
+      "meaning": "floor; story",
+      "decision": "retained"
+    },
+    {
+      "index": 581,
+      "word": "〜番",
+      "meaning": "number; turn",
+      "decision": "retained text-only"
+    },
+    {
+      "index": 582,
+      "word": "〜回",
+      "meaning": "~ times",
+      "decision": "retained"
+    },
+    {
+      "index": 583,
+      "word": "〜時",
+      "meaning": "~ o'clock",
+      "decision": "retained"
+    },
+    {
+      "index": 584,
+      "word": "〜年",
+      "meaning": "~ year",
+      "decision": "retained"
+    },
+    {
+      "index": 585,
+      "word": "〜月",
+      "meaning": "~ month",
+      "decision": "retained"
+    },
+    {
+      "index": 586,
+      "word": "〜日",
+      "meaning": "~ day",
+      "decision": "retained"
+    },
+    {
+      "index": 587,
+      "word": "〜週間",
+      "meaning": "~ weeks",
+      "decision": "retained"
+    },
+    {
+      "index": 588,
+      "word": "〜か月",
+      "meaning": "~ months",
+      "decision": "retained"
+    },
+    {
+      "index": 589,
+      "word": "〜才",
+      "meaning": "~ years old",
+      "decision": "retained"
+    },
+    {
+      "index": 590,
+      "word": "〜度",
+      "meaning": "~ times; ~ degrees",
+      "decision": "retained"
+    },
+    {
+      "index": 591,
+      "word": "〜人",
+      "meaning": "~ people",
+      "decision": "retained"
+    },
+    {
+      "index": 592,
+      "word": "会議",
+      "meaning": "meeting; conference",
+      "decision": "retained"
+    },
+    {
+      "index": 593,
+      "word": "会場",
+      "meaning": "venue; meeting place",
+      "decision": "retained"
+    },
+    {
+      "index": 594,
+      "word": "経験",
+      "meaning": "experience",
+      "decision": "retained"
+    },
+    {
+      "index": 595,
+      "word": "社会",
+      "meaning": "society",
+      "decision": "retained"
+    },
+    {
+      "index": 596,
+      "word": "政治",
+      "meaning": "politics",
+      "decision": "retained"
+    },
+    {
+      "index": 597,
+      "word": "経済",
+      "meaning": "economy",
+      "decision": "retained"
+    },
+    {
+      "index": 598,
+      "word": "文化",
+      "meaning": "culture",
+      "decision": "retained"
+    },
+    {
+      "index": 599,
+      "word": "歴史",
+      "meaning": "history",
+      "decision": "retained"
+    },
+    {
+      "index": 600,
+      "word": "技術",
+      "meaning": "technology; skill",
+      "decision": "retained"
+    },
+    {
+      "index": 601,
+      "word": "生活",
+      "meaning": "life; daily living",
+      "decision": "retained"
+    },
+    {
+      "index": 602,
+      "word": "習慣",
+      "meaning": "habit; custom",
+      "decision": "retained"
+    },
+    {
+      "index": 603,
+      "word": "趣味",
+      "meaning": "hobby",
+      "decision": "retained"
+    },
+    {
+      "index": 604,
+      "word": "興味",
+      "meaning": "interest",
+      "decision": "retained"
+    },
+    {
+      "index": 605,
+      "word": "関係",
+      "meaning": "relationship; connection",
+      "decision": "retained"
+    },
+    {
+      "index": 606,
+      "word": "理由",
+      "meaning": "reason",
+      "decision": "retained"
+    },
+    {
+      "index": 607,
+      "word": "原因",
+      "meaning": "cause",
+      "decision": "retained"
+    },
+    {
+      "index": 608,
+      "word": "目的",
+      "meaning": "purpose; goal",
+      "decision": "retained"
+    },
+    {
+      "index": 609,
+      "word": "予定",
+      "meaning": "schedule; plan",
+      "decision": "retained"
+    },
+    {
+      "index": 610,
+      "word": "計画",
+      "meaning": "plan; project",
+      "decision": "retained"
+    },
+    {
+      "index": 611,
+      "word": "準備",
+      "meaning": "preparation",
+      "decision": "retained"
+    },
+    {
+      "index": 612,
+      "word": "場所",
+      "meaning": "place; location",
+      "decision": "retained"
+    },
+    {
+      "index": 613,
+      "word": "場合",
+      "meaning": "case; situation",
+      "decision": "retained"
+    },
+    {
+      "index": 614,
+      "word": "機会",
+      "meaning": "opportunity; chance",
+      "decision": "retained"
+    },
+    {
+      "index": 615,
+      "word": "お見舞い",
+      "meaning": "visiting the sick",
+      "decision": "retained"
+    },
+    {
+      "index": 616,
+      "word": "お祝い",
+      "meaning": "celebration; congratulations",
+      "decision": "retained"
+    },
+    {
+      "index": 617,
+      "word": "お礼",
+      "meaning": "thanks; gratitude",
+      "decision": "retained"
+    },
+    {
+      "index": 618,
+      "word": "挨拶",
+      "meaning": "greeting",
+      "decision": "retained"
+    },
+    {
+      "index": 619,
+      "word": "返事",
+      "meaning": "reply; answer",
+      "decision": "retained"
+    },
+    {
+      "index": 620,
+      "word": "連絡",
+      "meaning": "contact; communication",
+      "decision": "retained"
+    },
+    {
+      "index": 621,
+      "word": "紹介",
+      "meaning": "introduction",
+      "decision": "retained"
+    },
+    {
+      "index": 622,
+      "word": "説明",
+      "meaning": "explanation",
+      "decision": "retained"
+    },
+    {
+      "index": 623,
+      "word": "注意",
+      "meaning": "caution; attention",
+      "decision": "retained"
+    },
+    {
+      "index": 624,
+      "word": "案内",
+      "meaning": "guidance; information",
+      "decision": "retained"
+    },
+    {
+      "index": 625,
+      "word": "受付",
+      "meaning": "reception",
+      "decision": "retained"
+    },
+    {
+      "index": 626,
+      "word": "予約",
+      "meaning": "reservation",
+      "decision": "retained"
+    },
+    {
+      "index": 627,
+      "word": "申込",
+      "meaning": "application",
+      "decision": "retained"
+    },
+    {
+      "index": 628,
+      "word": "教育",
+      "meaning": "education",
+      "decision": "retained"
+    },
+    {
+      "index": 629,
+      "word": "小学校",
+      "meaning": "elementary school",
+      "decision": "retained"
+    },
+    {
+      "index": 630,
+      "word": "中学校",
+      "meaning": "middle school",
+      "decision": "retained"
+    },
+    {
+      "index": 631,
+      "word": "高校",
+      "meaning": "high school",
+      "decision": "retained"
+    },
+    {
+      "index": 632,
+      "word": "入学",
+      "meaning": "admission; enrollment",
+      "decision": "retained"
+    },
+    {
+      "index": 633,
+      "word": "卒業",
+      "meaning": "graduation",
+      "decision": "retained"
+    },
+    {
+      "index": 634,
+      "word": "試験",
+      "meaning": "exam",
+      "decision": "retained"
+    },
+    {
+      "index": 635,
+      "word": "成績",
+      "meaning": "grades; results",
+      "decision": "retained"
+    },
+    {
+      "index": 636,
+      "word": "研究",
+      "meaning": "research",
+      "decision": "retained"
+    },
+    {
+      "index": 637,
+      "word": "科学",
+      "meaning": "science",
+      "decision": "retained"
+    },
+    {
+      "index": 638,
+      "word": "数学",
+      "meaning": "mathematics",
+      "decision": "retained"
+    },
+    {
+      "index": 639,
+      "word": "地理",
+      "meaning": "geography",
+      "decision": "retained"
+    },
+    {
+      "index": 640,
+      "word": "文学",
+      "meaning": "literature",
+      "decision": "retained"
+    },
+    {
+      "index": 641,
+      "word": "文法",
+      "meaning": "grammar",
+      "decision": "retained"
+    },
+    {
+      "index": 642,
+      "word": "漢字",
+      "meaning": "kanji; Chinese characters",
+      "decision": "retained"
+    },
+    {
+      "index": 643,
+      "word": "発音",
+      "meaning": "pronunciation",
+      "decision": "retained"
+    },
+    {
+      "index": 644,
+      "word": "翻訳",
+      "meaning": "translation",
+      "decision": "retained"
+    },
+    {
+      "index": 645,
+      "word": "彼ら",
+      "meaning": "they (male)",
+      "decision": "retained"
+    },
+    {
+      "index": 646,
+      "word": "自分",
+      "meaning": "oneself",
+      "decision": "retained"
+    },
+    {
+      "index": 647,
+      "word": "相手",
+      "meaning": "partner; opponent",
+      "decision": "retained"
+    },
+    {
+      "index": 648,
+      "word": "先輩",
+      "meaning": "senior; upperclassman",
+      "decision": "retained"
+    },
+    {
+      "index": 649,
+      "word": "後輩",
+      "meaning": "junior; underclassman",
+      "decision": "retained"
+    },
+    {
+      "index": 650,
+      "word": "店員",
+      "meaning": "shop employee",
+      "decision": "retained"
+    },
+    {
+      "index": 651,
+      "word": "客",
+      "meaning": "customer; guest",
+      "decision": "retained"
+    },
+    {
+      "index": 652,
+      "word": "社長",
+      "meaning": "company president",
+      "decision": "retained"
+    },
+    {
+      "index": 653,
+      "word": "部長",
+      "meaning": "department head",
+      "decision": "retained"
+    },
+    {
+      "index": 654,
+      "word": "課長",
+      "meaning": "section chief",
+      "decision": "retained"
+    },
+    {
+      "index": 655,
+      "word": "彼氏",
+      "meaning": "boyfriend",
+      "decision": "retained"
+    },
+    {
+      "index": 656,
+      "word": "息子",
+      "meaning": "son",
+      "decision": "retained"
+    },
+    {
+      "index": 657,
+      "word": "娘",
+      "meaning": "daughter",
+      "decision": "retained"
+    },
+    {
+      "index": 658,
+      "word": "親",
+      "meaning": "parent",
+      "decision": "retained"
+    },
+    {
+      "index": 659,
+      "word": "祖父",
+      "meaning": "grandfather",
+      "decision": "retained"
+    },
+    {
+      "index": 660,
+      "word": "祖母",
+      "meaning": "grandmother",
+      "decision": "retained"
+    },
+    {
+      "index": 661,
+      "word": "おじさん",
+      "meaning": "uncle; middle-aged man",
+      "decision": "retained"
+    },
+    {
+      "index": 662,
+      "word": "おばさん",
+      "meaning": "aunt; middle-aged woman",
+      "decision": "retained"
+    },
+    {
+      "index": 663,
+      "word": "いとこ",
+      "meaning": "cousin",
+      "decision": "retained"
+    },
+    {
+      "index": 664,
+      "word": "隣人",
+      "meaning": "neighbor",
+      "decision": "retained"
+    },
+    {
+      "index": 665,
+      "word": "季節",
+      "meaning": "season",
+      "decision": "retained"
+    },
+    {
+      "index": 666,
+      "word": "春",
+      "meaning": "spring",
+      "decision": "retained"
+    },
+    {
+      "index": 667,
+      "word": "夏",
+      "meaning": "summer",
+      "decision": "retained"
+    },
+    {
+      "index": 668,
+      "word": "秋",
+      "meaning": "autumn",
+      "decision": "retained"
+    },
+    {
+      "index": 669,
+      "word": "冬",
+      "meaning": "winter",
+      "decision": "retained"
+    },
+    {
+      "index": 670,
+      "word": "台風",
+      "meaning": "typhoon",
+      "decision": "retained"
+    },
+    {
+      "index": 671,
+      "word": "地震",
+      "meaning": "earthquake",
+      "decision": "retained"
+    },
+    {
+      "index": 672,
+      "word": "火事",
+      "meaning": "fire (disaster)",
+      "decision": "retained"
+    },
+    {
+      "index": 673,
+      "word": "事故",
+      "meaning": "accident",
+      "decision": "retained"
+    },
+    {
+      "index": 674,
+      "word": "島",
+      "meaning": "island",
+      "decision": "retained"
+    },
+    {
+      "index": 675,
+      "word": "森",
+      "meaning": "forest",
+      "decision": "retained"
+    },
+    {
+      "index": 676,
+      "word": "湖",
+      "meaning": "lake",
+      "decision": "retained"
+    },
+    {
+      "index": 677,
+      "word": "葉",
+      "meaning": "leaf",
+      "decision": "retained"
+    },
+    {
+      "index": 678,
+      "word": "草",
+      "meaning": "grass",
+      "decision": "retained"
+    },
+    {
+      "index": 679,
+      "word": "石",
+      "meaning": "stone; rock",
+      "decision": "retained"
+    },
+    {
+      "index": 680,
+      "word": "砂",
+      "meaning": "sand",
+      "decision": "retained"
+    },
+    {
+      "index": 681,
+      "word": "星",
+      "meaning": "star",
+      "decision": "retained"
+    },
+    {
+      "index": 682,
+      "word": "月",
+      "meaning": "moon",
+      "decision": "retained"
+    },
+    {
+      "index": 683,
+      "word": "太陽",
+      "meaning": "sun",
+      "decision": "retained"
+    },
+    {
+      "index": 684,
+      "word": "虫",
+      "meaning": "insect; bug",
+      "decision": "retained"
+    },
+    {
+      "index": 685,
+      "word": "建物",
+      "meaning": "building",
+      "decision": "retained"
+    },
+    {
+      "index": 686,
+      "word": "工場",
+      "meaning": "factory",
+      "decision": "retained"
+    },
+    {
+      "index": 687,
+      "word": "神社",
+      "meaning": "shrine",
+      "decision": "retained"
+    },
+    {
+      "index": 688,
+      "word": "お寺",
+      "meaning": "temple",
+      "decision": "retained"
+    },
+    {
+      "index": 689,
+      "word": "教会",
+      "meaning": "church",
+      "decision": "retained"
+    },
+    {
+      "index": 690,
+      "word": "美術館",
+      "meaning": "art museum",
+      "decision": "retained"
+    },
+    {
+      "index": 691,
+      "word": "博物館",
+      "meaning": "museum",
+      "decision": "retained"
+    },
+    {
+      "index": 692,
+      "word": "動物園",
+      "meaning": "zoo",
+      "decision": "retained"
+    },
+    {
+      "index": 693,
+      "word": "遊園地",
+      "meaning": "amusement park",
+      "decision": "retained"
+    },
+    {
+      "index": 694,
+      "word": "駐車場",
+      "meaning": "parking lot",
+      "decision": "retained"
+    },
+    {
+      "index": 695,
+      "word": "交番",
+      "meaning": "police box",
+      "decision": "retained"
+    },
+    {
+      "index": 696,
+      "word": "薬局",
+      "meaning": "pharmacy",
+      "decision": "retained"
+    },
+    {
+      "index": 697,
+      "word": "床屋",
+      "meaning": "barber",
+      "decision": "retained"
+    },
+    {
+      "index": 698,
+      "word": "市役所",
+      "meaning": "city hall",
+      "decision": "retained"
+    },
+    {
+      "index": 699,
+      "word": "道具",
+      "meaning": "tool; instrument",
+      "decision": "retained"
+    },
+    {
+      "index": 700,
+      "word": "機械",
+      "meaning": "machine",
+      "decision": "retained"
+    },
+    {
+      "index": 701,
+      "word": "製品",
+      "meaning": "product",
+      "decision": "retained"
+    },
+    {
+      "index": 702,
+      "word": "材料",
+      "meaning": "material; ingredient",
+      "decision": "retained"
+    },
+    {
+      "index": 703,
+      "word": "布",
+      "meaning": "cloth; fabric",
+      "decision": "retained"
+    },
+    {
+      "index": 704,
+      "word": "糸",
+      "meaning": "thread; string",
+      "decision": "retained"
+    },
+    {
+      "index": 705,
+      "word": "ゴミ",
+      "meaning": "trash; garbage",
+      "decision": "retained"
+    },
+    {
+      "index": 706,
+      "word": "ゴミ箱",
+      "meaning": "trash can",
+      "decision": "retained"
+    },
+    {
+      "index": 707,
+      "word": "引き出し",
+      "meaning": "drawer",
+      "decision": "retained"
+    },
+    {
+      "index": 708,
+      "word": "棚",
+      "meaning": "shelf",
+      "decision": "retained"
+    },
+    {
+      "index": 709,
+      "word": "壁",
+      "meaning": "wall",
+      "decision": "retained"
+    },
+    {
+      "index": 710,
+      "word": "天井",
+      "meaning": "ceiling",
+      "decision": "retained"
+    },
+    {
+      "index": 711,
+      "word": "床",
+      "meaning": "floor",
+      "decision": "retained"
+    },
+    {
+      "index": 712,
+      "word": "畳",
+      "meaning": "tatami mat",
+      "decision": "retained"
+    },
+    {
+      "index": 713,
+      "word": "布団",
+      "meaning": "futon",
+      "decision": "retained"
+    },
+    {
+      "index": 714,
+      "word": "鏡",
+      "meaning": "mirror",
+      "decision": "retained"
+    },
+    {
+      "index": 715,
+      "word": "人形",
+      "meaning": "doll",
+      "decision": "retained"
+    },
+    {
+      "index": 716,
+      "word": "おもちゃ",
+      "meaning": "toy",
+      "decision": "retained"
+    },
+    {
+      "index": 717,
+      "word": "ハンカチ",
+      "meaning": "handkerchief",
+      "decision": "retained"
+    },
+    {
+      "index": 718,
+      "word": "ガソリン",
+      "meaning": "gasoline",
+      "decision": "retained"
+    },
+    {
+      "index": 719,
+      "word": "パスポート",
+      "meaning": "passport",
+      "decision": "retained"
+    },
+    {
+      "index": 720,
+      "word": "ビザ",
+      "meaning": "visa",
+      "decision": "retained"
+    },
+    {
+      "index": 721,
+      "word": "味",
+      "meaning": "taste; flavor",
+      "decision": "retained"
+    },
+    {
+      "index": 722,
+      "word": "醤油",
+      "meaning": "soy sauce",
+      "decision": "retained"
+    },
+    {
+      "index": 723,
+      "word": "味噌",
+      "meaning": "miso",
+      "decision": "retained"
+    },
+    {
+      "index": 724,
+      "word": "お菓子",
+      "meaning": "sweets; snacks",
+      "decision": "retained"
+    },
+    {
+      "index": 725,
+      "word": "ケーキ",
+      "meaning": "cake",
+      "decision": "retained"
+    },
+    {
+      "index": 726,
+      "word": "アイスクリーム",
+      "meaning": "ice cream",
+      "decision": "retained"
+    },
+    {
+      "index": 727,
+      "word": "サラダ",
+      "meaning": "salad",
+      "decision": "retained"
+    },
+    {
+      "index": 728,
+      "word": "スープ",
+      "meaning": "soup",
+      "decision": "retained"
+    },
+    {
+      "index": 729,
+      "word": "ジュース",
+      "meaning": "juice",
+      "decision": "retained"
+    },
+    {
+      "index": 730,
+      "word": "ビール",
+      "meaning": "beer",
+      "decision": "retained"
+    },
+    {
+      "index": 731,
+      "word": "ワイン",
+      "meaning": "wine",
+      "decision": "retained"
+    },
+    {
+      "index": 732,
+      "word": "健康",
+      "meaning": "health",
+      "decision": "retained"
+    },
+    {
+      "index": 733,
+      "word": "病気",
+      "meaning": "illness; disease",
+      "decision": "retained"
+    },
+    {
+      "index": 734,
+      "word": "薬",
+      "meaning": "medicine",
+      "decision": "retained"
+    },
+    {
+      "index": 735,
+      "word": "熱",
+      "meaning": "fever; heat",
+      "decision": "retained"
+    },
+    {
+      "index": 736,
+      "word": "風邪",
+      "meaning": "cold (illness)",
+      "decision": "retained"
+    },
+    {
+      "index": 737,
+      "word": "怪我",
+      "meaning": "injury",
+      "decision": "retained"
+    },
+    {
+      "index": 738,
+      "word": "入院",
+      "meaning": "hospitalization",
+      "decision": "retained"
+    },
+    {
+      "index": 739,
+      "word": "退院",
+      "meaning": "leaving hospital",
+      "decision": "retained"
+    },
+    {
+      "index": 740,
+      "word": "背中",
+      "meaning": "back (body)",
+      "decision": "retained"
+    },
+    {
+      "index": 741,
+      "word": "首",
+      "meaning": "neck",
+      "decision": "retained"
+    },
+    {
+      "index": 742,
+      "word": "肩",
+      "meaning": "shoulder",
+      "decision": "retained"
+    },
+    {
+      "index": 743,
+      "word": "腕",
+      "meaning": "arm",
+      "decision": "retained"
+    },
+    {
+      "index": 744,
+      "word": "心",
+      "meaning": "heart; mind",
+      "decision": "retained"
+    },
+    {
+      "index": 745,
+      "word": "涙",
+      "meaning": "tears",
+      "decision": "retained"
+    },
+    {
+      "index": 746,
+      "word": "息",
+      "meaning": "breath",
+      "decision": "retained"
+    },
+    {
+      "index": 747,
+      "word": "血",
+      "meaning": "blood",
+      "decision": "retained"
+    },
+    {
+      "index": 748,
+      "word": "髪",
+      "meaning": "hair",
+      "decision": "retained"
+    },
+    {
+      "index": 749,
+      "word": "届ける",
+      "meaning": "to deliver",
+      "decision": "retained"
+    },
+    {
+      "index": 750,
+      "word": "届く",
+      "meaning": "to arrive; reach",
+      "decision": "retained"
+    },
+    {
+      "index": 751,
+      "word": "集める",
+      "meaning": "to collect; gather",
+      "decision": "retained"
+    },
+    {
+      "index": 752,
+      "word": "集まる",
+      "meaning": "to gather (intrans.)",
+      "decision": "retained"
+    },
+    {
+      "index": 753,
+      "word": "決める",
+      "meaning": "to decide",
+      "decision": "retained"
+    },
+    {
+      "index": 754,
+      "word": "決まる",
+      "meaning": "to be decided",
+      "decision": "retained"
+    },
+    {
+      "index": 755,
+      "word": "伝える",
+      "meaning": "to convey; tell",
+      "decision": "retained"
+    },
+    {
+      "index": 756,
+      "word": "見つける",
+      "meaning": "to find; discover",
+      "decision": "retained"
+    },
+    {
+      "index": 757,
+      "word": "見つかる",
+      "meaning": "to be found",
+      "decision": "retained"
+    },
+    {
+      "index": 758,
+      "word": "直す",
+      "meaning": "to fix; repair",
+      "decision": "retained"
+    },
+    {
+      "index": 759,
+      "word": "直る",
+      "meaning": "to be fixed; heal",
+      "decision": "retained"
+    },
+    {
+      "index": 760,
+      "word": "落とす",
+      "meaning": "to drop",
+      "decision": "retained"
+    },
+    {
+      "index": 761,
+      "word": "落ちる",
+      "meaning": "to fall",
+      "decision": "retained"
+    },
+    {
+      "index": 762,
+      "word": "壊す",
+      "meaning": "to break (trans.)",
+      "decision": "retained"
+    },
+    {
+      "index": 763,
+      "word": "壊れる",
+      "meaning": "to break (intrans.)",
+      "decision": "retained"
+    },
+    {
+      "index": 764,
+      "word": "汚す",
+      "meaning": "to make dirty",
+      "decision": "retained"
+    },
+    {
+      "index": 765,
+      "word": "汚れる",
+      "meaning": "to get dirty",
+      "decision": "retained"
+    },
+    {
+      "index": 766,
+      "word": "開く",
+      "meaning": "to open (intrans.)",
+      "decision": "replaced"
+    },
+    {
+      "index": 767,
+      "word": "閉まる",
+      "meaning": "to close (intrans.)",
+      "decision": "retained"
+    },
+    {
+      "index": 768,
+      "word": "動く",
+      "meaning": "to move",
+      "decision": "replaced"
+    },
+    {
+      "index": 769,
+      "word": "動かす",
+      "meaning": "to move (something)",
+      "decision": "retained"
+    },
+    {
+      "index": 770,
+      "word": "続ける",
+      "meaning": "to continue",
+      "decision": "retained"
+    },
+    {
+      "index": 771,
+      "word": "続く",
+      "meaning": "to continue (intrans.)",
+      "decision": "retained"
+    },
+    {
+      "index": 772,
+      "word": "変える",
+      "meaning": "to change (trans.)",
+      "decision": "retained"
+    },
+    {
+      "index": 773,
+      "word": "替える",
+      "meaning": "to replace; exchange",
+      "decision": "retained"
+    },
+    {
+      "index": 774,
+      "word": "捨てる",
+      "meaning": "to throw away",
+      "decision": "retained"
+    },
+    {
+      "index": 775,
+      "word": "拾う",
+      "meaning": "to pick up",
+      "decision": "retained"
+    },
+    {
+      "index": 776,
+      "word": "触る",
+      "meaning": "to touch",
+      "decision": "retained"
+    },
+    {
+      "index": 777,
+      "word": "踊る",
+      "meaning": "to dance",
+      "decision": "retained"
+    },
+    {
+      "index": 778,
+      "word": "数える",
+      "meaning": "to count",
+      "decision": "retained"
+    },
+    {
+      "index": 779,
+      "word": "比べる",
+      "meaning": "to compare",
+      "decision": "retained"
+    },
+    {
+      "index": 780,
+      "word": "調べる",
+      "meaning": "to investigate; look up",
+      "decision": "retained"
+    },
+    {
+      "index": 781,
+      "word": "確かめる",
+      "meaning": "to make sure; confirm",
+      "decision": "retained"
+    },
+    {
+      "index": 782,
+      "word": "選ぶ",
+      "meaning": "to choose; select",
+      "decision": "retained"
+    },
+    {
+      "index": 783,
+      "word": "信じる",
+      "meaning": "to believe",
+      "decision": "retained"
+    },
+    {
+      "index": 784,
+      "word": "驚く",
+      "meaning": "to be surprised",
+      "decision": "retained"
+    },
+    {
+      "index": 785,
+      "word": "喜ぶ",
+      "meaning": "to be glad; rejoice",
+      "decision": "retained"
+    },
+    {
+      "index": 786,
+      "word": "心配する",
+      "meaning": "to worry",
+      "decision": "retained"
+    },
+    {
+      "index": 787,
+      "word": "安心する",
+      "meaning": "to feel relieved",
+      "decision": "retained"
+    },
+    {
+      "index": 788,
+      "word": "感動する",
+      "meaning": "to be moved; impressed",
+      "decision": "retained"
+    },
+    {
+      "index": 789,
+      "word": "残念",
+      "meaning": "regrettable; unfortunate",
+      "decision": "retained"
+    },
+    {
+      "index": 790,
+      "word": "慣れる",
+      "meaning": "to get used to",
+      "decision": "retained"
+    },
+    {
+      "index": 791,
+      "word": "間に合う",
+      "meaning": "to be on time",
+      "decision": "retained"
+    },
+    {
+      "index": 792,
+      "word": "遅れる",
+      "meaning": "to be late",
+      "decision": "retained"
+    },
+    {
+      "index": 793,
+      "word": "育てる",
+      "meaning": "to raise; bring up",
+      "decision": "retained"
+    },
+    {
+      "index": 794,
+      "word": "育つ",
+      "meaning": "to grow up",
+      "decision": "retained"
+    },
+    {
+      "index": 795,
+      "word": "増える",
+      "meaning": "to increase",
+      "decision": "retained"
+    },
+    {
+      "index": 796,
+      "word": "減る",
+      "meaning": "to decrease",
+      "decision": "retained"
+    },
+    {
+      "index": 797,
+      "word": "足りる",
+      "meaning": "to be sufficient",
+      "decision": "retained"
+    },
+    {
+      "index": 798,
+      "word": "似る",
+      "meaning": "to resemble",
+      "decision": "retained"
+    },
+    {
+      "index": 799,
+      "word": "太る",
+      "meaning": "to gain weight",
+      "decision": "retained"
+    },
+    {
+      "index": 800,
+      "word": "痩せる",
+      "meaning": "to lose weight",
+      "decision": "retained"
+    },
+    {
+      "index": 801,
+      "word": "片付ける",
+      "meaning": "to tidy up",
+      "decision": "retained"
+    },
+    {
+      "index": 802,
+      "word": "包む",
+      "meaning": "to wrap",
+      "decision": "retained"
+    },
+    {
+      "index": 803,
+      "word": "守る",
+      "meaning": "to protect; follow",
+      "decision": "retained"
+    },
+    {
+      "index": 804,
+      "word": "盗む",
+      "meaning": "to steal",
+      "decision": "retained"
+    },
+    {
+      "index": 805,
+      "word": "逃げる",
+      "meaning": "to run away; escape",
+      "decision": "retained"
+    },
+    {
+      "index": 806,
+      "word": "捕まえる",
+      "meaning": "to catch",
+      "decision": "retained"
+    },
+    {
+      "index": 807,
+      "word": "祈る",
+      "meaning": "to pray",
+      "decision": "retained"
+    },
+    {
+      "index": 808,
+      "word": "謝る",
+      "meaning": "to apologize",
+      "decision": "retained"
+    },
+    {
+      "index": 809,
+      "word": "褒める",
+      "meaning": "to praise",
+      "decision": "retained"
+    },
+    {
+      "index": 810,
+      "word": "叱る",
+      "meaning": "to scold",
+      "decision": "retained"
+    },
+    {
+      "index": 811,
+      "word": "招待する",
+      "meaning": "to invite",
+      "decision": "retained"
+    },
+    {
+      "index": 812,
+      "word": "参加する",
+      "meaning": "to participate",
+      "decision": "retained"
+    },
+    {
+      "index": 813,
+      "word": "出席する",
+      "meaning": "to attend",
+      "decision": "retained"
+    },
+    {
+      "index": 814,
+      "word": "欠席する",
+      "meaning": "to be absent",
+      "decision": "retained"
+    },
+    {
+      "index": 815,
+      "word": "出発する",
+      "meaning": "to depart",
+      "decision": "retained"
+    },
+    {
+      "index": 816,
+      "word": "到着する",
+      "meaning": "to arrive",
+      "decision": "retained"
+    },
+    {
+      "index": 817,
+      "word": "輸出する",
+      "meaning": "to export",
+      "decision": "retained"
+    },
+    {
+      "index": 818,
+      "word": "輸入する",
+      "meaning": "to import",
+      "decision": "retained"
+    },
+    {
+      "index": 819,
+      "word": "利用する",
+      "meaning": "to use; utilize",
+      "decision": "retained"
+    },
+    {
+      "index": 820,
+      "word": "生産する",
+      "meaning": "to produce",
+      "decision": "retained"
+    },
+    {
+      "index": 821,
+      "word": "故障する",
+      "meaning": "to break down",
+      "decision": "retained"
+    },
+    {
+      "index": 822,
+      "word": "運転する",
+      "meaning": "to drive",
+      "decision": "retained"
+    },
+    {
+      "index": 823,
+      "word": "翻訳する",
+      "meaning": "to translate",
+      "decision": "retained"
+    },
+    {
+      "index": 824,
+      "word": "卒業する",
+      "meaning": "to graduate",
+      "decision": "retained"
+    },
+    {
+      "index": 825,
+      "word": "入学する",
+      "meaning": "to enroll",
+      "decision": "retained"
+    },
+    {
+      "index": 826,
+      "word": "合格する",
+      "meaning": "to pass (exam)",
+      "decision": "retained"
+    },
+    {
+      "index": 827,
+      "word": "失敗する",
+      "meaning": "to fail",
+      "decision": "retained"
+    },
+    {
+      "index": 828,
+      "word": "成功する",
+      "meaning": "to succeed",
+      "decision": "retained"
+    },
+    {
+      "index": 829,
+      "word": "反対する",
+      "meaning": "to oppose",
+      "decision": "retained"
+    },
+    {
+      "index": 830,
+      "word": "賛成する",
+      "meaning": "to agree; approve",
+      "decision": "retained"
+    },
+    {
+      "index": 831,
+      "word": "注文する",
+      "meaning": "to order",
+      "decision": "retained"
+    },
+    {
+      "index": 832,
+      "word": "相談する",
+      "meaning": "to consult",
+      "decision": "retained"
+    },
+    {
+      "index": 833,
+      "word": "報告する",
+      "meaning": "to report",
+      "decision": "retained"
+    },
+    {
+      "index": 834,
+      "word": "発表する",
+      "meaning": "to present; announce",
+      "decision": "retained"
+    },
+    {
+      "index": 835,
+      "word": "感謝する",
+      "meaning": "to be grateful",
+      "decision": "retained"
+    },
+    {
+      "index": 836,
+      "word": "我慢する",
+      "meaning": "to endure; be patient",
+      "decision": "retained"
+    },
+    {
+      "index": 837,
+      "word": "正しい",
+      "meaning": "correct; right",
+      "decision": "retained"
+    },
+    {
+      "index": 838,
+      "word": "珍しい",
+      "meaning": "rare; unusual",
+      "decision": "retained"
+    },
+    {
+      "index": 839,
+      "word": "厳しい",
+      "meaning": "strict; harsh",
+      "decision": "retained"
+    },
+    {
+      "index": 840,
+      "word": "優しい",
+      "meaning": "kind; gentle",
+      "decision": "retained"
+    },
+    {
+      "index": 841,
+      "word": "恥ずかしい",
+      "meaning": "embarrassing; shy",
+      "decision": "retained"
+    },
+    {
+      "index": 842,
+      "word": "懐かしい",
+      "meaning": "nostalgic",
+      "decision": "retained"
+    },
+    {
+      "index": 843,
+      "word": "素晴らしい",
+      "meaning": "wonderful; splendid",
+      "decision": "retained"
+    },
+    {
+      "index": 844,
+      "word": "激しい",
+      "meaning": "intense; fierce",
+      "decision": "retained"
+    },
+    {
+      "index": 845,
+      "word": "柔らかい",
+      "meaning": "soft",
+      "decision": "retained"
+    },
+    {
+      "index": 846,
+      "word": "硬い",
+      "meaning": "hard; stiff",
+      "decision": "retained"
+    },
+    {
+      "index": 847,
+      "word": "深い",
+      "meaning": "deep",
+      "decision": "retained"
+    },
+    {
+      "index": 848,
+      "word": "浅い",
+      "meaning": "shallow",
+      "decision": "retained"
+    },
+    {
+      "index": 849,
+      "word": "苦い",
+      "meaning": "bitter",
+      "decision": "retained"
+    },
+    {
+      "index": 850,
+      "word": "酸っぱい",
+      "meaning": "sour",
+      "decision": "retained"
+    },
+    {
+      "index": 851,
+      "word": "寂しい",
+      "meaning": "lonely",
+      "decision": "retained"
+    },
+    {
+      "index": 852,
+      "word": "悔しい",
+      "meaning": "frustrating; regrettable",
+      "decision": "retained"
+    },
+    {
+      "index": 853,
+      "word": "羨ましい",
+      "meaning": "envious; jealous",
+      "decision": "retained"
+    },
+    {
+      "index": 854,
+      "word": "恐ろしい",
+      "meaning": "terrifying",
+      "decision": "retained"
+    },
+    {
+      "index": 855,
+      "word": "詳しい",
+      "meaning": "detailed; knowledgeable",
+      "decision": "retained"
+    },
+    {
+      "index": 856,
+      "word": "親しい",
+      "meaning": "close; intimate",
+      "decision": "retained"
+    },
+    {
+      "index": 857,
+      "word": "等しい",
+      "meaning": "equal",
+      "decision": "retained"
+    },
+    {
+      "index": 858,
+      "word": "貧しい",
+      "meaning": "poor",
+      "decision": "retained"
+    },
+    {
+      "index": 859,
+      "word": "豊か",
+      "meaning": "rich; abundant",
+      "decision": "retained"
+    },
+    {
+      "index": 860,
+      "word": "騒がしい",
+      "meaning": "noisy",
+      "decision": "retained"
+    },
+    {
+      "index": 861,
+      "word": "自由",
+      "meaning": "free; freedom",
+      "decision": "retained"
+    },
+    {
+      "index": 862,
+      "word": "安全",
+      "meaning": "safe; safety",
+      "decision": "retained"
+    },
+    {
+      "index": 863,
+      "word": "危険",
+      "meaning": "dangerous; danger",
+      "decision": "retained"
+    },
+    {
+      "index": 864,
+      "word": "複雑",
+      "meaning": "complex; complicated",
+      "decision": "retained"
+    },
+    {
+      "index": 865,
+      "word": "単純",
+      "meaning": "simple; straightforward",
+      "decision": "retained"
+    },
+    {
+      "index": 866,
+      "word": "正確",
+      "meaning": "accurate; precise",
+      "decision": "retained"
+    },
+    {
+      "index": 867,
+      "word": "適当",
+      "meaning": "suitable; appropriate",
+      "decision": "retained"
+    },
+    {
+      "index": 868,
+      "word": "十分",
+      "meaning": "enough; sufficient",
+      "decision": "retained"
+    },
+    {
+      "index": 869,
+      "word": "熱心",
+      "meaning": "enthusiastic; eager",
+      "decision": "retained"
+    },
+    {
+      "index": 870,
+      "word": "真面目",
+      "meaning": "serious; earnest",
+      "decision": "retained"
+    },
+    {
+      "index": 871,
+      "word": "幸せ",
+      "meaning": "happy; happiness",
+      "decision": "retained"
+    },
+    {
+      "index": 872,
+      "word": "特別",
+      "meaning": "special",
+      "decision": "retained"
+    },
+    {
+      "index": 873,
+      "word": "普通",
+      "meaning": "normal; ordinary; local (train)",
+      "decision": "retained"
+    },
+    {
+      "index": 874,
+      "word": "急",
+      "meaning": "sudden; urgent",
+      "decision": "retained"
+    },
+    {
+      "index": 875,
+      "word": "丁寧",
+      "meaning": "polite; careful",
+      "decision": "retained"
+    },
+    {
+      "index": 876,
+      "word": "素直",
+      "meaning": "obedient; honest",
+      "decision": "retained"
+    },
+    {
+      "index": 877,
+      "word": "見事",
+      "meaning": "splendid; excellent",
+      "decision": "retained"
+    },
+    {
+      "index": 878,
+      "word": "盛ん",
+      "meaning": "prosperous; popular",
+      "decision": "retained"
+    },
+    {
+      "index": 879,
+      "word": "無理",
+      "meaning": "impossible; unreasonable",
+      "decision": "retained"
+    },
+    {
+      "index": 880,
+      "word": "邪魔",
+      "meaning": "obstacle; hindrance",
+      "decision": "retained"
+    },
+    {
+      "index": 881,
+      "word": "駄目",
+      "meaning": "no good; useless",
+      "decision": "retained"
+    },
+    {
+      "index": 882,
+      "word": "必ず",
+      "meaning": "certainly; without fail",
+      "decision": "retained"
+    },
+    {
+      "index": 883,
+      "word": "絶対に",
+      "meaning": "absolutely",
+      "decision": "retained"
+    },
+    {
+      "index": 884,
+      "word": "特に",
+      "meaning": "especially; particularly",
+      "decision": "retained"
+    },
+    {
+      "index": 885,
+      "word": "最近",
+      "meaning": "recently",
+      "decision": "retained"
+    },
+    {
+      "index": 886,
+      "word": "急に",
+      "meaning": "suddenly",
+      "decision": "retained"
+    },
+    {
+      "index": 887,
+      "word": "ほとんど",
+      "meaning": "almost; hardly",
+      "decision": "retained"
+    },
+    {
+      "index": 888,
+      "word": "やはり",
+      "meaning": "as expected",
+      "decision": "retained"
+    },
+    {
+      "index": 889,
+      "word": "なるべく",
+      "meaning": "as much as possible",
+      "decision": "retained"
+    },
+    {
+      "index": 890,
+      "word": "ずっと",
+      "meaning": "much more; always",
+      "decision": "retained"
+    },
+    {
+      "index": 891,
+      "word": "そろそろ",
+      "meaning": "soon; before long",
+      "decision": "retained"
+    },
+    {
+      "index": 892,
+      "word": "ますます",
+      "meaning": "more and more",
+      "decision": "retained"
+    },
+    {
+      "index": 893,
+      "word": "やっと",
+      "meaning": "finally; at last",
+      "decision": "retained"
+    },
+    {
+      "index": 894,
+      "word": "きちんと",
+      "meaning": "properly; neatly",
+      "decision": "retained"
+    },
+    {
+      "index": 895,
+      "word": "しっかり",
+      "meaning": "firmly; properly",
+      "decision": "retained"
+    },
+    {
+      "index": 896,
+      "word": "ぴったり",
+      "meaning": "exactly; perfectly",
+      "decision": "retained"
+    },
+    {
+      "index": 897,
+      "word": "はっきり",
+      "meaning": "clearly; distinctly",
+      "decision": "retained"
+    },
+    {
+      "index": 898,
+      "word": "うっかり",
+      "meaning": "carelessly; by mistake",
+      "decision": "retained"
+    },
+    {
+      "index": 899,
+      "word": "ため",
+      "meaning": "for; because of",
+      "decision": "retained"
+    },
+    {
+      "index": 900,
+      "word": "通り",
+      "meaning": "as; in the way",
+      "decision": "retained"
+    },
+    {
+      "index": 901,
+      "word": "以上",
+      "meaning": "more than; above",
+      "decision": "replaced"
+    },
+    {
+      "index": 902,
+      "word": "以下",
+      "meaning": "less than; below",
+      "decision": "replaced"
+    },
+    {
+      "index": 903,
+      "word": "以外",
+      "meaning": "except; besides",
+      "decision": "retained"
+    },
+    {
+      "index": 904,
+      "word": "以内",
+      "meaning": "within",
+      "decision": "retained"
+    },
+    {
+      "index": 905,
+      "word": "途中",
+      "meaning": "on the way; midway",
+      "decision": "retained"
+    },
+    {
+      "index": 906,
+      "word": "最初",
+      "meaning": "first; beginning",
+      "decision": "retained"
+    },
+    {
+      "index": 907,
+      "word": "最後",
+      "meaning": "last; end",
+      "decision": "replaced"
+    },
+    {
+      "index": 908,
+      "word": "将来",
+      "meaning": "future",
+      "decision": "retained"
+    },
+    {
+      "index": 909,
+      "word": "全部",
+      "meaning": "all; everything",
+      "decision": "retained"
+    },
+    {
+      "index": 910,
+      "word": "全体",
+      "meaning": "whole; entire",
+      "decision": "retained"
+    },
+    {
+      "index": 911,
+      "word": "一部",
+      "meaning": "part; portion",
+      "decision": "retained"
+    },
+    {
+      "index": 912,
+      "word": "普段",
+      "meaning": "usually; normally",
+      "decision": "retained"
+    },
+    {
+      "index": 913,
+      "word": "反対",
+      "meaning": "opposite; opposed",
+      "decision": "retained"
+    },
+    {
+      "index": 914,
+      "word": "形",
+      "meaning": "shape; form",
+      "decision": "retained"
+    },
+    {
+      "index": 915,
+      "word": "音",
+      "meaning": "sound",
+      "decision": "retained"
+    },
+    {
+      "index": 916,
+      "word": "匂い",
+      "meaning": "smell; scent",
+      "decision": "retained"
+    },
+    {
+      "index": 917,
+      "word": "力",
+      "meaning": "power; strength",
+      "decision": "retained"
+    },
+    {
+      "index": 918,
+      "word": "夢",
+      "meaning": "dream",
+      "decision": "retained"
+    },
+    {
+      "index": 919,
+      "word": "天気予報",
+      "meaning": "weather forecast",
+      "decision": "retained"
+    },
+    {
+      "index": 920,
+      "word": "気温",
+      "meaning": "temperature (air)",
+      "decision": "retained"
+    },
+    {
+      "index": 921,
+      "word": "湿度",
+      "meaning": "humidity",
+      "decision": "retained"
+    },
+    {
+      "index": 922,
+      "word": "曇り",
+      "meaning": "cloudy",
+      "decision": "retained"
+    },
+    {
+      "index": 923,
+      "word": "晴れ",
+      "meaning": "clear weather",
+      "decision": "retained"
+    },
+    {
+      "index": 924,
+      "word": "交通",
+      "meaning": "traffic; transportation",
+      "decision": "retained"
+    },
+    {
+      "index": 925,
+      "word": "席",
+      "meaning": "seat",
+      "decision": "retained"
+    },
+    {
+      "index": 926,
+      "word": "列",
+      "meaning": "line; row",
+      "decision": "retained"
+    },
+    {
+      "index": 927,
+      "word": "人口",
+      "meaning": "population",
+      "decision": "retained"
+    },
+    {
+      "index": 928,
+      "word": "景色",
+      "meaning": "scenery; view",
+      "decision": "retained"
+    },
+    {
+      "index": 929,
+      "word": "気持ち",
+      "meaning": "feeling",
+      "decision": "retained"
+    },
+    {
+      "index": 930,
+      "word": "意見",
+      "meaning": "opinion",
+      "decision": "retained"
+    },
+    {
+      "index": 931,
+      "word": "考え",
+      "meaning": "thought; idea",
+      "decision": "retained"
+    },
+    {
+      "index": 932,
+      "word": "お知らせ",
+      "meaning": "notice; announcement",
+      "decision": "retained"
+    },
+    {
+      "index": 933,
+      "word": "値段",
+      "meaning": "price",
+      "decision": "retained"
+    },
+    {
+      "index": 934,
+      "word": "割引",
+      "meaning": "discount",
+      "decision": "retained"
+    },
+    {
+      "index": 935,
+      "word": "商品",
+      "meaning": "goods; merchandise",
+      "decision": "retained"
+    },
+    {
+      "index": 936,
+      "word": "お釣り",
+      "meaning": "change (money)",
+      "decision": "retained"
+    },
+    {
+      "index": 937,
+      "word": "レシート",
+      "meaning": "receipt",
+      "decision": "retained"
+    },
+    {
+      "index": 938,
+      "word": "タイプ",
+      "meaning": "type",
+      "decision": "retained"
+    },
+    {
+      "index": 939,
+      "word": "サイズ",
+      "meaning": "size",
+      "decision": "retained"
+    },
+    {
+      "index": 940,
+      "word": "レジ",
+      "meaning": "register; checkout",
+      "decision": "retained"
+    },
+    {
+      "index": 941,
+      "word": "ニュース",
+      "meaning": "news",
+      "decision": "retained"
+    },
+    {
+      "index": 942,
+      "word": "番組",
+      "meaning": "program (TV)",
+      "decision": "retained"
+    },
+    {
+      "index": 943,
+      "word": "小説",
+      "meaning": "novel",
+      "decision": "retained"
+    },
+    {
+      "index": 944,
+      "word": "漫画",
+      "meaning": "manga; comic",
+      "decision": "retained"
+    },
+    {
+      "index": 945,
+      "word": "アルバイト",
+      "meaning": "part-time job",
+      "decision": "retained"
+    },
+    {
+      "index": 946,
+      "word": "給料",
+      "meaning": "salary",
+      "decision": "retained"
+    },
+    {
+      "index": 947,
+      "word": "残業",
+      "meaning": "overtime work",
+      "decision": "retained"
+    },
+    {
+      "index": 948,
+      "word": "出張",
+      "meaning": "business trip",
+      "decision": "retained"
+    },
+    {
+      "index": 949,
+      "word": "会話",
+      "meaning": "conversation",
+      "decision": "retained"
+    },
+    {
+      "index": 950,
+      "word": "文章",
+      "meaning": "sentence; text",
+      "decision": "retained"
+    },
+    {
+      "index": 951,
+      "word": "作文",
+      "meaning": "essay; composition",
+      "decision": "retained"
+    },
+    {
+      "index": 952,
+      "word": "上げる",
+      "meaning": "to give; raise",
+      "decision": "retained"
+    },
+    {
+      "index": 953,
+      "word": "もらう",
+      "meaning": "to receive",
+      "decision": "retained"
+    },
+    {
+      "index": 954,
+      "word": "くれる",
+      "meaning": "to give (to me)",
+      "decision": "retained"
+    },
+    {
+      "index": 955,
+      "word": "なる",
+      "meaning": "to become",
+      "decision": "retained"
+    },
+    {
+      "index": 956,
+      "word": "磨く",
+      "meaning": "to brush; polish",
+      "decision": "retained"
+    },
+    {
+      "index": 957,
+      "word": "吸う",
+      "meaning": "to smoke; breathe in",
+      "decision": "retained"
+    },
+    {
+      "index": 958,
+      "word": "登る",
+      "meaning": "to climb",
+      "decision": "retained"
+    },
+    {
+      "index": 959,
+      "word": "渡す",
+      "meaning": "to hand over; pass",
+      "decision": "retained"
+    },
+    {
+      "index": 960,
+      "word": "見せる",
+      "meaning": "to show",
+      "decision": "retained"
+    },
+    {
+      "index": 961,
+      "word": "入れる",
+      "meaning": "to put in",
+      "decision": "retained"
+    },
+    {
+      "index": 962,
+      "word": "出かける",
+      "meaning": "to go out",
+      "decision": "retained"
+    },
+    {
+      "index": 963,
+      "word": "着く",
+      "meaning": "to arrive",
+      "decision": "retained"
+    },
+    {
+      "index": 964,
+      "word": "飾る",
+      "meaning": "to decorate",
+      "decision": "retained"
+    },
+    {
+      "index": 965,
+      "word": "乾く",
+      "meaning": "to dry",
+      "decision": "retained"
+    },
+    {
+      "index": 966,
+      "word": "焼く",
+      "meaning": "to burn; grill; bake",
+      "decision": "retained"
+    },
+    {
+      "index": 967,
+      "word": "茹でる",
+      "meaning": "to boil",
+      "decision": "retained"
+    },
+    {
+      "index": 968,
+      "word": "混ぜる",
+      "meaning": "to mix",
+      "decision": "retained"
+    },
+    {
+      "index": 969,
+      "word": "冷やす",
+      "meaning": "to cool; chill",
+      "decision": "retained"
+    },
+    {
+      "index": 970,
+      "word": "温める",
+      "meaning": "to warm up",
+      "decision": "retained"
+    },
+    {
+      "index": 971,
+      "word": "沸かす",
+      "meaning": "to boil (water)",
+      "decision": "retained"
+    },
+    {
+      "index": 972,
+      "word": "片づく",
+      "meaning": "to be tidied up",
+      "decision": "retained"
+    },
+    {
+      "index": 973,
+      "word": "頼む",
+      "meaning": "to request; ask",
+      "decision": "retained"
+    },
+    {
+      "index": 974,
+      "word": "断る",
+      "meaning": "to refuse; decline",
+      "decision": "retained"
+    },
+    {
+      "index": 975,
+      "word": "迎える",
+      "meaning": "to welcome; greet",
+      "decision": "retained"
+    },
+    {
+      "index": 976,
+      "word": "運ぶ",
+      "meaning": "to carry; transport",
+      "decision": "retained"
+    },
+    {
+      "index": 977,
+      "word": "預ける",
+      "meaning": "to deposit; leave with",
+      "decision": "retained"
+    },
+    {
+      "index": 978,
+      "word": "預かる",
+      "meaning": "to keep; take custody",
+      "decision": "retained"
+    },
+    {
+      "index": 979,
+      "word": "植える",
+      "meaning": "to plant",
+      "decision": "retained"
+    },
+    {
+      "index": 980,
+      "word": "咲く",
+      "meaning": "to bloom",
+      "decision": "retained"
+    },
+    {
+      "index": 981,
+      "word": "枯れる",
+      "meaning": "to wither",
+      "decision": "retained"
+    },
+    {
+      "index": 982,
+      "word": "光る",
+      "meaning": "to shine; glow",
+      "decision": "retained"
+    },
+    {
+      "index": 983,
+      "word": "鳴る",
+      "meaning": "to ring; sound",
+      "decision": "retained"
+    },
+    {
+      "index": 984,
+      "word": "鳴く",
+      "meaning": "to sing (birds); bark",
+      "decision": "retained"
+    },
+    {
+      "index": 985,
+      "word": "噛む",
+      "meaning": "to bite; chew",
+      "decision": "retained"
+    },
+    {
+      "index": 986,
+      "word": "刺す",
+      "meaning": "to sting; stab",
+      "decision": "retained"
+    },
+    {
+      "index": 987,
+      "word": "滑る",
+      "meaning": "to slip; slide",
+      "decision": "retained"
+    },
+    {
+      "index": 988,
+      "word": "転ぶ",
+      "meaning": "to fall over; tumble",
+      "decision": "retained"
+    },
+    {
+      "index": 989,
+      "word": "ぶつかる",
+      "meaning": "to collide; bump",
+      "decision": "retained"
+    },
+    {
+      "index": 990,
+      "word": "騒ぐ",
+      "meaning": "to make noise",
+      "decision": "retained"
+    },
+    {
+      "index": 991,
+      "word": "世界",
+      "meaning": "world",
+      "decision": "retained"
+    },
+    {
+      "index": 992,
+      "word": "自然",
+      "meaning": "nature",
+      "decision": "retained"
+    },
+    {
+      "index": 993,
+      "word": "空気",
+      "meaning": "air",
+      "decision": "retained"
+    },
+    {
+      "index": 994,
+      "word": "煙",
+      "meaning": "smoke",
+      "decision": "retained"
+    },
+    {
+      "index": 995,
+      "word": "氷",
+      "meaning": "ice",
+      "decision": "retained"
+    },
+    {
+      "index": 996,
+      "word": "お湯",
+      "meaning": "hot water",
+      "decision": "retained"
+    },
+    {
+      "index": 997,
+      "word": "ガス",
+      "meaning": "gas",
+      "decision": "retained"
+    },
+    {
+      "index": 998,
+      "word": "タバコ",
+      "meaning": "cigarette; tobacco",
+      "decision": "retained"
+    },
+    {
+      "index": 999,
+      "word": "ベル",
+      "meaning": "bell",
+      "decision": "retained"
+    },
+    {
+      "index": 1000,
+      "word": "アクセサリー",
+      "meaning": "accessory; jewelry",
+      "decision": "retained"
+    },
+    {
+      "index": 1001,
+      "word": "指輪",
+      "meaning": "ring (jewelry)",
+      "decision": "retained"
+    },
+    {
+      "index": 1002,
+      "word": "ネックレス",
+      "meaning": "necklace",
+      "decision": "retained"
+    },
+    {
+      "index": 1003,
+      "word": "サンダル",
+      "meaning": "sandals",
+      "decision": "retained"
+    },
+    {
+      "index": 1004,
+      "word": "手袋",
+      "meaning": "gloves",
+      "decision": "retained"
+    },
+    {
+      "index": 1005,
+      "word": "マフラー",
+      "meaning": "scarf; muffler",
+      "decision": "retained"
+    },
+    {
+      "index": 1006,
+      "word": "下着",
+      "meaning": "underwear",
+      "decision": "retained"
+    },
+    {
+      "index": 1007,
+      "word": "靴下",
+      "meaning": "socks",
+      "decision": "retained"
+    },
+    {
+      "index": 1008,
+      "word": "ワンピース",
+      "meaning": "dress (one-piece)",
+      "decision": "retained"
+    },
+    {
+      "index": 1009,
+      "word": "ジーンズ",
+      "meaning": "jeans",
+      "decision": "retained"
+    },
+    {
+      "index": 1010,
+      "word": "Tシャツ",
+      "meaning": "T-shirt",
+      "decision": "retained"
+    },
+    {
+      "index": 1011,
+      "word": "スーツ",
+      "meaning": "suit",
+      "decision": "retained"
+    },
+    {
+      "index": 1012,
+      "word": "運動",
+      "meaning": "exercise",
+      "decision": "retained"
+    },
+    {
+      "index": 1013,
+      "word": "サッカー",
+      "meaning": "soccer",
+      "decision": "retained"
+    },
+    {
+      "index": 1014,
+      "word": "野球",
+      "meaning": "baseball",
+      "decision": "retained"
+    },
+    {
+      "index": 1015,
+      "word": "テニス",
+      "meaning": "tennis",
+      "decision": "retained"
+    },
+    {
+      "index": 1016,
+      "word": "試合",
+      "meaning": "match; game",
+      "decision": "retained"
+    },
+    {
+      "index": 1017,
+      "word": "チーム",
+      "meaning": "team",
+      "decision": "retained"
+    },
+    {
+      "index": 1018,
+      "word": "選手",
+      "meaning": "player; athlete",
+      "decision": "retained"
+    },
+    {
+      "index": 1019,
+      "word": "ピアノ",
+      "meaning": "piano",
+      "decision": "retained"
+    },
+    {
+      "index": 1020,
+      "word": "ギター",
+      "meaning": "guitar",
+      "decision": "retained"
+    },
+    {
+      "index": 1021,
+      "word": "コンサート",
+      "meaning": "concert",
+      "decision": "retained"
+    },
+    {
+      "index": 1022,
+      "word": "コンビニ",
+      "meaning": "convenience store",
+      "decision": "retained"
+    },
+    {
+      "index": 1023,
+      "word": "パーティー",
+      "meaning": "party",
+      "decision": "retained"
+    },
+    {
+      "index": 1024,
+      "word": "プレゼント",
+      "meaning": "present; gift",
+      "decision": "retained"
+    },
+    {
+      "index": 1025,
+      "word": "クリスマス",
+      "meaning": "Christmas",
+      "decision": "retained"
+    },
+    {
+      "index": 1026,
+      "word": "正月",
+      "meaning": "New Year",
+      "decision": "retained"
+    },
+    {
+      "index": 1027,
+      "word": "花見",
+      "meaning": "cherry blossom viewing",
+      "decision": "retained"
+    },
+    {
+      "index": 1028,
+      "word": "花火",
+      "meaning": "fireworks",
+      "decision": "retained"
+    },
+    {
+      "index": 1029,
+      "word": "お正月",
+      "meaning": "New Year (polite)",
+      "decision": "retained"
+    },
+    {
+      "index": 1030,
+      "word": "横",
+      "meaning": "beside; horizontal",
+      "decision": "retained"
+    },
+    {
+      "index": 1031,
+      "word": "角",
+      "meaning": "corner",
+      "decision": "retained"
+    },
+    {
+      "index": 1032,
+      "word": "周り",
+      "meaning": "surroundings",
+      "decision": "retained"
+    },
+    {
+      "index": 1033,
+      "word": "片道",
+      "meaning": "one way",
+      "decision": "retained"
+    },
+    {
+      "index": 1034,
+      "word": "往復",
+      "meaning": "round trip",
+      "decision": "retained"
+    },
+    {
+      "index": 1035,
+      "word": "特急",
+      "meaning": "express (train)",
+      "decision": "retained"
+    },
+    {
+      "index": 1036,
+      "word": "急行",
+      "meaning": "express (train)",
+      "decision": "retained"
+    },
+    {
+      "index": 1037,
+      "word": "乗り換え",
+      "meaning": "transfer (trains)",
+      "decision": "retained"
+    },
+    {
+      "index": 1038,
+      "word": "乗り物",
+      "meaning": "vehicle",
+      "decision": "retained"
+    },
+    {
+      "index": 1039,
+      "word": "〜ながら",
+      "meaning": "while doing ~",
+      "decision": "retained"
+    },
+    {
+      "index": 1040,
+      "word": "〜ために",
+      "meaning": "in order to ~",
+      "decision": "retained text-only"
+    },
+    {
+      "index": 1041,
+      "word": "〜ように",
+      "meaning": "so that ~",
+      "decision": "retained text-only"
+    },
+    {
+      "index": 1042,
+      "word": "〜のに",
+      "meaning": "despite; although",
+      "decision": "retained text-only"
+    },
+    {
+      "index": 1043,
+      "word": "〜ば",
+      "meaning": "if ~",
+      "decision": "retained text-only"
+    },
+    {
+      "index": 1044,
+      "word": "〜たら",
+      "meaning": "if; when",
+      "decision": "retained text-only"
+    },
+    {
+      "index": 1045,
+      "word": "〜なら",
+      "meaning": "if it's the case that",
+      "decision": "retained text-only"
+    },
+    {
+      "index": 1046,
+      "word": "〜ても",
+      "meaning": "even if",
+      "decision": "retained text-only"
+    },
+    {
+      "index": 1047,
+      "word": "〜そう",
+      "meaning": "looks like; seems",
+      "decision": "retained text-only"
+    },
+    {
+      "index": 1048,
+      "word": "〜らしい",
+      "meaning": "seems like; apparently",
+      "decision": "retained text-only"
+    },
+    {
+      "index": 1049,
+      "word": "〜はず",
+      "meaning": "should; expected to",
+      "decision": "retained text-only"
+    },
+    {
+      "index": 1050,
+      "word": "〜ところ",
+      "meaning": "about to; just did",
+      "decision": "retained text-only"
+    },
+    {
+      "index": 1051,
+      "word": "引っ越す",
+      "meaning": "to move (house)",
+      "decision": "retained"
+    },
+    {
+      "index": 1052,
+      "word": "間違える",
+      "meaning": "to make a mistake",
+      "decision": "retained"
+    },
+    {
+      "index": 1053,
+      "word": "間違う",
+      "meaning": "to be wrong",
+      "decision": "retained"
+    },
+    {
+      "index": 1054,
+      "word": "気をつける",
+      "meaning": "to be careful",
+      "decision": "retained"
+    },
+    {
+      "index": 1055,
+      "word": "気がつく",
+      "meaning": "to notice",
+      "decision": "retained"
+    },
+    {
+      "index": 1056,
+      "word": "手伝う",
+      "meaning": "to help",
+      "decision": "retained"
+    },
+    {
+      "index": 1057,
+      "word": "助ける",
+      "meaning": "to save; rescue",
+      "decision": "retained"
+    },
+    {
+      "index": 1058,
+      "word": "喧嘩する",
+      "meaning": "to fight; quarrel",
+      "decision": "retained"
+    },
+    {
+      "index": 1059,
+      "word": "離婚する",
+      "meaning": "to divorce",
+      "decision": "retained"
+    },
+    {
+      "index": 1060,
+      "word": "引退する",
+      "meaning": "to retire",
+      "decision": "retained"
+    },
+    {
+      "index": 1061,
+      "word": "通う",
+      "meaning": "to commute; attend",
+      "decision": "retained"
+    },
+    {
+      "index": 1062,
+      "word": "通る",
+      "meaning": "to pass through",
+      "decision": "retained"
+    },
+    {
+      "index": 1063,
+      "word": "戻る",
+      "meaning": "to return; go back",
+      "decision": "retained"
+    },
+    {
+      "index": 1064,
+      "word": "向かう",
+      "meaning": "to head toward",
+      "decision": "retained"
+    },
+    {
+      "index": 1065,
+      "word": "迷う",
+      "meaning": "to get lost; hesitate",
+      "decision": "retained"
+    },
+    {
+      "index": 1066,
+      "word": "訪ねる",
+      "meaning": "to visit",
+      "decision": "retained"
+    },
+    {
+      "index": 1067,
+      "word": "尋ねる",
+      "meaning": "to ask; inquire",
+      "decision": "retained"
+    },
+    {
+      "index": 1068,
+      "word": "申し込む",
+      "meaning": "to apply for",
+      "decision": "retained"
+    },
+    {
+      "index": 1069,
+      "word": "受ける",
+      "meaning": "to receive; take (exam)",
+      "decision": "retained"
+    },
+    {
+      "index": 1070,
+      "word": "やめる",
+      "meaning": "to quit; stop",
+      "decision": "retained"
+    },
+    {
+      "index": 1071,
+      "word": "始める",
+      "meaning": "to begin (trans.)",
+      "decision": "retained"
+    },
+    {
+      "index": 1072,
+      "word": "終える",
+      "meaning": "to finish (trans.)",
+      "decision": "retained"
+    },
+    {
+      "index": 1073,
+      "word": "探す",
+      "meaning": "to search; look for",
+      "decision": "retained"
+    },
+    {
+      "index": 1074,
+      "word": "見える",
+      "meaning": "to be visible",
+      "decision": "retained"
+    },
+    {
+      "index": 1075,
+      "word": "聞こえる",
+      "meaning": "to be audible",
+      "decision": "retained"
+    },
+    {
+      "index": 1076,
+      "word": "感じる",
+      "meaning": "to feel",
+      "decision": "retained"
+    },
+    {
+      "index": 1077,
+      "word": "考える",
+      "meaning": "to think; consider",
+      "decision": "retained"
+    },
+    {
+      "index": 1078,
+      "word": "思い出す",
+      "meaning": "to recall; remember",
+      "decision": "retained"
+    },
+    {
+      "index": 1079,
+      "word": "気に入る",
+      "meaning": "to like; be pleased",
+      "decision": "retained"
+    },
+    {
+      "index": 1080,
+      "word": "びっくりする",
+      "meaning": "to be surprised",
+      "decision": "retained"
+    },
+    {
+      "index": 1081,
+      "word": "がっかりする",
+      "meaning": "to be disappointed",
+      "decision": "retained"
+    },
+    {
+      "index": 1082,
+      "word": "間違い",
+      "meaning": "mistake; error",
+      "decision": "retained"
+    },
+    {
+      "index": 1083,
+      "word": "お世話",
+      "meaning": "care; assistance",
+      "decision": "retained"
+    },
+    {
+      "index": 1084,
+      "word": "都合",
+      "meaning": "convenience; circumstances",
+      "decision": "retained"
+    },
+    {
+      "index": 1085,
+      "word": "用事",
+      "meaning": "errand; business",
+      "decision": "retained"
+    },
+    {
+      "index": 1086,
+      "word": "記念",
+      "meaning": "commemoration",
+      "decision": "retained"
+    },
+    {
+      "index": 1087,
+      "word": "思い出",
+      "meaning": "memory; memories",
+      "decision": "retained"
+    },
+    {
+      "index": 1088,
+      "word": "想像",
+      "meaning": "imagination",
+      "decision": "retained"
+    },
+    {
+      "index": 1089,
+      "word": "希望",
+      "meaning": "hope; wish",
+      "decision": "retained"
+    },
+    {
+      "index": 1090,
+      "word": "目標",
+      "meaning": "goal; target",
+      "decision": "retained"
+    },
+    {
+      "index": 1091,
+      "word": "努力",
+      "meaning": "effort",
+      "decision": "retained"
+    },
+    {
+      "index": 1092,
+      "word": "成功",
+      "meaning": "success",
+      "decision": "retained"
+    },
+    {
+      "index": 1093,
+      "word": "失敗",
+      "meaning": "failure",
+      "decision": "retained"
+    },
+    {
+      "index": 1094,
+      "word": "結果",
+      "meaning": "result; outcome",
+      "decision": "retained"
+    },
+    {
+      "index": 1095,
+      "word": "影響",
+      "meaning": "influence; effect",
+      "decision": "retained"
+    },
+    {
+      "index": 1096,
+      "word": "事実",
+      "meaning": "fact; truth",
+      "decision": "retained"
+    },
+    {
+      "index": 1097,
+      "word": "情報",
+      "meaning": "information",
+      "decision": "retained"
+    },
+    {
+      "index": 1098,
+      "word": "知識",
+      "meaning": "knowledge",
+      "decision": "retained"
+    },
+    {
+      "index": 1099,
+      "word": "能力",
+      "meaning": "ability; capacity",
+      "decision": "retained"
+    },
+    {
+      "index": 1100,
+      "word": "才能",
+      "meaning": "talent",
+      "decision": "retained"
+    },
+    {
+      "index": 1101,
+      "word": "性格",
+      "meaning": "personality; character",
+      "decision": "retained"
+    },
+    {
+      "index": 1102,
+      "word": "態度",
+      "meaning": "attitude",
+      "decision": "retained"
+    },
+    {
+      "index": 1103,
+      "word": "礼儀",
+      "meaning": "manners; courtesy",
+      "decision": "retained"
+    },
+    {
+      "index": 1104,
+      "word": "伝統",
+      "meaning": "tradition",
+      "decision": "retained"
+    },
+    {
+      "index": 1105,
+      "word": "宗教",
+      "meaning": "religion",
+      "decision": "retained"
+    },
+    {
+      "index": 1106,
+      "word": "規則",
+      "meaning": "rule; regulation",
+      "decision": "retained"
+    },
+    {
+      "index": 1107,
+      "word": "法律",
+      "meaning": "law",
+      "decision": "retained"
+    },
+    {
+      "index": 1108,
+      "word": "権利",
+      "meaning": "right; privilege",
+      "decision": "retained"
+    },
+    {
+      "index": 1109,
+      "word": "責任",
+      "meaning": "responsibility",
+      "decision": "retained"
+    },
+    {
+      "index": 1110,
+      "word": "義務",
+      "meaning": "duty; obligation",
+      "decision": "retained"
+    },
+    {
+      "index": 1111,
+      "word": "税金",
+      "meaning": "tax",
+      "decision": "retained"
+    },
+    {
+      "index": 1112,
+      "word": "保険",
+      "meaning": "insurance",
+      "decision": "retained"
+    },
+    {
+      "index": 1113,
+      "word": "契約",
+      "meaning": "contract; agreement",
+      "decision": "retained"
+    },
+    {
+      "index": 1114,
+      "word": "書類",
+      "meaning": "documents; paperwork",
+      "decision": "retained"
+    },
+    {
+      "index": 1115,
+      "word": "資料",
+      "meaning": "materials; data",
+      "decision": "retained"
+    },
+    {
+      "index": 1116,
+      "word": "レポート",
+      "meaning": "report",
+      "decision": "retained"
+    },
+    {
+      "index": 1117,
+      "word": "宿泊",
+      "meaning": "accommodation",
+      "decision": "retained"
+    },
+    {
+      "index": 1118,
+      "word": "観光",
+      "meaning": "sightseeing",
+      "decision": "retained"
+    },
+    {
+      "index": 1119,
+      "word": "土産",
+      "meaning": "souvenir",
+      "decision": "retained"
+    },
+    {
+      "index": 1120,
+      "word": "ガイド",
+      "meaning": "guide",
+      "decision": "retained"
+    },
+    {
+      "index": 1121,
+      "word": "うまい",
+      "meaning": "skillful; delicious",
+      "decision": "retained"
+    },
+    {
+      "index": 1122,
+      "word": "素敵",
+      "meaning": "lovely; wonderful",
+      "decision": "retained"
+    },
+    {
+      "index": 1123,
+      "word": "必要",
+      "meaning": "necessary",
+      "decision": "retained"
+    },
+    {
+      "index": 1124,
+      "word": "可能",
+      "meaning": "possible",
+      "decision": "retained"
+    },
+    {
+      "index": 1125,
+      "word": "不可能",
+      "meaning": "impossible",
+      "decision": "retained"
+    },
+    {
+      "index": 1126,
+      "word": "完全",
+      "meaning": "complete; perfect",
+      "decision": "retained"
+    },
+    {
+      "index": 1127,
+      "word": "不思議",
+      "meaning": "mysterious; strange",
+      "decision": "retained"
+    },
+    {
+      "index": 1128,
+      "word": "新鮮",
+      "meaning": "fresh",
+      "decision": "retained"
+    },
+    {
+      "index": 1129,
+      "word": "苦手",
+      "meaning": "not good at; dislike",
+      "decision": "retained"
+    },
+    {
+      "index": 1130,
+      "word": "得意",
+      "meaning": "good at; proud of",
+      "decision": "retained"
+    },
+    {
+      "index": 1131,
+      "word": "さっき",
+      "meaning": "a little while ago",
+      "decision": "retained"
+    },
+    {
+      "index": 1132,
+      "word": "たまに",
+      "meaning": "occasionally",
+      "decision": "retained"
+    },
+    {
+      "index": 1133,
+      "word": "めったに",
+      "meaning": "rarely; seldom",
+      "decision": "retained"
+    },
+    {
+      "index": 1134,
+      "word": "わざと",
+      "meaning": "on purpose",
+      "decision": "retained"
+    },
+    {
+      "index": 1135,
+      "word": "偶然",
+      "meaning": "by chance",
+      "decision": "retained"
+    },
+    {
+      "index": 1136,
+      "word": "たいてい",
+      "meaning": "usually; mostly",
+      "decision": "retained"
+    },
+    {
+      "index": 1137,
+      "word": "きっと",
+      "meaning": "surely; certainly",
+      "decision": "retained"
+    },
+    {
+      "index": 1138,
+      "word": "もしかしたら",
+      "meaning": "perhaps; maybe",
+      "decision": "retained"
+    },
+    {
+      "index": 1139,
+      "word": "さすが",
+      "meaning": "as expected (positive)",
+      "decision": "retained"
+    },
+    {
+      "index": 1140,
+      "word": "まさか",
+      "meaning": "no way; surely not",
+      "decision": "retained"
+    },
+    {
+      "index": 1141,
+      "word": "ぺらぺら",
+      "meaning": "fluently",
+      "decision": "retained"
+    },
+    {
+      "index": 1142,
+      "word": "どきどき",
+      "meaning": "heart pounding",
+      "decision": "retained"
+    },
+    {
+      "index": 1143,
+      "word": "わくわく",
+      "meaning": "excited",
+      "decision": "retained"
+    },
+    {
+      "index": 1144,
+      "word": "にこにこ",
+      "meaning": "smiling",
+      "decision": "retained"
+    },
+    {
+      "index": 1145,
+      "word": "ぐっすり",
+      "meaning": "soundly (sleeping)",
+      "decision": "retained"
+    },
+    {
+      "index": 1146,
+      "word": "のんびり",
+      "meaning": "leisurely; relaxed",
+      "decision": "retained"
+    },
+    {
+      "index": 1147,
+      "word": "ぎりぎり",
+      "meaning": "barely; just in time",
+      "decision": "retained"
+    },
+    {
+      "index": 1148,
+      "word": "ぼんやり",
+      "meaning": "absent-mindedly",
+      "decision": "retained"
+    },
+    {
+      "index": 1149,
+      "word": "そっと",
+      "meaning": "quietly; softly",
+      "decision": "retained"
+    }
+  ],
+  "validation": {
+    "changed_notes": 8,
+    "all_1137_packaged_images_match_selected_sources": true,
+    "regression_tests": 4,
+    "package_integrity_and_identity_audio_scheduling_checks": "passed in apply_templates.py",
+    "imported_into_Anki": false
+  }
+}

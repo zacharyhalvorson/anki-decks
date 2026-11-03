@@ -1,0 +1,66 @@
+[
+  {
+    "word": "する",
+    "reading": "する",
+    "meaning": "to do",
+    "image": "n4-sense-398-20261103.png",
+    "alt": "A student doing homework in a workbook",
+    "reason": "Choosing clothes illustrated a narrower decide-on sense, not the primary do sense."
+  },
+  {
+    "word": "上がる",
+    "reading": "あがる",
+    "meaning": "to go up; rise",
+    "image": "n4-sense-465-20261103.png",
+    "alt": "A person ascending stairs with an upward arrow",
+    "reason": "Entering an elevator did not clearly show upward movement."
+  },
+  {
+    "word": "開く",
+    "reading": "あく",
+    "meaning": "to open (intrans.)",
+    "image": "n4-sense-766-20261103.png",
+    "alt": "Automatic sliding doors change from closed to open without anyone touching them",
+    "reason": "A person opening a door suggested the transitive verb instead."
+  },
+  {
+    "word": "動く",
+    "reading": "うごく",
+    "meaning": "to move",
+    "image": "n4-sense-768-20261103.png",
+    "alt": "A car moving along a road",
+    "reason": "Pushing a cart suggested moving an object, rather than the subject moving."
+  },
+  {
+    "word": "最後",
+    "reading": "さいご",
+    "meaning": "last; end",
+    "image": "n4-sense-907-20261103.png",
+    "alt": "An arrow highlights the last person in a queue",
+    "reason": "A runner breaking a finish ribbon suggested first place, not last."
+  },
+  {
+    "word": "以上",
+    "reading": "いじょう",
+    "meaning": "more than; above",
+    "image": "n4-sense-901-20261103.png",
+    "alt": "A number line highlights five and all greater values: at least five",
+    "reason": "Make the inclusive lower limit explicit instead of suggesting only an increase."
+  },
+  {
+    "word": "以下",
+    "reading": "いか",
+    "meaning": "less than; below",
+    "image": "n4-sense-902-20261103.png",
+    "alt": "A number line highlights five and all smaller values: at most five",
+    "reason": "Make the inclusive upper limit explicit; a strict less-than sign was misleading."
+  },
+  {
+    "word": "つく",
+    "reading": "つく",
+    "meaning": "to arrive; reach",
+    "image": "vocab-20ba5fe46a81.png",
+    "alt": "A traveler arriving at a railway station",
+    "reason": "The previous lamp image represented the homograph meaning turn on, not arrive."
+  }
+]
