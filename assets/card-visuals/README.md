@@ -20,3 +20,5 @@ Run `python3 scripts/visual_coverage.py` to compare catalog coverage with actual
 Reviewed all 1,150 N4 entries (1,137 illustrated and 13 intentionally text-only) using labeled contact sheets. Eight illustrations were corrected, with seven newly generated images and one reused arrival scene. See `review/n4-2026-11-03/corrections.html` for before/after comparisons and `audit.json` for per-entry decisions.
 
 `sense-overrides.json` takes precedence over the legacy catalog using an exact `(Word, Reading, Meaning)` match. This keeps homographs such as つく (arrive versus turn on) and する (do versus decide on) separate. If a meaning field changes, review its override too; unmatched meanings fall back to the legacy catalog. The new sources retain their transparent PNGs and receive content-hashed WebP names during packaging. This pass rebuilds only `JLPT N4.apkg`; other exports are unchanged. Run `python3 Anki/scripts/test_visual_senses.py` to check sense separation.
+
+The arrival note was subsequently corrected from つく to 着く. Both sense keys are retained in the override file so rebuilding an older export cannot restore the lamp image.

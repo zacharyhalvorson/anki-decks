@@ -20,6 +20,11 @@ ASSET_SRC = "_kanji_strokes.js"
 
 def rd(p): return open(p, encoding="utf8").read()
 runtime = rd(f"{ROOT}/templates/runtime.js").strip() + "\n" + rd(f"{ROOT}/templates/visuals.js").strip()
+link_entries = json.loads(rd(f"{ROOT}/assets/dictionary/nihongo-links.json"))
+link_rules = {'|'.join(e[k] for k in ('word', 'reading', 'meaning')): e['target'] for e in link_entries}
+assert len(link_rules) == len(link_entries), 'duplicate dictionary sense keys'
+link_script = rd(f"{ROOT}/templates/dictionary_links.js").replace('__DICTIONARY_LINKS__', json.dumps(link_rules, ensure_ascii=True).replace('</', '<\\/'))
+runtime += '\n' + link_script
 tap_guard = rd(f"{ROOT}/templates/tap_guard.js").strip()
 css = rd(f"{ROOT}/templates/card.css") + "\n" + rd(f"{ROOT}/templates/visuals.css")
 def tmpl(name): return rd(f"{ROOT}/templates/{name}.html").replace("__VISUAL_FRONT__", rd(f"{ROOT}/templates/visual_front.js")).replace("__RUNTIME__", runtime).replace("__TAP_GUARD__", tap_guard)

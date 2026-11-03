@@ -1,0 +1,4876 @@
+{
+  "source": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+  "source_sha256": "048dfec26d22fc04e013978c120a94b9daef9ccffcade17111d5b69ad7852d6f",
+  "route_documentation": "https://nihongo-app.com/faq.html",
+  "notes_screened": 1150,
+  "ambiguous_entries": 57,
+  "review": [
+    {
+      "word": "あなた",
+      "reading": "あなた",
+      "meaning": "you",
+      "target": "word/1223615",
+      "note_id": 1776868952135,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1223615",
+          "kanji": [
+            "貴方",
+            "貴女",
+            "貴男"
+          ],
+          "readings": [
+            "あなた"
+          ],
+          "gloss": [
+            "you",
+            "dear",
+            "honey"
+          ],
+          "pos": [
+            "pronoun",
+            "pronoun"
+          ]
+        },
+        {
+          "id": "1483180",
+          "kanji": [
+            "彼方"
+          ],
+          "readings": [
+            "かなた",
+            "あなた"
+          ],
+          "gloss": [
+            "beyond",
+            "across",
+            "the other side",
+            "the distance"
+          ],
+          "pos": [
+            "pronoun"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "零",
+      "reading": "れい/ゼロ",
+      "meaning": "zero",
+      "target": "search/零",
+      "note_id": 1776868952205,
+      "rationale": "Card intentionally includes multiple readings or dictionary entries; show choices instead of guessing.",
+      "candidates": [
+        {
+          "id": "1557630",
+          "kanji": [
+            "零",
+            "０",
+            "〇"
+          ],
+          "readings": [
+            "れい"
+          ],
+          "gloss": [
+            "zero",
+            "nought"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2839962",
+          "kanji": [
+            "０",
+            "〇",
+            "零"
+          ],
+          "readings": [
+            "ゼロ"
+          ],
+          "gloss": [
+            "zero",
+            "0",
+            "nought",
+            "nil",
+            "nothing",
+            "zilch"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "家",
+      "reading": "いえ/うち",
+      "meaning": "house; home",
+      "target": "search/家",
+      "note_id": 1776868952365,
+      "rationale": "Card intentionally includes multiple readings or dictionary entries; show choices instead of guessing.",
+      "candidates": [
+        {
+          "id": "1191730",
+          "kanji": [
+            "家"
+          ],
+          "readings": [
+            "いえ"
+          ],
+          "gloss": [
+            "house",
+            "residence",
+            "dwelling",
+            "home",
+            "family",
+            "household",
+            "lineage",
+            "family name"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "1191740",
+          "kanji": [
+            "家"
+          ],
+          "readings": [
+            "うち"
+          ],
+          "gloss": [
+            "one's house",
+            "one's home",
+            "one's family",
+            "one's household",
+            "house"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "1457730",
+          "kanji": [
+            "内",
+            "中",
+            "裡",
+            "裏",
+            "家",
+            "內"
+          ],
+          "readings": [
+            "うち"
+          ],
+          "gloss": [
+            "inside",
+            "within",
+            "while (e.g. one is young)",
+            "during",
+            "within (e.g. a day)",
+            "in the course of",
+            "among",
+            "amongst",
+            "(out) of",
+            "between",
+            "in (secret, chaos, poverty, etc.)",
+            "amidst",
+            "with (e.g. success)",
+            "within oneself",
+            "one's feelings",
+            "inner thoughts",
+            "we",
+            "our company",
+            "our organization",
+            "one's home",
+            "one's family",
+            "my spouse",
+            "my husband",
+            "my wife",
+            "signed on behalf of (husband's name) by his wife",
+            "I",
+            "me",
+            "imperial palace grounds",
+            "emperor"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)",
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)",
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "pronoun",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "パン",
+      "reading": "パン",
+      "meaning": "bread",
+      "target": "word/1103090",
+      "note_id": 1776868952395,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1103090",
+          "kanji": [],
+          "readings": [
+            "パン"
+          ],
+          "gloss": [
+            "bread",
+            "(sweet) pastry",
+            "staff of life",
+            "one's bread"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2827858",
+          "kanji": [],
+          "readings": [
+            "パン",
+            "パーン"
+          ],
+          "gloss": [
+            "Pan (god)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2850596",
+          "kanji": [],
+          "readings": [
+            "パン"
+          ],
+          "gloss": [
+            "pan",
+            "frying pan",
+            "panning (a camera)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "2850597",
+          "kanji": [],
+          "readings": [
+            "パン"
+          ],
+          "gloss": [
+            "pan-"
+          ],
+          "pos": [
+            "prefix"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "りんご",
+      "reading": "りんご",
+      "meaning": "apple",
+      "target": "word/1555480",
+      "note_id": 1776868952407,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1555480",
+          "kanji": [
+            "林檎"
+          ],
+          "readings": [
+            "りんご",
+            "リンゴ"
+          ],
+          "gloss": [
+            "apple (fruit)",
+            "apple tree (Malus pumila)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2859671",
+          "kanji": [
+            "苹果"
+          ],
+          "readings": [
+            "ひょうか",
+            "へいか",
+            "りんご"
+          ],
+          "gloss": [
+            "apple (fruit)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "みかん",
+      "reading": "みかん",
+      "meaning": "mandarin orange",
+      "target": "word/1528410",
+      "note_id": 1776868952409,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1527270",
+          "kanji": [
+            "未刊"
+          ],
+          "readings": [
+            "みかん"
+          ],
+          "gloss": [
+            "unpublished"
+          ],
+          "pos": [
+            "nouns which may take the genitive case particle 'no'",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "1527290",
+          "kanji": [
+            "未完"
+          ],
+          "readings": [
+            "みかん"
+          ],
+          "gloss": [
+            "incomplete",
+            "unfinished"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        },
+        {
+          "id": "1528410",
+          "kanji": [
+            "蜜柑"
+          ],
+          "readings": [
+            "みかん",
+            "ミカン"
+          ],
+          "gloss": [
+            "mandarin (esp. the satsuma mandarin (Citrus unshiu))",
+            "mandarin orange",
+            "tangerine",
+            "clementine",
+            "satsuma",
+            "citrus (Citrus spp.)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "コップ",
+      "reading": "コップ",
+      "meaning": "cup; glass",
+      "target": "word/1050390",
+      "note_id": 1776868952577,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1050390",
+          "kanji": [
+            "洋杯",
+            "洋盃",
+            "骨杯"
+          ],
+          "readings": [
+            "コップ",
+            "コツフ"
+          ],
+          "gloss": [
+            "glass (drinking vessel)",
+            "tumbler",
+            "cups (suit)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2846389",
+          "kanji": [],
+          "readings": [
+            "コップ"
+          ],
+          "gloss": [
+            "cop",
+            "police officer"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "5000045",
+          "kanji": [
+            "ＫＯＰＦ"
+          ],
+          "readings": [
+            "コップ"
+          ],
+          "gloss": [
+            "Federacio de Proletaj Kultur-Organizoj Japanaj (1931-1934)",
+            "Japanese Federation of Proletarian Culture Organizations",
+            "KOPF"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "フォーク",
+      "reading": "フォーク",
+      "meaning": "fork",
+      "target": "word/1110110",
+      "note_id": 1776868952587,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1110110",
+          "kanji": [],
+          "readings": [
+            "フォーク",
+            "ホーク"
+          ],
+          "gloss": [
+            "fork",
+            "forkball"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2848171",
+          "kanji": [],
+          "readings": [
+            "フォーク"
+          ],
+          "gloss": [
+            "folk (esp. music)",
+            "folk song"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ペン",
+      "reading": "ペン",
+      "meaning": "pen",
+      "target": "word/1121380",
+      "note_id": 1776868952593,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1121380",
+          "kanji": [],
+          "readings": [
+            "ペン"
+          ],
+          "gloss": [
+            "pen"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "5000059",
+          "kanji": [
+            "ＰＥＮ"
+          ],
+          "readings": [
+            "ペン"
+          ],
+          "gloss": [
+            "International Association of Poets, Playwrights, Editors, Essayists and Novelists",
+            "PEN"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "バス",
+      "reading": "バス",
+      "meaning": "bus",
+      "target": "word/1098390",
+      "note_id": 1776868952611,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1098390",
+          "kanji": [],
+          "readings": [
+            "バス"
+          ],
+          "gloss": [
+            "bus",
+            "bus"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2845312",
+          "kanji": [],
+          "readings": [
+            "バス"
+          ],
+          "gloss": [
+            "bath"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2845314",
+          "kanji": [],
+          "readings": [
+            "バス"
+          ],
+          "gloss": [
+            "bass",
+            "double bass"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2845315",
+          "kanji": [],
+          "readings": [
+            "バス"
+          ],
+          "gloss": [
+            "bass (fish; esp. black bass)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ここ",
+      "reading": "ここ",
+      "meaning": "here",
+      "target": "word/1288810",
+      "note_id": 1776868952667,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1288810",
+          "kanji": [
+            "此処",
+            "此所",
+            "是",
+            "茲",
+            "爰"
+          ],
+          "readings": [
+            "ここ"
+          ],
+          "gloss": [
+            "here",
+            "this place",
+            "this point",
+            "here",
+            "now",
+            "these past ... (e.g. three years)",
+            "these last ...",
+            "the next ... (e.g. few days)",
+            "these next ..."
+          ],
+          "pos": [
+            "pronoun",
+            "pronoun",
+            "pronoun",
+            "pronoun"
+          ]
+        },
+        {
+          "id": "1578150",
+          "kanji": [
+            "九",
+            "９",
+            "玖"
+          ],
+          "readings": [
+            "きゅう",
+            "く",
+            "ここの",
+            "この",
+            "ここ"
+          ],
+          "gloss": [
+            "nine",
+            "9"
+          ],
+          "pos": [
+            "numeric"
+          ]
+        },
+        {
+          "id": "1593190",
+          "kanji": [
+            "個々",
+            "個個",
+            "箇々",
+            "箇箇"
+          ],
+          "readings": [
+            "ここ"
+          ],
+          "gloss": [
+            "individual",
+            "one by one",
+            "separate",
+            "each"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        },
+        {
+          "id": "1639930",
+          "kanji": [
+            "戸戸",
+            "戸々"
+          ],
+          "readings": [
+            "ここ"
+          ],
+          "gloss": [
+            "each house",
+            "every house"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "1955390",
+          "kanji": [
+            "呱々",
+            "呱呱"
+          ],
+          "readings": [
+            "ここ"
+          ],
+          "gloss": [
+            "cry of a baby at birth"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "そこ",
+      "reading": "そこ",
+      "meaning": "there",
+      "target": "word/1006670",
+      "note_id": 1776868952669,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1006670",
+          "kanji": [
+            "其処",
+            "其所"
+          ],
+          "readings": [
+            "そこ"
+          ],
+          "gloss": [
+            "there (place relatively near listener)",
+            "there (place just mentioned)",
+            "that place",
+            "then (of some incident just spoken of)",
+            "that (of point just raised)",
+            "you"
+          ],
+          "pos": [
+            "pronoun",
+            "pronoun",
+            "pronoun",
+            "pronoun"
+          ]
+        },
+        {
+          "id": "1436050",
+          "kanji": [
+            "底"
+          ],
+          "readings": [
+            "そこ"
+          ],
+          "gloss": [
+            "bottom",
+            "sole",
+            "bed (of a river)",
+            "depths (e.g. of despair, the sea)",
+            "bottom (of one's heart)",
+            "the heart (of something)",
+            "limit",
+            "end",
+            "extremities",
+            "bounds",
+            "bottom (e.g. of share price)",
+            "bottom price"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "これ",
+      "reading": "これ",
+      "meaning": "this",
+      "target": "word/1628530",
+      "note_id": 1776868952675,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1628530",
+          "kanji": [
+            "此れ",
+            "是",
+            "之",
+            "維",
+            "惟",
+            "此",
+            "是れ",
+            "之れ"
+          ],
+          "readings": [
+            "これ"
+          ],
+          "gloss": [
+            "this",
+            "this one",
+            "this person",
+            "now",
+            "this point (in time)",
+            "here",
+            "used to stress the subject of a sentence",
+            "I",
+            "me"
+          ],
+          "pos": [
+            "pronoun",
+            "pronoun",
+            "pronoun",
+            "pronoun",
+            "adverb (fukushi)",
+            "pronoun"
+          ]
+        },
+        {
+          "id": "2216120",
+          "kanji": [],
+          "readings": [
+            "これ"
+          ],
+          "gloss": [
+            "hey",
+            "oi",
+            "come on",
+            "look",
+            "listen"
+          ],
+          "pos": [
+            "interjection (kandoushi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "それ",
+      "reading": "それ",
+      "meaning": "that",
+      "target": "word/1006970",
+      "note_id": 1776868952677,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1006970",
+          "kanji": [
+            "其れ",
+            "其"
+          ],
+          "readings": [
+            "それ"
+          ],
+          "gloss": [
+            "that",
+            "it",
+            "then",
+            "that point (in time)",
+            "that time",
+            "there",
+            "you"
+          ],
+          "pos": [
+            "pronoun",
+            "pronoun",
+            "pronoun",
+            "pronoun"
+          ]
+        },
+        {
+          "id": "2216210",
+          "kanji": [],
+          "readings": [
+            "それ",
+            "それっ"
+          ],
+          "gloss": [
+            "there!",
+            "look!",
+            "go on!",
+            "right!",
+            "here goes!"
+          ],
+          "pos": [
+            "interjection (kandoushi)",
+            "interjection (kandoushi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "あれ",
+      "reading": "あれ",
+      "meaning": "that (over there)",
+      "target": "word/1000580",
+      "note_id": 1776868952679,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1000580",
+          "kanji": [
+            "彼",
+            "彼れ"
+          ],
+          "readings": [
+            "あれ",
+            "アレ"
+          ],
+          "gloss": [
+            "that",
+            "that thing",
+            "that person",
+            "then",
+            "that time",
+            "that place (over there)",
+            "down there (i.e. one's genitals)",
+            "period",
+            "menses"
+          ],
+          "pos": [
+            "pronoun",
+            "pronoun",
+            "pronoun",
+            "pronoun",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "1196670",
+          "kanji": [
+            "我",
+            "吾",
+            "吾れ",
+            "我れ"
+          ],
+          "readings": [
+            "われ",
+            "わ",
+            "あれ",
+            "あ",
+            "わぬ",
+            "わろ"
+          ],
+          "gloss": [
+            "I",
+            "me",
+            "oneself",
+            "you",
+            "prefix indicating familiarity or contempt"
+          ],
+          "pos": [
+            "pronoun",
+            "pronoun",
+            "pronoun",
+            "prefix"
+          ]
+        },
+        {
+          "id": "1857320",
+          "kanji": [
+            "荒れ"
+          ],
+          "readings": [
+            "あれ"
+          ],
+          "gloss": [
+            "stormy weather",
+            "tempest",
+            "chaps (of skin)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2847612",
+          "kanji": [],
+          "readings": [
+            "あれ",
+            "あれっ",
+            "あれえ",
+            "あれー",
+            "あり"
+          ],
+          "gloss": [
+            "huh?",
+            "eh?",
+            "what?",
+            "oh",
+            "hey!",
+            "look!",
+            "listen!",
+            "help!"
+          ],
+          "pos": [
+            "interjection (kandoushi)",
+            "interjection (kandoushi)"
+          ]
+        },
+        {
+          "id": "2859257",
+          "kanji": [
+            "有れ",
+            "在れ"
+          ],
+          "readings": [
+            "あれ"
+          ],
+          "gloss": [
+            "let there be ...",
+            "may it be ...",
+            "please do ..."
+          ],
+          "pos": [
+            "expressions (phrases, clauses, etc.)",
+            "auxiliary"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "この",
+      "reading": "この",
+      "meaning": "this (adj)",
+      "target": "word/1582920",
+      "note_id": 1776868952683,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1578150",
+          "kanji": [
+            "九",
+            "９",
+            "玖"
+          ],
+          "readings": [
+            "きゅう",
+            "く",
+            "ここの",
+            "この",
+            "ここ"
+          ],
+          "gloss": [
+            "nine",
+            "9"
+          ],
+          "pos": [
+            "numeric"
+          ]
+        },
+        {
+          "id": "1582920",
+          "kanji": [
+            "此の",
+            "斯の"
+          ],
+          "readings": [
+            "この",
+            "こん"
+          ],
+          "gloss": [
+            "this",
+            "last (couple of years, etc.)",
+            "these",
+            "past",
+            "this",
+            "you (as in \"you liar\")"
+          ],
+          "pos": [
+            "pre-noun adjectival (rentaishi)",
+            "pre-noun adjectival (rentaishi)",
+            "pre-noun adjectival (rentaishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "その",
+      "reading": "その",
+      "meaning": "that (adj)",
+      "target": "word/1006830",
+      "note_id": 1776868952685,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1006830",
+          "kanji": [
+            "其の"
+          ],
+          "readings": [
+            "その",
+            "そん"
+          ],
+          "gloss": [
+            "that",
+            "the",
+            "part (as in \"part two\")",
+            "um ...",
+            "er ...",
+            "uh ..."
+          ],
+          "pos": [
+            "pre-noun adjectival (rentaishi)",
+            "pre-noun adjectival (rentaishi)",
+            "interjection (kandoushi)"
+          ]
+        },
+        {
+          "id": "1176240",
+          "kanji": [
+            "園",
+            "苑",
+            "薗"
+          ],
+          "readings": [
+            "その"
+          ],
+          "gloss": [
+            "garden",
+            "orchard",
+            "park",
+            "place",
+            "world",
+            "environment"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "あの",
+      "reading": "あの",
+      "meaning": "that (over there, adj)",
+      "target": "word/1000420",
+      "note_id": 1776868952687,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1000420",
+          "kanji": [
+            "彼の"
+          ],
+          "readings": [
+            "あの",
+            "あん"
+          ],
+          "gloss": [
+            "that",
+            "those",
+            "the"
+          ],
+          "pos": [
+            "pre-noun adjectival (rentaishi)"
+          ]
+        },
+        {
+          "id": "1000430",
+          "kanji": [],
+          "readings": [
+            "あの",
+            "あのー",
+            "あのう"
+          ],
+          "gloss": [
+            "say",
+            "well",
+            "um",
+            "er"
+          ],
+          "pos": [
+            "interjection (kandoushi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "どの",
+      "reading": "どの",
+      "meaning": "which (adj)",
+      "target": "word/1920240",
+      "note_id": 1776868952689,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1442500",
+          "kanji": [
+            "殿"
+          ],
+          "readings": [
+            "どの"
+          ],
+          "gloss": [
+            "Mr.",
+            "Mrs.",
+            "Miss",
+            "Ms."
+          ],
+          "pos": [
+            "suffix"
+          ]
+        },
+        {
+          "id": "1920240",
+          "kanji": [
+            "何の"
+          ],
+          "readings": [
+            "どの"
+          ],
+          "gloss": [
+            "which",
+            "what (way)"
+          ],
+          "pos": [
+            "pre-noun adjectival (rentaishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "何",
+      "reading": "なに/なん",
+      "meaning": "what",
+      "target": "search/何",
+      "note_id": 1776868952691,
+      "rationale": "Card intentionally includes multiple readings or dictionary entries; show choices instead of guessing.",
+      "candidates": [
+        {
+          "id": "1577100",
+          "kanji": [
+            "何"
+          ],
+          "readings": [
+            "なに",
+            "ナニ"
+          ],
+          "gloss": [
+            "what",
+            "you-know-what",
+            "that thing",
+            "whatsit",
+            "whachamacallit",
+            "what's-his-name",
+            "what's-her-name",
+            "penis",
+            "(one's) thing",
+            "dick",
+            "(not) at all",
+            "(not) in the slightest",
+            "what?",
+            "huh?",
+            "hey!",
+            "come on!",
+            "oh, no (it's fine)",
+            "why (it's nothing)",
+            "oh (certainly not)"
+          ],
+          "pos": [
+            "pronoun",
+            "pronoun",
+            "pronoun",
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)",
+            "interjection (kandoushi)",
+            "interjection (kandoushi)",
+            "interjection (kandoushi)"
+          ]
+        },
+        {
+          "id": "2846738",
+          "kanji": [
+            "何"
+          ],
+          "readings": [
+            "なん"
+          ],
+          "gloss": [
+            "what",
+            "how many",
+            "many",
+            "a lot of",
+            "several",
+            "a few",
+            "some"
+          ],
+          "pos": [
+            "pronoun",
+            "prefix",
+            "prefix",
+            "prefix"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "いつ",
+      "reading": "いつ",
+      "meaning": "when",
+      "target": "word/1188760",
+      "note_id": 1776868952695,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1188760",
+          "kanji": [
+            "何時"
+          ],
+          "readings": [
+            "いつ"
+          ],
+          "gloss": [
+            "when",
+            "at what time",
+            "how soon",
+            "normal times",
+            "ordinary days"
+          ],
+          "pos": [
+            "pronoun",
+            "pronoun"
+          ]
+        },
+        {
+          "id": "1268060",
+          "kanji": [
+            "五",
+            "５",
+            "伍"
+          ],
+          "readings": [
+            "ご",
+            "いつ",
+            "い"
+          ],
+          "gloss": [
+            "five",
+            "5"
+          ],
+          "pos": [
+            "numeric"
+          ]
+        },
+        {
+          "id": "1585390",
+          "kanji": [
+            "佚"
+          ],
+          "readings": [
+            "いつ"
+          ],
+          "gloss": [
+            "being comfortable",
+            "relaxing"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2837668",
+          "kanji": [
+            "凍つ",
+            "冱つ"
+          ],
+          "readings": [
+            "いつ"
+          ],
+          "gloss": [
+            "to freeze"
+          ],
+          "pos": [
+            "Nidan verb (lower class) with 'tsu' ending (archaic)",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "2843147",
+          "kanji": [
+            "一"
+          ],
+          "readings": [
+            "いつ"
+          ],
+          "gloss": [
+            "one",
+            "same (mind, path, etc.)"
+          ],
+          "pos": [
+            "numeric",
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "どう",
+      "reading": "どう",
+      "meaning": "how",
+      "target": "word/1008910",
+      "note_id": 1776868952697,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1000050",
+          "kanji": [
+            "仝"
+          ],
+          "readings": [
+            "どう"
+          ],
+          "gloss": [
+            "\"as above\" mark"
+          ],
+          "pos": [
+            "unclassified"
+          ]
+        },
+        {
+          "id": "1008910",
+          "kanji": [
+            "如何",
+            "何う"
+          ],
+          "readings": [
+            "どう"
+          ],
+          "gloss": [
+            "how",
+            "in what way",
+            "how about"
+          ],
+          "pos": [
+            "adverb (fukushi)"
+          ]
+        },
+        {
+          "id": "1451160",
+          "kanji": [
+            "動"
+          ],
+          "readings": [
+            "どう"
+          ],
+          "gloss": [
+            "motion"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "1451730",
+          "kanji": [
+            "同"
+          ],
+          "readings": [
+            "どう"
+          ],
+          "gloss": [
+            "the same",
+            "the said",
+            "likewise"
+          ],
+          "pos": [
+            "prefix",
+            "unclassified"
+          ]
+        },
+        {
+          "id": "1453640",
+          "kanji": [
+            "堂"
+          ],
+          "readings": [
+            "どう"
+          ],
+          "gloss": [
+            "temple",
+            "shrine",
+            "chapel",
+            "hall",
+            "company",
+            "front room"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun, used as a suffix",
+            "noun (common) (futsuumeishi)",
+            "noun, used as a suffix",
+            "suffix",
+            "noun (common) (futsuumeishi)",
+            "noun, used as a suffix",
+            "noun, used as a prefix"
+          ]
+        },
+        {
+          "id": "1454010",
+          "kanji": [
+            "胴"
+          ],
+          "readings": [
+            "どう"
+          ],
+          "gloss": [
+            "trunk",
+            "torso",
+            "body",
+            "abdomen",
+            "waist",
+            "plastron (in kendo)",
+            "touching the plastron (kimari-te in kendo)",
+            "frame (of a drum, etc.)",
+            "sound box (of a shamisen, etc.)",
+            "hull (of a ship)",
+            "dealer"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "1582390",
+          "kanji": [
+            "銅",
+            "赤金"
+          ],
+          "readings": [
+            "どう",
+            "あか",
+            "あかがね"
+          ],
+          "gloss": [
+            "copper (Cu)",
+            "bronze (medal)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2158900",
+          "kanji": [
+            "道"
+          ],
+          "readings": [
+            "どう"
+          ],
+          "gloss": [
+            "road",
+            "path",
+            "street",
+            "route",
+            "way",
+            "set of practices",
+            "rules for conducting oneself",
+            "moral education",
+            "Buddhist teachings",
+            "Taoism",
+            "administrative region of Japan (Hokkaido)",
+            "administrative region of Japan (Tokaido, Tosando, etc.)",
+            "province (administrative region of Korea)",
+            "circuit (administrative region of China)",
+            "province (Tang-era administrative region of China)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2252690",
+          "kanji": [
+            "度"
+          ],
+          "readings": [
+            "ど",
+            "ド",
+            "どう"
+          ],
+          "gloss": [
+            "extreme",
+            "ultra",
+            "mega",
+            "totally",
+            "very much",
+            "precisely",
+            "exactly",
+            "damn",
+            "stupid",
+            "cursed"
+          ],
+          "pos": [
+            "prefix",
+            "prefix"
+          ]
+        },
+        {
+          "id": "2255350",
+          "kanji": [],
+          "readings": [
+            "どう"
+          ],
+          "gloss": [
+            "whoa (command used to stop a horse, etc.)"
+          ],
+          "pos": [
+            "interjection (kandoushi)"
+          ]
+        },
+        {
+          "id": "2271820",
+          "kanji": [
+            "幢",
+            "幡幢"
+          ],
+          "readings": [
+            "はたほこ",
+            "はたぼこ",
+            "どう"
+          ],
+          "gloss": [
+            "long-handled Chinese spear bearing a small flag",
+            "banner",
+            "hanging"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2844351",
+          "kanji": [
+            "洞"
+          ],
+          "readings": [
+            "どう"
+          ],
+          "gloss": [
+            "sinus",
+            "cavity",
+            "antrum",
+            "neighborhood (administrative division in North Korea)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "いくら",
+      "reading": "いくら",
+      "meaning": "how much",
+      "target": "word/1219980",
+      "note_id": 1776868952703,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1021180",
+          "kanji": [],
+          "readings": [
+            "イクラ",
+            "いくら"
+          ],
+          "gloss": [
+            "salted salmon roe"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "1219980",
+          "kanji": [
+            "幾ら"
+          ],
+          "readings": [
+            "いくら"
+          ],
+          "gloss": [
+            "how much",
+            "something over",
+            "and something",
+            "-odd",
+            "however (much)",
+            "no matter how"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)",
+            "noun, used as a suffix",
+            "adverb (fukushi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ある",
+      "reading": "ある",
+      "meaning": "to exist (inanimate)",
+      "target": "word/1296400",
+      "note_id": 1776868952893,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1296400",
+          "kanji": [
+            "有る",
+            "在る"
+          ],
+          "readings": [
+            "ある"
+          ],
+          "gloss": [
+            "to be",
+            "to exist",
+            "to live",
+            "to have",
+            "to be located",
+            "to be equipped with",
+            "to happen",
+            "to come about",
+            "to exist (in a completed state)",
+            "to be (something unchanged in its current state)"
+          ],
+          "pos": [
+            "Godan verb with 'ru' ending (irregular verb)",
+            "intransitive verb",
+            "Godan verb with 'ru' ending (irregular verb)",
+            "intransitive verb",
+            "Godan verb with 'ru' ending (irregular verb)",
+            "intransitive verb",
+            "Godan verb with 'ru' ending (irregular verb)",
+            "intransitive verb",
+            "Godan verb with 'ru' ending (irregular verb)",
+            "intransitive verb",
+            "auxiliary verb",
+            "Godan verb with 'ru' ending (irregular verb)"
+          ]
+        },
+        {
+          "id": "1586840",
+          "kanji": [
+            "或る",
+            "或"
+          ],
+          "readings": [
+            "ある"
+          ],
+          "gloss": [
+            "a certain ...",
+            "some ..."
+          ],
+          "pos": [
+            "pre-noun adjectival (rentaishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "いる",
+      "reading": "いる",
+      "meaning": "to exist (animate)",
+      "target": "word/1577980",
+      "note_id": 1776868952895,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1322180",
+          "kanji": [
+            "射る"
+          ],
+          "readings": [
+            "いる"
+          ],
+          "gloss": [
+            "to shoot (arrow, bolt, dart)"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "1391500",
+          "kanji": [
+            "炒る",
+            "煎る",
+            "熬る"
+          ],
+          "readings": [
+            "いる"
+          ],
+          "gloss": [
+            "to roast",
+            "to parch",
+            "to toast",
+            "to boil down"
+          ],
+          "pos": [
+            "Godan verb with 'ru' ending",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "1465580",
+          "kanji": [
+            "入る"
+          ],
+          "readings": [
+            "いる"
+          ],
+          "gloss": [
+            "to enter",
+            "to go in",
+            "to get in",
+            "to come in",
+            "to set (of the sun or moon)",
+            "to sink",
+            "to go down",
+            "to attain (nirvana, enlightenment, etc.)",
+            "to achieve",
+            "to reach (e.g. a climax)",
+            "to do fully",
+            "to do intently",
+            "to do sincerely",
+            "to do deeply",
+            "to feel keenly",
+            "to (reach a state) completely"
+          ],
+          "pos": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb",
+            "Godan verb with 'ru' ending",
+            "intransitive verb",
+            "Godan verb with 'ru' ending",
+            "intransitive verb",
+            "suffix",
+            "Godan verb with 'ru' ending",
+            "suffix",
+            "Godan verb with 'ru' ending"
+          ]
+        },
+        {
+          "id": "1546640",
+          "kanji": [
+            "要る"
+          ],
+          "readings": [
+            "いる"
+          ],
+          "gloss": [
+            "to be needed",
+            "to be necessary",
+            "to be required",
+            "to be wanted",
+            "to need",
+            "to want"
+          ],
+          "pos": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "1577980",
+          "kanji": [
+            "居る"
+          ],
+          "readings": [
+            "いる"
+          ],
+          "gloss": [
+            "to be (of animate objects)",
+            "to exist",
+            "to stay",
+            "to be ...-ing",
+            "to have ...-ed",
+            "to be ...-ed"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "intransitive verb",
+            "Ichidan verb",
+            "intransitive verb",
+            "auxiliary verb",
+            "Ichidan verb",
+            "auxiliary verb",
+            "Ichidan verb"
+          ]
+        },
+        {
+          "id": "1587780",
+          "kanji": [
+            "鋳る",
+            "鑄る"
+          ],
+          "readings": [
+            "いる"
+          ],
+          "gloss": [
+            "to cast",
+            "to mint",
+            "to coin"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "2209310",
+          "kanji": [
+            "没る"
+          ],
+          "readings": [
+            "いる"
+          ],
+          "gloss": [
+            "to set (of the sun)"
+          ],
+          "pos": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "2729170",
+          "kanji": [
+            "癒る"
+          ],
+          "readings": [
+            "いる"
+          ],
+          "gloss": [
+            "to calm down"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "2851105",
+          "kanji": [
+            "沃る"
+          ],
+          "readings": [
+            "いる"
+          ],
+          "gloss": [
+            "to pour",
+            "to dash (water) over",
+            "to douse with"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "2851106",
+          "kanji": [
+            "率る",
+            "将る"
+          ],
+          "readings": [
+            "いる"
+          ],
+          "gloss": [
+            "to lead",
+            "to spearhead",
+            "to command",
+            "to carry",
+            "to take"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "する",
+      "reading": "する",
+      "meaning": "to do",
+      "target": "word/1157170",
+      "note_id": 1776868952897,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1157170",
+          "kanji": [
+            "為る"
+          ],
+          "readings": [
+            "する"
+          ],
+          "gloss": [
+            "to do",
+            "to carry out",
+            "to perform",
+            "to cause to become",
+            "to make (into)",
+            "to turn (into)",
+            "to serve as",
+            "to act as",
+            "to work as",
+            "to wear (clothes, a facial expression, etc.)",
+            "to judge as being",
+            "to view as being",
+            "to think of as",
+            "to treat as",
+            "to use as",
+            "to decide on",
+            "to choose",
+            "to be sensed (of a smell, noise, etc.)",
+            "to be (in a state, condition, etc.)",
+            "to be worth",
+            "to cost",
+            "to pass (of time)",
+            "to elapse",
+            "to place, or raise, person A to a post or status B",
+            "to transform A to B",
+            "to make A into B",
+            "to exchange A for B",
+            "to make use of A for B",
+            "to view A as B",
+            "to handle A as if it were B",
+            "to feel A about B",
+            "verbalizing suffix (applies to nouns noted in this dictionary with the part of speech \"vs\")",
+            "creates a humble verb (after a noun prefixed with \"o\" or \"go\")",
+            "to be just about to",
+            "to be just starting to",
+            "to try to",
+            "to attempt to"
+          ],
+          "pos": [
+            "suru verb - included",
+            "suru verb - included",
+            "suru verb - included",
+            "suru verb - included",
+            "suru verb - included",
+            "suru verb - included",
+            "suru verb - included",
+            "intransitive verb",
+            "suru verb - included",
+            "intransitive verb",
+            "suru verb - included",
+            "intransitive verb",
+            "suru verb - included",
+            "intransitive verb",
+            "suru verb - included",
+            "transitive verb",
+            "suru verb - included",
+            "transitive verb",
+            "suru verb - included",
+            "transitive verb",
+            "suru verb - included",
+            "transitive verb",
+            "suffix",
+            "suru verb - included",
+            "auxiliary verb",
+            "suru verb - included",
+            "auxiliary verb",
+            "suru verb - included"
+          ]
+        },
+        {
+          "id": "1298670",
+          "kanji": [
+            "刷る",
+            "摺る"
+          ],
+          "readings": [
+            "する"
+          ],
+          "gloss": [
+            "to print",
+            "to color or pattern fabric using a wooden mold"
+          ],
+          "pos": [
+            "Godan verb with 'ru' ending",
+            "transitive verb",
+            "Godan verb with 'ru' ending",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "1567440",
+          "kanji": [
+            "掏る"
+          ],
+          "readings": [
+            "する",
+            "スる"
+          ],
+          "gloss": [
+            "to pickpocket",
+            "to steal"
+          ],
+          "pos": [
+            "Godan verb with 'ru' ending",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "1581900",
+          "kanji": [
+            "剃る"
+          ],
+          "readings": [
+            "そる",
+            "する"
+          ],
+          "gloss": [
+            "to shave"
+          ],
+          "pos": [
+            "Godan verb with 'ru' ending",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "1595910",
+          "kanji": [
+            "擦る",
+            "擂る",
+            "摩る",
+            "磨る"
+          ],
+          "readings": [
+            "する"
+          ],
+          "gloss": [
+            "to rub",
+            "to chafe",
+            "to strike (match)",
+            "to file",
+            "to frost (glass)",
+            "to squander (one's money)",
+            "to run through (one's fortune)",
+            "to lose money (e.g. by gambling)"
+          ],
+          "pos": [
+            "Godan verb with 'ru' ending",
+            "transitive verb",
+            "Godan verb with 'ru' ending",
+            "transitive verb"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "つける",
+      "reading": "つける",
+      "meaning": "to turn on",
+      "target": "word/1610400",
+      "note_id": 1776868952951,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1331540",
+          "kanji": [
+            "就ける",
+            "即ける"
+          ],
+          "readings": [
+            "つける"
+          ],
+          "gloss": [
+            "to install (a king, emperor, etc.)",
+            "to appoint (to a post)",
+            "to promote",
+            "to assign (to study under)"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "1433680",
+          "kanji": [
+            "漬ける",
+            "浸ける"
+          ],
+          "readings": [
+            "つける"
+          ],
+          "gloss": [
+            "to soak (in)",
+            "to steep",
+            "to dip",
+            "to dunk",
+            "to pickle",
+            "to preserve (in salt, vinegar, etc.)"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "1495770",
+          "kanji": [
+            "付ける",
+            "着ける",
+            "附ける"
+          ],
+          "readings": [
+            "つける",
+            "ツケる"
+          ],
+          "gloss": [
+            "to attach",
+            "to join",
+            "to connect",
+            "to add",
+            "to append",
+            "to affix",
+            "to stick",
+            "to glue",
+            "to fasten",
+            "to sew on",
+            "to apply (ointment)",
+            "to put against",
+            "to furnish (a house with)",
+            "to wear",
+            "to put on",
+            "to keep a diary",
+            "to make an entry",
+            "to appraise",
+            "to set (a price)",
+            "to allot",
+            "to budget",
+            "to assign",
+            "to bring alongside",
+            "to place (under guard or doctor)",
+            "to follow (someone)",
+            "to shadow",
+            "to tail",
+            "to stalk",
+            "to load",
+            "to give (courage to)",
+            "to keep (an eye on)",
+            "to establish (relations or understanding)",
+            "to turn on (a light)",
+            "to produce flowers (of a plant)",
+            "to produce fruit",
+            "to attach",
+            "to play an attachment",
+            "to do intensely",
+            "to do fiercely",
+            "to do strongly",
+            "to be used to (doing)",
+            "to be accustomed to"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "suffix",
+            "Ichidan verb",
+            "suffix",
+            "Ichidan verb"
+          ]
+        },
+        {
+          "id": "1610400",
+          "kanji": [
+            "点ける"
+          ],
+          "readings": [
+            "つける"
+          ],
+          "gloss": [
+            "to turn on",
+            "to switch on",
+            "to light up"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "2100600",
+          "kanji": [
+            "尾ける",
+            "追ける",
+            "尾行る"
+          ],
+          "readings": [
+            "つける"
+          ],
+          "gloss": [
+            "to follow (someone)",
+            "to shadow",
+            "to tail",
+            "to stalk"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "かける",
+      "reading": "かける",
+      "meaning": "to put on (glasses); call",
+      "target": "word/1207610",
+      "note_id": 1776868952969,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1207610",
+          "kanji": [
+            "掛ける",
+            "懸ける"
+          ],
+          "readings": [
+            "かける"
+          ],
+          "gloss": [
+            "to hang up (e.g. a coat, a picture on the wall)",
+            "to let hang",
+            "to suspend (from)",
+            "to hoist (e.g. sail)",
+            "to raise (e.g. flag)",
+            "to put on (e.g. a blanket)",
+            "to put on top of",
+            "to cover",
+            "to lay",
+            "to spread",
+            "to put on (glasses, etc.)",
+            "to wear (a necklace, etc.)",
+            "to make (a call)",
+            "to spend (time, money)",
+            "to expend",
+            "to use",
+            "to pour (liquid) onto",
+            "to sprinkle (powder or spices) onto",
+            "to splash",
+            "to throw (e.g. water) onto",
+            "to turn on (an engine, radio, etc.)",
+            "to set (a dial, alarm clock, etc.)",
+            "to put on (a DVD, song, etc.)",
+            "to use (a device, implement, etc.)",
+            "to cause (someone inconvenience, trouble, etc.)",
+            "to burden (someone)",
+            "to impose",
+            "to multiply (arithmetic operation)",
+            "to secure (e.g. lock)",
+            "to take a seat",
+            "to sit",
+            "to rest (something on something else)",
+            "to support (something on something else)",
+            "to bind",
+            "to wager",
+            "to bet",
+            "to risk",
+            "to stake",
+            "to gamble",
+            "to put an effect (spell, anaesthetic, etc.) on",
+            "to hold (a play, festival, etc.)",
+            "to hold an emotion for (pity, hope, etc.)",
+            "to argue (in court)",
+            "to deliberate (in a meeting)",
+            "to present (e.g. idea to a conference, etc.)",
+            "to increase further",
+            "to catch (in a trap, etc.)",
+            "to set atop",
+            "to erect (a makeshift building)",
+            "to apply (insurance)",
+            "to pun (on a word)",
+            "to use (a word) as a pivot word",
+            "to play on words",
+            "to be partway doing ...",
+            "to begin (but not complete) ...",
+            "to be about to ...",
+            "to address (someone)",
+            "to direct (something, to someone)",
+            "to do (something, to someone)"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb",
+            "suffix",
+            "Ichidan verb",
+            "suffix",
+            "Ichidan verb"
+          ]
+        },
+        {
+          "id": "1244720",
+          "kanji": [
+            "駆ける",
+            "駈ける"
+          ],
+          "readings": [
+            "かける"
+          ],
+          "gloss": [
+            "to run",
+            "to dash",
+            "to race",
+            "to gallop (on horseback)",
+            "to canter",
+            "to advance (against one's enemy)",
+            "to charge (on horseback)"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "intransitive verb",
+            "Ichidan verb",
+            "intransitive verb",
+            "Ichidan verb",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "1253920",
+          "kanji": [
+            "欠ける",
+            "缺ける",
+            "闕ける"
+          ],
+          "readings": [
+            "かける"
+          ],
+          "gloss": [
+            "to chip",
+            "to be chipped",
+            "to break (off)",
+            "to be damaged",
+            "to be missing (from a set, team, etc.)",
+            "to be absent",
+            "to become lost",
+            "to be lacking (in)",
+            "to be short (of)",
+            "to be deficient",
+            "to be wanting (in)",
+            "to wane (of the moon)",
+            "to go into eclipse"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "intransitive verb",
+            "Ichidan verb",
+            "intransitive verb",
+            "Ichidan verb",
+            "intransitive verb",
+            "Ichidan verb",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "1444840",
+          "kanji": [
+            "賭ける"
+          ],
+          "readings": [
+            "かける"
+          ],
+          "gloss": [
+            "to wager",
+            "to bet",
+            "to risk",
+            "to stake",
+            "to gamble"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "1570710",
+          "kanji": [
+            "翔る",
+            "駆ける"
+          ],
+          "readings": [
+            "かける"
+          ],
+          "gloss": [
+            "to soar",
+            "to fly",
+            "to run",
+            "to dash"
+          ],
+          "pos": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb",
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "2208960",
+          "kanji": [
+            "架ける"
+          ],
+          "readings": [
+            "かける"
+          ],
+          "gloss": [
+            "to suspend between two points",
+            "to build (a bridge, etc.)",
+            "to put up on something (e.g. legs up on table)"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "2872558",
+          "kanji": [
+            "翔ける",
+            "翔る"
+          ],
+          "readings": [
+            "かける"
+          ],
+          "gloss": [
+            "to soar",
+            "to fly"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "intransitive verb"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "つく",
+      "reading": "つく",
+      "meaning": "to arrive; reach",
+      "target": "word/1422970",
+      "note_id": 1776868953041,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1331530",
+          "kanji": [
+            "就く",
+            "即く"
+          ],
+          "readings": [
+            "つく"
+          ],
+          "gloss": [
+            "to take (seat, position, course, office, etc.)",
+            "to assume",
+            "to be hired",
+            "to be employed",
+            "to ascend (the throne)",
+            "to accede",
+            "to start (on a journey)",
+            "to commence",
+            "to depart",
+            "to study (under teacher)",
+            "to be an apprentice"
+          ],
+          "pos": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "1422970",
+          "kanji": [
+            "着く"
+          ],
+          "readings": [
+            "つく"
+          ],
+          "gloss": [
+            "to arrive at",
+            "to reach",
+            "to sit on",
+            "to sit at (e.g. the table)"
+          ],
+          "pos": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "1441400",
+          "kanji": [
+            "点く"
+          ],
+          "readings": [
+            "つく"
+          ],
+          "gloss": [
+            "to be lit (of a lamp, burner, etc.)",
+            "to catch fire",
+            "to ignite",
+            "to start burning",
+            "to be turned on (of a light, appliance, etc.)",
+            "to come on"
+          ],
+          "pos": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "1444150",
+          "kanji": [
+            "吐く"
+          ],
+          "readings": [
+            "つく"
+          ],
+          "gloss": [
+            "to breathe out",
+            "to breathe",
+            "to tell (a lie)",
+            "to use (foul language)",
+            "to vomit",
+            "to throw up",
+            "to spit up"
+          ],
+          "pos": [
+            "Godan verb with 'ku' ending",
+            "transitive verb",
+            "Godan verb with 'ku' ending",
+            "transitive verb",
+            "Godan verb with 'ku' ending",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "1456890",
+          "kanji": [
+            "突く",
+            "衝く",
+            "撞く",
+            "捺く"
+          ],
+          "readings": [
+            "つく"
+          ],
+          "gloss": [
+            "to prick",
+            "to stab",
+            "to poke",
+            "to prod",
+            "to push",
+            "to thrust",
+            "to nudge",
+            "to hit",
+            "to strike",
+            "to use (a cane)",
+            "to prop oneself up with",
+            "to press against (the floor, etc.)",
+            "to attack",
+            "to brave (the rain, etc.)"
+          ],
+          "pos": [
+            "Godan verb with 'ku' ending",
+            "transitive verb",
+            "Godan verb with 'ku' ending",
+            "transitive verb",
+            "Godan verb with 'ku' ending",
+            "transitive verb",
+            "Godan verb with 'ku' ending",
+            "transitive verb",
+            "Godan verb with 'ku' ending",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "1495740",
+          "kanji": [
+            "付く",
+            "附く"
+          ],
+          "readings": [
+            "つく"
+          ],
+          "gloss": [
+            "to be attached",
+            "to be connected with",
+            "to adhere",
+            "to stick",
+            "to cling",
+            "to remain imprinted",
+            "to scar",
+            "to stain",
+            "to dye",
+            "to bear (fruit, interest, etc.)",
+            "to be acquired (of a habit, ability, etc.)",
+            "to increase (of strength, etc.)",
+            "to take root",
+            "to accompany",
+            "to attend",
+            "to follow",
+            "to study with",
+            "to side with",
+            "to belong to",
+            "to possess",
+            "to haunt",
+            "to be lit",
+            "to catch fire",
+            "to ignite",
+            "to be turned on (of a light, appliance, etc.)",
+            "to be settled",
+            "to be resolved",
+            "to be decided",
+            "to be given (of a name, price, etc.)",
+            "to be sensed",
+            "to be perceived",
+            "to be lucky",
+            "to become (a state, condition, etc.)"
+          ],
+          "pos": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "suffix",
+            "Godan verb with 'ku' ending"
+          ]
+        },
+        {
+          "id": "1566940",
+          "kanji": [
+            "憑く"
+          ],
+          "readings": [
+            "つく"
+          ],
+          "gloss": [
+            "to possess",
+            "to haunt"
+          ],
+          "pos": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "2097190",
+          "kanji": [
+            "搗く",
+            "舂く"
+          ],
+          "readings": [
+            "つく"
+          ],
+          "gloss": [
+            "to hull (rice, barley, etc.)",
+            "to pound (rice)",
+            "to polish (rice)",
+            "to stamp (ore)"
+          ],
+          "pos": [
+            "Godan verb with 'ku' ending",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "2262520",
+          "kanji": [
+            "漬く",
+            "浸く"
+          ],
+          "readings": [
+            "つく"
+          ],
+          "gloss": [
+            "to be immersed",
+            "to be pickled"
+          ],
+          "pos": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "2869190",
+          "kanji": [
+            "木菟",
+            "木兎"
+          ],
+          "readings": [
+            "ズク",
+            "ずく",
+            "つく"
+          ],
+          "gloss": [
+            "horned owl (any owl with horn-like ear tufts)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "なくす",
+      "reading": "なくす",
+      "meaning": "to lose",
+      "target": "word/1529530",
+      "note_id": 1776868953057,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1529530",
+          "kanji": [
+            "無くす",
+            "失くす"
+          ],
+          "readings": [
+            "なくす"
+          ],
+          "gloss": [
+            "to lose (something)",
+            "to get rid of",
+            "to eliminate",
+            "to remove",
+            "to eradicate",
+            "to abolish"
+          ],
+          "pos": [
+            "Godan verb with 'su' ending",
+            "transitive verb",
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "2835808",
+          "kanji": [
+            "亡くす"
+          ],
+          "readings": [
+            "なくす"
+          ],
+          "gloss": [
+            "to lose (through death; e.g. a wife, child)"
+          ],
+          "pos": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "もう",
+      "reading": "もう",
+      "meaning": "already; anymore",
+      "target": "word/1012480",
+      "note_id": 1776868953099,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1012480",
+          "kanji": [],
+          "readings": [
+            "もう",
+            "もー",
+            "もぉ"
+          ],
+          "gloss": [
+            "already",
+            "yet",
+            "by now",
+            "now",
+            "(not) any more",
+            "(not) any longer",
+            "soon",
+            "shortly",
+            "before long",
+            "presently",
+            "further",
+            "more",
+            "again",
+            "another",
+            "the other",
+            "jeez",
+            "geez",
+            "gee",
+            "boy",
+            "come on",
+            "damn",
+            "seriously",
+            "truly",
+            "really",
+            "extremely"
+          ],
+          "pos": [
+            "adverb (fukushi)",
+            "adverb (fukushi)",
+            "adverb (fukushi)",
+            "interjection (kandoushi)",
+            "interjection (kandoushi)"
+          ]
+        },
+        {
+          "id": "1912250",
+          "kanji": [
+            "蒙"
+          ],
+          "readings": [
+            "もう"
+          ],
+          "gloss": [
+            "ignorance",
+            "covering",
+            "concealing",
+            "Mongolia"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2081490",
+          "kanji": [
+            "猛"
+          ],
+          "readings": [
+            "もう"
+          ],
+          "gloss": [
+            "greatly energetic",
+            "ferocious",
+            "extreme",
+            "severe"
+          ],
+          "pos": [
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "prefix"
+          ]
+        },
+        {
+          "id": "2127920",
+          "kanji": [
+            "毛"
+          ],
+          "readings": [
+            "もう"
+          ],
+          "gloss": [
+            "one-thousandth",
+            "0.03 mm (one-thousandth of a sun)",
+            "0.01 percent (one-thousandth of a wari)",
+            "3.75 milligrams (one-thousandth of a monme)",
+            "old monetary unit (0.0001 yen)"
+          ],
+          "pos": [
+            "numeric",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2434690",
+          "kanji": [
+            "網"
+          ],
+          "readings": [
+            "もう"
+          ],
+          "gloss": [
+            "network"
+          ],
+          "pos": [
+            "suffix"
+          ]
+        },
+        {
+          "id": "2844205",
+          "kanji": [
+            "盲"
+          ],
+          "readings": [
+            "もう"
+          ],
+          "gloss": [
+            "blindness"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "よく",
+      "reading": "よく",
+      "meaning": "often; well",
+      "target": "word/1605870",
+      "note_id": 1776868953105,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1547320",
+          "kanji": [
+            "欲",
+            "慾"
+          ],
+          "readings": [
+            "よく"
+          ],
+          "gloss": [
+            "greed",
+            "craving",
+            "desire",
+            "appetite",
+            "hunger",
+            "avarice",
+            "wants"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun, used as a suffix"
+          ]
+        },
+        {
+          "id": "1547530",
+          "kanji": [
+            "翼"
+          ],
+          "readings": [
+            "つばさ",
+            "よく"
+          ],
+          "gloss": [
+            "wing",
+            "Chinese \"Wings\" constellation (one of the 28 mansions)",
+            "counter for birds or bird wings"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "suffix",
+            "counter"
+          ]
+        },
+        {
+          "id": "1605870",
+          "kanji": [
+            "良く",
+            "善く",
+            "能く",
+            "好く",
+            "克く"
+          ],
+          "readings": [
+            "よく"
+          ],
+          "gloss": [
+            "nicely",
+            "properly",
+            "well",
+            "skillfully",
+            "skilfully",
+            "frequently",
+            "often",
+            "I'm glad that you ...",
+            "thank you for ...",
+            "(you have) quite the nerve to",
+            "I don't know how you can ..."
+          ],
+          "pos": [
+            "adverb (fukushi)",
+            "adverb (fukushi)",
+            "adverb (fukushi)",
+            "adverb (fukushi)"
+          ]
+        },
+        {
+          "id": "2064170",
+          "kanji": [
+            "翌"
+          ],
+          "readings": [
+            "よく"
+          ],
+          "gloss": [
+            "the following",
+            "next"
+          ],
+          "pos": [
+            "prefix"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "だんだん",
+      "reading": "だんだん",
+      "meaning": "gradually",
+      "target": "word/1597350",
+      "note_id": 1776868953117,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1597350",
+          "kanji": [
+            "段々",
+            "段段"
+          ],
+          "readings": [
+            "だんだん"
+          ],
+          "gloss": [
+            "gradually",
+            "by degrees",
+            "little by little",
+            "more and more",
+            "increasingly",
+            "steps",
+            "stairs",
+            "staircase",
+            "terrace"
+          ],
+          "pos": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2546180",
+          "kanji": [],
+          "readings": [
+            "だんだん"
+          ],
+          "gloss": [
+            "thank you"
+          ],
+          "pos": [
+            "interjection (kandoushi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "すぐ",
+      "reading": "すぐ",
+      "meaning": "immediately; soon",
+      "target": "word/1430610",
+      "note_id": 1776868953129,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1430610",
+          "kanji": [
+            "直ぐ"
+          ],
+          "readings": [
+            "すぐ"
+          ],
+          "gloss": [
+            "immediately",
+            "at once",
+            "right away",
+            "directly",
+            "soon",
+            "before long",
+            "shortly",
+            "easily",
+            "readily",
+            "without difficulty",
+            "right (near)",
+            "nearby",
+            "just (handy)",
+            "honest",
+            "upright",
+            "frank",
+            "straightforward"
+          ],
+          "pos": [
+            "adverb (fukushi)",
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)",
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)",
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)",
+            "noun (common) (futsuumeishi)",
+            "adjectival nouns or quasi-adjectives (keiyodoshi)"
+          ]
+        },
+        {
+          "id": "2783560",
+          "kanji": [
+            "過ぐ"
+          ],
+          "readings": [
+            "すぐ"
+          ],
+          "gloss": [
+            "to pass through",
+            "to pass by",
+            "to go beyond",
+            "to pass (of time)",
+            "to elapse",
+            "to have expired",
+            "to have ended",
+            "to be over",
+            "to exceed",
+            "to surpass",
+            "to be above"
+          ],
+          "pos": [
+            "Nidan verb (upper class) with 'gu' ending (archaic)",
+            "intransitive verb",
+            "Nidan verb (upper class) with 'gu' ending (archaic)",
+            "intransitive verb",
+            "Nidan verb (upper class) with 'gu' ending (archaic)",
+            "intransitive verb",
+            "Nidan verb (upper class) with 'gu' ending (archaic)",
+            "intransitive verb"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "しかし",
+      "reading": "しかし",
+      "meaning": "however",
+      "target": "word/1505990",
+      "note_id": 1776868953137,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1505990",
+          "kanji": [
+            "然し",
+            "併し"
+          ],
+          "readings": [
+            "しかし",
+            "しっかし"
+          ],
+          "gloss": [
+            "however",
+            "but"
+          ],
+          "pos": [
+            "conjunction"
+          ]
+        },
+        {
+          "id": "2586170",
+          "kanji": [
+            "私窩子",
+            "私窠子"
+          ],
+          "readings": [
+            "しかし",
+            "しわし"
+          ],
+          "gloss": [
+            "prostitute",
+            "harlot"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "コート",
+      "reading": "コート",
+      "meaning": "coat",
+      "target": "word/1049000",
+      "note_id": 1776868953205,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1049000",
+          "kanji": [],
+          "readings": [
+            "コート"
+          ],
+          "gloss": [
+            "coat",
+            "coating"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2842174",
+          "kanji": [],
+          "readings": [
+            "コート"
+          ],
+          "gloss": [
+            "court (e.g. tennis, basketball, volleyball)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "方",
+      "reading": "かた/ほう",
+      "meaning": "person (polite); direction",
+      "target": "search/方",
+      "note_id": 1776868953235,
+      "rationale": "Card intentionally includes multiple readings or dictionary entries; show choices instead of guessing.",
+      "candidates": [
+        {
+          "id": "1516925",
+          "kanji": [
+            "方"
+          ],
+          "readings": [
+            "かた"
+          ],
+          "gloss": [
+            "direction",
+            "way",
+            "person",
+            "lady",
+            "gentleman",
+            "method of",
+            "manner of",
+            "way of",
+            "care of ...",
+            "person in charge of ...",
+            "side (e.g. \"on my mother's side\")"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun, used as a suffix",
+            "noun, used as a suffix",
+            "noun, used as a suffix",
+            "noun, used as a suffix"
+          ]
+        },
+        {
+          "id": "1516930",
+          "kanji": [
+            "方"
+          ],
+          "readings": [
+            "ほう"
+          ],
+          "gloss": [
+            "direction",
+            "way",
+            "side",
+            "area (in a particular direction)",
+            "side (of an argument, etc.)",
+            "one's part",
+            "type",
+            "category",
+            "field (of study, etc.)",
+            "indicates one side of a comparison",
+            "way",
+            "method",
+            "manner",
+            "means",
+            "length (of each side of a square)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "おばさん",
+      "reading": "おばさん",
+      "meaning": "aunt; middle-aged woman",
+      "target": "search/おばさん",
+      "note_id": 1776868953425,
+      "rationale": "Card intentionally includes multiple readings or dictionary entries; show choices instead of guessing.",
+      "candidates": [
+        {
+          "id": "2261500",
+          "kanji": [
+            "伯母さん",
+            "叔母さん"
+          ],
+          "readings": [
+            "おばさん"
+          ],
+          "gloss": [
+            "aunt"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2261510",
+          "kanji": [
+            "小母さん"
+          ],
+          "readings": [
+            "おばさん"
+          ],
+          "gloss": [
+            "old lady",
+            "ma'am"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "いとこ",
+      "reading": "いとこ",
+      "meaning": "cousin",
+      "target": "search/いとこ",
+      "note_id": 1776868953427,
+      "rationale": "Card intentionally includes multiple readings or dictionary entries; show choices instead of guessing.",
+      "candidates": [
+        {
+          "id": "1335280",
+          "kanji": [
+            "従兄"
+          ],
+          "readings": [
+            "じゅうけい",
+            "いとこ"
+          ],
+          "gloss": [
+            "cousin (older male)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "1335290",
+          "kanji": [
+            "従兄弟"
+          ],
+          "readings": [
+            "いとこ",
+            "じゅうけいてい"
+          ],
+          "gloss": [
+            "cousin (male)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "1335300",
+          "kanji": [
+            "従姉"
+          ],
+          "readings": [
+            "じゅうし",
+            "いとこ"
+          ],
+          "gloss": [
+            "cousin (older female)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "1335310",
+          "kanji": [
+            "従姉妹"
+          ],
+          "readings": [
+            "いとこ",
+            "じゅうしまい"
+          ],
+          "gloss": [
+            "cousin (female)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "1335360",
+          "kanji": [
+            "従弟"
+          ],
+          "readings": [
+            "じゅうてい",
+            "いとこ"
+          ],
+          "gloss": [
+            "cousin (younger male)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "1335390",
+          "kanji": [
+            "従妹"
+          ],
+          "readings": [
+            "じゅうまい",
+            "いとこ"
+          ],
+          "gloss": [
+            "cousin (younger female)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "鏡",
+      "reading": "かがみ",
+      "meaning": "mirror",
+      "target": "word/1238550",
+      "note_id": 1776868953529,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1238550",
+          "kanji": [
+            "鏡"
+          ],
+          "readings": [
+            "かがみ"
+          ],
+          "gloss": [
+            "mirror",
+            "looking-glass",
+            "barrel head",
+            "page added at the beginning of a document mentioning its purpose, date, author, etc.",
+            "mirror-shaped mochi"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2017840",
+          "kanji": [
+            "鑑",
+            "鑒",
+            "鏡"
+          ],
+          "readings": [
+            "かがみ"
+          ],
+          "gloss": [
+            "model",
+            "pattern",
+            "paragon",
+            "exemplar"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ビザ",
+      "reading": "ビザ",
+      "meaning": "visa",
+      "target": "word/1104720",
+      "note_id": 1776868953541,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1104720",
+          "kanji": [],
+          "readings": [
+            "ビザ"
+          ],
+          "gloss": [
+            "visa"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "5741924",
+          "kanji": [
+            "Ｖｉｓａ"
+          ],
+          "readings": [
+            "ビザ"
+          ],
+          "gloss": [
+            "Visa"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ジュース",
+      "reading": "ジュース",
+      "meaning": "juice",
+      "target": "word/1065950",
+      "note_id": 1776868953559,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1065950",
+          "kanji": [],
+          "readings": [
+            "ジュース"
+          ],
+          "gloss": [
+            "juice",
+            "soft drink (usu. fruit-based)",
+            "sweetened drink"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2843595",
+          "kanji": [],
+          "readings": [
+            "デュース",
+            "ジュース"
+          ],
+          "gloss": [
+            "deuce"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ビール",
+      "reading": "ビール",
+      "meaning": "beer",
+      "target": "word/2796520",
+      "note_id": 1776868953561,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1104550",
+          "kanji": [
+            "麦酒"
+          ],
+          "readings": [
+            "ばくしゅ",
+            "ビール"
+          ],
+          "gloss": [
+            "beer"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2796520",
+          "kanji": [],
+          "readings": [
+            "ビール"
+          ],
+          "gloss": [
+            "beer"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ため",
+      "reading": "ため",
+      "meaning": "for; because of",
+      "target": "word/1157080",
+      "note_id": 1776868953899,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1157080",
+          "kanji": [
+            "為",
+            "爲",
+            "為め"
+          ],
+          "readings": [
+            "ため"
+          ],
+          "gloss": [
+            "good",
+            "advantage",
+            "benefit",
+            "welfare",
+            "sake",
+            "purpose",
+            "objective",
+            "aim",
+            "consequence",
+            "result",
+            "effect",
+            "affecting",
+            "regarding",
+            "concerning"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)",
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)",
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)",
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)"
+          ]
+        },
+        {
+          "id": "1891920",
+          "kanji": [
+            "溜め"
+          ],
+          "readings": [
+            "ため"
+          ],
+          "gloss": [
+            "cesspool",
+            "sink",
+            "manure sink"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2615440",
+          "kanji": [],
+          "readings": [
+            "ため",
+            "タメ"
+          ],
+          "gloss": [
+            "the same (age, social status)",
+            "peer"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "アルバイト",
+      "reading": "アルバイト",
+      "meaning": "part-time job",
+      "target": "word/1019420",
+      "note_id": 1776868953991,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1019420",
+          "kanji": [],
+          "readings": [
+            "アルバイト"
+          ],
+          "gloss": [
+            "part-time job",
+            "side job",
+            "part-time worker"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2855080",
+          "kanji": [],
+          "readings": [
+            "アルバイト"
+          ],
+          "gloss": [
+            "albite"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "くれる",
+      "reading": "くれる",
+      "meaning": "to give (to me)",
+      "target": "word/1269130",
+      "note_id": 1776868954009,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1269130",
+          "kanji": [
+            "呉れる"
+          ],
+          "readings": [
+            "くれる"
+          ],
+          "gloss": [
+            "to give",
+            "to let (one) have",
+            "to give",
+            "to do for one",
+            "to take the trouble to do",
+            "to do to someone's disadvantage"
+          ],
+          "pos": [
+            "Ichidan verb - kureru special class",
+            "transitive verb",
+            "Ichidan verb - kureru special class",
+            "transitive verb",
+            "auxiliary verb",
+            "Ichidan verb - kureru special class",
+            "auxiliary verb",
+            "Ichidan verb - kureru special class"
+          ]
+        },
+        {
+          "id": "1514960",
+          "kanji": [
+            "暮れる",
+            "昏れる",
+            "眩れる",
+            "暗れる"
+          ],
+          "readings": [
+            "くれる"
+          ],
+          "gloss": [
+            "to get dark",
+            "to grow dark",
+            "to end (of a day, year, season, etc.)",
+            "to come to an end",
+            "to close",
+            "to be sunk in (e.g. despair)",
+            "to be lost in (e.g. thought)",
+            "to be overcome with"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "intransitive verb",
+            "Ichidan verb",
+            "intransitive verb",
+            "Ichidan verb",
+            "intransitive verb"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "なる",
+      "reading": "なる",
+      "meaning": "to become",
+      "target": "word/1375610",
+      "note_id": 1776868954011,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1375610",
+          "kanji": [
+            "成る",
+            "為る"
+          ],
+          "readings": [
+            "なる"
+          ],
+          "gloss": [
+            "to become",
+            "to get",
+            "to grow",
+            "to turn",
+            "to reach",
+            "to attain",
+            "to result in",
+            "to turn out",
+            "to end up",
+            "to prove (to be)",
+            "to consist of",
+            "to be composed of",
+            "to be made up of",
+            "to be completed",
+            "to be realized",
+            "to succeed",
+            "to be attained",
+            "to be accomplished",
+            "to change (into)",
+            "to turn (into)",
+            "to transform",
+            "to come (to do)",
+            "to begin (to do)",
+            "to grow (to do)",
+            "to come to",
+            "to amount to",
+            "to add up to",
+            "to make",
+            "to play (the part of)",
+            "to act as",
+            "to be used for",
+            "to be useful for",
+            "to serve as",
+            "to be promoted",
+            "to do ..."
+          ],
+          "pos": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb",
+            "Godan verb with 'ru' ending",
+            "intransitive verb",
+            "Godan verb with 'ru' ending",
+            "intransitive verb",
+            "Godan verb with 'ru' ending",
+            "intransitive verb",
+            "Godan verb with 'ru' ending",
+            "intransitive verb",
+            "Godan verb with 'ru' ending",
+            "intransitive verb",
+            "Godan verb with 'ru' ending",
+            "intransitive verb",
+            "Godan verb with 'ru' ending",
+            "intransitive verb",
+            "Godan verb with 'ru' ending",
+            "intransitive verb",
+            "Godan verb with 'ru' ending",
+            "intransitive verb",
+            "auxiliary verb",
+            "Godan verb with 'ru' ending"
+          ]
+        },
+        {
+          "id": "1532910",
+          "kanji": [
+            "鳴る"
+          ],
+          "readings": [
+            "なる"
+          ],
+          "gloss": [
+            "to sound",
+            "to ring",
+            "to resound",
+            "to echo",
+            "to roar",
+            "to rumble"
+          ],
+          "pos": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "1611000",
+          "kanji": [
+            "生る"
+          ],
+          "readings": [
+            "なる"
+          ],
+          "gloss": [
+            "to bear fruit"
+          ],
+          "pos": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "2138260",
+          "kanji": [],
+          "readings": [
+            "なる"
+          ],
+          "gloss": [
+            "that is in",
+            "who is called",
+            "that is called",
+            "that is",
+            "I see"
+          ],
+          "pos": [
+            "suffix",
+            "noun or verb acting prenominally",
+            "suffix",
+            "noun or verb acting prenominally",
+            "suffix",
+            "noun or verb acting prenominally",
+            "interjection (kandoushi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "着く",
+      "reading": "つく",
+      "meaning": "to arrive",
+      "target": "word/1422970",
+      "note_id": 1776868954027,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1422970",
+          "kanji": [
+            "着く"
+          ],
+          "readings": [
+            "つく"
+          ],
+          "gloss": [
+            "to arrive at",
+            "to reach",
+            "to sit on",
+            "to sit at (e.g. the table)"
+          ],
+          "pos": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb",
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ベル",
+      "reading": "ベル",
+      "meaning": "bell",
+      "target": "word/1120010",
+      "note_id": 1776868954099,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1120010",
+          "kanji": [],
+          "readings": [
+            "ベル"
+          ],
+          "gloss": [
+            "bell"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2857911",
+          "kanji": [],
+          "readings": [
+            "ベル"
+          ],
+          "gloss": [
+            "bel (unit)",
+            "B"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ワンピース",
+      "reading": "ワンピース",
+      "meaning": "dress (one-piece)",
+      "target": "word/1149240",
+      "note_id": 1776868954117,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1149240",
+          "kanji": [],
+          "readings": [
+            "ワンピース"
+          ],
+          "gloss": [
+            "dress",
+            "one-piece (e.g. swimsuit)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        },
+        {
+          "id": "5740764",
+          "kanji": [],
+          "readings": [
+            "ワンピース"
+          ],
+          "gloss": [
+            "One Piece (manga series and media franchise)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "サッカー",
+      "reading": "サッカー",
+      "meaning": "soccer",
+      "target": "word/1056700",
+      "note_id": 1776868954127,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1056700",
+          "kanji": [],
+          "readings": [
+            "サッカー"
+          ],
+          "gloss": [
+            "soccer",
+            "(association) football"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2853762",
+          "kanji": [],
+          "readings": [
+            "サッカー"
+          ],
+          "gloss": [
+            "seersucker"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2859258",
+          "kanji": [],
+          "readings": [
+            "サッカー"
+          ],
+          "gloss": [
+            "sacker (at a supermarket)",
+            "bagger",
+            "bagging",
+            "sacking"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "やめる",
+      "reading": "やめる",
+      "meaning": "to quit; stop",
+      "target": "search/やめる",
+      "note_id": 1776868954241,
+      "rationale": "Card intentionally includes multiple readings or dictionary entries; show choices instead of guessing.",
+      "candidates": [
+        {
+          "id": "1310680",
+          "kanji": [
+            "止める",
+            "已める",
+            "廃める"
+          ],
+          "readings": [
+            "やめる"
+          ],
+          "gloss": [
+            "to stop (an activity)",
+            "to cease",
+            "to discontinue",
+            "to end",
+            "to quit",
+            "to cancel",
+            "to abandon",
+            "to give up",
+            "to abolish",
+            "to abstain",
+            "to refrain"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb",
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "1318950",
+          "kanji": [
+            "辞める",
+            "罷める",
+            "退める"
+          ],
+          "readings": [
+            "やめる"
+          ],
+          "gloss": [
+            "to resign",
+            "to retire",
+            "to quit",
+            "to leave (one's job, etc.)"
+          ],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        },
+        {
+          "id": "2519800",
+          "kanji": [
+            "病める",
+            "痛める"
+          ],
+          "readings": [
+            "やめる"
+          ],
+          "gloss": [
+            "sick",
+            "ill",
+            "ailing",
+            "to hurt",
+            "to ache"
+          ],
+          "pos": [
+            "expressions (phrases, clauses, etc.)",
+            "noun or verb acting prenominally",
+            "Ichidan verb",
+            "intransitive verb"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "うまい",
+      "reading": "うまい",
+      "meaning": "skillful; delicious",
+      "target": "word/1310460",
+      "note_id": 1776868954343,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1310460",
+          "kanji": [
+            "上手い",
+            "美味い",
+            "旨い",
+            "巧い",
+            "甘い",
+            "美い"
+          ],
+          "readings": [
+            "うまい"
+          ],
+          "gloss": [
+            "skillful",
+            "skilful",
+            "skilled",
+            "good",
+            "expert",
+            "clever (expression, trick, etc.)",
+            "apt",
+            "appropriate",
+            "delicious",
+            "tasty",
+            "good",
+            "nice",
+            "good (deal, idea, etc.)",
+            "profitable",
+            "promising",
+            "lucky",
+            "fortunate",
+            "successful",
+            "satisfactory",
+            "splendid"
+          ],
+          "pos": [
+            "adjective (keiyoushi)",
+            "adjective (keiyoushi)",
+            "adjective (keiyoushi)"
+          ]
+        },
+        {
+          "id": "2839142",
+          "kanji": [
+            "右舞"
+          ],
+          "readings": [
+            "うまい",
+            "うぶ"
+          ],
+          "gloss": [
+            "variety of court dance (Nara period)"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "さっき",
+      "reading": "さっき",
+      "meaning": "a little while ago",
+      "target": "word/1005180",
+      "note_id": 1776868954363,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1005180",
+          "kanji": [
+            "先",
+            "先刻"
+          ],
+          "readings": [
+            "さっき"
+          ],
+          "gloss": [
+            "a short while ago",
+            "a moment ago",
+            "just now",
+            "some time ago"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)"
+          ]
+        },
+        {
+          "id": "1299060",
+          "kanji": [
+            "殺気"
+          ],
+          "readings": [
+            "さっき"
+          ],
+          "gloss": [
+            "thirst for blood",
+            "bloodlust",
+            "determination to kill"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "1373000",
+          "kanji": [
+            "数奇"
+          ],
+          "readings": [
+            "すうき",
+            "さっき"
+          ],
+          "gloss": [
+            "misfortune",
+            "adverse fortune",
+            "hapless fate",
+            "checkered (life, career, etc.)",
+            "varied",
+            "eventful",
+            "dramatic",
+            "full of ups and downs"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2827653",
+          "kanji": [
+            "昨季"
+          ],
+          "readings": [
+            "さくき",
+            "さっき"
+          ],
+          "gloss": [
+            "last season (e.g. in sports)",
+            "equivalent season last year"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2848393",
+          "kanji": [
+            "削器"
+          ],
+          "readings": [
+            "さっき"
+          ],
+          "gloss": [
+            "(stone) scraper"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "id": "2853309",
+          "kanji": [
+            "昨期"
+          ],
+          "readings": [
+            "さくき",
+            "さっき"
+          ],
+          "gloss": [
+            "last period",
+            "previous period"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "たいてい",
+      "reading": "たいてい",
+      "meaning": "usually; mostly",
+      "target": "word/1414580",
+      "note_id": 1776868954373,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1414580",
+          "kanji": [
+            "大抵",
+            "大てい"
+          ],
+          "readings": [
+            "たいてい"
+          ],
+          "gloss": [
+            "mostly",
+            "ordinarily",
+            "usually",
+            "generally",
+            "probably",
+            "most",
+            "almost all",
+            "ordinary",
+            "proper",
+            "appropriate",
+            "moderate"
+          ],
+          "pos": [
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "adverb (fukushi)",
+            "noun (common) (futsuumeishi)",
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "adverb (fukushi)",
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'",
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'",
+            "noun (common) (futsuumeishi)",
+            "adjectival nouns or quasi-adjectives (keiyodoshi)"
+          ]
+        },
+        {
+          "id": "1779160",
+          "kanji": [
+            "退廷"
+          ],
+          "readings": [
+            "たいてい"
+          ],
+          "gloss": [
+            "leaving a court"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ]
+        },
+        {
+          "id": "1786140",
+          "kanji": [
+            "大帝"
+          ],
+          "readings": [
+            "たいてい"
+          ],
+          "gloss": [
+            "great emperor",
+            "... the Great"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "さすが",
+      "reading": "さすが",
+      "meaning": "as expected (positive)",
+      "target": "word/1552390",
+      "note_id": 1776868954379,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1552390",
+          "kanji": [
+            "流石",
+            "遉",
+            "有繋"
+          ],
+          "readings": [
+            "さすが"
+          ],
+          "gloss": [
+            "as one would expect",
+            "just as you'd expect (from)",
+            "just like (someone)",
+            "still",
+            "all the same",
+            "after all",
+            "even ... (e.g. \"even a genius\")"
+          ],
+          "pos": [
+            "adverb (fukushi)",
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "adverb (fukushi)",
+            "adverb (fukushi)"
+          ]
+        },
+        {
+          "id": "2086100",
+          "kanji": [
+            "刺刀"
+          ],
+          "readings": [
+            "さすが"
+          ],
+          "gloss": [
+            "dagger"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "ぎりぎり",
+      "reading": "ぎりぎり",
+      "meaning": "barely; just in time",
+      "target": "word/1003660",
+      "note_id": 1776868954395,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1003660",
+          "kanji": [
+            "限り限り"
+          ],
+          "readings": [
+            "ぎりぎり",
+            "ギリギリ"
+          ],
+          "gloss": [
+            "just barely",
+            "only just",
+            "at the very limit",
+            "at the last moment"
+          ],
+          "pos": [
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "nouns which may take the genitive case particle 'no'",
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)"
+          ]
+        },
+        {
+          "id": "2832861",
+          "kanji": [],
+          "readings": [
+            "ぎりぎり",
+            "ギリギリ"
+          ],
+          "gloss": [
+            "grinding (sound)",
+            "grating",
+            "gnashing",
+            "forcefully",
+            "strongly",
+            "with effort",
+            "(binding) tightly"
+          ],
+          "pos": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle",
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "そっと",
+      "reading": "そっと",
+      "meaning": "quietly; softly",
+      "target": "word/1006810",
+      "note_id": 1776868954399,
+      "rationale": "Reviewed spelling, reading, part of speech and English sense against JMdict.",
+      "candidates": [
+        {
+          "id": "1006810",
+          "kanji": [],
+          "readings": [
+            "そっと",
+            "そうっと",
+            "そおっと",
+            "そーっと"
+          ],
+          "gloss": [
+            "softly",
+            "gently",
+            "quietly",
+            "lightly",
+            "stealthily",
+            "secretly",
+            "in secret",
+            "to leave alone",
+            "to leave as it is"
+          ],
+          "pos": [
+            "adverb (fukushi)",
+            "adverb (fukushi)",
+            "noun or participle which takes the aux. verb suru"
+          ]
+        },
+        {
+          "id": "1551230",
+          "kanji": [
+            "率土"
+          ],
+          "readings": [
+            "そっと",
+            "そつど"
+          ],
+          "gloss": [
+            "ends of the earth",
+            "outer reaches",
+            "borderland"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ]
+    }
+  ],
+  "kana_review": "Reviewed kana-only verbs and same-reading groups; retained conventional kana and mixed-sense headwords. Corrected arrival つく to 着く. できる and まっすぐ in examples are standard kana usage.",
+  "device_validation": "URL construction verified; actual routing in AnkiMobile/Nihongo on iPad not tested.",
+  "validation": {
+    "notes": 1150,
+    "changed_content_notes": [
+      1776868953041
+    ],
+    "all_guids_and_card_scheduling_preserved": true,
+    "all_audio_and_illustration_references_preserved": true,
+    "missing_headword_kanji_breakdowns": 0,
+    "dictionary_rule_tests": "59 rules in both script contexts; both answer templates; sense isolation",
+    "package_test": "passed"
+  }
+}

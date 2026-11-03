@@ -62,5 +62,13 @@
     "image": "vocab-20ba5fe46a81.png",
     "alt": "A traveler arriving at a railway station",
     "reason": "The previous lamp image represented the homograph meaning turn on, not arrive."
+  },
+  {
+    "word": "着く",
+    "reading": "つく",
+    "meaning": "to arrive; reach",
+    "image": "vocab-20ba5fe46a81.png",
+    "alt": "A traveler arriving at a railway station",
+    "reason": "Corrected kanji spelling of the existing arrival note; preserve its reviewed arrival artwork."
   }
 ]

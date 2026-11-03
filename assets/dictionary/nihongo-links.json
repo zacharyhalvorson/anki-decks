@@ -1,0 +1,356 @@
+[
+  {
+    "word": "あなた",
+    "reading": "あなた",
+    "meaning": "you",
+    "target": "word/1223615"
+  },
+  {
+    "word": "零",
+    "reading": "れい/ゼロ",
+    "meaning": "zero",
+    "target": "search/零"
+  },
+  {
+    "word": "家",
+    "reading": "いえ/うち",
+    "meaning": "house; home",
+    "target": "search/家"
+  },
+  {
+    "word": "パン",
+    "reading": "パン",
+    "meaning": "bread",
+    "target": "word/1103090"
+  },
+  {
+    "word": "りんご",
+    "reading": "りんご",
+    "meaning": "apple",
+    "target": "word/1555480"
+  },
+  {
+    "word": "みかん",
+    "reading": "みかん",
+    "meaning": "mandarin orange",
+    "target": "word/1528410"
+  },
+  {
+    "word": "コップ",
+    "reading": "コップ",
+    "meaning": "cup; glass",
+    "target": "word/1050390"
+  },
+  {
+    "word": "フォーク",
+    "reading": "フォーク",
+    "meaning": "fork",
+    "target": "word/1110110"
+  },
+  {
+    "word": "ペン",
+    "reading": "ペン",
+    "meaning": "pen",
+    "target": "word/1121380"
+  },
+  {
+    "word": "バス",
+    "reading": "バス",
+    "meaning": "bus",
+    "target": "word/1098390"
+  },
+  {
+    "word": "ここ",
+    "reading": "ここ",
+    "meaning": "here",
+    "target": "word/1288810"
+  },
+  {
+    "word": "そこ",
+    "reading": "そこ",
+    "meaning": "there",
+    "target": "word/1006670"
+  },
+  {
+    "word": "これ",
+    "reading": "これ",
+    "meaning": "this",
+    "target": "word/1628530"
+  },
+  {
+    "word": "それ",
+    "reading": "それ",
+    "meaning": "that",
+    "target": "word/1006970"
+  },
+  {
+    "word": "あれ",
+    "reading": "あれ",
+    "meaning": "that (over there)",
+    "target": "word/1000580"
+  },
+  {
+    "word": "この",
+    "reading": "この",
+    "meaning": "this (adj)",
+    "target": "word/1582920"
+  },
+  {
+    "word": "その",
+    "reading": "その",
+    "meaning": "that (adj)",
+    "target": "word/1006830"
+  },
+  {
+    "word": "あの",
+    "reading": "あの",
+    "meaning": "that (over there, adj)",
+    "target": "word/1000420"
+  },
+  {
+    "word": "どの",
+    "reading": "どの",
+    "meaning": "which (adj)",
+    "target": "word/1920240"
+  },
+  {
+    "word": "何",
+    "reading": "なに/なん",
+    "meaning": "what",
+    "target": "search/何"
+  },
+  {
+    "word": "いつ",
+    "reading": "いつ",
+    "meaning": "when",
+    "target": "word/1188760"
+  },
+  {
+    "word": "どう",
+    "reading": "どう",
+    "meaning": "how",
+    "target": "word/1008910"
+  },
+  {
+    "word": "いくら",
+    "reading": "いくら",
+    "meaning": "how much",
+    "target": "word/1219980"
+  },
+  {
+    "word": "ある",
+    "reading": "ある",
+    "meaning": "to exist (inanimate)",
+    "target": "word/1296400"
+  },
+  {
+    "word": "いる",
+    "reading": "いる",
+    "meaning": "to exist (animate)",
+    "target": "word/1577980"
+  },
+  {
+    "word": "する",
+    "reading": "する",
+    "meaning": "to do",
+    "target": "word/1157170"
+  },
+  {
+    "word": "つける",
+    "reading": "つける",
+    "meaning": "to turn on",
+    "target": "word/1610400"
+  },
+  {
+    "word": "かける",
+    "reading": "かける",
+    "meaning": "to put on (glasses); call",
+    "target": "word/1207610"
+  },
+  {
+    "word": "つく",
+    "reading": "つく",
+    "meaning": "to arrive; reach",
+    "target": "word/1422970"
+  },
+  {
+    "word": "なくす",
+    "reading": "なくす",
+    "meaning": "to lose",
+    "target": "word/1529530"
+  },
+  {
+    "word": "もう",
+    "reading": "もう",
+    "meaning": "already; anymore",
+    "target": "word/1012480"
+  },
+  {
+    "word": "よく",
+    "reading": "よく",
+    "meaning": "often; well",
+    "target": "word/1605870"
+  },
+  {
+    "word": "だんだん",
+    "reading": "だんだん",
+    "meaning": "gradually",
+    "target": "word/1597350"
+  },
+  {
+    "word": "すぐ",
+    "reading": "すぐ",
+    "meaning": "immediately; soon",
+    "target": "word/1430610"
+  },
+  {
+    "word": "しかし",
+    "reading": "しかし",
+    "meaning": "however",
+    "target": "word/1505990"
+  },
+  {
+    "word": "コート",
+    "reading": "コート",
+    "meaning": "coat",
+    "target": "word/1049000"
+  },
+  {
+    "word": "方",
+    "reading": "かた/ほう",
+    "meaning": "person (polite); direction",
+    "target": "search/方"
+  },
+  {
+    "word": "おばさん",
+    "reading": "おばさん",
+    "meaning": "aunt; middle-aged woman",
+    "target": "search/おばさん"
+  },
+  {
+    "word": "いとこ",
+    "reading": "いとこ",
+    "meaning": "cousin",
+    "target": "search/いとこ"
+  },
+  {
+    "word": "鏡",
+    "reading": "かがみ",
+    "meaning": "mirror",
+    "target": "word/1238550"
+  },
+  {
+    "word": "ビザ",
+    "reading": "ビザ",
+    "meaning": "visa",
+    "target": "word/1104720"
+  },
+  {
+    "word": "ジュース",
+    "reading": "ジュース",
+    "meaning": "juice",
+    "target": "word/1065950"
+  },
+  {
+    "word": "ビール",
+    "reading": "ビール",
+    "meaning": "beer",
+    "target": "word/2796520"
+  },
+  {
+    "word": "ため",
+    "reading": "ため",
+    "meaning": "for; because of",
+    "target": "word/1157080"
+  },
+  {
+    "word": "アルバイト",
+    "reading": "アルバイト",
+    "meaning": "part-time job",
+    "target": "word/1019420"
+  },
+  {
+    "word": "くれる",
+    "reading": "くれる",
+    "meaning": "to give (to me)",
+    "target": "word/1269130"
+  },
+  {
+    "word": "なる",
+    "reading": "なる",
+    "meaning": "to become",
+    "target": "word/1375610"
+  },
+  {
+    "word": "着く",
+    "reading": "つく",
+    "meaning": "to arrive",
+    "target": "word/1422970"
+  },
+  {
+    "word": "ベル",
+    "reading": "ベル",
+    "meaning": "bell",
+    "target": "word/1120010"
+  },
+  {
+    "word": "ワンピース",
+    "reading": "ワンピース",
+    "meaning": "dress (one-piece)",
+    "target": "word/1149240"
+  },
+  {
+    "word": "サッカー",
+    "reading": "サッカー",
+    "meaning": "soccer",
+    "target": "word/1056700"
+  },
+  {
+    "word": "やめる",
+    "reading": "やめる",
+    "meaning": "to quit; stop",
+    "target": "search/やめる"
+  },
+  {
+    "word": "うまい",
+    "reading": "うまい",
+    "meaning": "skillful; delicious",
+    "target": "word/1310460"
+  },
+  {
+    "word": "さっき",
+    "reading": "さっき",
+    "meaning": "a little while ago",
+    "target": "word/1005180"
+  },
+  {
+    "word": "たいてい",
+    "reading": "たいてい",
+    "meaning": "usually; mostly",
+    "target": "word/1414580"
+  },
+  {
+    "word": "さすが",
+    "reading": "さすが",
+    "meaning": "as expected (positive)",
+    "target": "word/1552390"
+  },
+  {
+    "word": "ぎりぎり",
+    "reading": "ぎりぎり",
+    "meaning": "barely; just in time",
+    "target": "word/1003660"
+  },
+  {
+    "word": "そっと",
+    "reading": "そっと",
+    "meaning": "quietly; softly",
+    "target": "word/1006810"
+  },
+  {
+    "word": "着く",
+    "reading": "つく",
+    "meaning": "to arrive; reach",
+    "target": "word/1422970"
+  }
+]
