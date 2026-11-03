@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 """Apply templates/ + assets/ to every .apkg in the repo (import-merge safe).
 
-- replaces the note type's CSS and both back templates (fronts untouched)
+- replaces the note type's CSS and all four templates (both fronts, both backs)
+- inlines templates/runtime.js and templates/tap_guard.js into the backs (answer side ignores card taps; fronts still flip on tap)
 - embeds assets/_kanji_strokes.js as a template media file
 - embeds the on/kun reading clips (assets/kr/_kr_<hex>.mp3) that the deck's kanji breakdowns need
 - bumps model mod/usn and col.mod so Anki's import picks the change up
 - verifies note count, guids and media references before replacing the deck
 """
 import json, os, re, shutil, sqlite3, sys, time, zipfile, tempfile
+from card_visuals import apply_visuals, FIGURE
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DECKS = sys.argv[1:] or ["GENKI I Vocab", "GENKI II Vocab", "JLPT N4", "JLPT N5", "Quartet I Vocab"]  # optional: deck names as arguments
@@ -17,12 +19,20 @@ DECKS = sys.argv[1:] or ["GENKI I Vocab", "GENKI II Vocab", "JLPT N4", "JLPT N5"
 ASSET_SRC = "_kanji_strokes.js"
 
 def rd(p): return open(p, encoding="utf8").read()
-runtime = rd(f"{ROOT}/templates/runtime.js").strip()
-css = rd(f"{ROOT}/templates/card.css")
-afmt = {
-    "Recognition": rd(f"{ROOT}/templates/recognition_back.html").replace("__RUNTIME__", runtime),
-    "Production": rd(f"{ROOT}/templates/production_back.html").replace("__RUNTIME__", runtime),
-}
+runtime = rd(f"{ROOT}/templates/runtime.js").strip() + "\n" + rd(f"{ROOT}/templates/visuals.js").strip()
+tap_guard = rd(f"{ROOT}/templates/tap_guard.js").strip()
+css = rd(f"{ROOT}/templates/card.css") + "\n" + rd(f"{ROOT}/templates/visuals.css")
+def tmpl(name): return rd(f"{ROOT}/templates/{name}.html").replace("__VISUAL_FRONT__", rd(f"{ROOT}/templates/visual_front.js")).replace("__RUNTIME__", runtime).replace("__TAP_GUARD__", tap_guard)
+afmt = {"Recognition": tmpl("recognition_back"), "Production": tmpl("production_back")}
+qfmt = {"Recognition": tmpl("recognition_front"), "Production": tmpl("production_front")}
+# answer side only: card taps must never trigger AnkiMobile's tap zones there (see templates/tap_guard.js).
+# The question side must stay unguarded so a tap still flips the card.
+for side in list(afmt.values()) + list(qfmt.values()):
+    assert "__TAP_GUARD__" not in side and "__RUNTIME__" not in side, "unfilled placeholder in a template"
+for side in afmt.values():
+    assert "data-notap" in side and "tap-shield" in side and tap_guard in side, "back template is missing the tap guard"
+for side in qfmt.values():
+    assert "data-notap" not in side and "tap-shield" not in side and "tappable" not in side, "front template must not carry the tap guard"
 asset_bytes = open(f"{ROOT}/assets/{ASSET_SRC}", "rb").read()
 import hashlib
 ASSET = f"_kanji_strokes_{hashlib.md5(asset_bytes).hexdigest()[:8]}.js"
@@ -69,12 +79,17 @@ for deck in DECKS:
 
     con = sqlite3.connect(db)
     models = json.loads(con.execute("select models from col").fetchone()[0])
+    original_notes = con.execute("select * from notes order by id").fetchall()
+    original_cards = con.execute("select * from cards order by id").fetchall()
+    original_schema = {k: (m["flds"], [(t["name"], t["ord"]) for t in m["tmpls"]]) for k, m in models.items()}
     now = int(time.time())
+    image_add, illustrated, images_changed = apply_visuals(con, media, ROOT, now)
     for m in models.values():
         m["css"] = css
         for t in m["tmpls"]:
             if t["name"] in afmt: t["afmt"] = afmt[t["name"]]
-        m["mod"] = now; m["usn"] = -1
+            if t["name"] in qfmt: t["qfmt"] = qfmt[t["name"]]
+        m["mod"] = max(now, m["mod"] + 1); m["usn"] = -1
     con.execute("update col set models = ?, mod = ?", (json.dumps(models), now * 1000))
     con.commit(); con.close()
 
@@ -96,13 +111,14 @@ for deck in DECKS:
     out = f"{work}/out.apkg"
     with zipfile.ZipFile(out, "w") as zout:
         for n in names:
-            if n in ("collection.anki21", "media", idx) or n in kr_add or n in stale: continue
+            if n in ("collection.anki21", "media", idx) or n in kr_add or n in stale or n in image_add: continue
             data = zin.read(n)
             comp = zipfile.ZIP_STORED if media.get(n, "").endswith(".mp3") else zipfile.ZIP_DEFLATED
             zout.writestr(n, data, comp)
         zout.write(db, "collection.anki21", zipfile.ZIP_DEFLATED)
         zout.writestr("media", json.dumps(media, ensure_ascii=False), zipfile.ZIP_DEFLATED)
         zout.writestr(idx, asset_bytes, zipfile.ZIP_DEFLATED)
+        for k, blob in image_add.items(): zout.writestr(k, blob, zipfile.ZIP_STORED)
         for k, fn in kr_add.items(): zout.write(f"{KR_DIR}/{fn}", k, zipfile.ZIP_STORED)
     zin.close()
 
@@ -124,8 +140,31 @@ for deck in DECKS:
     m2 = json.loads(sqlite3.connect(f"{work}/chk/collection.anki21").execute("select models from col").fetchone()[0])
     assert all(f'src="{ASSET}"' in t["afmt"] for m in m2.values() for t in m["tmpls"]), "template does not load the embedded asset"
     assert all(m["css"] == css for m in m2.values())
+    assert all(t["qfmt"] == qfmt[t["name"]] and t["afmt"] == afmt[t["name"]] for m in m2.values() for t in m["tmpls"]), "templates not applied"
+    chk = sqlite3.connect(f"{work}/chk/collection.anki21")
+    assert chk.execute("pragma integrity_check").fetchone()[0] == "ok"
+    assert original_cards == chk.execute("select * from cards order by id").fetchall(), "card scheduling changed"
+    assert original_schema == {k: (m["flds"], [(t["name"], t["ord"]) for t in m["tmpls"]]) for k, m in m2.items()}, "schema changed"
+    after_rows = chk.execute("select * from notes order by id").fetchall()
+    assert len(original_notes) == len(after_rows)
+    for old, new in zip(original_notes, after_rows):
+        assert all(old[i] == new[i] for i in range(len(old)) if i not in (3, 4, 6)), "note identity/metadata changed"
+        a, b = old[6].split("\x1f"), new[6].split("\x1f")
+        assert all(a[i] == b[i] for i in range(len(a)) if i != 7), "non-image field changed"
+        assert FIGURE.sub('', a[7]) == FIGURE.sub('', b[7]), "kanji breakdown changed"
+        assert len(FIGURE.findall(b[7])) <= 1, "duplicate illustration"
+        for ref in re.findall(r'(?:src="|\[sound:)([^"\]]+)', new[6]):
+            assert ref in files, f"missing media {ref}"
+    chk.close()
+    assert zchk.testzip() is None
+    with zipfile.ZipFile(src) as original:
+        for info in original.infolist():
+            if info.filename not in ("collection.anki21", "media") and info.filename not in stale and info.filename != idx:
+                assert original.read(info.filename) == zchk.read(info.filename), "original media/stub changed"
     zchk.close()
 
-    with open(src, "wb") as f, open(out, "rb") as g: shutil.copyfileobj(g, f)
+    staged = src + ".tmp"
+    shutil.copyfile(out, staged)
+    os.replace(staged, src)
     shutil.rmtree(work, ignore_errors=True)
-    print(f"ok {deck}: notes={len(after_notes)} media={len(media2)} (+{len(kr_add)} reading clips) asset={ASSET} member={idx} dropped={len(stale)} size={os.path.getsize(src)//1024} KB")
+    print(f"ok {deck}: notes={len(after_notes)} media={len(media2)} images={illustrated} (changed {images_changed}, added {len(image_add)}) (+{len(kr_add)} reading clips) asset={ASSET} member={idx} dropped={len(stale)} size={os.path.getsize(src)//1024} KB")

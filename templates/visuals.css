@@ -1,0 +1,103 @@
+/* Answer-only compact reveal. Fronts and unillustrated cards keep their layout. */
+/* Avoid painting the unpositioned answer before its reveal is prepared. */
+.card:has(.vocab-visual):not(.visual-ready) { visibility: hidden; }
+.vocab-visual { margin: 0; text-align: center; }
+.card.has-vocab-visual > .vocab-visual {
+  margin: -24px 0 0;
+  /* Reserve the final banner height; animate the artwork, not a clipping mask. */
+  overflow: visible;
+}
+.vocab-visual img {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  aspect-ratio: 3 / 1;
+  object-fit: contain;
+  box-sizing: border-box;
+  padding: 4% 6%;
+  margin: 0 auto;
+  border-radius: 0;
+  transform-origin: center center;
+  animation: visual-entrance 560ms cubic-bezier(.4, 0, .2, 1) both;
+}
+body.vocab-visual-page { margin: 0; }
+.card.has-vocab-visual .front-word-ruby {
+  font-size: 32px;
+  line-height: 1.35;
+  /* Furigana occupies the gap; image padding already supplies breathing room. */
+  margin: 14px 0 0;
+  text-align: center;
+  transform-origin: center center;
+
+}
+.card.has-vocab-visual .meaning { font-size: 18px; line-height: 1.35; margin: 2px 0 0; }
+/* Keep the shared light/dark gradient behind the compact meaning and POS. */
+.card.has-vocab-visual .wordinfo { margin: -32px 0 0; padding: 38px 16px 10px; }
+.card.has-vocab-visual.prod .front-english { font-size: 22px; line-height: 1.3; margin: 6px 0 0; }
+.card.has-vocab-visual.prod .front-word-ruby { margin-top: 16px; }
+.card.has-vocab-visual .example { margin-top: 6px; }
+/* One moving answer block preserves every internal spacing relationship. */
+.visual-content { display: flow-root; }
+.card.visual-ready .visual-content {
+  animation: visual-content-slide 560ms cubic-bezier(.4, 0, .2, 1) both;
+}
+.card.visual-ready:not(.prod) .front-word-ruby {
+  animation: visual-word 560ms cubic-bezier(.4, 0, .2, 1) both;
+}
+.card.has-vocab-visual .meaning,
+.card.has-vocab-visual .wordinfo,
+.card.has-vocab-visual .example,
+.card.has-vocab-visual .kanji-breakdown,
+.card.has-vocab-visual .fw-read,
+.card.has-vocab-visual .fr {
+  animation: visual-details 400ms ease-out 100ms both;
+}
+.card.visual-ready.prod .front-english {
+  animation: visual-english 560ms cubic-bezier(.4, 0, .2, 1) both;
+}
+@keyframes visual-english { from { font-size: 34px; line-height: 1.6; color: var(--visual-cue-start, #111); } to { font-size: 22px; line-height: 1.3; color: var(--visual-cue-end, #8c8c8c); } }
+@keyframes visual-details { from { opacity: 0; } to { opacity: 1; } }
+@keyframes visual-content-slide {
+  from { transform: translateY(var(--visual-content-start, -100px)); }
+  to { transform: translateY(0); }
+}
+@keyframes visual-entrance {
+  from { opacity: 0; transform: translateY(-100%) scale(.94); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes visual-word { from { transform: scale(1.4375); } to { transform: scale(1); } }
+@media (max-width: 480px) {
+  .card.has-vocab-visual > .vocab-visual { margin: -14px 0 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .card.has-vocab-visual > .vocab-visual,
+  .card.has-vocab-visual .vocab-visual img,
+  .card.visual-ready .visual-content,
+  .card.has-vocab-visual .fr,
+  .card.has-vocab-visual .fw-read,
+  .card.visual-ready:not(.prod) .front-word-ruby,
+  .card.visual-ready.prod .front-english,
+  .card.has-vocab-visual .meaning,
+  .card.has-vocab-visual .wordinfo,
+  .card.has-vocab-visual .example,
+  .card.has-vocab-visual .kanji-breakdown,
+  .card.has-vocab-visual.prod .front-english { animation: none; }
+}
+
+/* De-emphasize the English cue only after revealing a Production answer. */
+.card.prod:has(.wordinfo) .front-english { color: #8c8c8c; }
+.nightMode .card.prod:has(.wordinfo) .front-english { color: #8f8f8f; }
+@media (prefers-color-scheme: dark) {
+  .card.prod:has(.wordinfo) .front-english { color: #8f8f8f; }
+}
+
+/* Carry the question color through the shrink instead of swapping it on reveal. */
+.nightMode .card.prod { --visual-cue-start: #f0f0f0; --visual-cue-end: #8f8f8f; }
+@media (prefers-color-scheme: dark) {
+  .card.prod { --visual-cue-start: #f0f0f0; --visual-cue-end: #8f8f8f; }
+}
+.card.visual-ready.prod .word-block { animation: visual-details 400ms ease-out 100ms both; }
+@media (prefers-reduced-motion: reduce) {
+  .card.visual-ready.prod .word-block { animation: none; }
+}

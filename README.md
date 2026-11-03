@@ -18,7 +18,7 @@ Every deck is self-contained. All media (audio, images) is bundled inside the `.
 
 ### Desktop Anki (macOS / Windows / Linux)
 
-1. Clone or download this repo
+1. Install Git LFS (`brew install git-lfs` on macOS), then run `git lfs install`, clone this repo, and run `git lfs pull` inside it. Deck packages and illustration sources use Git LFS; a plain source ZIP may contain pointers instead of the actual files.
 2. In Anki, `File → Import` and select any `.apkg`
 3. Repeat per deck
 
@@ -63,6 +63,10 @@ Links are universal links, so if Nihongo isn't installed they fall through to th
 - Every note has two example sentences (the second shows the word with the words it normally goes with, at the grammar level of its source lesson). Each sentence is its own row in the example card and has its own audio: tap anywhere on a row to play it.
 - Every on'yomi and kun'yomi in the kanji breakdown is tappable (dotted underline) and plays that reading.
 - Audio taps never trigger Anki's tap-to-advance gestures.
+
+### Taps never answer a card
+
+On AnkiMobile a tap on the question shows the answer, and on the answer side a tap on the left or right answers the card and moves to the next one. These decks keep the first and switch off the second: tapping the question still flips the card, but once the answer is showing, a tap anywhere on the card area, including the empty space around a short card, does nothing unless it lands on something made to be tapped (audio, stroke order, readings, the 語 links). The only way to rate a card and move on is the buttons under the card. Scrolling and swipes are unchanged, and other note types in the same collection keep their normal tap behaviour.
 - Filenames are ASCII-safe hashes so iOS media resolution never breaks on non-ASCII characters.
 
 ### Verb classification
@@ -82,7 +86,7 @@ Two card templates per note:
 - **Recognition** (Japanese → English): front shows the word in Japanese; back shows the same word with its reading as furigana above the kanji (aligned per kanji run, e.g. お願[ねが]いします), the English meaning, a part-of-speech row, the two example sentences, and the kanji breakdown.
 - **Production** (English → Japanese): front shows the English gloss; back adds the Japanese word (with furigana), part of speech, example, and kanji breakdown.
 
-Template sources live in `templates/` (`card.css`, `recognition_back.html`, `production_back.html`, `runtime.js`) and the stroke-data asset in `assets/_kanji_strokes.js` (KanjiVG paths for every kanji that appears in the decks, embedded in each `.apkg` as a `_`-prefixed media file). `python3 scripts/apply_templates.py` re-applies the templates and asset — see `CLAUDE.md` for the invariants it respects. Fronts are untouched by that script.
+Template sources live in `templates/` (`card.css`, `recognition_front.html`, `production_front.html`, `recognition_back.html`, `production_back.html`, `runtime.js`, `tap_guard.js`) and the stroke-data asset in `assets/_kanji_strokes.js` (KanjiVG paths for every kanji that appears in the decks, embedded in each `.apkg` as a `_`-prefixed media file). `python3 scripts/apply_templates.py` re-applies the templates and asset — see `CLAUDE.md` for the invariants it respects. It writes all four templates (both fronts, both backs).
 
 ## Compatibility
 
@@ -104,3 +108,13 @@ Template sources live in `templates/` (`card.css`, `recognition_back.html`, `pro
 
 - Decks are for personal study. Content includes editable JMdict / KANJIDIC data (public domain / CC).
 - `.apkg` files are binary (SQLite + zip); `git diff` won't show meaningful changes.
+
+## Card illustrations
+
+`assets/card-visuals/manifest.json` maps exact word/readings to reusable transparent artwork. Shared meanings can explicitly reuse an image; spelling or grammatical reading variants are listed separately so coverage is reviewable. `coverage.json` inventories the vocabulary and marks completed entries. The reviewed catalog covers 1,763 word/readings with 1,754 distinct illustrations. Only nine entries reuse artwork for matching meanings; 37 grammatical items are deliberately text-only to avoid misleading cues.
+
+Run `python3 scripts/apply_templates.py` to apply the catalog and shared templates to all five deck exports. It keeps note identities, scheduling, audio, fields, and original media intact, and verifies the output before replacing each package. Importing the packages into Anki is a separate step.
+
+`templates/visuals.css`, `visuals.js`, and `visual_front.js` implement the image slide/fade/scale, moving answer block, word resizing, Production cue color change, outgoing hint movement/fade, late-image fade, and reduced-motion behavior. Front-side geometry is captured when the client retains its WebView; other clients use a calculated fallback. Actual AnkiMobile transition verification remains outstanding.
+
+The feedback preview remains under `experiments/card-visuals/`; canonical artwork and motion now live under `assets/` and `templates/`. The interactive preview selects up to 40 catalog entries present in GENKI II, and its gallery includes all illustrated GENKI II words.

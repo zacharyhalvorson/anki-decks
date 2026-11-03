@@ -5,3 +5,7 @@ _to_delete/
 zi[A-Za-z0-9]*
 __pycache__/
 .claude/
+
+# Rebuildable illustration cache and browser preview
+assets/card-visuals/optimized/
+experiments/card-visuals/build/

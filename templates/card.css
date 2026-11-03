@@ -375,6 +375,11 @@
 .kb-v2 .k-box:active .k-play, .kb-v2 .k-play:active { background: #dcdcdc; }
 .kb-v2 .k-box.animating .k-play { opacity: 0.55; }
 
+/* --- tap guard, answer side only (templates/tap_guard.js): taps on the card never reach AnkiMobile's tap zones.
+   The shield is a transparent full-screen layer behind the card, so the empty space around a short card is covered too --- */
+.tap-shield { position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 0; background: transparent; -webkit-tap-highlight-color: transparent; }
+.card[data-notap] { position: relative; z-index: 1; -webkit-tap-highlight-color: transparent; }
+
 /* --- narrow screens (iPhone): trim the side margins; wider screens keep max-width 600 + 20px padding --- */
 @media (max-width: 480px) {
   body { margin-left: 0; margin-right: 0; }

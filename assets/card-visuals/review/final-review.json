@@ -1,0 +1,13 @@
+{
+  "catalog_entries": 1763,
+  "unique_artwork": 1754,
+  "text_only_entries": 37,
+  "pending_illustrations": 0,
+  "visual_review": "All active artwork reviewed for meaning and dark-background appearance; identified defects corrected before registration.",
+  "native_anki_mobile_verified": false,
+  "packaged_illustrated_notes": 2690,
+  "canonical_decks_built": 5,
+  "repeat_build": "All five decks: changed 0, added 0",
+  "package_validation": "Note IDs/GUIDs, card rows/scheduling, field schema, original media/audio, SQLite integrity and ZIP CRC verified by apply_templates.py",
+  "preview_validation": "80 illustrated answer samples resolve packaged WebP files; fronts and control contain no images. Recognition and production rendered at 820px viewport; transparent artwork and night mode checked."
+}

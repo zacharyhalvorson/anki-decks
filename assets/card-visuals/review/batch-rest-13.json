@@ -1,0 +1,280 @@
+[
+  {
+    "index": 737,
+    "word": "背中",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-d76a7ac3-7db5-4387-81eb-75a279858f79.png",
+    "image": "vocab-2efdbc5c4399.png",
+    "review": "pending"
+  },
+  {
+    "index": 738,
+    "word": "首",
+    "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f53aedd8-5660-4f4a-aac0-cc2cab6706c9. safety_violations=[self-harm].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"self-harm\\\"\\n      ]\\n    }\\n  }\\n}\")"
+  },
+  {
+    "index": 727,
+    "word": "ビール",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-c6431953-28f9-4328-9b1f-ae68c46934a8.png",
+    "image": "vocab-34b4a34f1dc8.png",
+    "review": "pending"
+  },
+  {
+    "index": 706,
+    "word": "壁",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-e36d479b-747b-4b4d-89c8-285c48cce193.png",
+    "image": "vocab-5d8da2ec09b6.png",
+    "review": "pending"
+  },
+  {
+    "index": 733,
+    "word": "風邪",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-7375a286-3bee-44ad-b57e-9d0f6d8456ed.png",
+    "image": "vocab-72d1d858a7f7.png",
+    "review": "pending"
+  },
+  {
+    "index": 739,
+    "word": "肩",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-773a5aed-f71d-4472-ac87-9702642ad0c5.png",
+    "image": "vocab-b1a741ae101b.png",
+    "review": "pending"
+  },
+  {
+    "index": 743,
+    "word": "息",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-2d6a9e54-0a30-4bff-a3f6-14a1fcf69dec.png",
+    "image": "vocab-8223e6690e5b.png",
+    "review": "pending"
+  },
+  {
+    "index": 728,
+    "word": "ワイン",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-e54b31a2-6623-4570-aad8-71ac93ccbf44.png",
+    "image": "vocab-22dd43d3fd88.png",
+    "review": "pending"
+  },
+  {
+    "index": 690,
+    "word": "遊園地",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-881e2050-c2cf-4b16-aaa0-34bc2077b88e.png",
+    "image": "vocab-b7cd42c5cd8b.png",
+    "review": "pending"
+  },
+  {
+    "index": 722,
+    "word": "ケーキ",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-fa823896-3b97-43de-aaba-1a80de625567.png",
+    "image": "vocab-1600839278d1.png",
+    "review": "pending"
+  },
+  {
+    "index": 707,
+    "word": "天井",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-e375e276-dbaf-4190-896f-570557f44aba.png",
+    "image": "vocab-961b4a3c0640.png",
+    "review": "pending"
+  },
+  {
+    "index": 734,
+    "word": "怪我",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-e4fcac9b-f432-4cb0-82bd-a2f7fe3bcade.png",
+    "image": "vocab-4441992d72af.png",
+    "review": "pending"
+  },
+  {
+    "index": 740,
+    "word": "腕",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-b3459f17-409b-40bd-a5ad-5dc209ba2022.png",
+    "image": "vocab-ce1c685b5896.png",
+    "review": "pending"
+  },
+  {
+    "index": 744,
+    "word": "血",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-727a95a5-ab6c-4964-bc99-0858949240f4.png",
+    "image": "vocab-d57d82da7f84.png",
+    "review": "pending"
+  },
+  {
+    "index": 750,
+    "word": "決める",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-d6f4450a-7e4b-434c-9cb0-9b99c4a7cbfe.png",
+    "image": "vocab-d07eb933f4f7.png",
+    "review": "pending"
+  },
+  {
+    "index": 729,
+    "word": "健康",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-4448b3cf-4756-46c0-b37f-58a815199607.png",
+    "image": "vocab-9ebd416c8950.png",
+    "review": "pending"
+  },
+  {
+    "index": 752,
+    "word": "伝える",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-78595ed1-b7c5-4bcd-aa76-20b5c40ef446.png",
+    "image": "vocab-74923d5a0861.png",
+    "review": "pending"
+  },
+  {
+    "index": 691,
+    "word": "駐車場",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-e20beab0-c180-4645-b2b7-1a02a9814a3d.png",
+    "image": "vocab-9481009db244.png",
+    "review": "pending"
+  },
+  {
+    "index": 755,
+    "word": "直す",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-c7671990-2d05-496b-ac2c-6683da8fbd1a.png",
+    "image": "vocab-7ff9a6bfc9e3.png",
+    "review": "pending"
+  },
+  {
+    "index": 708,
+    "word": "床",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-55ed6f74-c408-4a4b-81ac-442ce83766e3.png",
+    "image": "vocab-5a2f7a448dce.png",
+    "review": "pending"
+  },
+  {
+    "index": 745,
+    "word": "髪",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-5502490c-a75d-4b38-983e-ea92c04a72eb.png",
+    "image": "vocab-7179f9ee1fcc.png",
+    "review": "pending"
+  },
+  {
+    "index": 735,
+    "word": "入院",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-24dd3921-3a2a-4328-b47c-711c23b9a23e.png",
+    "image": "vocab-515e015a50ee.png",
+    "review": "pending"
+  },
+  {
+    "index": 751,
+    "word": "決まる",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-d277fe52-d713-460f-9a75-b3163f28209b.png",
+    "image": "vocab-3ee91db4a818.png",
+    "review": "pending"
+  },
+  {
+    "index": 760,
+    "word": "壊れる",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-2236fcdc-1918-40e3-aa66-ed14be1bc6ba.png",
+    "image": "vocab-fa807eb0fc29.png",
+    "review": "pending"
+  },
+  {
+    "index": 753,
+    "word": "見つける",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-00a3226d-8dc9-4805-875d-429eddb72281.png",
+    "image": "vocab-118f6f175c33.png",
+    "review": "pending"
+  },
+  {
+    "index": 763,
+    "word": "開く",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-f4253b01-b50f-4f95-b308-ba08929bf0a3.png",
+    "image": "vocab-94484e6f86dd.png",
+    "review": "pending"
+  },
+  {
+    "index": 692,
+    "word": "交番",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-2f23f5d5-ee4b-44af-a350-47a739806c7e.png",
+    "image": "vocab-b4e8b5cb663f.png",
+    "review": "pending"
+  },
+  {
+    "index": 741,
+    "word": "心",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-4d053a64-1d0d-483a-aee1-77d59e62f899.png",
+    "image": "vocab-581da1eee27d.png",
+    "review": "pending"
+  },
+  {
+    "index": 746,
+    "word": "届ける",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-21da68ed-1153-428e-a568-35a3f85b4a67.png",
+    "image": "vocab-3a314a9bf94f.png",
+    "review": "pending"
+  },
+  {
+    "index": 765,
+    "word": "動く",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-28dc2ef1-672a-4c35-a087-486f72b8b3c1.png",
+    "image": "vocab-64f624263bc6.png",
+    "review": "pending"
+  },
+  {
+    "index": 736,
+    "word": "退院",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-a6242aa4-e90d-49e3-acb9-285b34790f21.png",
+    "image": "vocab-a2a91303133e.png",
+    "review": "pending"
+  },
+  {
+    "index": 756,
+    "word": "直る",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-95c1f996-403c-4c20-b3d6-7e2052fd4bb1.png",
+    "image": "vocab-eeb7134e052a.png",
+    "review": "pending"
+  },
+  {
+    "index": 761,
+    "word": "汚す",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-e264b12e-3964-4e62-9ae5-a13ed8273444.png",
+    "image": "vocab-0d998398b727.png",
+    "review": "pending"
+  },
+  {
+    "index": 768,
+    "word": "続く",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-a0670085-ae2f-48ec-afe5-926edd4fb2da.png",
+    "image": "vocab-4602e9cbc663.png",
+    "review": "pending"
+  },
+  {
+    "index": 754,
+    "word": "見つかる",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-909e1103-b383-4d86-9da3-601a0c9b5465.png",
+    "image": "vocab-757db358070f.png",
+    "review": "pending"
+  },
+  {
+    "index": 742,
+    "word": "涙",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-470148cd-779d-438c-937a-489f1fc09559.png",
+    "image": "vocab-48fc9c79ec85.png",
+    "review": "pending"
+  },
+  {
+    "index": 770,
+    "word": "替える",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-4587e10d-c29a-4420-9ee4-727b4314a708.png",
+    "image": "vocab-09b381a203dc.png",
+    "review": "pending"
+  },
+  {
+    "index": 747,
+    "word": "届く",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-db80e1d4-1e14-47a1-8bef-6d86b7394f7a.png",
+    "image": "vocab-52071ad7ea1b.png",
+    "review": "pending"
+  },
+  {
+    "index": 693,
+    "word": "薬局",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-51e9337b-79a2-471f-8b05-f0e11382b01a.png",
+    "image": "vocab-d30d355ed8a5.png",
+    "review": "pending"
+  },
+  {
+    "index": 775,
+    "word": "数える",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-752d851e-afbd-4c39-9bea-65c606e94d9f.png",
+    "image": "vocab-177970d61c1d.png",
+    "review": "pending"
+  }
+]

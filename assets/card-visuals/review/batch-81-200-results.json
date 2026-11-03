@@ -1,0 +1,842 @@
+[
+  {
+    "index": 81,
+    "word": "姉",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-04dbfedc-5dfe-4356-98d3-d8fcb85201ba.png",
+    "image": "vocab-2a9aa226fda8.png",
+    "review": "pending"
+  },
+  {
+    "index": 97,
+    "word": "十",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-4bdf8eac-1e53-4091-ada8-d66b41bc83dd.png",
+    "image": "vocab-4985d2215efa.png",
+    "review": "pending"
+  },
+  {
+    "index": 82,
+    "word": "主人",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-3739c69b-b206-4cf2-b615-69a664722a02.png",
+    "image": "vocab-a0e7a89bcbe1.png",
+    "review": "pending"
+  },
+  {
+    "index": 84,
+    "word": "子供",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-b6ca8fff-4360-480b-b95c-21cc31b8f485.png",
+    "image": "vocab-2a367df532e0.png",
+    "review": "pending"
+  },
+  {
+    "index": 98,
+    "word": "百",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-79d00ddf-3327-48a4-996b-83ea266881b5.png",
+    "image": "vocab-ac0a5050cf86.png",
+    "review": "pending"
+  },
+  {
+    "index": 83,
+    "word": "奥さん",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-4b79b2dd-9c44-48cb-9082-35d7379f7cca.png",
+    "image": "vocab-13d649dd52e8.png",
+    "review": "pending"
+  },
+  {
+    "index": 100,
+    "word": "万",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-ceb767ab-e6a3-4fbc-8a51-e407e90c9192.png",
+    "image": "vocab-a7f2d79bb1a7.png",
+    "review": "pending"
+  },
+  {
+    "index": 101,
+    "word": "零",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-92d24497-3511-4a3a-b2fc-2b7139712037.png",
+    "image": "vocab-84665b7f3c03.png",
+    "review": "pending"
+  },
+  {
+    "index": 86,
+    "word": "女の子",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-500ba3a7-3af7-44a1-98fd-e3d11f9a1e16.png",
+    "image": "vocab-7e256ea5ca13.png",
+    "review": "pending"
+  },
+  {
+    "index": 102,
+    "word": "一つ",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-9f5797be-7527-46ea-bb51-1ade47cba835.png",
+    "image": "vocab-fa42c777e158.png",
+    "review": "pending"
+  },
+  {
+    "index": 99,
+    "word": "千",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-da7c4c2e-f8a5-408f-b9f5-806f5e3c9394.png",
+    "image": "vocab-b98b73192051.png",
+    "review": "pending"
+  },
+  {
+    "index": 87,
+    "word": "赤ちゃん",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-cecc9106-4a51-4a5e-8b6f-c0f6783e5b5b.png",
+    "image": "vocab-5cf3857465fe.png",
+    "review": "pending"
+  },
+  {
+    "index": 103,
+    "word": "二つ",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-86e01c56-8f0a-4e43-ba49-1fa3a99ded5d.png",
+    "image": "vocab-0d4e116d7749.png",
+    "review": "pending"
+  },
+  {
+    "index": 85,
+    "word": "男の子",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-700619a6-7f95-40d8-a4ed-facd3d01a7b9.png",
+    "image": "vocab-aa2004ef3493.png",
+    "review": "pending"
+  },
+  {
+    "index": 109,
+    "word": "八つ",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-7726d16d-028a-45b3-8465-cf9c9aaf1918.png",
+    "image": "vocab-b042f6ace5d7.png",
+    "review": "pending"
+  },
+  {
+    "index": 88,
+    "word": "一",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-fb63b36e-8250-477c-9402-4a462c34a85d.png",
+    "image": "vocab-d22f12ed6da4.png",
+    "review": "pending"
+  },
+  {
+    "index": 104,
+    "word": "三つ",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-1f7f6275-ccb9-4970-bdd3-e304176182a1.png",
+    "image": "vocab-073b0316974e.png",
+    "review": "pending"
+  },
+  {
+    "index": 110,
+    "word": "九つ",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-2e72d8ea-07ab-433e-a458-d7b008828563.png",
+    "image": "vocab-97a2b7c89d2a.png",
+    "review": "pending"
+  },
+  {
+    "index": 111,
+    "word": "十",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-6338415d-c96c-4e57-bd32-713196baa531.png",
+    "image": "vocab-bc871ab0cc17.png",
+    "review": "pending"
+  },
+  {
+    "index": 112,
+    "word": "今日",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-9e2c3d0a-8a38-46f0-b393-0d80f0da3138.png",
+    "image": "vocab-d792efd1ffd5.png",
+    "review": "pending"
+  },
+  {
+    "index": 89,
+    "word": "二",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-d6e655dd-b722-4b7e-8825-d4833b2d20f6.png",
+    "image": "vocab-224866301d92.png",
+    "review": "pending"
+  },
+  {
+    "index": 105,
+    "word": "四つ",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-5e7704da-648e-4123-9c37-b60032c15884.png",
+    "image": "vocab-5a2e7b303043.png",
+    "review": "pending"
+  },
+  {
+    "index": 113,
+    "word": "明日",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-c0823712-93ae-4d80-9550-6cf6c3d7aa62.png",
+    "image": "vocab-a52a318ad7d4.png",
+    "review": "pending"
+  },
+  {
+    "index": 90,
+    "word": "三",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-8d5c8303-416b-4729-8474-f83b0cb8d73e.png",
+    "image": "vocab-f0fb64cc2ea2.png",
+    "review": "pending"
+  },
+  {
+    "index": 106,
+    "word": "五つ",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-ace69f3d-62de-42b3-b3c1-82bcb19b70dc.png",
+    "image": "vocab-fd1665a992ee.png",
+    "review": "pending"
+  },
+  {
+    "index": 114,
+    "word": "昨日",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-c5f3ff17-0fdf-48a8-b6f2-3c2fbe315a5a.png",
+    "image": "vocab-baafe47c4df9.png",
+    "review": "pending"
+  },
+  {
+    "index": 91,
+    "word": "四",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-6268ca93-12d5-426c-ade7-664c7bf1e959.png",
+    "image": "vocab-b58a37882a5b.png",
+    "review": "pending"
+  },
+  {
+    "index": 107,
+    "word": "六つ",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-802724a3-eb6e-4b5c-9ade-ccd0a18e8779.png",
+    "image": "vocab-2532437d0fb5.png",
+    "review": "pending"
+  },
+  {
+    "index": 115,
+    "word": "朝",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-226716e4-ce4c-46bc-bd76-beebb2838e27.png",
+    "image": "vocab-c78044a085e1.png",
+    "review": "pending"
+  },
+  {
+    "index": 122,
+    "word": "毎朝",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-625afa9d-ea30-4cf6-9151-21613f40bf18.png",
+    "image": "vocab-196b04df9be8.png",
+    "review": "pending"
+  },
+  {
+    "index": 92,
+    "word": "五",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-eba6ecb1-eb3f-4845-9f87-0b334d5489f2.png",
+    "image": "vocab-fae06a77c827.png",
+    "review": "pending"
+  },
+  {
+    "index": 108,
+    "word": "七つ",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-a5f20a96-04f3-4559-886e-e9f0b3a09d91.png",
+    "image": "vocab-f1507f80cabc.png",
+    "review": "pending"
+  },
+  {
+    "index": 125,
+    "word": "毎月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-ea84c026-13ef-476d-81e8-7e458f0694bf.png",
+    "image": "vocab-b9383b55d2e8.png",
+    "review": "pending"
+  },
+  {
+    "index": 116,
+    "word": "昼",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-d7bec888-e5e0-4bee-9764-ae97347bdc04.png",
+    "image": "vocab-16492598cda0.png",
+    "review": "pending"
+  },
+  {
+    "index": 93,
+    "word": "六",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-12c77de6-4103-4085-a278-18d82687a491.png",
+    "image": "vocab-52290e7a72ae.png",
+    "review": "pending"
+  },
+  {
+    "index": 123,
+    "word": "毎晩",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-1910b668-18e6-4523-8a78-66cbdafc75d4.png",
+    "image": "vocab-9a32367723b8.png",
+    "review": "pending"
+  },
+  {
+    "index": 127,
+    "word": "先週",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-6055d64a-30fc-4384-bbcc-e4a3ce3cc48b.png",
+    "image": "vocab-45c70e98482d.png",
+    "review": "pending"
+  },
+  {
+    "index": 117,
+    "word": "夜",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-f7e41cc7-d77b-4a9d-b97f-492bd01b54db.png",
+    "image": "vocab-9e654e3def13.png",
+    "review": "pending"
+  },
+  {
+    "index": 131,
+    "word": "今月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-b45e42ad-6912-4afd-b494-a61204e3156d.png",
+    "image": "vocab-e67fb0ffe197.png",
+    "review": "pending"
+  },
+  {
+    "index": 126,
+    "word": "毎年",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-fad926ce-302a-4b7f-a0fa-31452c6b987a.png",
+    "image": "vocab-6904f5032710.png",
+    "review": "pending"
+  },
+  {
+    "index": 94,
+    "word": "七",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-063180d7-4666-4bae-91f1-73df3869488e.png",
+    "image": "vocab-a861cca02d3b.png",
+    "review": "pending"
+  },
+  {
+    "index": 124,
+    "word": "毎週",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-c348fa72-16f7-4691-9d3c-64c55a95f14f.png",
+    "image": "vocab-caf76608b5a8.png",
+    "review": "pending"
+  },
+  {
+    "index": 128,
+    "word": "今週",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-4e9961ee-6a00-4a01-a80b-d379924b1515.png",
+    "image": "vocab-093caddaee42.png",
+    "review": "pending"
+  },
+  {
+    "index": 118,
+    "word": "夕方",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-f72b3a70-358b-4d35-9022-cb53aca65b22.png",
+    "image": "vocab-65fb42d54fa2.png",
+    "review": "pending"
+  },
+  {
+    "index": 95,
+    "word": "八",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-285480b4-fc6b-4d1e-be39-ac81bd5d3ad3.png",
+    "image": "vocab-081cfca0a58c.png",
+    "review": "pending"
+  },
+  {
+    "index": 132,
+    "word": "来月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-a95c1f43-d2c2-41fe-b45f-98700e4f5fa1.png",
+    "image": "vocab-47b50e1a3ccf.png",
+    "review": "pending"
+  },
+  {
+    "index": 140,
+    "word": "水曜日",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-bf288db2-d843-4e7d-8498-0fd7c2593e2e.png",
+    "image": "vocab-468d6d3c8102.png",
+    "review": "pending"
+  },
+  {
+    "index": 129,
+    "word": "来週",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-ed3b599c-5504-4690-ac31-d50f398aaaef.png",
+    "image": "vocab-339a34f2fba2.png",
+    "review": "pending"
+  },
+  {
+    "index": 96,
+    "word": "九",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-c1e348ff-2680-4e54-9088-2fa7c7ab78d1.png",
+    "image": "vocab-233b92c3ad58.png",
+    "review": "pending"
+  },
+  {
+    "index": 133,
+    "word": "去年",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-d5a91e99-0eb0-4c31-99b5-e6ab988c4fa2.png",
+    "image": "vocab-8586ee695c6e.png",
+    "review": "pending"
+  },
+  {
+    "index": 141,
+    "word": "木曜日",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-dd694524-a136-45e5-9bc2-ffe199e75b88.png",
+    "image": "vocab-d61e28061090.png",
+    "review": "pending"
+  },
+  {
+    "index": 119,
+    "word": "今朝",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-72dc6f7e-6aaa-4f6f-a5d2-7cf4745f2356.png",
+    "image": "vocab-302eaade7829.png",
+    "review": "pending"
+  },
+  {
+    "index": 130,
+    "word": "先月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-4bc97e24-1a1c-4b4a-9c9a-634d7eeb1e24.png",
+    "image": "vocab-47a6749b1845.png",
+    "review": "pending"
+  },
+  {
+    "index": 134,
+    "word": "今年",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-0384a9c4-1c13-4bca-94d5-7bc98a48c138.png",
+    "image": "vocab-327d6b8debed.png",
+    "review": "pending"
+  },
+  {
+    "index": 120,
+    "word": "今晩",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-78569ead-c817-46df-842c-ce26b5c2f2a7.png",
+    "image": "vocab-89648fcc4a23.png",
+    "review": "pending"
+  },
+  {
+    "index": 142,
+    "word": "金曜日",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-a78db2c2-04b5-427a-836a-4a1982882590.png",
+    "image": "vocab-97de6e106ca1.png",
+    "review": "pending"
+  },
+  {
+    "index": 150,
+    "word": "六月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-46212c7e-de7c-41d2-af6f-8ebe45132e09.png",
+    "image": "vocab-db6fb60852bf.png",
+    "review": "pending"
+  },
+  {
+    "index": 135,
+    "word": "来年",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-ad830889-d838-47c0-998a-86f9579b754b.png",
+    "image": "vocab-49a971781823.png",
+    "review": "pending"
+  },
+  {
+    "index": 121,
+    "word": "毎日",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-5be28c7a-5f2d-48a9-94d5-1e55ef4e5605.png",
+    "image": "vocab-1d65ee088e66.png",
+    "review": "pending"
+  },
+  {
+    "index": 143,
+    "word": "土曜日",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-04ebb127-fbac-409e-848b-4dde8b4f3aed.png",
+    "image": "vocab-3ac04f880903.png",
+    "review": "pending"
+  },
+  {
+    "index": 136,
+    "word": "時間",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-59e91d08-2ed0-47db-b846-9fb9ae3dcca2.png",
+    "image": "vocab-93c7d89e730e.png",
+    "review": "pending"
+  },
+  {
+    "index": 144,
+    "word": "日曜日",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-f90cd8c1-5304-4b72-92c8-93eb0162df9f.png",
+    "image": "vocab-a0d2acb65769.png",
+    "review": "pending"
+  },
+  {
+    "index": 151,
+    "word": "七月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-a91e3886-e264-4196-a10e-c6ff82dcc8de.png",
+    "image": "vocab-a4e3f38ef2d9.png",
+    "review": "pending"
+  },
+  {
+    "index": 157,
+    "word": "学校",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-5e5b7bbb-14b6-4d45-be66-cb192e1c55e5.png",
+    "image": "vocab-ce5ee51475a0.png",
+    "review": "pending"
+  },
+  {
+    "index": 137,
+    "word": "分",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-bb11d571-dbca-4952-be87-b48d8258b38b.png",
+    "image": "vocab-a7d4c61e3411.png",
+    "review": "pending"
+  },
+  {
+    "index": 152,
+    "word": "八月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-0a4af212-b50d-4381-8265-f757234a48d0.png",
+    "image": "vocab-276a8f479c78.png",
+    "review": "pending"
+  },
+  {
+    "index": 145,
+    "word": "一月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-2b15da1a-2dfc-494d-bde6-46d3c75dbf7f.png",
+    "image": "vocab-1018e50f55a8.png",
+    "review": "pending"
+  },
+  {
+    "index": 138,
+    "word": "月曜日",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-035bcd58-ed4a-4297-9985-ae0de7dc6fe0.png",
+    "image": "vocab-6f3c60026221.png",
+    "review": "pending"
+  },
+  {
+    "index": 158,
+    "word": "教室",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-931a03cf-bcf3-4e80-95a6-3b496bf01be4.png",
+    "image": "vocab-02b35869b887.png",
+    "review": "pending"
+  },
+  {
+    "index": 153,
+    "word": "九月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-5ced63de-2a73-4042-9bb8-94a2ef0caf89.png",
+    "image": "vocab-d7ef72e3d4bf.png",
+    "review": "pending"
+  },
+  {
+    "index": 139,
+    "word": "火曜日",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-4c03c4f9-7fbc-40c3-8642-984a5979a877.png",
+    "image": "vocab-6dcede877f44.png",
+    "review": "pending"
+  },
+  {
+    "index": 146,
+    "word": "二月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-43e04848-8c7d-4970-bad1-c1a2270afc4f.png",
+    "image": "vocab-aeedfab23917.png",
+    "review": "pending"
+  },
+  {
+    "index": 163,
+    "word": "駅",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-c90b758b-b8fd-4b70-bc8e-98a0e55f9796.png",
+    "image": "vocab-f9acf2642d23.png",
+    "review": "pending"
+  },
+  {
+    "index": 154,
+    "word": "十月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-34b10610-9323-449a-9658-86f821b176aa.png",
+    "image": "vocab-3df99672924b.png",
+    "review": "pending"
+  },
+  {
+    "index": 159,
+    "word": "図書館",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-48a474f2-5e64-4300-9fa8-3e999024e542.png",
+    "image": "vocab-19b00a72a07e.png",
+    "review": "pending"
+  },
+  {
+    "index": 167,
+    "word": "スーパー",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-95c5db9b-e937-4589-b5d8-9ec1bdf44d85.png",
+    "image": "vocab-1d318fc41392.png",
+    "review": "pending"
+  },
+  {
+    "index": 147,
+    "word": "三月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-da8062d1-7ab6-4250-8e85-de1a88636341.png",
+    "image": "vocab-73ba85c88af8.png",
+    "review": "pending"
+  },
+  {
+    "index": 164,
+    "word": "空港",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-cdfecff3-9865-4dd1-8605-7a7074228092.png",
+    "image": "vocab-a8fc52527614.png",
+    "review": "pending"
+  },
+  {
+    "index": 155,
+    "word": "十一月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-0cf7609e-fb12-4b77-8133-832b54ce542b.png",
+    "image": "vocab-f5c787d19740.png",
+    "review": "pending"
+  },
+  {
+    "index": 168,
+    "word": "レストラン",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-7e7e5e1c-db66-485a-9ad7-ac2962c75fc9.png",
+    "image": "vocab-e467ded37967.png",
+    "review": "pending"
+  },
+  {
+    "index": 148,
+    "word": "四月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-bcd96253-3d56-4a48-b69f-072df2009ed5.png",
+    "image": "vocab-9496f65e4676.png",
+    "review": "pending"
+  },
+  {
+    "index": 160,
+    "word": "病院",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-c4312c47-20b0-4654-a105-3c5ea86cfe57.png",
+    "image": "vocab-9f294776eede.png",
+    "review": "pending"
+  },
+  {
+    "index": 165,
+    "word": "店",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-8347ac51-f5f0-4b66-b424-2a85258bf05e.png",
+    "image": "vocab-58139b5f6ef9.png",
+    "review": "pending"
+  },
+  {
+    "index": 173,
+    "word": "ホテル",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-a823e123-01f7-42e5-a44f-c47f5d853bc5.png",
+    "image": "vocab-83716af44b41.png",
+    "review": "pending"
+  },
+  {
+    "index": 156,
+    "word": "十二月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-12056a8b-37c0-4c6f-ac5f-eb9ffd7f52bf.png",
+    "image": "vocab-e29053b4bf3a.png",
+    "review": "pending"
+  },
+  {
+    "index": 169,
+    "word": "喫茶店",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-8ec73816-ea02-4db9-9c12-585d4edbf8ba.png",
+    "image": "vocab-f7fa1cdfba8c.png",
+    "review": "pending"
+  },
+  {
+    "index": 149,
+    "word": "五月",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-ee1907ab-5629-4e38-ba9d-eb2e98068e0c.png",
+    "image": "vocab-7021c7f93253.png",
+    "review": "pending"
+  },
+  {
+    "index": 166,
+    "word": "デパート",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-f2fb5ccf-c5a0-4a14-8ba7-d4211ac48c8d.png",
+    "image": "vocab-66e340e20062.png",
+    "review": "pending"
+  },
+  {
+    "index": 174,
+    "word": "トイレ",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-c63b6a7a-b1b0-416d-ba86-baeef18f4b64.png",
+    "image": "vocab-fd67967c4311.png",
+    "review": "pending"
+  },
+  {
+    "index": 161,
+    "word": "銀行",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-ac73575f-1d88-4427-9b94-f2b6e9fdbb27.png",
+    "image": "vocab-b682e6964cf8.png",
+    "review": "pending"
+  },
+  {
+    "index": 170,
+    "word": "会社",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-3b14066e-c7b9-4dfa-88d8-2cb5741133a7.png",
+    "image": "vocab-efa57a5f7c50.png",
+    "review": "pending"
+  },
+  {
+    "index": 162,
+    "word": "郵便局",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-ea93aca9-9671-4069-90bf-05f3b3d481d6.png",
+    "image": "vocab-49fce5e9882b.png",
+    "review": "pending"
+  },
+  {
+    "index": 171,
+    "word": "公園",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-57769dc2-3e43-4aef-8d48-58634f046b86.png",
+    "image": "vocab-e601e2033064.png",
+    "review": "pending"
+  },
+  {
+    "index": 175,
+    "word": "お手洗い",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-d0004efb-5647-4013-9296-e17a1876112c.png",
+    "image": "vocab-c9320e557bc2.png",
+    "review": "pending"
+  },
+  {
+    "index": 172,
+    "word": "映画館",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-8bb101a6-678c-424d-8a84-416f9ba7e096.png",
+    "image": "vocab-2711ab6a604a.png",
+    "review": "pending"
+  },
+  {
+    "index": 176,
+    "word": "家",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-911089a8-6bee-47be-bbc3-27dce353a99d.png",
+    "image": "vocab-f5a349049791.png",
+    "review": "pending"
+  },
+  {
+    "index": 177,
+    "word": "部屋",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-43808754-14b1-489c-bbe4-3caca3f79c07.png",
+    "image": "vocab-2df5b992f2a4.png",
+    "review": "pending"
+  },
+  {
+    "index": 178,
+    "word": "台所",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-f0cdc524-fb74-45a6-8395-8560bef2d597.png",
+    "image": "vocab-8f612ce070a1.png",
+    "review": "pending"
+  },
+  {
+    "index": 179,
+    "word": "玄関",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-41c1784b-5598-4f8f-8e5e-27208132ee89.png",
+    "image": "vocab-905c12f0ea23.png",
+    "review": "pending"
+  },
+  {
+    "index": 180,
+    "word": "庭",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-e2c70780-03e1-40ca-8547-fd21302cfc0a.png",
+    "image": "vocab-cb3dde8760c2.png",
+    "review": "pending"
+  },
+  {
+    "index": 185,
+    "word": "電気",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-122824af-7b27-4a68-ba88-c4dac1fae998.png",
+    "image": "vocab-055013b62dcf.png",
+    "review": "pending"
+  },
+  {
+    "index": 181,
+    "word": "窓",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-712d6e87-12df-4a2c-91ab-3497875f5027.png",
+    "image": "vocab-608127a3d2db.png",
+    "review": "pending"
+  },
+  {
+    "index": 196,
+    "word": "りんご",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-d23b2e8f-f3ea-4788-96c3-b14fe2600924.png",
+    "image": "vocab-eca1b44c9a61.png",
+    "review": "pending"
+  },
+  {
+    "index": 197,
+    "word": "みかん",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-2a557481-21cc-46c7-bb19-00f0776f157a.png",
+    "image": "vocab-513849cbfc3e.png",
+    "review": "pending"
+  },
+  {
+    "index": 188,
+    "word": "昼ご飯",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-bff82b7b-2667-43a7-8ab7-803bb7aa6956.png",
+    "image": "vocab-51d6133087f4.png",
+    "review": "pending"
+  },
+  {
+    "index": 182,
+    "word": "ドア",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-e1f208bf-1f97-4ff4-a83c-ecd7d4d94dac.png",
+    "image": "vocab-ee1c1b734ccf.png",
+    "review": "pending"
+  },
+  {
+    "index": 187,
+    "word": "朝ご飯",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-a2d444c1-430d-4bac-a4fa-75af1e244318.png",
+    "image": "vocab-f2d2d7231621.png",
+    "review": "pending"
+  },
+  {
+    "index": 198,
+    "word": "水",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-c4a8fd08-a5be-415d-a154-a2ce1d29b224.png",
+    "image": "vocab-687f43fc9755.png",
+    "review": "pending"
+  },
+  {
+    "index": 183,
+    "word": "門",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-8aa42905-ccc2-4f6e-a72e-899274f7e1a3.png",
+    "image": "vocab-aee5b9eab214.png",
+    "review": "pending"
+  },
+  {
+    "index": 199,
+    "word": "お茶",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-49b215df-075b-44d0-82b4-ff5e96f42f03.png",
+    "image": "vocab-99eabc8fa7d0.png",
+    "review": "pending"
+  },
+  {
+    "index": 184,
+    "word": "お風呂",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-963af50b-343b-4176-9c66-037741c9285c.png",
+    "image": "vocab-2192ef48e313.png",
+    "review": "pending"
+  },
+  {
+    "index": 200,
+    "word": "コーヒー",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-ad7d1cd6-c18f-4ae8-b45a-df3edb01da86.png",
+    "image": "vocab-6dfea8896900.png",
+    "review": "pending"
+  },
+  {
+    "index": 194,
+    "word": "野菜",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-f9df919f-a6d7-48f6-bcd6-bc0ce46bd79c.png",
+    "image": "vocab-578f7eaa0bd7.png",
+    "review": "pending"
+  },
+  {
+    "index": 189,
+    "word": "晩ご飯",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-742dac96-a878-411a-92fa-4ce452190ef1.png",
+    "image": "vocab-e7931e43d448.png",
+    "review": "pending"
+  },
+  {
+    "index": 186,
+    "word": "ご飯",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-9325d282-a318-4c3a-b22c-01a4b2d1f186.png",
+    "image": "vocab-218c6becf07f.png",
+    "review": "pending"
+  },
+  {
+    "index": 195,
+    "word": "果物",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-70aa4637-b713-46aa-9e6f-c529dd80b7a5.png",
+    "image": "vocab-bf782277d5c5.png",
+    "review": "pending"
+  },
+  {
+    "index": 193,
+    "word": "魚",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-9d1c7d2f-cbf5-49a2-bd13-4448ce0ed63e.png",
+    "image": "vocab-fe3a71de260c.png",
+    "review": "pending"
+  },
+  {
+    "index": 192,
+    "word": "肉",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-1bcc2b46-d7dc-4128-8997-e4f2dc5a5c9e.png",
+    "image": "vocab-9397f2c54a41.png",
+    "review": "pending"
+  },
+  {
+    "index": 191,
+    "word": "卵",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-6793aa89-db90-4fbb-85d3-de23241b2b7e.png",
+    "image": "vocab-5d9ad790fabe.png",
+    "review": "pending"
+  },
+  {
+    "index": 190,
+    "word": "パン",
+    "path": "/Users/zacharyhalvorson/.codex/generated_images/01a19e7a-6fe9-7392-a4b1-4a8c02616f76/exec-12c6567f-7219-4b38-896f-8f673a2513cc.png",
+    "image": "vocab-952b5d838255.png",
+    "review": "pending"
+  }
+]

@@ -55,7 +55,7 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
   Nihongo-green left border.
 - **Stroke-order pass (Sep 13 2026)** — presentation now comes from the
   template, not the field. Sources are tracked in `templates/` and applied with
-  `python3 scripts/apply_templates.py` (patches all four decks,
+  `python3 scripts/apply_templates.py` (patches all five decks,
   verifies guids/media, replaces in place). Do NOT hand-edit the CSS/templates
   inside an `.apkg`; edit `templates/` and re-run the script.
   - `templates/runtime.js` (inlined into both back templates) re-lays out each
@@ -91,7 +91,7 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
     button; no furigana when the word has no kanji or reading == word) → `.wordinfo` (POS text + grey `語` word deep link;
     gradient rises behind the meaning) → `.example` (whole card taps to play
     the sentence `<audio>`) → breakdown. Production = `front-english` on top,
-    then the same blocks (card gets class `prod`). Fronts unchanged. Every audio
+    then the same blocks (card gets class `prod`). Fronts: see "Tap guard" below. Every audio
     / play tap calls `stopPropagation` on click + touchend so it never reaches
     Anki's tap gestures. The old `.reading` line and `.pos-tag` pill are gone
     from the templates (CSS kept).
@@ -161,6 +161,34 @@ import-merge); the second sentence lives in the same fields, after a separator:
   waits ~27 s and also hooks the script's `load` event; a box tapped before its SVG was built builds it on the spot.
 - Test page: one `.k-brk` entry per kanji in the stroke map plus the real templates, run under Playwright `webkit`
   (`node <global playwright>/cli.js install webkit` works in the cloud container).
+
+## Tap guard, answer side only (Oct 10–11 2026)
+
+- Zach kept tapping the right side of the screen by accident, which on AnkiMobile answers the card. Rule: on the ANSWER
+  side a tap on the card area never answers the card; only the buttons under the card move on. The QUESTION side is
+  deliberately unguarded: tapping it must still flip to the answer. (The first version on Oct 10 guarded both sides;
+  Zach reported the next day that tap-to-flip was gone, which indicates the guard does take effect in AnkiMobile, and
+  asked for the fronts back.) Do not add the guard to a front template; `apply_templates.py` asserts it is in both backs and in no front.
+- `templates/tap_guard.js` is inlined into both back templates. The fronts are tracked too
+  (`templates/recognition_front.html`, `production_front.html`, plain markup) and `apply_templates.py` writes `qfmt`
+  as well as `afmt`. Do not drop the guard, the `.tap-shield` div or the wrapper's `tappable` / `data-notap` /
+  `onclick` attributes when editing a back template.
+- How (AnkiMobile's tap detection is closed source, so three layers): (1) class `tappable` on everything inside the
+  card wrapper, on the full-screen `.tap-shield` (transparent `position: fixed` layer behind the card, so the empty
+  space around a short card is covered) and on the wrapper's ancestors up to `<html>`; AnkiMobile's manual says taps
+  on `tappable` / `onclick` / A / BUTTON elements are handed to the page; (2) `onclick="void 0"` on wrapper and
+  shield; (3) trusted `click` and unmoved-`touchend` events are stopped at wrapper, shield and `<html>`. Moved touches
+  (scroll, swipe) and scripted clicks (the word block clicking the hidden audio button) pass. Nodes added later (stroke
+  SVGs) are tagged by a MutationObserver. The page-level listeners check for `.card[data-notap]` on every event and
+  remove the classes they put on ancestors (`data-notap-page`) as soon as an unguarded side (the next question, or
+  another note type) is on screen, so nothing carries over from an answer to the next question.
+- `.card[data-notap]` is `position: relative; z-index: 1` so it sits above the shield.
+- Tested in headless Chromium with touch emulation against stand-in tap detectors (document/window/body listeners,
+  capture and bubble, class checks on target / ancestors / elementFromPoint): on the backs 0 taps reach the app, on the
+  fronts every tap does (also right after a guarded back on the same page), with audio / stroke / reading / link
+  taps, scrolling and swipes still working.
+- App-level alternative if ever needed: Preferences (gear) > Review > Taps lets each zone be set per side (applies
+  to every deck).
 
 ## Invariants for import-merge (do not break)
 

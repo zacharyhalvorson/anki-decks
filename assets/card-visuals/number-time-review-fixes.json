@@ -1,0 +1,9 @@
+{
+  "92": "Remove pale background halo; preserve exactly five apples",
+  "97": "Show exactly ten apples in two neat rows of five; current scene has only nine",
+  "99": "Show one Japanese 1000-yen banknote, clearly marked 1000, rather than generic stacks of money",
+  "103": "Remove white halo; preserve two apples",
+  "139": "Remove background halo",
+  "144": "Remove background halo",
+  "154": "Remove checkerboard background to genuine transparent alpha"
+}

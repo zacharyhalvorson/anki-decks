@@ -1,5 +1,6 @@
 <script src="_kanji_strokes.js"></script>
-<div class="card prod">
+<div class="tap-shield tappable" onclick="void 0"></div>
+<div class="card tappable prod" data-notap onclick="void 0">
 <div class="front-english">{{Meaning}}</div>
 <div class="word-block tap-play" onclick="event.stopPropagation();var b=this.parentNode.querySelector('.word-audio-hidden a');if(b)b.click();">
 <div class="front-word front-word-ruby"><span class="fw-base">{{Word}}</span><span class="fw-read">{{Reading}}</span></div>
@@ -19,7 +20,11 @@
 <div class="kb-content">{{KanjiBreakdown}}</div>
 </div>
 {{/KanjiBreakdown}}
+<span class="visual-key" hidden>{{Word}}|{{Reading}}</span>
 <script>
 __RUNTIME__
+</script>
+<script>
+__TAP_GUARD__
 </script>
 </div>

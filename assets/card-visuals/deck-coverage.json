@@ -1,0 +1,36 @@
+{
+  "catalog_entries": 1763,
+  "unique_images": 1754,
+  "decks": {
+    "GENKI I Vocab": {
+      "notes": 66,
+      "illustrated": 62,
+      "catalog_matches": 62,
+      "pending_build": 0
+    },
+    "GENKI II Vocab": {
+      "notes": 589,
+      "illustrated": 574,
+      "catalog_matches": 574,
+      "pending_build": 0
+    },
+    "JLPT N4": {
+      "notes": 1150,
+      "illustrated": 1137,
+      "catalog_matches": 1137,
+      "pending_build": 0
+    },
+    "JLPT N5": {
+      "notes": 751,
+      "illustrated": 742,
+      "catalog_matches": 742,
+      "pending_build": 0
+    },
+    "Quartet I Vocab": {
+      "notes": 175,
+      "illustrated": 175,
+      "catalog_matches": 175,
+      "pending_build": 0
+    }
+  }
+}

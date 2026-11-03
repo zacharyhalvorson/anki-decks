@@ -1,0 +1,30 @@
+{
+  "accepted": [
+    208,
+    209,
+    210,
+    211,
+    212,
+    214,
+    215,
+    216,
+    217,
+    218,
+    225,
+    228,
+    232,
+    233,
+    234,
+    235,
+    237,
+    239,
+    240,
+    241
+  ],
+  "fixes": {
+    "213": "Remove pale background halo",
+    "219": "Remove white fog and lettering on shirt",
+    "236": "Remove pale background halo",
+    "238": "Remove kanji lettering from embroidery; retain woman"
+  }
+}
