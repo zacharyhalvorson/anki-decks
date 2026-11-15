@@ -20,3 +20,6 @@ assets/card-visuals/review/*/sheet-*.jpg
 # Finder / iCloud conflict copies ("name 2.ext")
 * [0-9].*
 * [0-9]
+
+# GENKI artwork QA sheets; review decisions are tracked in JSON
+assets/genki1/visual-review/

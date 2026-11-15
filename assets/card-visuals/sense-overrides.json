@@ -70,5 +70,21 @@
     "image": "vocab-20ba5fe46a81.png",
     "alt": "A traveler arriving at a railway station",
     "reason": "Corrected kanji spelling of the existing arrival note; preserve its reviewed arrival artwork."
+  },
+  {
+    "word": "前",
+    "reading": "まえ",
+    "image": "genki1-sense-2728770806260.png",
+    "alt": "A small orange cat sitting directly in front of a simple wooden chair, the cat clearly between the viewer and chair legs. Straight-on view, no arrows, labels or other objects. Spatial in-front-of sense, not temporal before.",
+    "reason": "Reviewed as an answer-side mnemonic for front. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "front"
+  },
+  {
+    "word": "取る",
+    "reading": "とる",
+    "image": "genki1-sense-2175868527889.png",
+    "alt": "An adult college student receiving a graded exam paper from a teacher, pleased but natural expression, small classroom desk fragment. The paper has simple check marks only, no letters, numbers or readable text. Illustrates getting a grade in a class, not taking a physical object off a shelf.",
+    "reason": "Reviewed as an answer-side mnemonic for to take a class; to get a grade. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to take a class; to get a grade"
   }
 ]

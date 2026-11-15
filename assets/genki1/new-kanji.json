@@ -1,0 +1,5213 @@
+{
+  "久": {
+    "literal": "久",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "4e45"
+      },
+      {
+        "type": "jis208",
+        "value": "1-21-55"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "4"
+      }
+    ],
+    "stroke_count": 3,
+    "grade": "5",
+    "stroke_miscounts": [],
+    "variants": [],
+    "freq": "688",
+    "rad_names": [],
+    "jlpt": "2",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "153",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "47",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "3384",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "4191",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "2121",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "2867",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "1016",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "1092",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "591",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_names",
+        "value": "45",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "704",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "118",
+        "m_vol": "1",
+        "m_page": "0340"
+      },
+      {
+        "type": "henshall",
+        "value": "647",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "1210",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "1273",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sakade",
+        "value": "582",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "289",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "henshall3",
+        "value": "676",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "641",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "1097",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "20",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "1025",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "4-3-1",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "0a3.7",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "2780.0",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "2562",
+        "skip_misclass": ""
+      },
+      {
+        "type": "skip",
+        "value": "4-3-4",
+        "skip_misclass": "posn"
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "キュウ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_on",
+            "value": "ク",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "ひさ.しい",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "jiu3",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "gu",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "구",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Cửu",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "long time"
+          },
+          {
+            "m_lang": "",
+            "value": "old story"
+          },
+          {
+            "m_lang": "fr",
+            "value": "longtemps"
+          },
+          {
+            "m_lang": "fr",
+            "value": "vieille histoire"
+          },
+          {
+            "m_lang": "es",
+            "value": "mucho tiempo"
+          },
+          {
+            "m_lang": "es",
+            "value": "largo tiempo"
+          },
+          {
+            "m_lang": "es",
+            "value": "largo"
+          },
+          {
+            "m_lang": "es",
+            "value": "continuado por mucho tiempo"
+          },
+          {
+            "m_lang": "pt",
+            "value": "tempo longo"
+          },
+          {
+            "m_lang": "pt",
+            "value": "estória antiga"
+          }
+        ]
+      }
+    ],
+    "nanoris": [
+      "きゅ",
+      "わ",
+      "なが",
+      "ひさ",
+      "ひさし"
+    ],
+    "components": [
+      "𠂊"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/04e45.svg"
+  },
+  "伎": {
+    "literal": "伎",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "4f0e"
+      },
+      {
+        "type": "jis208",
+        "value": "1-20-76"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "9"
+      }
+    ],
+    "stroke_count": 6,
+    "grade": "8",
+    "stroke_miscounts": [],
+    "variants": [],
+    "freq": 0,
+    "rad_names": [],
+    "jlpt": "1",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "371",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "133",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "46",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "55",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "30",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "36",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "2122",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "1040",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "1654",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_names",
+        "value": "232",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "436",
+        "m_vol": "1",
+        "m_page": "0655"
+      },
+      {
+        "type": "sh_kk",
+        "value": "2012",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "890",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "1-2-4",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "2a4.13",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "2424.7",
+        "skip_misclass": ""
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "ギ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_on",
+            "value": "キ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "わざ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "わざおぎ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "ji4",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "gi",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "기",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Kỹ",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "deed"
+          },
+          {
+            "m_lang": "",
+            "value": "skill"
+          },
+          {
+            "m_lang": "es",
+            "value": "habilidad"
+          },
+          {
+            "m_lang": "es",
+            "value": "técnica"
+          }
+        ]
+      }
+    ],
+    "nanoris": [],
+    "components": [
+      "亻",
+      "支"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/04f0e.svg"
+  },
+  "俳": {
+    "literal": "俳",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "4ff3"
+      },
+      {
+        "type": "jis208",
+        "value": "1-39-48"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "9"
+      }
+    ],
+    "stroke_count": 10,
+    "grade": "6",
+    "stroke_miscounts": [],
+    "variants": [],
+    "freq": "1137",
+    "rad_names": [],
+    "jlpt": "1",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "485",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "254",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "112",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "126",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "82",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "94",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "1633",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "1761",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "1280",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_names",
+        "value": "1036",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "1427",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "726",
+        "m_vol": "1",
+        "m_page": "0815"
+      },
+      {
+        "type": "henshall",
+        "value": "959",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "1035",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "1076",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "1052",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "henshall3",
+        "value": "969",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "913",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "1167",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "110",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "1648",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "1-2-8",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "2a8.8",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "2121.1",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "2154",
+        "skip_misclass": ""
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "ハイ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "pai2",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "bae",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "배",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Bài",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "haiku"
+          },
+          {
+            "m_lang": "",
+            "value": "actor"
+          },
+          {
+            "m_lang": "fr",
+            "value": "acteur"
+          },
+          {
+            "m_lang": "fr",
+            "value": "haïku"
+          },
+          {
+            "m_lang": "es",
+            "value": "haiku"
+          },
+          {
+            "m_lang": "es",
+            "value": "actor"
+          },
+          {
+            "m_lang": "es",
+            "value": "intérprete"
+          },
+          {
+            "m_lang": "pt",
+            "value": "haiku"
+          },
+          {
+            "m_lang": "pt",
+            "value": "ator"
+          }
+        ]
+      }
+    ],
+    "nanoris": [],
+    "components": [
+      "亻",
+      "非"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/04ff3.svg"
+  },
+  "停": {
+    "literal": "停",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "505c"
+      },
+      {
+        "type": "jis208",
+        "value": "1-36-68"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "9"
+      }
+    ],
+    "stroke_count": 11,
+    "grade": "4",
+    "stroke_miscounts": [],
+    "variants": [],
+    "freq": "733",
+    "rad_names": [],
+    "jlpt": "2",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "507",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "273",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "139",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "156",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "107",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "121",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "977",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "1051",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "752",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_names",
+        "value": "1272",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "591",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "864",
+        "m_vol": "1",
+        "m_page": "0867"
+      },
+      {
+        "type": "henshall",
+        "value": "550",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "1185",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "1244",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sakade",
+        "value": "476",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "328",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "henshall3",
+        "value": "577",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "572",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "481",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "120",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "986",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "1-2-9",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "2a9.14",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "2022.1",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "2153",
+        "skip_misclass": ""
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "テイ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "と.める",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "と.まる",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "ting2",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "jeong",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "정",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Đình",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "halt"
+          },
+          {
+            "m_lang": "",
+            "value": "stopping"
+          },
+          {
+            "m_lang": "fr",
+            "value": "arrêt"
+          },
+          {
+            "m_lang": "fr",
+            "value": "halte"
+          },
+          {
+            "m_lang": "es",
+            "value": "parada"
+          },
+          {
+            "m_lang": "es",
+            "value": "interrupción"
+          },
+          {
+            "m_lang": "pt",
+            "value": "parada"
+          },
+          {
+            "m_lang": "pt",
+            "value": "parando"
+          }
+        ]
+      }
+    ],
+    "nanoris": [],
+    "components": [
+      "亻",
+      "亭"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/0505c.svg"
+  },
+  "刻": {
+    "literal": "刻",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "523b"
+      },
+      {
+        "type": "jis208",
+        "value": "1-25-79"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "18"
+      }
+    ],
+    "stroke_count": 8,
+    "grade": "6",
+    "stroke_miscounts": [],
+    "variants": [],
+    "freq": "866",
+    "rad_names": [],
+    "jlpt": "2",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "681",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "478",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "1267",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "1619",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "851",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "1166",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "1521",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "1639",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "1033",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_names",
+        "value": "900",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "1444",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "1970",
+        "m_vol": "2",
+        "m_page": "0262"
+      },
+      {
+        "type": "henshall",
+        "value": "865",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "1211",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "1274",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "361",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "henshall3",
+        "value": "875",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "863",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "1139",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "190",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "1535",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "1-6-2",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "2f6.7",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "0280.0",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "443",
+        "skip_misclass": ""
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "コク",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "きざ.む",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "きざ.み",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "ke4",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "ke1",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "gag",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "각",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Khắc",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "engrave"
+          },
+          {
+            "m_lang": "",
+            "value": "cut fine"
+          },
+          {
+            "m_lang": "",
+            "value": "chop"
+          },
+          {
+            "m_lang": "",
+            "value": "hash"
+          },
+          {
+            "m_lang": "",
+            "value": "mince"
+          },
+          {
+            "m_lang": "",
+            "value": "time"
+          },
+          {
+            "m_lang": "",
+            "value": "carving"
+          },
+          {
+            "m_lang": "fr",
+            "value": "graver"
+          },
+          {
+            "m_lang": "fr",
+            "value": "découper"
+          },
+          {
+            "m_lang": "fr",
+            "value": "émincer"
+          },
+          {
+            "m_lang": "fr",
+            "value": "hacher"
+          },
+          {
+            "m_lang": "fr",
+            "value": "moment"
+          },
+          {
+            "m_lang": "fr",
+            "value": "gravure"
+          },
+          {
+            "m_lang": "es",
+            "value": "grabar"
+          },
+          {
+            "m_lang": "es",
+            "value": "esculpir"
+          },
+          {
+            "m_lang": "es",
+            "value": "triste"
+          },
+          {
+            "m_lang": "es",
+            "value": "angustiado"
+          },
+          {
+            "m_lang": "es",
+            "value": "tiempo"
+          },
+          {
+            "m_lang": "es",
+            "value": "afilar"
+          },
+          {
+            "m_lang": "es",
+            "value": "cincelar"
+          },
+          {
+            "m_lang": "pt",
+            "value": "escultura"
+          },
+          {
+            "m_lang": "pt",
+            "value": "picar"
+          },
+          {
+            "m_lang": "pt",
+            "value": "fatiar"
+          },
+          {
+            "m_lang": "pt",
+            "value": "moer"
+          },
+          {
+            "m_lang": "pt",
+            "value": "esculpir"
+          }
+        ]
+      }
+    ],
+    "nanoris": [],
+    "components": [
+      "亥",
+      "刂"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/0523b.svg"
+  },
+  "容": {
+    "literal": "容",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "5bb9"
+      },
+      {
+        "type": "jis208",
+        "value": "1-45-38"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "40"
+      }
+    ],
+    "stroke_count": 10,
+    "grade": "5",
+    "stroke_miscounts": [],
+    "variants": [],
+    "freq": "264",
+    "rad_names": [],
+    "jlpt": "2",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "1309",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "1335",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "2277",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "2832",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "1462",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "1968",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "790",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "853",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "422",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_names",
+        "value": "1182",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "700",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "7172",
+        "m_vol": "3",
+        "m_page": "1033"
+      },
+      {
+        "type": "henshall",
+        "value": "802",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "654",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "665",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sakade",
+        "value": "730",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "469",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "henshall3",
+        "value": "822",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "721",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "crowley",
+        "value": "402",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "1123",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "485",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "798",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "2-3-7",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "3m7.8",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "3060.8",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "777",
+        "skip_misclass": ""
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "ヨウ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "い.れる",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "rong2",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "yong",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "용",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Dong",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "contain"
+          },
+          {
+            "m_lang": "",
+            "value": "form"
+          },
+          {
+            "m_lang": "",
+            "value": "looks"
+          },
+          {
+            "m_lang": "fr",
+            "value": "contenir"
+          },
+          {
+            "m_lang": "fr",
+            "value": "forme (état de santé)"
+          },
+          {
+            "m_lang": "fr",
+            "value": "apparence"
+          },
+          {
+            "m_lang": "es",
+            "value": "contenido"
+          },
+          {
+            "m_lang": "es",
+            "value": "figura"
+          },
+          {
+            "m_lang": "es",
+            "value": "perdonar"
+          },
+          {
+            "m_lang": "es",
+            "value": "fácil"
+          },
+          {
+            "m_lang": "pt",
+            "value": "conteúdo"
+          },
+          {
+            "m_lang": "pt",
+            "value": "forma"
+          },
+          {
+            "m_lang": "pt",
+            "value": "aparência"
+          }
+        ]
+      }
+    ],
+    "nanoris": [
+      "かた",
+      "ひろ",
+      "まさ"
+    ],
+    "components": [
+      "宀",
+      "谷"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/05bb9.svg"
+  },
+  "幹": {
+    "literal": "幹",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "5e79"
+      },
+      {
+        "type": "jis208",
+        "value": "1-20-20"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "51"
+      },
+      {
+        "type": "nelson_c",
+        "value": "24"
+      }
+    ],
+    "stroke_count": 13,
+    "grade": "5",
+    "stroke_miscounts": [],
+    "variants": [
+      {
+        "type": "jis212",
+        "value": "1-36-60"
+      }
+    ],
+    "freq": "364",
+    "rad_names": [],
+    "jlpt": "1",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "790",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "1596",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "1718",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "2152",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "1130",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "1531",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "1654",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "1783",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "761",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_names",
+        "value": "1938",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "763",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "9183",
+        "m_vol": "4",
+        "m_page": "0524"
+      },
+      {
+        "type": "henshall",
+        "value": "637",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "1189",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "1248",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sakade",
+        "value": "751",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "1254",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "henshall3",
+        "value": "667",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "770",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "1230",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "576",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "1669",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "1-8-5",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "4c9.8",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "4844.1",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "1555",
+        "skip_misclass": ""
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "カン",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "みき",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "gan4",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "han2",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "gan",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "간",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Cán",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "tree trunk"
+          },
+          {
+            "m_lang": "",
+            "value": "main part"
+          },
+          {
+            "m_lang": "",
+            "value": "talent"
+          },
+          {
+            "m_lang": "",
+            "value": "capability"
+          },
+          {
+            "m_lang": "fr",
+            "value": "tronc d'arbre"
+          },
+          {
+            "m_lang": "fr",
+            "value": "pièce principale"
+          },
+          {
+            "m_lang": "es",
+            "value": "tronco del árbol"
+          },
+          {
+            "m_lang": "es",
+            "value": "punto importante"
+          },
+          {
+            "m_lang": "es",
+            "value": "base"
+          },
+          {
+            "m_lang": "pt",
+            "value": "Tronco de árvore"
+          }
+        ]
+      }
+    ],
+    "nanoris": [
+      "つよし",
+      "まさ",
+      "もと",
+      "えだ",
+      "き",
+      "くる",
+      "たかし",
+      "つね",
+      "とも",
+      "み",
+      "もとき",
+      "よし",
+      "より"
+    ],
+    "components": [
+      "𠦝"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/05e79.svg"
+  },
+  "是": {
+    "literal": "是",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "662f"
+      },
+      {
+        "type": "jis208",
+        "value": "1-32-7"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "72"
+      }
+    ],
+    "stroke_count": 9,
+    "grade": "8",
+    "stroke_miscounts": [],
+    "variants": [
+      {
+        "type": "jis212",
+        "value": "1-34-12"
+      }
+    ],
+    "freq": "1045",
+    "rad_names": [],
+    "jlpt": "1",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "2120",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "2451",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "2436",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "3090",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "1578",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "2157",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "388",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "414",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "1404",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_names",
+        "value": "947",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "786",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "13859",
+        "m_vol": "5",
+        "m_page": "0843"
+      },
+      {
+        "type": "henshall",
+        "value": "910",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "1591",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "1698",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sakade",
+        "value": "822",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "1407",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "1262",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "1670",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "972",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "395",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "2-4-5",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "4c5.9",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "6080.1",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "3870",
+        "skip_misclass": ""
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "ゼ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_on",
+            "value": "シ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "これ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "この",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "ここ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "shi4",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "si",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "시",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Thị",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "just so"
+          },
+          {
+            "m_lang": "",
+            "value": "this"
+          },
+          {
+            "m_lang": "",
+            "value": "right"
+          },
+          {
+            "m_lang": "",
+            "value": "justice"
+          },
+          {
+            "m_lang": "fr",
+            "value": "comme il faut"
+          },
+          {
+            "m_lang": "fr",
+            "value": "ceci"
+          },
+          {
+            "m_lang": "fr",
+            "value": "juste"
+          },
+          {
+            "m_lang": "fr",
+            "value": "justice"
+          },
+          {
+            "m_lang": "es",
+            "value": "correcto"
+          },
+          {
+            "m_lang": "es",
+            "value": "justo"
+          },
+          {
+            "m_lang": "es",
+            "value": "recto"
+          },
+          {
+            "m_lang": "es",
+            "value": "esto"
+          },
+          {
+            "m_lang": "es",
+            "value": "ni más ni menos"
+          },
+          {
+            "m_lang": "pt",
+            "value": "somente assim"
+          },
+          {
+            "m_lang": "pt",
+            "value": "isto"
+          },
+          {
+            "m_lang": "pt",
+            "value": "certo"
+          },
+          {
+            "m_lang": "pt",
+            "value": "justiça"
+          }
+        ]
+      }
+    ],
+    "nanoris": [
+      "すなお",
+      "ただし",
+      "つな",
+      "ゆき",
+      "よし"
+    ],
+    "components": [
+      "日",
+      "疋"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/0662f.svg"
+  },
+  "泉": {
+    "literal": "泉",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "6cc9"
+      },
+      {
+        "type": "jis208",
+        "value": "1-32-84"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "85"
+      },
+      {
+        "type": "nelson_c",
+        "value": "106"
+      }
+    ],
+    "stroke_count": 9,
+    "grade": "6",
+    "stroke_miscounts": [],
+    "variants": [],
+    "freq": "1086",
+    "rad_names": [],
+    "jlpt": "2",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "3099",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "3095",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "2567",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "3176",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "1636",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "2224",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "133",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "140",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "902",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_names",
+        "value": "965",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "915",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "17274",
+        "m_vol": "6",
+        "m_page": "1038"
+      },
+      {
+        "type": "henshall",
+        "value": "915",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "1192",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "1253",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "674",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "henshall3",
+        "value": "926",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "887",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "840",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "1154",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "135",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "2-5-4",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "3a5.33",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "2623.2",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "842",
+        "skip_misclass": ""
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "セン",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "いずみ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "quan2",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "cheon",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "천",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Tuyền",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Toàn",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "spring"
+          },
+          {
+            "m_lang": "",
+            "value": "fountain"
+          },
+          {
+            "m_lang": "fr",
+            "value": "source"
+          },
+          {
+            "m_lang": "fr",
+            "value": "fontaine"
+          },
+          {
+            "m_lang": "es",
+            "value": "manantial"
+          },
+          {
+            "m_lang": "es",
+            "value": "fuente"
+          },
+          {
+            "m_lang": "pt",
+            "value": "Fonte"
+          },
+          {
+            "m_lang": "pt",
+            "value": "nascente"
+          }
+        ]
+      }
+    ],
+    "nanoris": [
+      "いず",
+      "ずい",
+      "ずみ",
+      "ぜい",
+      "ぜん",
+      "の"
+    ],
+    "components": [
+      "水"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/06cc9.svg"
+  },
+  "渇": {
+    "literal": "渇",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "6e07"
+      },
+      {
+        "type": "jis208",
+        "value": "1-19-73"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "85"
+      }
+    ],
+    "stroke_count": 11,
+    "grade": "8",
+    "stroke_miscounts": [],
+    "variants": [],
+    "freq": "1944",
+    "rad_names": [],
+    "jlpt": "1",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "2596",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "3195",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "515",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "627",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "379",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "473",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "451",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "488",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "1951",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "1266",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "17748",
+        "m_vol": "7",
+        "m_page": "0089"
+      },
+      {
+        "type": "henshall",
+        "value": "1087",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "1622",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "1731",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "1481",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "1453",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "1394",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "1205",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "460",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "1-3-8",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "3a8.13",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "3612.7",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "352",
+        "skip_misclass": ""
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "カツ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "かわ.く",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "ke3",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "gal",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "geol",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "갈",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "걸",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Khát",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "thirst"
+          },
+          {
+            "m_lang": "",
+            "value": "dry up"
+          },
+          {
+            "m_lang": "",
+            "value": "parch"
+          },
+          {
+            "m_lang": "fr",
+            "value": "soif"
+          },
+          {
+            "m_lang": "fr",
+            "value": "sécheresse"
+          },
+          {
+            "m_lang": "es",
+            "value": "seco"
+          },
+          {
+            "m_lang": "es",
+            "value": "reseco"
+          },
+          {
+            "m_lang": "es",
+            "value": "sed"
+          },
+          {
+            "m_lang": "es",
+            "value": "secar"
+          },
+          {
+            "m_lang": "es",
+            "value": "resecar"
+          },
+          {
+            "m_lang": "es",
+            "value": "tener sed"
+          },
+          {
+            "m_lang": "pt",
+            "value": "sede"
+          },
+          {
+            "m_lang": "pt",
+            "value": "seca"
+          },
+          {
+            "m_lang": "pt",
+            "value": "ressecar-se"
+          }
+        ]
+      }
+    ],
+    "nanoris": [],
+    "components": [
+      "氵",
+      "曷"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/06e07.svg"
+  },
+  "眼": {
+    "literal": "眼",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "773c"
+      },
+      {
+        "type": "jis208",
+        "value": "1-20-67"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "109"
+      }
+    ],
+    "stroke_count": 11,
+    "grade": "5",
+    "stroke_miscounts": [],
+    "variants": [
+      {
+        "type": "nelson_c",
+        "value": "3127"
+      }
+    ],
+    "freq": "1527",
+    "rad_names": [],
+    "jlpt": "1",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "3140",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "3935",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "1172",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "1504",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "796",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "1084",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "1467",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "1577",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "1127",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_names",
+        "value": "1637",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "674",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "23318",
+        "m_vol": "8",
+        "m_page": "0213"
+      },
+      {
+        "type": "henshall",
+        "value": "640",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "848",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "867",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sakade",
+        "value": "754",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "1561",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "henshall3",
+        "value": "669",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "725",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "976",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "1387",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "1479",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "1-5-6",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "5c6.1",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "6703.2",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "3965",
+        "skip_misclass": ""
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "ガン",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_on",
+            "value": "ゲン",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "まなこ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "め",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "yan3",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "an",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "안",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Nhãn",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "eyeball"
+          },
+          {
+            "m_lang": "fr",
+            "value": "globe oculaire"
+          },
+          {
+            "m_lang": "es",
+            "value": "ojo"
+          },
+          {
+            "m_lang": "es",
+            "value": "vista"
+          },
+          {
+            "m_lang": "es",
+            "value": "perspicacia"
+          },
+          {
+            "m_lang": "es",
+            "value": "punto principal"
+          },
+          {
+            "m_lang": "pt",
+            "value": "globo ocular"
+          }
+        ]
+      }
+    ],
+    "nanoris": [],
+    "components": [
+      "目",
+      "艮"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/0773c.svg"
+  },
+  "緊": {
+    "literal": "緊",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "7dca"
+      },
+      {
+        "type": "jis208",
+        "value": "1-22-59"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "120"
+      }
+    ],
+    "stroke_count": 15,
+    "grade": "8",
+    "stroke_miscounts": [],
+    "variants": [],
+    "freq": "677",
+    "rad_names": [],
+    "jlpt": "1",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "3560",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "4524",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "2838",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "3517",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "1816",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "2471",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "1374",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "1474",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "912",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "1088",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "27603",
+        "m_vol": "8",
+        "m_page": "1112"
+      },
+      {
+        "type": "henshall",
+        "value": "1179",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "1290",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "1364",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "1637",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "1792",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "1186",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "1509",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "1386",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "2-9-6",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "6a9.17",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "7790.3",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "3441",
+        "skip_misclass": ""
+      },
+      {
+        "type": "skip",
+        "value": "2-8-6",
+        "skip_misclass": "stroke_count"
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "キン",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "し.める",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "し.まる",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "jin3",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "gin",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "긴",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Khẩn",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "tense"
+          },
+          {
+            "m_lang": "",
+            "value": "solid"
+          },
+          {
+            "m_lang": "",
+            "value": "hard"
+          },
+          {
+            "m_lang": "",
+            "value": "reliable"
+          },
+          {
+            "m_lang": "",
+            "value": "tight"
+          },
+          {
+            "m_lang": "fr",
+            "value": "tendu"
+          },
+          {
+            "m_lang": "fr",
+            "value": "solide"
+          },
+          {
+            "m_lang": "fr",
+            "value": "dur"
+          },
+          {
+            "m_lang": "fr",
+            "value": "fiable"
+          },
+          {
+            "m_lang": "fr",
+            "value": "serré"
+          },
+          {
+            "m_lang": "es",
+            "value": "severo"
+          },
+          {
+            "m_lang": "es",
+            "value": "estricto"
+          },
+          {
+            "m_lang": "es",
+            "value": "tensar"
+          },
+          {
+            "m_lang": "es",
+            "value": "apretar"
+          },
+          {
+            "m_lang": "es",
+            "value": "apremiante"
+          },
+          {
+            "m_lang": "es",
+            "value": "urgente"
+          },
+          {
+            "m_lang": "pt",
+            "value": "tenso"
+          },
+          {
+            "m_lang": "pt",
+            "value": "apertado"
+          },
+          {
+            "m_lang": "pt",
+            "value": "de confiança"
+          },
+          {
+            "m_lang": "pt",
+            "value": "duro"
+          },
+          {
+            "m_lang": "pt",
+            "value": "sólido"
+          }
+        ]
+      }
+    ],
+    "nanoris": [],
+    "components": [
+      "糸"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/07dca.svg"
+  },
+  "線": {
+    "literal": "線",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "7dda"
+      },
+      {
+        "type": "jis208",
+        "value": "1-32-94"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "120"
+      }
+    ],
+    "stroke_count": 15,
+    "grade": "2",
+    "stroke_miscounts": [],
+    "variants": [
+      {
+        "type": "jis208",
+        "value": "1-69-32"
+      }
+    ],
+    "freq": "382",
+    "rad_names": [],
+    "jlpt": "2",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "3580",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "4548",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "1392",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "1760",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "944",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "1273",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "1339",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "1438",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "247",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "389",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "27641",
+        "m_vol": "8",
+        "m_page": "1116"
+      },
+      {
+        "type": "henshall",
+        "value": "329",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "299",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "299",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sakade",
+        "value": "447",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "826",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "henshall3",
+        "value": "176",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "236",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "841",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "busy_people",
+        "value": "2.20",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "1551",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "1351",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "1-6-9",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "6a9.7",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "2693.2",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "2742",
+        "skip_misclass": ""
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "セン",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "すじ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "xian4",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "seon",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "선",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Tuyến",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "line"
+          },
+          {
+            "m_lang": "",
+            "value": "track"
+          },
+          {
+            "m_lang": "fr",
+            "value": "ligne"
+          },
+          {
+            "m_lang": "fr",
+            "value": "voie"
+          },
+          {
+            "m_lang": "es",
+            "value": "línea"
+          },
+          {
+            "m_lang": "es",
+            "value": "cable"
+          },
+          {
+            "m_lang": "es",
+            "value": "frontera"
+          },
+          {
+            "m_lang": "es",
+            "value": "raíl"
+          },
+          {
+            "m_lang": "es",
+            "value": "carril"
+          },
+          {
+            "m_lang": "pt",
+            "value": "linha"
+          },
+          {
+            "m_lang": "pt",
+            "value": "trilha"
+          }
+        ]
+      }
+    ],
+    "nanoris": [],
+    "components": [
+      "糸",
+      "泉"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/07dda.svg"
+  },
+  "酔": {
+    "literal": "酔",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "9154"
+      },
+      {
+        "type": "jis208",
+        "value": "1-31-76"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "164"
+      }
+    ],
+    "stroke_count": 11,
+    "grade": "8",
+    "stroke_miscounts": [],
+    "variants": [
+      {
+        "type": "jis208",
+        "value": "1-78-45"
+      }
+    ],
+    "freq": "1640",
+    "rad_names": [],
+    "jlpt": "1",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "4781",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "6166",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "1483",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "1875",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "996",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "1348",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "1435",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "1543",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "1335",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "1648",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "39807",
+        "m_vol": "11",
+        "m_page": "0365"
+      },
+      {
+        "type": "henshall",
+        "value": "1457",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "1709",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "1826",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "1832",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "1493",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "728",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "1791",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "1447",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "1-7-4",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "7e4.3",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "1464.1",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "3255",
+        "skip_misclass": ""
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "スイ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "よ.う",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "よ.い",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "よ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "zui4",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "chwi",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "취",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Túy",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "drunk"
+          },
+          {
+            "m_lang": "",
+            "value": "feel sick"
+          },
+          {
+            "m_lang": "",
+            "value": "poisoned"
+          },
+          {
+            "m_lang": "",
+            "value": "elated"
+          },
+          {
+            "m_lang": "",
+            "value": "spellbound"
+          },
+          {
+            "m_lang": "fr",
+            "value": "ivre"
+          },
+          {
+            "m_lang": "fr",
+            "value": "se sentir malade"
+          },
+          {
+            "m_lang": "fr",
+            "value": "empoisonné"
+          },
+          {
+            "m_lang": "fr",
+            "value": "transporté de joie"
+          },
+          {
+            "m_lang": "fr",
+            "value": "subjugué"
+          },
+          {
+            "m_lang": "es",
+            "value": "marearse"
+          },
+          {
+            "m_lang": "es",
+            "value": "emborracharse"
+          },
+          {
+            "m_lang": "pt",
+            "value": "bêbado"
+          },
+          {
+            "m_lang": "pt",
+            "value": "sentir-se mal"
+          },
+          {
+            "m_lang": "pt",
+            "value": "envenenado"
+          },
+          {
+            "m_lang": "pt",
+            "value": "exaltado"
+          },
+          {
+            "m_lang": "pt",
+            "value": "fascinado"
+          }
+        ]
+      }
+    ],
+    "nanoris": [
+      "よい"
+    ],
+    "components": [
+      "酉",
+      "卆"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/09154.svg"
+  },
+  "防": {
+    "literal": "防",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "9632"
+      },
+      {
+        "type": "jis208",
+        "value": "1-43-41"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "170"
+      }
+    ],
+    "stroke_count": 7,
+    "grade": "5",
+    "stroke_miscounts": [],
+    "variants": [],
+    "freq": "331",
+    "rad_names": [],
+    "jlpt": "2",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "4980",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "6429",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "270",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "320",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "203",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "242",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "1302",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "1399",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "325",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_names",
+        "value": "374",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "680",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "41576",
+        "m_vol": "11",
+        "m_page": "0792"
+      },
+      {
+        "type": "henshall",
+        "value": "791",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "513",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "522",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sakade",
+        "value": "718",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "983",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "henshall3",
+        "value": "812",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "674",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "crowley",
+        "value": "326",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "781",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "725",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "1311",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "1-3-4",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "2d4.1",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "7022.7",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "3645",
+        "skip_misclass": ""
+      },
+      {
+        "type": "skip",
+        "value": "1-2-4",
+        "skip_misclass": "stroke_count"
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "ボウ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "ふせ.ぐ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "fang2",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "bang",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "방",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Phòng",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "ward off"
+          },
+          {
+            "m_lang": "",
+            "value": "defend"
+          },
+          {
+            "m_lang": "",
+            "value": "protect"
+          },
+          {
+            "m_lang": "",
+            "value": "resist"
+          },
+          {
+            "m_lang": "fr",
+            "value": "prévenir (un danger)"
+          },
+          {
+            "m_lang": "fr",
+            "value": "défendre"
+          },
+          {
+            "m_lang": "fr",
+            "value": "protéger"
+          },
+          {
+            "m_lang": "fr",
+            "value": "résister"
+          },
+          {
+            "m_lang": "es",
+            "value": "defender"
+          },
+          {
+            "m_lang": "es",
+            "value": "proteger"
+          },
+          {
+            "m_lang": "es",
+            "value": "aguantar"
+          },
+          {
+            "m_lang": "es",
+            "value": "prevenir"
+          },
+          {
+            "m_lang": "es",
+            "value": "presa"
+          },
+          {
+            "m_lang": "es",
+            "value": "banco"
+          },
+          {
+            "m_lang": "pt",
+            "value": "desligar"
+          },
+          {
+            "m_lang": "pt",
+            "value": "defender"
+          },
+          {
+            "m_lang": "pt",
+            "value": "proteger"
+          },
+          {
+            "m_lang": "pt",
+            "value": "resistir"
+          }
+        ]
+      }
+    ],
+    "nanoris": [
+      "あた",
+      "う",
+      "ほう"
+    ],
+    "components": [
+      "⻖",
+      "方"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/09632.svg"
+  },
+  "非": {
+    "literal": "非",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "975e"
+      },
+      {
+        "type": "jis208",
+        "value": "1-40-83"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "175"
+      }
+    ],
+    "stroke_count": 8,
+    "grade": "5",
+    "stroke_miscounts": [],
+    "variants": [],
+    "freq": "472",
+    "rad_names": [],
+    "jlpt": "2",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "5080",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "6563",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "889",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "1101",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "598",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "790",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "1632",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "1760",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "491",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "353",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "42585",
+        "m_vol": "12",
+        "m_page": "0132"
+      },
+      {
+        "type": "henshall",
+        "value": "773",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "498",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "507",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sakade",
+        "value": "698",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "1001",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "henshall3",
+        "value": "794",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "693",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "crowley",
+        "value": "222",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "707",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "1873",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "1647",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "1-4-4",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "0a8.1",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "1111.1",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "1254",
+        "skip_misclass": ""
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "ヒ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "あら.ず",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "fei1",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "bi",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "비",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Phi",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "un-"
+          },
+          {
+            "m_lang": "",
+            "value": "mistake"
+          },
+          {
+            "m_lang": "",
+            "value": "negative"
+          },
+          {
+            "m_lang": "",
+            "value": "injustice"
+          },
+          {
+            "m_lang": "",
+            "value": "non-"
+          },
+          {
+            "m_lang": "fr",
+            "value": "in-"
+          },
+          {
+            "m_lang": "fr",
+            "value": "non-"
+          },
+          {
+            "m_lang": "fr",
+            "value": "négatif"
+          },
+          {
+            "m_lang": "fr",
+            "value": "faute"
+          },
+          {
+            "m_lang": "fr",
+            "value": "injustice"
+          },
+          {
+            "m_lang": "fr",
+            "value": "condamner"
+          },
+          {
+            "m_lang": "es",
+            "value": "negativo"
+          },
+          {
+            "m_lang": "es",
+            "value": "equivocado"
+          },
+          {
+            "m_lang": "es",
+            "value": "culpar"
+          },
+          {
+            "m_lang": "es",
+            "value": "agravar"
+          },
+          {
+            "m_lang": "es",
+            "value": "in-"
+          },
+          {
+            "m_lang": "pt",
+            "value": "Prefixo negativo in-"
+          },
+          {
+            "m_lang": "pt",
+            "value": "erro"
+          },
+          {
+            "m_lang": "pt",
+            "value": "negativa"
+          },
+          {
+            "m_lang": "pt",
+            "value": "injustiça"
+          }
+        ]
+      }
+    ],
+    "nanoris": [],
+    "components": [],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/0975e.svg"
+  },
+  "領": {
+    "literal": "領",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "9818"
+      },
+      {
+        "type": "jis208",
+        "value": "1-46-46"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "181"
+      }
+    ],
+    "stroke_count": 14,
+    "grade": "5",
+    "stroke_miscounts": [],
+    "variants": [],
+    "freq": "138",
+    "rad_names": [],
+    "jlpt": "2",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "5124",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "6628",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "1224",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "1567",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "828",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "1133",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "1405",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "1507",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "338",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "849",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "43423",
+        "m_vol": "12",
+        "m_page": "0256"
+      },
+      {
+        "type": "henshall",
+        "value": "806",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "834",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "853",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sakade",
+        "value": "735",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "1008",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "henshall3",
+        "value": "825",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "804",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "crowley",
+        "value": "452",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "999",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "1888",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "1417",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "1-5-9",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "9a5.2",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "8138.6",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "8128.6",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "2861",
+        "skip_misclass": ""
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "リョウ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "えり",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "ling3",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "ryeong",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "령",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Lĩnh",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "jurisdiction"
+          },
+          {
+            "m_lang": "",
+            "value": "dominion"
+          },
+          {
+            "m_lang": "",
+            "value": "territory"
+          },
+          {
+            "m_lang": "",
+            "value": "fief"
+          },
+          {
+            "m_lang": "",
+            "value": "reign"
+          },
+          {
+            "m_lang": "fr",
+            "value": "domaine"
+          },
+          {
+            "m_lang": "fr",
+            "value": "juridiction"
+          },
+          {
+            "m_lang": "fr",
+            "value": "territoire"
+          },
+          {
+            "m_lang": "fr",
+            "value": "fief"
+          },
+          {
+            "m_lang": "es",
+            "value": "punto clave"
+          },
+          {
+            "m_lang": "es",
+            "value": "control"
+          },
+          {
+            "m_lang": "es",
+            "value": "controlar"
+          },
+          {
+            "m_lang": "pt",
+            "value": "jurisdição"
+          },
+          {
+            "m_lang": "pt",
+            "value": "domínio"
+          },
+          {
+            "m_lang": "pt",
+            "value": "território"
+          },
+          {
+            "m_lang": "pt",
+            "value": "feudo"
+          },
+          {
+            "m_lang": "pt",
+            "value": "reino"
+          }
+        ]
+      }
+    ],
+    "nanoris": [
+      "よう",
+      "よし"
+    ],
+    "components": [
+      "令",
+      "頁"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/09818.svg"
+  },
+  "飼": {
+    "literal": "飼",
+    "codepoints": [
+      {
+        "type": "ucs",
+        "value": "98fc"
+      },
+      {
+        "type": "jis208",
+        "value": "1-27-84"
+      }
+    ],
+    "radicals": [
+      {
+        "type": "classical",
+        "value": "184"
+      }
+    ],
+    "stroke_count": 13,
+    "grade": "5",
+    "stroke_miscounts": [],
+    "variants": [],
+    "freq": "1392",
+    "rad_names": [],
+    "jlpt": "1",
+    "dic_refs": [
+      {
+        "type": "nelson_c",
+        "value": "5163",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "nelson_n",
+        "value": "6685",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_njecd",
+        "value": "1716",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkd",
+        "value": "2149",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld",
+        "value": "1128",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "halpern_kkld_2ed",
+        "value": "1529",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig",
+        "value": "1866",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "heisig6",
+        "value": "2010",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "gakken",
+        "value": "1432",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "oneill_kk",
+        "value": "1156",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "moro",
+        "value": "44107P",
+        "m_vol": "12",
+        "m_page": "0390"
+      },
+      {
+        "type": "henshall",
+        "value": "1322",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk",
+        "value": "1762",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "sh_kk2",
+        "value": "1892",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "jf_cards",
+        "value": "1904",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "henshall3",
+        "value": "722",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "tutt_cards",
+        "value": "777",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kanji_in_context",
+        "value": "1348",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "kodansha_compact",
+        "value": "1905",
+        "m_vol": "",
+        "m_page": ""
+      },
+      {
+        "type": "maniette",
+        "value": "1884",
+        "m_vol": "",
+        "m_page": ""
+      }
+    ],
+    "q_codes": [
+      {
+        "type": "skip",
+        "value": "1-8-5",
+        "skip_misclass": ""
+      },
+      {
+        "type": "sh_desc",
+        "value": "8b5.4",
+        "skip_misclass": ""
+      },
+      {
+        "type": "four_corner",
+        "value": "8772.0",
+        "skip_misclass": ""
+      },
+      {
+        "type": "deroo",
+        "value": "2849",
+        "skip_misclass": ""
+      }
+    ],
+    "rm": [
+      {
+        "readings": [
+          {
+            "type": "ja_on",
+            "value": "シ",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "ja_kun",
+            "value": "か.う",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "pinyin",
+            "value": "si4",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_r",
+            "value": "sa",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "korean_h",
+            "value": "사",
+            "on_type": "",
+            "r_status": ""
+          },
+          {
+            "type": "vietnam",
+            "value": "Tự",
+            "on_type": "",
+            "r_status": ""
+          }
+        ],
+        "meanings": [
+          {
+            "m_lang": "",
+            "value": "domesticate"
+          },
+          {
+            "m_lang": "",
+            "value": "raise"
+          },
+          {
+            "m_lang": "",
+            "value": "keep"
+          },
+          {
+            "m_lang": "",
+            "value": "feed"
+          },
+          {
+            "m_lang": "fr",
+            "value": "domestiquer"
+          },
+          {
+            "m_lang": "fr",
+            "value": "élever"
+          },
+          {
+            "m_lang": "fr",
+            "value": "garder"
+          },
+          {
+            "m_lang": "fr",
+            "value": "nourrir"
+          },
+          {
+            "m_lang": "es",
+            "value": "criar"
+          },
+          {
+            "m_lang": "es",
+            "value": "mantener"
+          },
+          {
+            "m_lang": "es",
+            "value": "tener animales"
+          },
+          {
+            "m_lang": "pt",
+            "value": "domesticar"
+          },
+          {
+            "m_lang": "pt",
+            "value": "levantar"
+          },
+          {
+            "m_lang": "pt",
+            "value": "guardar"
+          },
+          {
+            "m_lang": "pt",
+            "value": "alimentar"
+          }
+        ]
+      }
+    ],
+    "nanoris": [
+      "かい"
+    ],
+    "components": [
+      "飠",
+      "司"
+    ],
+    "stroke_source": "https://github.com/KanjiVG/kanjivg/blob/master/kanji/098fc.svg"
+  }
+}

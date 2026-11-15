@@ -1,0 +1,601 @@
+# lesson|word|reading|meaning|POS tag|example 1 JA|example 1 EN|example 2 JA|example 2 EN
+2|これ|これ|this one|noun|これは私の本です。|This is my book.|これはいくらですか。|How much is this?
+2|それ|それ|that one|noun|それは私の傘です。|That is my umbrella.|それは日本語の本ですか。|Is that a Japanese book?
+2|あれ|あれ|that one over there|noun|あれは図書館です。|That over there is the library.|あれは誰の自転車ですか。|Whose bicycle is that over there?
+2|どれ|どれ|which one|noun|私のかばんはどれですか。|Which one is my bag?|先生の本はどれですか。|Which one is the teacher's book?
+2|この|この|this ...|adverb-expression|この本はいくらですか。|How much is this book?|この時計は私のです。|This watch is mine.
+2|その|その|that ...|adverb-expression|その傘は誰のですか。|Whose umbrella is that?|その本は日本語の本です。|That book is a Japanese book.
+2|あの|あの|that ... over there|adverb-expression|あの自転車は私のです。|That bicycle over there is mine.|あの人は日本語の先生です。|That person over there is a Japanese teacher.
+2|どの|どの|which ...|adverb-expression|どの本ですか。|Which book is it?|先生の自転車はどの自転車ですか。|Which bicycle is the teacher's?
+2|ここ|ここ|here|noun|ここは銀行です。|This place is a bank.|ここは日本語のクラスです。|This is the Japanese class.
+2|そこ|そこ|there|noun|そこは図書館です。|That place is the library.|そこはトイレですか。|Is that the restroom?
+2|あそこ|あそこ|over there|noun|あそこは郵便局です。|That place over there is the post office.|あそこはコンビニです。|That place over there is a convenience store.
+2|どこ|どこ|where|noun|トイレはどこですか。|Where is the restroom?|私のかばんはどこですか。|Where is my bag?
+2|誰|だれ|who|noun|あの人は誰ですか。|Who is that person over there?|これは誰の財布ですか。|Whose wallet is this?
+2|おいしい|おいしい|delicious|i-adjective|このとんかつはおいしいです。|This pork cutlet is delicious.|ここの魚はおいしいです。|The fish here is delicious.
+2|魚|さかな|fish|noun|これは魚です。|This is fish.|この魚はいくらですか。|How much is this fish?
+2|とんかつ|とんかつ|pork cutlet|noun|とんかつをお願いします。|A pork cutlet, please.|このとんかつはおいしいです。|This pork cutlet is delicious.
+2|肉|にく|meat|noun|この肉はいくらですか。|How much is this meat?|この肉はおいしいです。|This meat is delicious.
+2|メニュー|メニュー|menu|noun|メニューをお願いします。|The menu, please.|これは日本語のメニューです。|This is a menu in Japanese.
+2|野菜|やさい|vegetable|noun|この野菜はいくらですか。|How much are these vegetables?|ここの野菜はおいしいです。|The vegetables here are delicious.
+2|傘|かさ|umbrella|noun|この傘は私のです。|This umbrella is mine.|あれは誰の傘ですか。|Whose umbrella is that over there?
+2|かばん|かばん|bag|noun|これは母のかばんです。|This is my mother's bag.|そのかばんはいくらですか。|How much is that bag?
+2|靴|くつ|shoes|noun|この靴は三千円です。|These shoes cost three thousand yen.|その靴は私のです。|Those shoes are mine.
+2|財布|さいふ|wallet|noun|この財布は父のです。|This wallet is my father's.|私の財布はどこですか。|Where is my wallet?
+2|ジーンズ|ジーンズ|jeans|noun|このジーンズは五千円です。|These jeans cost five thousand yen.|そのジーンズはいくらですか。|How much are those jeans?
+2|自転車|じてんしゃ|bicycle|noun|あれは私の自転車です。|That over there is my bicycle.|この自転車は二万円です。|This bicycle costs twenty thousand yen.
+2|新聞|しんぶん|newspaper|noun|これは日本の新聞です。|This is a Japanese newspaper.|その新聞は先生のですか。|Is that newspaper the teacher's?
+2|スマホ|スマホ|smartphone; mobile|noun|これは私のスマホです。|This is my smartphone.|そのスマホはいくらですか。|How much is that smartphone?
+2|Tシャツ|ティーシャツ|T-shirt|noun|このＴシャツは千円です。|This T-shirt costs one thousand yen.|そのＴシャツは弟のです。|That T-shirt is my younger brother's.
+2|時計|とけい|watch; clock|noun|この時計は父のです。|This watch is my father's.|あの時計はいくらですか。|How much is that clock over there?
+2|ノート|ノート|notebook|noun|これは日本語のノートです。|This is my Japanese notebook.|このノートは百円です。|This notebook costs one hundred yen.
+2|ペン|ペン|pen|noun|これは誰のペンですか。|Whose pen is this?|そのペンは私のです。|That pen is mine.
+2|帽子|ぼうし|hat; cap|noun|この帽子は姉のです。|This hat is my older sister's.|あの帽子はいくらですか。|How much is that hat over there?
+2|本|ほん|book|noun|これは日本語の本です。|This is a Japanese book.|その本は先生のですか。|Is that book the teacher's?
+2|銀行|ぎんこう|bank|noun|銀行はどこですか。|Where is the bank?|あそこは銀行です。|That place over there is a bank.
+2|コンビニ|コンビニ|convenience store|noun|あそこはコンビニです。|That place over there is a convenience store.|このコンビニのとんかつはおいしいです。|The pork cutlet at this convenience store is delicious.
+2|トイレ|トイレ|toilet; restroom|noun|トイレはどこですか。|Where is the restroom?|そこはトイレです。|That is the restroom.
+2|図書館|としょかん|library|noun|ここは大学の図書館です。|This is the university library.|図書館はどこですか。|Where is the library?
+2|郵便局|ゆうびんきょく|post office|noun|あそこは郵便局です。|That place over there is the post office.|郵便局はどこですか。|Where is the post office?
+2|英語|えいご|English language|noun|これは英語の本です。|This is a book in English.|母は英語の先生です。|My mother is an English teacher.
+2|いくら|いくら|how much|adverb-expression|この本はいくらですか。|How much is this book?|その時計はいくらですか。|How much is that watch?
+2|〜円|えん|... yen|counter|このペンは百円です。|This pen costs one hundred yen.|その本は千円です。|That book costs one thousand yen.
+2|高い|たかい|expensive; high|i-adjective|この時計は高いです。|This watch is expensive.|あの自転車は高いですね。|That bicycle over there is expensive, isn't it?
+2|いらっしゃいませ|いらっしゃいませ|Welcome to our store.|adverb-expression|いらっしゃいませ、メニューをどうぞ。|Welcome. Here is the menu.|いらっしゃいませ、こちらへどうぞ。|Welcome. This way, please.
+2|お願いします|おねがいします|..., please.|adverb-expression|とんかつをお願いします。|A pork cutlet, please.|メニューをお願いします。|The menu, please.
+2|ください|ください|Please give me ...|adverb-expression|この本をください。|Please give me this book.|野菜をください。|Please give me some vegetables.
+2|じゃあ|じゃあ|then; if that is the case|adverb-expression|じゃあ、これをください。|Then I'll take this, please.|じゃあ、そのペンをお願いします。|Then that pen, please.
+2|どうぞ|どうぞ|Please.; Here it is.|adverb-expression|メニューをどうぞ。|Here is the menu.|どうぞ、こちらへ。|This way, please.
+2|どうも|どうも|Thank you.|adverb-expression|どうも、ありがとうございます。|Thank you very much.|どうも、これは私の傘です。|Thanks. This is my umbrella.
+3|映画|えいが|movie|noun|日曜日に映画を見ます。|I watch movies on Sundays.|今晩、映画を見ませんか。|Would you like to watch a movie tonight?
+3|音楽|おんがく|music|noun|毎日、音楽を聞きます。|I listen to music every day.|日本の音楽をよく聞きます。|I often listen to Japanese music.
+3|雑誌|ざっし|magazine|noun|カフェで雑誌を読みます。|I read magazines at a cafe.|日本語の雑誌を読みますか。|Do you read magazines in Japanese?
+3|スポーツ|スポーツ|sports|noun|週末にスポーツをします。|I play sports on weekends.|学校でよくスポーツをします。|I often play sports at school.
+3|デート|デート|romantic date|noun|土曜日にデートをします。|I have a date on Saturday.|日曜日にデートをしませんか。|Would you like to go on a date on Sunday?
+3|テニス|テニス|tennis|noun|日曜日にテニスをします。|I play tennis on Sundays.|学校でテニスをしませんか。|Would you like to play tennis at school?
+3|テレビ|テレビ|TV|noun|毎晩、テレビを見ます。|I watch TV every night.|朝はテレビを見ません。|I don't watch TV in the morning.
+3|アイスクリーム|アイスクリーム|ice cream|noun|よくアイスクリームを食べます。|I often eat ice cream.|カフェでアイスクリームを食べませんか。|Would you like to eat ice cream at a cafe?
+3|ハンバーガー|ハンバーガー|hamburger|noun|昼ご飯にハンバーガーを食べます。|I eat a hamburger for lunch.|ここのハンバーガーはおいしいです。|The hamburgers here are delicious.
+3|お酒|おさけ|sake; alcoholic drink|noun|父はお酒を飲みます。|My father drinks alcohol.|私はあまりお酒を飲みません。|I don't drink much alcohol.
+3|お茶|おちゃ|green tea|noun|毎朝、お茶を飲みます。|I drink green tea every morning.|お茶を飲みませんか。|Would you like some green tea?
+3|コーヒー|コーヒー|coffee|noun|カフェでコーヒーを飲みます。|I drink coffee at a cafe.|朝はよくコーヒーを飲みます。|I often drink coffee in the morning.
+3|水|みず|water|noun|毎朝、水を飲みます。|I drink water every morning.|水をください。|Please give me some water.
+3|朝ご飯|あさごはん|breakfast|noun|七時に朝ご飯を食べます。|I eat breakfast at seven.|朝ご飯はうちで食べます。|I eat breakfast at home.
+3|昼ご飯|ひるごはん|lunch|noun|十二時に昼ご飯を食べます。|I eat lunch at twelve.|学校で昼ご飯を食べませんか。|Would you like to have lunch at school?
+3|晩ご飯|ばんごはん|dinner|noun|六時に晩ご飯を食べます。|I eat dinner at six.|晩ご飯はうちで食べますか。|Do you eat dinner at home?
+3|家|いえ|house; home|noun|毎日、家で勉強します。|I study at home every day.|友達の家に行きます。|I go to my friend's house.
+3|うち|うち|home; my place|noun|週末はうちでテレビを見ます。|I watch TV at home on weekends.|うちに来ませんか。|Would you like to come to my place?
+3|学校|がっこう|school|noun|毎朝、学校に行きます。|I go to school every morning.|学校で日本語を勉強します。|I study Japanese at school.
+3|カフェ|カフェ|cafe|noun|カフェでコーヒーを飲みます。|I drink coffee at a cafe.|土曜日にカフェに行きませんか。|Would you like to go to a cafe on Saturday?
+3|明日|あした|tomorrow|noun|明日、図書館に行きます。|I am going to the library tomorrow.|明日、テニスをしませんか。|Would you like to play tennis tomorrow?
+3|今日|きょう|today|noun|今日は学校に行きません。|I am not going to school today.|今日、何を食べますか。|What will you eat today?
+3|朝|あさ|morning|noun|朝、新聞を読みます。|I read the newspaper in the morning.|朝はコーヒーを飲みます。|I drink coffee in the morning.
+3|今晩|こんばん|tonight|noun|今晩、映画を見ます。|I am watching a movie tonight.|今晩、うちに来ませんか。|Would you like to come to my place tonight?
+3|毎日|まいにち|every day|noun|毎日、日本語を勉強します。|I study Japanese every day.|毎日、七時に起きます。|I get up at seven every day.
+3|毎晩|まいばん|every night|noun|毎晩、本を読みます。|I read books every night.|毎晩、十一時に寝ます。|I go to bed at eleven every night.
+3|週末|しゅうまつ|weekend|noun|週末は何をしますか。|What do you do on weekends?|週末に映画を見ませんか。|Would you like to watch a movie this weekend?
+3|土曜日|どようび|Saturday|noun|土曜日にテニスをします。|I play tennis on Saturdays.|土曜日は学校に行きません。|I don't go to school on Saturdays.
+3|日曜日|にちようび|Sunday|noun|日曜日に図書館で勉強します。|I study at the library on Sundays.|日曜日に映画を見ませんか。|Would you like to watch a movie on Sunday?
+3|いつ|いつ|when|adverb-expression|いつ日本に行きますか。|When are you going to Japan?|いつ昼ご飯を食べますか。|When do you eat lunch?
+3|〜ごろ|ごろ|at about ...|suffix|七時ごろ起きます。|I get up at about seven.|十時ごろうちに帰ります。|I go home at about ten.
+3|行く|いく|to go|u-verb|明日、学校に行きます。|I am going to school tomorrow.|日曜日に映画に行きませんか。|Would you like to go to the movies on Sunday?
+3|帰る|かえる|to go back; to return|u-verb|六時にうちに帰ります。|I go home at six.|週末に国に帰ります。|I am returning to my country this weekend.
+3|聞く|きく|to listen; to hear|u-verb|毎日、音楽を聞きます。|I listen to music every day.|日本の音楽をよく聞きますか。|Do you often listen to Japanese music?
+3|飲む|のむ|to drink|u-verb|毎朝、水を飲みます。|I drink water every morning.|カフェでコーヒーを飲みませんか。|Would you like to have coffee at a cafe?
+3|話す|はなす|to speak; to talk|u-verb|学校で日本語を話します。|I speak Japanese at school.|毎日、日本語を話します。|I speak in Japanese every day.
+3|読む|よむ|to read|u-verb|図書館で本を読みます。|I read books at the library.|父は毎朝、新聞を読みます。|My father reads the newspaper every morning.
+3|起きる|おきる|to get up|ru-verb|毎朝、七時に起きます。|I get up at seven every morning.|日曜日は九時ごろ起きます。|I get up at about nine on Sundays.
+3|食べる|たべる|to eat|ru-verb|朝ご飯を食べます。|I eat breakfast.|学校で昼ご飯を食べませんか。|Would you like to have lunch at school?
+3|寝る|ねる|to sleep; to go to sleep|ru-verb|毎晩、十一時に寝ます。|I go to bed at eleven every night.|今日は十時ごろ寝ます。|I will go to bed at about ten today.
+3|見る|みる|to see; to watch; to look at|ru-verb|毎晩、テレビを見ます。|I watch TV every night.|週末に映画を見ませんか。|Would you like to watch a movie this weekend?
+3|来る|くる|to come|irregular-verb|友達は明日、うちに来ます。|My friend is coming to my place tomorrow.|何時に学校に来ますか。|What time are you coming to school?
+3|する|する|to do|irregular-verb|日曜日にテニスをします。|I play tennis on Sundays.|週末は何をしますか。|What do you do on weekends?
+3|勉強する|べんきょうする|to study|irregular-verb|毎日、日本語を勉強します。|I study Japanese every day.|図書館で勉強しませんか。|Would you like to study at the library?
+3|いい|いい|good|i-adjective|これはいい本です。|This is a good book.|このカフェはいいですね。|This cafe is nice, isn't it?
+3|早い|はやい|early|i-adjective|朝ご飯は早いです。|Breakfast is early.|学校は朝が早いです。|School starts early in the morning.
+3|あまり|あまり|not much; with a negative|adverb-expression|あまりテレビを見ません。|I don't watch much TV.|父はあまりお酒を飲みません。|My father doesn't drink much alcohol.
+3|全然|ぜんぜん|not at all; with a negative|adverb-expression|私は全然お酒を飲みません。|I don't drink alcohol at all.|兄は全然テレビを見ません。|My older brother doesn't watch TV at all.
+3|たいてい|たいてい|usually|adverb-expression|たいてい七時に起きます。|I usually get up at seven.|昼ご飯はたいてい学校で食べます。|I usually eat lunch at school.
+3|ちょっと|ちょっと|a little|adverb-expression|毎朝、ちょっと勉強します。|I study a little every morning.|土曜日はちょっと。|Saturday is a bit difficult for me.
+3|時々|ときどき|sometimes|adverb-expression|時々、映画を見ます。|I sometimes watch movies.|時々、カフェで勉強します。|I sometimes study at a cafe.
+3|よく|よく|often; much|adverb-expression|よく音楽を聞きます。|I often listen to music.|週末はよく図書館に行きます。|I often go to the library on weekends.
+3|そうですね|そうですね|That's right.; Let me see.|adverb-expression|そうですね、七時ごろ行きます。|Let me see. I'll go at about seven.|そうですね、この本はいいですね。|That's right. This book is good, isn't it?
+3|でも|でも|but|adverb-expression|今日は勉強します、でも明日はテニスをします。|I'll study today. But I'll play tennis tomorrow.|コーヒーは飲みます、でもお酒は飲みません。|I drink coffee. But I don't drink alcohol.
+3|どうですか|どうですか|How about ...?; How is ...?|adverb-expression|土曜日はどうですか。|How about Saturday?|日本の大学はどうですか。|How is university in Japan?
+3|ええ|ええ|yes|adverb-expression|ええ、日本語を勉強します。|Yes, I study Japanese.|ええ、毎日学校に行きます。|Yes, I go to school every day.
+4|ゲーム|ゲーム|game|noun|昨日、友達とゲームをしました。|I played a game with my friend yesterday.|うちにゲームがたくさんあります。|There are lots of games at my house.
+4|アルバイト|アルバイト|part-time job|noun|昨日、アルバイトがありました。|I had work at my part-time job yesterday.|明日、アルバイトがあります。|I have my part-time job tomorrow.
+4|買い物|かいもの|shopping|noun|昨日、買い物をしました。|I went shopping yesterday.|日曜日に友達と買い物をします。|I go shopping with a friend on Sundays.
+4|クラス|クラス|class|noun|日本語のクラスは九時です。|Japanese class is at nine.|昨日のクラスは十時でした。|Yesterday's class was at ten.
+4|犬|いぬ|dog|noun|公園に犬がいます。|There is a dog in the park.|私の犬は家の中にいます。|My dog is inside the house.
+4|猫|ねこ|cat|noun|机の下に猫がいます。|There is a cat under the desk.|友達のうちに猫が二匹います。|There are two cats at my friend's house.
+4|人|ひと|person|noun|公園に人がたくさんいます。|There are many people in the park.|あの人は誰ですか。|Who is that person?
+4|子供|こども|child|noun|公園に子供がいます。|There is a child in the park.|子供はパンを食べました。|The child ate bread.
+4|あなた|あなた|you|noun|これはあなたの本ですか。|Is this your book?|あなたの猫はどこにいますか。|Where is your cat?
+4|椅子|いす|chair|noun|机の前に椅子があります。|There is a chair in front of the desk.|この椅子は私のです。|This chair is mine.
+4|机|つくえ|desk|noun|机の上に本があります。|There is a book on the desk.|私の机は窓の近くです。|My desk is near the window.
+4|写真|しゃしん|picture; photograph|noun|京都で写真を撮りました。|I took pictures in Kyoto.|机の上に家族の写真があります。|There is a family photo on the desk.
+4|花|はな|flower|noun|公園に花がたくさんあります。|There are many flowers in the park.|母に花を買いました。|I bought flowers for my mother.
+4|レポート|レポート|term paper|noun|昨日、レポートを書きました。|I wrote a paper yesterday.|図書館でレポートを書きます。|I write papers at the library.
+4|ご飯|ごはん|rice; meal|noun|毎日、ご飯を食べます。|I eat rice every day.|友達とご飯を食べました。|I had a meal with my friend.
+4|パン|パン|bread|noun|朝、パンを食べました。|I ate bread this morning.|スーパーでパンを買いました。|I bought bread at the supermarket.
+4|お寺|おてら|temple|noun|京都でお寺に行きました。|I visited a temple in Kyoto.|お寺の前にバス停があります。|There is a bus stop in front of the temple.
+4|公園|こうえん|park|noun|公園で写真を撮りました。|I took pictures in the park.|大学の近くに公園があります。|There is a park near the university.
+4|スーパー|スーパー|supermarket|noun|スーパーで野菜を買いました。|I bought vegetables at the supermarket.|銀行の隣にスーパーがあります。|There is a supermarket next to the bank.
+4|バス停|バスてい|bus stop|noun|バス停で友達に会いました。|I met a friend at the bus stop.|バス停は大学の前です。|The bus stop is in front of the university.
+4|病院|びょういん|hospital|noun|昨日、病院に行きました。|I went to the hospital yesterday.|病院の隣に銀行があります。|There is a bank next to the hospital.
+4|ホテル|ホテル|hotel|noun|このホテルにレストランがあります。|There is a restaurant in this hotel.|ホテルの前で友達を待ちました。|I waited for my friend in front of the hotel.
+4|本屋|ほんや|bookstore|noun|本屋で日本語の本を買いました。|I bought a Japanese book at a bookstore.|駅の近くに本屋があります。|There is a bookstore near the station.
+4|町|まち|town; city|noun|この町に大学があります。|There is a university in this town.|昨日、この町で友達に会いました。|I met a friend in this town yesterday.
+4|レストラン|レストラン|restaurant|noun|レストランで晩ご飯を食べました。|I ate dinner at a restaurant.|ホテルの中にレストランがあります。|There is a restaurant inside the hotel.
+4|昨日|きのう|yesterday|noun|昨日、映画を見ました。|I watched a movie yesterday.|昨日は日曜日でした。|Yesterday was Sunday.
+4|〜時間|じかん|... hours|counter|昨日、三時間勉強しました。|I studied for three hours yesterday.|毎日、八時間寝ます。|I sleep for eight hours every day.
+4|一時間|いちじかん|one hour|noun|図書館で一時間勉強しました。|I studied at the library for one hour.|昨日、一時間テレビを見ました。|I watched TV for one hour yesterday.
+4|先週|せんしゅう|last week|noun|先週、京都に行きました。|I went to Kyoto last week.|先週、母に電話しました。|I called my mother last week.
+4|時|とき|when; at the time of ...|noun|高校生の時、よくテニスをしました。|I often played tennis when I was a high school student.|子供の時、猫がいました。|I had a cat when I was a child.
+4|月曜日|げつようび|Monday|noun|月曜日にテストがあります。|There is a test on Monday.|月曜日は図書館で勉強しました。|I studied at the library on Monday.
+4|火曜日|かようび|Tuesday|noun|火曜日に友達に会います。|I will meet a friend on Tuesday.|火曜日はアルバイトがありました。|I had my part-time job on Tuesday.
+4|水曜日|すいようび|Wednesday|noun|水曜日に日本語のクラスがあります。|I have Japanese class on Wednesday.|水曜日に本を買いました。|I bought a book on Wednesday.
+4|木曜日|もくようび|Thursday|noun|木曜日に映画を見ました。|I watched a movie on Thursday.|木曜日は図書館で勉強します。|I study at the library on Thursdays.
+4|金曜日|きんようび|Friday|noun|金曜日に友達とご飯を食べます。|I have a meal with a friend on Friday.|金曜日はクラスがありませんでした。|There was no class on Friday.
+4|会う|あう|to meet; to see a person|u-verb|昨日、友達に会いました。|I met a friend yesterday.|日曜日に公園で会いませんか。|Would you like to meet at the park on Sunday?
+4|ある|ある|there is; for things|u-verb|机の上に本があります。|There is a book on the desk.|明日、テストがあります。|There is a test tomorrow.
+4|買う|かう|to buy|u-verb|スーパーでパンを買いました。|I bought bread at the supermarket.|昨日、日本語の本を買いました。|I bought a Japanese book yesterday.
+4|書く|かく|to write|u-verb|母に手紙を書きました。|I wrote a letter to my mother.|図書館でレポートを書きます。|I write papers at the library.
+4|撮る|とる|to take a picture|u-verb|公園で写真を撮りました。|I took pictures in the park.|友達と写真を撮ります。|I take pictures with my friends.
+4|待つ|まつ|to wait|u-verb|駅で友達を待ちました。|I waited for my friend at the station.|ホテルの前で待ちます。|I'll wait in front of the hotel.
+4|分かる|わかる|to understand|u-verb|日本語が少し分かります。|I understand a little Japanese.|先生の話が分かりました。|I understood what the teacher said.
+4|いる|いる|there is; to stay; for people and animals|ru-verb|教室に先生がいます。|The teacher is in the classroom.|昨日、うちにいました。|I was at home yesterday.
+4|〜ぐらい|ぐらい|about; approximate measurement|suffix|三時間ぐらい勉強しました。|I studied for about three hours.|公園に猫が五匹ぐらいいます。|There are about five cats in the park.
+4|ごめんなさい|ごめんなさい|I'm sorry.|adverb-expression|ごめんなさい、分かりません。|I'm sorry. I don't understand.|ごめんなさい、私の本じゃないです。|I'm sorry. It isn't my book.
+4|それから|それから|and then|adverb-expression|朝ご飯を食べました、それから学校に行きました。|I ate breakfast. Then I went to school.|本を買いました、それからカフェに行きました。|I bought a book. Then I went to a cafe.
+4|だから|だから|so; therefore|adverb-expression|明日はテストです、だから勉強します。|There is a test tomorrow. So I'll study.|今日は日曜日です、だから学校に行きません。|Today is Sunday. So I won't go to school.
+4|たくさん|たくさん|many; a lot|adverb-expression|公園に人がたくさんいます。|There are many people in the park.|昨日、本をたくさん買いました。|I bought lots of books yesterday.
+4|〜と|と|together with a person; and|adverb-expression|友達と映画を見ました。|I watched a movie with a friend.|机の上に本とノートがあります。|There are a book and a notebook on the desk.
+4|どうして|どうして|why|adverb-expression|どうして学校に行きませんでしたか。|Why didn't you go to school?|どうしてこの本を買いましたか。|Why did you buy this book?
+4|一人で|ひとりで|alone|adverb-expression|一人で映画を見ました。|I watched a movie alone.|一人で京都に行きます。|I am going to Kyoto by myself.
+4|もしもし|もしもし|Hello?; on the phone|adverb-expression|もしもし、田中さんですか。|Hello, is this Tanaka?|もしもし、お母さんですか。|Hello, is this Mom?
+4|右|みぎ|right|noun|銀行の右に本屋があります。|There is a bookstore to the right of the bank.|私の右に先生がいます。|The teacher is on my right.
+4|左|ひだり|left|noun|図書館の左に公園があります。|There is a park to the left of the library.|机の左にかばんがあります。|There is a bag to the left of the desk.
+4|前|まえ|front|noun|駅の前で友達に会いました。|I met a friend in front of the station.|大学の前にバス停があります。|There is a bus stop in front of the university.
+4|後ろ|うしろ|back; behind|noun|家の後ろに公園があります。|There is a park behind the house.|私の後ろに猫がいます。|There is a cat behind me.
+4|中|なか|inside|noun|かばんの中に本があります。|There is a book inside the bag.|猫は家の中にいます。|The cat is inside the house.
+4|上|うえ|on; above|noun|机の上に時計があります。|There is a clock on the desk.|椅子の上に猫がいます。|There is a cat on the chair.
+4|下|した|under; below|noun|机の下にかばんがあります。|There is a bag under the desk.|猫は椅子の下にいます。|The cat is under the chair.
+4|近く|ちかく|near; nearby|noun|大学の近くにカフェがあります。|There is a cafe near the university.|駅の近くで友達に会いました。|I met a friend near the station.
+4|隣|となり|next to|noun|銀行の隣に郵便局があります。|There is a post office next to the bank.|私の隣に友達がいます。|My friend is next to me.
+4|間|あいだ|between|noun|銀行と本屋の間にカフェがあります。|There is a cafe between the bank and the bookstore.|机と椅子の間に猫がいます。|There is a cat between the desk and the chair.
+5|食べ物|たべもの|food|noun|日本の食べ物が好きです。|I like Japanese food.|この食べ物はとてもおいしいです。|This food is very delicious.
+5|飲み物|のみもの|drink|noun|冷たい飲み物を買いました。|I bought a cold drink.|好きな飲み物は何ですか。|What is your favorite drink?
+5|果物|くだもの|fruit|noun|毎朝、果物を食べます。|I eat fruit every morning.|スーパーで果物を買いました。|I bought fruit at the supermarket.
+5|休み|やすみ|holiday; day off; absence|noun|明日は休みです。|Tomorrow is a day off.|休みに海に行きました。|I went to the sea on my day off.
+5|旅行|りょこう|travel|noun|旅行は楽しかったです。|The trip was fun.|旅行の写真を見ませんか。|Would you like to look at the trip photos?
+5|海|うみ|sea|noun|海で泳ぎました。|I swam in the sea.|沖縄の海はきれいです。|The sea in Okinawa is beautiful.
+5|サーフィン|サーフィン|surfing|noun|海でサーフィンをしました。|I went surfing in the sea.|サーフィンは難しいです。|Surfing is difficult.
+5|お土産|おみやげ|souvenir|noun|京都でお土産を買いました。|I bought souvenirs in Kyoto.|母にお土産を買いました。|I bought a souvenir for my mother.
+5|バス|バス|bus|noun|バスに乗りました。|I got on the bus.|このバスは大学に行きます。|This bus goes to the university.
+5|天気|てんき|weather|noun|今日はいい天気ですね。|The weather is nice today, isn't it?|昨日の天気はどうでしたか。|How was the weather yesterday?
+5|宿題|しゅくだい|homework|noun|図書館で宿題をしました。|I did my homework at the library.|今日の宿題は難しいです。|Today's homework is difficult.
+5|テスト|テスト|test|noun|昨日のテストは簡単でした。|Yesterday's test was easy.|明日、日本語のテストがあります。|There is a Japanese test tomorrow.
+5|誕生日|たんじょうび|birthday|noun|誕生日にケーキを食べました。|I ate cake on my birthday.|お母さんの誕生日はいつですか。|When is your mother's birthday?
+5|部屋|へや|room|noun|私の部屋は小さいです。|My room is small.|部屋に机と椅子があります。|There are a desk and a chair in the room.
+5|僕|ぼく|I; used by men|noun|僕は大学生です。|I am a college student.|僕の趣味はテニスです。|My hobby is tennis.
+5|Ｌサイズ|エルサイズ|size L|noun|このシャツはＬサイズです。|This shirt is size L.|Ｌサイズをお願いします。|Size L, please.
+5|新しい|あたらしい|new|i-adjective|新しいかばんを買いました。|I bought a new bag.|この自転車は新しいです。|This bicycle is new.
+5|古い|ふるい|old; for things|i-adjective|これは古い本です。|This is an old book.|私の自転車は古いです。|My bicycle is old.
+5|暑い|あつい|hot; weather|i-adjective|今日は暑いですね。|It's hot today, isn't it?|昨日はとても暑かったです。|It was very hot yesterday.
+5|寒い|さむい|cold; weather|i-adjective|今日は寒いです。|It is cold today.|昨日はあまり寒くなかったです。|It wasn't very cold yesterday.
+5|熱い|あつい|hot; things|i-adjective|このお茶は熱いです。|This green tea is hot.|熱いコーヒーを飲みました。|I drank hot coffee.
+5|忙しい|いそがしい|busy|i-adjective|今日はとても忙しいです。|I am very busy today.|先週はあまり忙しくなかったです。|I wasn't very busy last week.
+5|大きい|おおきい|large|i-adjective|大きいかばんを買いました。|I bought a large bag.|あの犬はとても大きいです。|That dog is very big.
+5|小さい|ちいさい|small|i-adjective|私の部屋は小さいです。|My room is small.|小さい猫がいます。|There is a small cat.
+5|面白い|おもしろい|interesting; funny|i-adjective|この本は面白いです。|This book is interesting.|昨日、面白い映画を見ました。|I watched an interesting movie yesterday.
+5|つまらない|つまらない|boring|i-adjective|その映画はつまらなかったです。|That movie was boring.|つまらない本は読みません。|I don't read boring books.
+5|やさしい|やさしい|easy; kind|i-adjective|今日のテストはやさしかったです。|Today's test was easy.|日本語の先生はやさしいです。|My Japanese teacher is kind.
+5|難しい|むずかしい|difficult|i-adjective|この宿題は難しいです。|This homework is difficult.|昨日のテストは難しくなかったです。|Yesterday's test wasn't difficult.
+5|かっこいい|かっこいい|good-looking|i-adjective|あの人はかっこいいですね。|That person is good-looking, isn't he?|かっこいい車を見ました。|I saw a cool car.
+5|怖い|こわい|frightening|i-adjective|怖い映画を見ました。|I watched a frightening movie.|あの犬は怖くないです。|That dog isn't scary.
+5|楽しい|たのしい|fun|i-adjective|旅行は楽しかったです。|The trip was fun.|日本語のクラスは楽しいです。|Japanese class is fun.
+5|安い|やすい|inexpensive; cheap|i-adjective|この本は安いです。|This book is inexpensive.|昨日、安い靴を買いました。|I bought inexpensive shoes yesterday.
+5|好き|すき(な)|fond of; to like|na-adjective|私は音楽が好きです。|I like music.|どんな映画が好きですか。|What kind of movies do you like?
+5|嫌い|きらい(な)|to dislike|na-adjective|私は魚が嫌いです。|I dislike fish.|弟は野菜が嫌いです。|My younger brother dislikes vegetables.
+5|大好き|だいすき(な)|very fond of; to love|na-adjective|私は猫が大好きです。|I love cats.|母は日本の音楽が大好きです。|My mother loves Japanese music.
+5|大嫌い|だいきらい(な)|to hate|na-adjective|弟は宿題が大嫌いです。|My younger brother hates homework.|私は寒い天気が大嫌いです。|I hate cold weather.
+5|きれい|きれい(な)|beautiful; clean|na-adjective|沖縄の海はきれいです。|The sea in Okinawa is beautiful.|この部屋はとてもきれいです。|This room is very clean.
+5|元気|げんき(な)|healthy; energetic|na-adjective|母は元気です。|My mother is well.|元気な子供が公園にいます。|There is an energetic child in the park.
+5|静か|しずか(な)|quiet|na-adjective|この図書館は静かです。|This library is quiet.|静かなカフェで本を読みます。|I read books at a quiet cafe.
+5|にぎやか|にぎやか(な)|lively|na-adjective|この町はにぎやかです。|This town is lively.|週末の公園はにぎやかでした。|The park was lively on the weekend.
+5|暇|ひま(な)|not busy; free time|na-adjective|明日は暇です。|I am free tomorrow.|昨日は暇じゃなかったです。|I wasn't free yesterday.
+5|泳ぐ|およぐ|to swim|u-verb|海で泳ぎました。|I swam in the sea.|週末に一緒に泳ぎませんか。|Would you like to swim together this weekend?
+5|聞く|きく|to ask|u-verb|先生に宿題を聞きました。|I asked the teacher about the homework.|駅で人に道を聞きました。|I asked someone for directions at the station.
+5|乗る|のる|to ride; to board|u-verb|学校の前でバスに乗ります。|I get on the bus in front of the school.|昨日、電車に乗りました。|I rode the train yesterday.
+5|やる|やる|to do; to perform|u-verb|昨日、宿題をやりました。|I did my homework yesterday.|週末にテニスをやりませんか。|Would you like to play tennis this weekend?
+5|出かける|でかける|to go out|ru-verb|昨日、友達と出かけました。|I went out with a friend yesterday.|何時に出かけますか。|What time will you go out?
+5|一緒に|いっしょに|together|adverb-expression|一緒に昼ご飯を食べませんか。|Would you like to have lunch together?|昨日、友達と一緒に映画を見ました。|I watched a movie together with a friend yesterday.
+5|すごく|すごく|extremely|adverb-expression|この映画はすごく面白いです。|This movie is extremely interesting.|昨日はすごく暑かったです。|It was extremely hot yesterday.
+5|大丈夫|だいじょうぶ|It's okay.; Not to worry.|adverb-expression|明日のテストは大丈夫ですか。|Will you be okay with tomorrow's test?|私は大丈夫です。|I'm okay.
+5|とても|とても|very|adverb-expression|この本はとても面白いです。|This book is very interesting.|旅行はとても楽しかったです。|The trip was very fun.
+5|どんな|どんな|what kind of ...|adverb-expression|どんな音楽が好きですか。|What kind of music do you like?|どんなお土産を買いましたか。|What kind of souvenirs did you buy?
+5|〜枚|まい|counter for flat objects|counter|切手を三枚買いました。|I bought three stamps.|写真を五枚撮りました。|I took five photos.
+6|漢字|かんじ|kanji; Chinese character|noun|この漢字を読んでください。|Please read this kanji.|漢字を十個書きました。|I wrote ten kanji characters.
+6|教科書|きょうかしょ|textbook|noun|教科書を開けてください。|Please open your textbook.|教科書を忘れました。|I forgot my textbook.
+6|ページ|ページ|page|noun|このページを読んでください。|Please read this page.|次のページを見てください。|Please look at the next page.
+6|次|つぎ|next|noun|次の電車に乗ります。|I'll take the next train.|次のページを読んでください。|Please read the next page.
+6|お金|おかね|money|noun|銀行でお金をおろしました。|I withdrew money at the bank.|今日はお金がありません。|I don't have any money today.
+6|荷物|にもつ|baggage|noun|荷物を持ちましょうか。|Shall I carry your baggage?|荷物をここに置いてもいいですか。|May I put my baggage here?
+6|パソコン|パソコン|personal computer|noun|パソコンを使ってもいいですか。|May I use the computer?|新しいパソコンを買いました。|I bought a new computer.
+6|シャワー|シャワー|shower|noun|朝、シャワーを浴びます。|I take a shower in the morning.|シャワーを浴びて、寝ました。|I took a shower and went to bed.
+6|エアコン|エアコン|air conditioner|noun|エアコンをつけてください。|Please turn on the air conditioner.|この部屋にはエアコンがあります。|This room has an air conditioner.
+6|電気|でんき|electricity; light|noun|電気を消してください。|Please turn off the light.|部屋の電気をつけました。|I turned on the room light.
+6|窓|まど|window|noun|窓を開けてもいいですか。|May I open the window?|窓を閉めてください。|Please close the window.
+6|電車|でんしゃ|train|noun|駅で電車に乗りました。|I boarded the train at the station.|次の駅で電車を降ります。|I'll get off the train at the next station.
+6|国|くに|country; place of origin|noun|お国はどちらですか。|Which country are you from?|来年、国に帰ります。|I will return to my country next year.
+6|今週|こんしゅう|this week|noun|今週はとても忙しいです。|I am very busy this week.|今週、テストがあります。|There is a test this week.
+6|来週|らいしゅう|next week|noun|来週、京都に行きます。|I am going to Kyoto next week.|来週の月曜日に会いましょう。|Let's meet next Monday.
+6|来年|らいねん|next year|noun|来年、日本に行きます。|I am going to Japan next year.|来年は大学四年生です。|I will be a fourth-year college student next year.
+6|夜|よる|night|noun|夜、友達に電話しました。|I called a friend at night.|夜はとても静かです。|It is very quiet at night.
+6|大変|たいへん(な)|tough; difficult situation|na-adjective|昨日は大変でした。|Yesterday was tough.|この仕事はとても大変です。|This job is very tough.
+6|遊ぶ|あそぶ|to play; to spend time pleasantly|u-verb|公園で子供と遊びました。|I played with a child in the park.|週末は友達と遊びます。|I spend time with friends on weekends.
+6|急ぐ|いそぐ|to hurry|u-verb|急いでください。|Please hurry.|駅まで急ぎました。|I hurried to the station.
+6|返す|かえす|to return a thing|u-verb|図書館に本を返しました。|I returned a book to the library.|明日、このノートを返してください。|Please return this notebook tomorrow.
+6|消す|けす|to turn off; to erase|u-verb|電気を消してください。|Please turn off the light.|黒板の字を消しました。|I erased the writing on the blackboard.
+6|死ぬ|しぬ|to die|u-verb|去年、祖父が死にました。|My grandfather died last year.|昨日、金魚が死にました。|The goldfish died yesterday.
+6|座る|すわる|to sit down|u-verb|この椅子に座ってもいいですか。|May I sit in this chair?|ここに座ってください。|Please sit here.
+6|立つ|たつ|to stand up|u-verb|立ってください。|Please stand up.|駅の前に立ちました。|I stood in front of the station.
+6|たばこを吸う|たばこをすう|to smoke|u-verb|ここでたばこを吸ってはいけません。|You must not smoke here.|父はたばこを吸いません。|My father doesn't smoke.
+6|使う|つかう|to use|u-verb|このペンを使ってもいいですか。|May I use this pen?|宿題でパソコンを使いました。|I used a computer for my homework.
+6|手伝う|てつだう|to help|u-verb|宿題を手伝ってください。|Please help me with my homework.|母の仕事を手伝いました。|I helped my mother with her work.
+6|入る|はいる|to enter|u-verb|部屋に入ってもいいですか。|May I enter the room?|カフェに入って、お茶を飲みました。|I went into a cafe and drank green tea.
+6|持つ|もつ|to carry; to hold|u-verb|荷物を持ちましょうか。|Shall I carry your baggage?|このかばんを持ってください。|Please hold this bag.
+6|休む|やすむ|to be absent; to rest|u-verb|昨日、学校を休みました。|I was absent from school yesterday.|少し休みましょう。|Let's rest a little.
+6|開ける|あける|to open something|ru-verb|窓を開けてください。|Please open the window.|ドアを開けてもいいですか。|May I open the door?
+6|閉める|しめる|to close something|ru-verb|ドアを閉めてください。|Please close the door.|窓を閉めて、寝ました。|I closed the window and went to bed.
+6|教える|おしえる|to teach; to tell|ru-verb|電話番号を教えてください。|Please tell me your phone number.|妹に日本語を教えました。|I taught Japanese to my younger sister.
+6|忘れる|わすれる|to forget; to leave behind|ru-verb|教科書を忘れました。|I forgot my textbook.|電車に傘を忘れました。|I left my umbrella on the train.
+6|降りる|おりる|to get off|ru-verb|次の駅で降ります。|I'll get off at the next station.|大学の前でバスを降りました。|I got off the bus in front of the university.
+6|借りる|かりる|to borrow|ru-verb|図書館で本を借りました。|I borrowed a book from the library.|ペンを借りてもいいですか。|May I borrow a pen?
+6|シャワーを浴びる|シャワーをあびる|to take a shower|ru-verb|毎朝、シャワーを浴びます。|I take a shower every morning.|シャワーを浴びて、朝ご飯を食べました。|I took a shower and ate breakfast.
+6|つける|つける|to turn on|ru-verb|電気をつけてください。|Please turn on the light.|暑いですから、エアコンをつけましょう。|It's hot, so let's turn on the air conditioner.
+6|電話する|でんわする|to call|irregular-verb|母に電話しました。|I called my mother.|後で電話してもいいですか。|May I call you later?
+6|連れてくる|つれてくる|to bring a person|irregular-verb|友達を連れてきてもいいですか。|May I bring a friend?|弟をうちに連れてきました。|I brought my younger brother home.
+6|持ってくる|もってくる|to bring a thing|irregular-verb|教科書を持ってきてください。|Please bring your textbook.|パーティーに飲み物を持ってきました。|I brought drinks to the party.
+6|後で|あとで|later on|adverb-expression|後で電話します。|I'll call you later.|後で一緒に勉強しましょう。|Let's study together later.
+6|すぐ|すぐ|right away|adverb-expression|すぐ来てください。|Please come right away.|すぐ宿題をします。|I'll do my homework right away.
+6|ゆっくり|ゆっくり|slowly; leisurely|adverb-expression|ゆっくり話してください。|Please speak slowly.|今日はうちでゆっくり休みます。|I'll take it easy at home today.
+6|結構です|けっこうです|That would be fine.; No thank you.|adverb-expression|お茶は結構です。|No green tea for me, thank you.|この部屋で結構です。|This room will be fine.
+6|本当ですか|ほんとうですか|Really?|adverb-expression|本当ですか、明日は休みですか。|Really, is tomorrow a day off?|本当ですか、その本は千円ですか。|Really, does that book cost one thousand yen?
+7|家族|かぞく|family|noun|家族は四人です。|There are four people in my family.|週末は家族と過ごします。|I spend weekends with my family.
+7|おじいさん|おじいさん|grandfather; old man|noun|おじいさんは元気です。|My grandfather is well.|公園におじいさんがいます。|There is an old man in the park.
+7|おばあさん|おばあさん|grandmother; old woman|noun|おばあさんは東京に住んでいます。|My grandmother lives in Tokyo.|おばあさんと一緒にお茶を飲みました。|I drank green tea with my grandmother.
+7|お兄さん|おにいさん|older brother|noun|お兄さんはどこで働いていますか。|Where does your older brother work?|お兄さんは背が高いですね。|Your older brother is tall, isn't he?
+7|お姉さん|おねえさん|older sister|noun|お姉さんは何をしていますか。|What is your older sister doing?|お姉さんは眼鏡をかけていますか。|Does your older sister wear glasses?
+7|父|ちち|(my) father|noun|父は会社で働いています。|My father works at a company.|父は今、新聞を読んでいます。|My father is reading the newspaper now.
+7|母|はは|(my) mother|noun|母は髪が長いです。|My mother has long hair.|母は学校で英語を教えています。|My mother teaches English at school.
+7|兄|あに|(my) older brother|noun|兄は東京に住んでいます。|My older brother lives in Tokyo.|兄は今、大学で勉強しています。|My older brother is studying at university now.
+7|姉|あね|(my) older sister|noun|姉は銀行で働いています。|My older sister works at a bank.|姉は赤いシャツを着ています。|My older sister is wearing a red shirt.
+7|妹|いもうと|younger sister|noun|妹は高校生です。|My younger sister is a high school student.|妹は今、テレビを見ています。|My younger sister is watching TV now.
+7|弟|おとうと|younger brother|noun|弟は眼鏡をかけています。|My younger brother wears glasses.|弟と一緒にゲームをしました。|I played a game with my younger brother.
+7|兄弟|きょうだい|brothers and sisters|noun|兄弟が三人います。|I have three siblings.|ご兄弟は何人ですか。|How many siblings do you have?
+7|男の人|おとこのひと|man|noun|あの男の人は父です。|That man is my father.|男の人が歌っています。|A man is singing.
+7|女の人|おんなのひと|woman|noun|あの女の人は先生です。|That woman is a teacher.|女の人が電話をしています。|A woman is talking on the phone.
+7|会社|かいしゃ|company|noun|父は日本の会社で働いています。|My father works at a Japanese company.|会社は駅の近くにあります。|The company is near the station.
+7|食堂|しょくどう|cafeteria; dining commons|noun|食堂で昼ご飯を食べています。|I am eating lunch in the cafeteria.|大学の食堂は安いです。|The university cafeteria is inexpensive.
+7|デパート|デパート|department store|noun|デパートで服を買いました。|I bought clothes at a department store.|駅の隣にデパートがあります。|There is a department store next to the station.
+7|髪|かみ|hair|noun|姉は髪が長いです。|My older sister has long hair.|あの人は髪が短いです。|That person has short hair.
+7|口|くち|mouth|noun|口を開けてください。|Please open your mouth.|口の中に何かありますか。|Is there something in your mouth?
+7|目|め|eye|noun|あの猫は目が大きいです。|That cat has big eyes.|目を閉じてください。|Please close your eyes.
+7|眼鏡|めがね|glasses|noun|父は眼鏡をかけています。|My father wears glasses.|新しい眼鏡を買いました。|I bought new glasses.
+7|歌|うた|song|noun|日本の歌を歌いました。|I sang a Japanese song.|この歌を知っていますか。|Do you know this song?
+7|サークル|サークル|club activity|noun|大学のテニスのサークルに入っています。|I belong to a university tennis club.|サークルで友達に会いました。|I met a friend at my club.
+7|車|くるま|car|noun|父は車を持っています。|My father has a car.|その車は新しくて、かっこいいです。|That car is new and cool.
+7|長い|ながい|long|i-adjective|母は髪が長いです。|My mother has long hair.|この映画は長いですね。|This movie is long, isn't it?
+7|短い|みじかい|short; length|i-adjective|兄は髪が短いです。|My older brother has short hair.|短い手紙を書きました。|I wrote a short letter.
+7|速い|はやい|fast|i-adjective|この電車は速いです。|This train is fast.|この車はとても速いです。|This car is very fast.
+7|背が高い|せがたかい|tall; stature|i-adjective|兄は背が高いです。|My older brother is tall.|背が高い男の人がいます。|There is a tall man.
+7|背が低い|せがひくい|short; stature|i-adjective|妹は背が低いです。|My younger sister is short.|あの女の人は背が低いです。|That woman is short.
+7|頭がいい|あたまがいい|bright; clever|i-adjective|姉は頭がいいです。|My older sister is clever.|あの子はとても頭がいいです。|That child is very clever.
+7|かわいい|かわいい|cute|i-adjective|この猫はかわいいです。|This cat is cute.|かわいい帽子を買いました。|I bought a cute hat.
+7|親切|しんせつ(な)|kind|na-adjective|この町の人は親切です。|The people in this town are kind.|親切な人に道を聞きました。|I asked a kind person for directions.
+7|便利|べんり(な)|convenient|na-adjective|この町はとても便利です。|This town is very convenient.|駅の近くに住んでいますから、便利です。|I live near the station, so it is convenient.
+7|歌う|うたう|to sing|u-verb|妹は今、歌っています。|My younger sister is singing now.|友達と日本の歌を歌いました。|I sang Japanese songs with my friends.
+7|かぶる|かぶる|to put on a hat|u-verb|父は帽子をかぶっています。|My father is wearing a hat.|この帽子をかぶってもいいですか。|May I put on this hat?
+7|はく|はく|to put on items below the waist|u-verb|弟はジーンズをはいています。|My younger brother is wearing jeans.|靴をはいて、出かけました。|I put on my shoes and went out.
+7|知る|しる|to get to know|u-verb|あの人を知っていますか。|Do you know that person?|先生の電話番号を知りません。|I don't know the teacher's phone number.
+7|知っています|しっています|I know.|adverb-expression|この歌を知っています。|I know this song.|先生の名前を知っていますか。|Do you know the teacher's name?
+7|知りません|しりません|I do not know.|adverb-expression|あの人を知りません。|I don't know that person.|友達の電話番号を知りません。|I don't know my friend's phone number.
+7|住む|すむ|to live|u-verb|東京に住んでいます。|I live in Tokyo.|家族はどこに住んでいますか。|Where does your family live?
+7|働く|はたらく|to work|u-verb|母は銀行で働いています。|My mother works at a bank.|昨日は八時間働きました。|I worked for eight hours yesterday.
+7|太る|ふとる|to gain weight|u-verb|最近、少し太りました。|I have gained a little weight recently.|去年、五キロ太りました。|I gained five kilograms last year.
+7|太っています|ふとっています|to be on the heavy side; overweight|adverb-expression|うちの猫は太っています。|Our cat is overweight.|あの犬は少し太っています。|That dog is a little overweight.
+7|かける|かける|to put on glasses|ru-verb|姉は眼鏡をかけています。|My older sister wears glasses.|新しい眼鏡をかけました。|I put on my new glasses.
+7|着る|きる|to put on clothes above the waist|ru-verb|兄は白いシャツを着ています。|My older brother is wearing a white shirt.|寒いですから、コートを着てください。|It is cold, so please put on a coat.
+7|やせる|やせる|to lose weight|ru-verb|最近、少しやせました。|I have lost a little weight recently.|去年、三キロやせました。|I lost three kilograms last year.
+7|やせています|やせています|to be thin|adverb-expression|姉はやせています。|My older sister is thin.|あの男の人はやせています。|That man is thin.
+7|結婚する|けっこんする|to get married|irregular-verb|兄は結婚しています。|My older brother is married.|姉は去年、結婚しました。|My older sister got married last year.
+7|〜が|が|..., but|adverb-expression|この本は面白いですが、高いです。|This book is interesting, but it is expensive.|日本語は難しいですが、楽しいです。|Japanese is difficult, but it is fun.
+7|何も|なにも|not anything; with a negative|adverb-expression|朝は何も食べませんでした。|I didn't eat anything this morning.|机の上には何もありません。|There isn't anything on the desk.
+7|〜人|にん|counter for people|counter|教室に学生が五人います。|There are five students in the classroom.|家族は四人です。|There are four people in my family.
+7|一人|ひとり|one person|number|教室に学生が一人います。|There is one student in the classroom.|妹が一人います。|I have one younger sister.
+7|二人|ふたり|two people|number|公園に子供が二人います。|There are two children in the park.|兄弟は二人です。|There are two of us siblings.
+7|別に|べつに|nothing in particular; with a negative|adverb-expression|週末は別に何もしませんでした。|I didn't do anything in particular this weekend.|別に忙しくないです。|I'm not particularly busy.
+7|もちろん|もちろん|of course|adverb-expression|もちろん、一緒に行きます。|Of course I'll go with you.|もちろん、この本を借りてもいいですよ。|Of course you may borrow this book.
+7|よかったら|よかったら|if you like|adverb-expression|よかったら、一緒に食べませんか。|If you like, would you like to eat together?|よかったら、うちに来てください。|Please come to my place if you like.
+8|晴れ|はれ|sunny weather|noun|明日は晴れだと思います。|I think it will be sunny tomorrow.|今日は晴れですから、公園に行きましょう。|It is sunny today, so let's go to the park.
+8|雨|あめ|rain|noun|今日は雨が降っています。|It is raining today.|明日は雨だと思います。|I think it will rain tomorrow.
+8|曇り|くもり|cloudy weather|noun|今日は曇りです。|It is cloudy today.|明日は曇りだと思います。|I think it will be cloudy tomorrow.
+8|雪|ゆき|snow|noun|外で雪が降っています。|It is snowing outside.|冬は雪がたくさん降ります。|It snows a lot in winter.
+8|天気予報|てんきよほう|weather forecast|noun|毎朝、天気予報を見ます。|I check the weather forecast every morning.|天気予報は明日は雨だと言っていました。|The weather forecast said it would rain tomorrow.
+8|気温|きおん|temperature; weather|noun|今日の気温は三十度です。|Today's temperature is thirty degrees.|冬は気温が低いです。|The temperature is low in winter.
+8|夏|なつ|summer|noun|夏は海で泳ぎます。|I swim in the sea in summer.|日本の夏は暑いと思います。|I think summer in Japan is hot.
+8|冬|ふゆ|winter|noun|冬はよく雪が降ります。|It often snows in winter.|冬に温泉に行きます。|I go to hot springs in winter.
+8|今朝|けさ|this morning|noun|今朝、七時に起きました。|I got up at seven this morning.|今朝は何も食べませんでした。|I didn't eat anything this morning.
+8|明後日|あさって|the day after tomorrow|noun|明後日、試験があります。|There is an exam the day after tomorrow.|明後日、友達が来ます。|My friend is coming the day after tomorrow.
+8|毎週|まいしゅう|every week|noun|毎週、テニスをします。|I play tennis every week.|毎週、母に電話します。|I call my mother every week.
+8|今月|こんげつ|this month|noun|今月は忙しいです。|I am busy this month.|今月、京都に行きます。|I am going to Kyoto this month.
+8|来月|らいげつ|next month|noun|来月、日本に行きます。|I am going to Japan next month.|来月、友達が結婚します。|My friend is getting married next month.
+8|仕事|しごと|job; work; occupation|noun|父は仕事が忙しいです。|My father is busy with work.|仕事は五時に終わります。|Work ends at five.
+8|カメラ|カメラ|camera|noun|新しいカメラを買いました。|I bought a new camera.|このカメラを使ってもいいですか。|May I use this camera?
+8|カラオケ|カラオケ|karaoke|noun|友達とカラオケに行きました。|I went to karaoke with my friends.|カラオケで日本の歌を歌います。|I sing Japanese songs at karaoke.
+8|所|ところ|place|noun|静かな所で勉強します。|I study in a quiet place.|ここはどんな所ですか。|What kind of place is this?
+8|トマト|トマト|tomato|noun|トマトを切ってください。|Please cut the tomatoes.|このトマトはおいしいと思います。|I think this tomato is delicious.
+8|箸|はし|chopsticks|noun|箸を二本ください。|Please give me two chopsticks.|箸でご飯を食べます。|I eat rice with chopsticks.
+8|パーティー|パーティー|party|noun|土曜日にパーティーをします。|We are having a party on Saturday.|パーティーに何か持っていきます。|I'll take something to the party.
+8|バーベキュー|バーベキュー|barbecue|noun|公園でバーベキューをしました。|We had a barbecue in the park.|日曜日にバーベキューをしませんか。|Would you like to have a barbecue on Sunday?
+8|ホームステイ|ホームステイ|homestay; living with a local family|noun|日本でホームステイをしています。|I am doing a homestay in Japan.|ホームステイの家族は親切です。|My host family is kind.
+8|お風呂|おふろ|bath|noun|毎晩、お風呂に入ります。|I take a bath every night.|お風呂はとても温かいです。|The bath is very warm.
+8|スペイン|スペイン|Spain|noun|友達はスペインに住んでいます。|My friend lives in Spain.|スペインの料理が好きです。|I like Spanish cuisine.
+8|何か|なにか|something|noun|何か食べませんか。|Would you like to eat something?|かばんの中に何かあります。|There is something in the bag.
+8|上手|じょうず(な)|skillful; good at ...|na-adjective|姉は料理が上手です。|My older sister is good at cooking.|あの人は歌が上手ですね。|That person sings well, doesn't she?
+8|下手|へた(な)|clumsy; poor at ...|na-adjective|私は歌が下手です。|I am bad at singing.|弟は字を書くのが下手です。|My younger brother has poor handwriting.
+8|有名|ゆうめい(な)|famous|na-adjective|京都は有名な町です。|Kyoto is a famous city.|このお寺はとても有名です。|This temple is very famous.
+8|洗う|あらう|to wash|u-verb|手を洗ってください。|Please wash your hands.|毎朝、顔を洗います。|I wash my face every morning.
+8|言う|いう|to say|u-verb|先生は明日テストがあると言っていました。|The teacher said there is a test tomorrow.|もう一度言ってください。|Please say it once more.
+8|要る|いる|to need|u-verb|旅行にはお金が要ります。|You need money for traveling.|明日は教科書が要りますか。|Do we need the textbook tomorrow?
+8|遅くなる|おそくなる|to be late|u-verb|今日は遅くなると思います。|I think I will be late today.|遅くなるから、先に食べてください。|I'll be late, so please eat first.
+8|お風呂に入る|おふろにはいる|to take a bath|u-verb|毎晩、お風呂に入ります。|I take a bath every night.|お風呂に入って、寝ます。|I take a bath and go to bed.
+8|思う|おもう|to think|u-verb|明日は雨だと思います。|I think it will rain tomorrow.|この映画は面白いと思います。|I think this movie is interesting.
+8|切る|きる|to cut|u-verb|野菜を切ってください。|Please cut the vegetables.|昨日、髪を切りました。|I had my hair cut yesterday.
+8|作る|つくる|to make|u-verb|母はお弁当を作っています。|My mother is making a boxed lunch.|週末にケーキを作ります。|I make cakes on weekends.
+8|降る|ふる|rain or snow falls|u-verb|雨が降っています。|It is raining.|明日は雪が降ると思います。|I think it will snow tomorrow.
+8|持っていく|もっていく|to take a thing|u-verb|学校にお弁当を持っていきます。|I take a boxed lunch to school.|傘を持っていってください。|Please take an umbrella with you.
+8|捨てる|すてる|to throw away|ru-verb|ごみを捨ててください。|Please throw away the trash.|この箱を捨ててもいいですか。|May I throw away this box?
+8|始める|はじめる|to begin something|ru-verb|宿題を始めます。|I'll start my homework.|来月、日本語の勉強を始めます。|I'll start studying Japanese next month.
+8|運転する|うんてんする|to drive|irregular-verb|父は毎日、車を運転します。|My father drives a car every day.|雨の日は運転しません。|I don't drive on rainy days.
+8|洗濯する|せんたくする|to do laundry|irregular-verb|週末に洗濯します。|I do laundry on weekends.|今、服を洗濯しています。|I am washing clothes now.
+8|掃除する|そうじする|to clean|irregular-verb|部屋を掃除してください。|Please clean your room.|毎週、うちを掃除します。|I clean the house every week.
+8|料理する|りょうりする|to cook|irregular-verb|母は毎日、料理します。|My mother cooks every day.|週末は友達と料理します。|I cook with friends on weekends.
+8|うん|うん|uh-huh; yes|adverb-expression|うん、一緒に行くよ。|Yeah, I'll go with you.|うん、この本は面白いよ。|Yeah, this book is interesting.
+8|ううん|ううん|uh-uh; no|adverb-expression|ううん、今日は行かない。|No, I'm not going today.|ううん、その歌は知らない。|No, I don't know that song.
+8|いつも|いつも|always|adverb-expression|いつも七時に起きます。|I always get up at seven.|父はいつもコーヒーを飲みます。|My father always drinks coffee.
+8|遅く|おそく|late; doing something late|adverb-expression|昨日は遅く帰りました。|I came home late yesterday.|日曜日は遅く起きます。|I get up late on Sundays.
+8|乾杯|かんぱい|Cheers!; a toast|adverb-expression|みんなで乾杯しましょう。|Let's all make a toast.|ビールで乾杯しました。|We made a toast with beer.
+8|みんなで|みんなで|all of the people together|adverb-expression|みんなで写真を撮りましょう。|Let's all take a picture together.|昨日、みんなで料理しました。|We all cooked together yesterday.
+8|残念ですね|ざんねんですね|That's too bad.|adverb-expression|残念ですね、明日も雨ですか。|That's too bad, will it rain tomorrow too?|今日は雨で残念ですね。|It is too bad that it is raining today.
+8|まだ|まだ|not yet; with a negative|adverb-expression|この単語はまだ分かりません。|I don't understand this word yet.|先生の名前はまだ知りません。|I don't know the teacher's name yet.
+8|〜について|について|about; concerning|adverb-expression|日本の文化について話します。|I'll talk about Japanese culture.|この本は何についてですか。|What is this book about?
+8|〜度|ど|... degrees; temperature|counter|今日の気温は三十度です。|Today's temperature is thirty degrees.|今朝は五度でした。|It was five degrees this morning.
+8|どう|どう|how|adverb-expression|日本の生活はどうですか。|How is life in Japan?|この料理はどうですか。|How is this dish?
+9|単語|たんご|word; vocabulary|noun|毎日、新しい単語を覚えます。|I learn new words every day.|この単語の意味が分かりません。|I don't understand the meaning of this word.
+9|作文|さくぶん|essay; composition|noun|日本語で作文を書きました。|I wrote an essay in Japanese.|作文はもう出しました。|I have already handed in my essay.
+9|試験|しけん|exam|noun|昨日の試験は難しかったです。|Yesterday's exam was difficult.|試験は九時に始まります。|The exam starts at nine.
+9|手紙|てがみ|letter|noun|母に手紙を書きました。|I wrote a letter to my mother.|友達から手紙をもらいました。|I received a letter from a friend.
+9|メール|メール|e-mail|noun|先生にメールを書きました。|I wrote an email to my teacher.|メールはまだ読んでいません。|I haven't read the email yet.
+9|ギター|ギター|guitar|noun|兄はギターを弾いています。|My older brother is playing the guitar.|ギターを弾くのが好きです。|I like playing the guitar.
+9|ピアノ|ピアノ|piano|noun|子供の時、ピアノを習いました。|I learned piano when I was a child.|妹はピアノを弾くのが上手です。|My younger sister is good at playing the piano.
+9|コンサート|コンサート|concert|noun|昨日、コンサートに行きました。|I went to a concert yesterday.|コンサートは七時に始まります。|The concert starts at seven.
+9|チケット|チケット|ticket|noun|コンサートのチケットを買いました。|I bought a concert ticket.|友達にチケットを二枚もらいました。|I received two tickets from a friend.
+9|歌舞伎|かぶき|Kabuki; traditional Japanese theatrical art|noun|東京で歌舞伎を見ました。|I watched Kabuki in Tokyo.|歌舞伎は面白かったと思います。|I thought Kabuki was interesting.
+9|スキー|スキー|ski|noun|冬はよくスキーをします。|I often ski in winter.|友達とスキーに行きました。|I went skiing with my friends.
+9|お弁当|おべんとう|boxed lunch|noun|母は毎朝、お弁当を作ります。|My mother makes a boxed lunch every morning.|公園でお弁当を食べました。|I ate a boxed lunch at the park.
+9|ピザ|ピザ|pizza|noun|昨日、友達とピザを食べました。|I ate pizza with a friend yesterday.|ピザを一つください。|One pizza, please.
+9|病気|びょうき|illness; sickness|noun|病気ですから、学校を休みます。|I am sick, so I will be absent from school.|先週は病気でした。|I was sick last week.
+9|薬|くすり|medicine|noun|薬を飲んで、寝ました。|I took medicine and went to bed.|この薬を一日に三回飲みます。|I take this medicine three times a day.
+9|いい子|いいこ|good child|noun|弟はいい子です。|My younger brother is a good child.|あの子は静かで、いい子ですね。|That child is quiet and well-behaved, isn't she?
+9|色|いろ|color|noun|どんな色が好きですか。|What color do you like?|このシャツの色はきれいですね。|The color of this shirt is pretty, isn't it?
+9|今度|こんど|near future; next time|noun|今度、一緒に映画を見ませんか。|Would you like to watch a movie together sometime soon?|今度の週末は暇ですか。|Are you free this coming weekend?
+9|先月|せんげつ|last month|noun|先月、京都に行きました。|I went to Kyoto last month.|先月、新しい自転車を買いました。|I bought a new bicycle last month.
+9|去年|きょねん|last year|noun|去年、日本語の勉強を始めました。|I started studying Japanese last year.|去年の夏は暑かったです。|Last summer was hot.
+9|青い|あおい|blue|i-adjective|青いシャツを買いました。|I bought a blue shirt.|今日は空が青いですね。|The sky is blue today, isn't it?
+9|赤い|あかい|red|i-adjective|赤いりんごを食べました。|I ate a red apple.|姉は赤い帽子をかぶっています。|My older sister is wearing a red hat.
+9|黒い|くろい|black|i-adjective|黒い靴をはいています。|I am wearing black shoes.|うちの猫は黒いです。|Our cat is black.
+9|白い|しろい|white|i-adjective|父は白いシャツを着ています。|My father is wearing a white shirt.|白い猫が公園にいました。|There was a white cat in the park.
+9|寂しい|さびしい|lonely|i-adjective|一人で住んでいますから、寂しいです。|I live alone, so I feel lonely.|昨日はとても寂しかったです。|I felt very lonely yesterday.
+9|若い|わかい|young|i-adjective|この先生は若いです。|This teacher is young.|母は若い時、よく泳いでいました。|My mother used to swim often when she was young.
+9|意地悪|いじわる(な)|mean-spirited|na-adjective|あの人は少し意地悪です。|That person is a little mean.|意地悪なことを言わないでください。|Please don't say mean things.
+9|踊る|おどる|to dance|u-verb|パーティーで踊りました。|I danced at the party.|踊るのが好きです。|I like dancing.
+9|終わる|おわる|something ends|u-verb|授業は三時に終わります。|Class ends at three.|宿題はもう終わりました。|I have already finished my homework.
+9|薬を飲む|くすりをのむ|to take medicine|u-verb|朝ご飯の後で薬を飲みます。|I take medicine after breakfast.|薬を飲んで、休んでください。|Please take your medicine and rest.
+9|人気がある|にんきがある|to be popular|u-verb|この歌手は日本で人気があります。|This singer is popular in Japan.|あのレストランは学生に人気があります。|That restaurant is popular with students.
+9|始まる|はじまる|something begins|u-verb|映画は七時に始まります。|The movie starts at seven.|授業はもう始まっています。|Class has already started.
+9|弾く|ひく|to play a string instrument or piano|u-verb|毎日、ピアノを弾きます。|I play the piano every day.|兄はギターを弾くのが上手です。|My older brother is good at playing the guitar.
+9|もらう|もらう|to get; to receive|u-verb|友達にプレゼントをもらいました。|I received a present from a friend.|母から手紙をもらいました。|I received a letter from my mother.
+9|覚える|おぼえる|to memorize|ru-verb|毎日、漢字を覚えます。|I memorize kanji every day.|この単語はもう覚えました。|I have already memorized this word.
+9|出る|でる|to appear; to attend; to exit|ru-verb|八時に家を出ます。|I leave home at eight.|毎日、日本語の授業に出ています。|I attend Japanese class every day.
+9|運動する|うんどうする|to exercise|irregular-verb|毎朝、三十分運動します。|I exercise for thirty minutes every morning.|昨日は全然運動しませんでした。|I didn't exercise at all yesterday.
+9|散歩する|さんぽする|to take a walk|irregular-verb|公園で散歩しました。|I took a walk in the park.|毎朝、犬と散歩します。|I take a walk with my dog every morning.
+9|そう|そう|(I think) so|adverb-expression|私もそう思います。|I think so too.|いいえ、そうは思いません。|No, I don't think so.
+9|〜から|から|from ...|adverb-expression|授業は九時からです。|Class starts at nine.|家から学校まで歩きます。|I walk from home to school.
+9|〜まで|まで|to a place; until a time|adverb-expression|学校までバスで行きます。|I go as far as school by bus.|昨日は十時まで勉強しました。|I studied until ten yesterday.
+9|是非|ぜひ|by all means|adverb-expression|是非うちに来てください。|Please do come to my place.|是非この本を読んでください。|Please do read this book.
+9|ところで|ところで|by the way|adverb-expression|ところで、明日は暇ですか。|By the way, are you free tomorrow?|ところで、試験はいつですか。|By the way, when is the exam?
+9|みんな|みんな|all; everyone|noun|みんなはもう帰りました。|Everyone has already gone home.|みんな、ここに来てください。|Everyone, please come here.
+9|もう|もう|already|adverb-expression|宿題はもう終わりました。|I have already finished my homework.|昼ご飯はもう食べました。|I have already eaten lunch.
+9|一つ|ひとつ|one; small item|number|りんごを一つください。|One apple, please.|机の上に箱が一つあります。|There is one box on the desk.
+9|二つ|ふたつ|two; small items|number|パンを二つ買いました。|I bought two pieces of bread.|かばんの中にりんごが二つあります。|There are two apples in the bag.
+9|三つ|みっつ|three; small items|number|卵を三つ使います。|I use three eggs.|机の上に箱が三つあります。|There are three boxes on the desk.
+9|四つ|よっつ|four; small items|number|りんごを四つ買いました。|I bought four apples.|パンを四つください。|Four pieces of bread, please.
+9|五つ|いつつ|five; small items|number|卵を五つ買いました。|I bought five eggs.|机の上にりんごが五つあります。|There are five apples on the desk.
+9|六つ|むっつ|six; small items|number|パンを六つください。|Six pieces of bread, please.|箱の中にお菓子が六つあります。|There are six sweets in the box.
+9|七つ|ななつ|seven; small items|number|りんごを七つ買いました。|I bought seven apples.|机の上に箱が七つあります。|There are seven boxes on the desk.
+9|八つ|やっつ|eight; small items|number|卵を八つ使いました。|I used eight eggs.|この箱にはパンが八つあります。|There are eight pieces of bread in this box.
+9|九つ|ここのつ|nine; small items|number|りんごを九つ買いました。|I bought nine apples.|お菓子を九つください。|Nine sweets, please.
+9|十|とお|ten; small items|number|りんごを十ください。|Ten apples, please.|箱の中に卵が十あります。|There are ten eggs in the box.
+10|季節|きせつ|season|noun|どの季節が一番好きですか。|Which season do you like best?|日本には四つの季節があります。|Japan has four seasons.
+10|春|はる|spring|noun|春は暖かいです。|It is warm in spring.|春に日本に行くつもりです。|I intend to go to Japan in spring.
+10|秋|あき|fall; autumn|noun|秋は涼しいです。|It is cool in autumn.|私は秋が一番好きです。|I like autumn best.
+10|牛乳|ぎゅうにゅう|milk|noun|毎朝、牛乳を飲みます。|I drink milk every morning.|冷たい牛乳を買いました。|I bought cold milk.
+10|ケーキ|ケーキ|cake|noun|誕生日にケーキを食べました。|I ate cake on my birthday.|ケーキとアイスクリームと、どちらが好きですか。|Which do you like better, cake or ice cream?
+10|すし|すし|sushi|noun|日本ですしを食べるつもりです。|I intend to eat sushi in Japan.|この店のすしが一番おいしいです。|This shop's sushi is the most delicious.
+10|天ぷら|てんぷら|tempura|noun|晩ご飯に天ぷらを食べました。|I ate tempura for dinner.|天ぷらとすしと、どちらが好きですか。|Which do you like better, tempura or sushi?
+10|りんご|りんご|apple|noun|りんごを二つ買いました。|I bought two apples.|このりんごは甘いです。|This apple is sweet.
+10|料理|りょうり|cuisine; dish|noun|日本の料理が一番好きです。|I like Japanese cuisine best.|母の料理はおいしいです。|My mother's cooking is delicious.
+10|サッカー|サッカー|soccer|noun|週末にサッカーをします。|I play soccer on weekends.|弟はサッカーが一番好きです。|My younger brother likes soccer best.
+10|野球|やきゅう|baseball|noun|兄は野球をしています。|My older brother plays baseball.|野球とサッカーと、どちらが好きですか。|Which do you like better, baseball or soccer?
+10|医者|いしゃ|doctor|noun|将来は医者になるつもりです。|I intend to become a doctor in the future.|昨日、医者に会いました。|I saw a doctor yesterday.
+10|お金持ち|おかねもち|rich person|noun|あの人はお金持ちです。|That person is rich.|あの人はお金持ちになりました。|That person became rich.
+10|有名人|ゆうめいじん|celebrity|noun|駅で有名人を見ました。|I saw a celebrity at the station.|あの有名人を知っていますか。|Do you know that celebrity?
+10|顔|かお|face|noun|毎朝、顔を洗います。|I wash my face every morning.|弟は顔が赤くなりました。|My younger brother's face turned red.
+10|年上|としうえ|someone older|noun|姉は私より三歳年上です。|My older sister is three years older than me.|あの人は兄より年上です。|That person is older than my older brother.
+10|駅|えき|station|noun|駅まで歩いて行きます。|I walk to the station.|駅の前で待ち合わせましょう。|Let's meet in front of the station.
+10|新幹線|しんかんせん|Shinkansen; bullet train|noun|新幹線で京都に行きました。|I went to Kyoto by bullet train.|新幹線はバスより速いです。|The bullet train is faster than the bus.
+10|地下鉄|ちかてつ|subway|noun|毎日、地下鉄に乗ります。|I take the subway every day.|地下鉄で会社に行きます。|I go to work by subway.
+10|船|ふね|ship; boat|noun|船で島に行きました。|I went to the island by boat.|この船はとても大きいです。|This ship is very large.
+10|飛行機|ひこうき|airplane|noun|飛行機で日本に行きます。|I am going to Japan by airplane.|飛行機は電車より速いです。|Airplanes are faster than trains.
+10|予約|よやく|reservation|noun|ホテルの予約をしました。|I made a hotel reservation.|予約はもうしましたか。|Have you already made a reservation?
+10|ツアー|ツアー|tour|noun|京都のツアーに参加しました。|I joined a tour of Kyoto.|このツアーはいくらですか。|How much is this tour?
+10|動物園|どうぶつえん|zoo|noun|日曜日に動物園に行きました。|I went to the zoo on Sunday.|動物園で一番大きい動物を見ました。|I saw the biggest animal at the zoo.
+10|時間|じかん|time|noun|今日は時間がありません。|I don't have time today.|宿題に時間がかかりました。|The homework took time.
+10|世界|せかい|world|noun|世界で一番大きい国はどこですか。|What is the largest country in the world?|世界で一番高い山は何ですか。|What is the tallest mountain in the world?
+10|美容院|びよういん|beauty parlor; hair salon|noun|美容院で髪を切りました。|I had my hair cut at a salon.|明日、美容院に行くつもりです。|I intend to go to the hair salon tomorrow.
+10|手袋|てぶくろ|gloves|noun|寒いですから、手袋をします。|It's cold, so I wear gloves.|新しい手袋を買いました。|I bought new gloves.
+10|生活|せいかつ|life; living|noun|日本の生活はどうですか。|How is life in Japan?|大学生活は楽しいです。|University life is fun.
+10|今年|ことし|this year|noun|今年は日本に行くつもりです。|I intend to go to Japan this year.|今年の夏は去年より暑いです。|This summer is hotter than last summer.
+10|暖かい|あたたかい|warm|i-adjective|今日は暖かいです。|It is warm today.|春は冬より暖かいです。|Spring is warmer than winter.
+10|涼しい|すずしい|cool; weather|i-adjective|今日は涼しいですね。|It is cool today, isn't it?|秋は夏より涼しいです。|Autumn is cooler than summer.
+10|冷たい|つめたい|cold; things or people|i-adjective|冷たい水を飲みました。|I drank cold water.|この人は少し冷たいと思います。|I think this person is a little cold.
+10|遅い|おそい|slow; late|i-adjective|この電車は遅いです。|This train is slow.|今日は帰るのが遅かったです。|I came home late today.
+10|眠い|ねむい|sleepy|i-adjective|昨夜は寝ませんでしたから、眠いです。|I didn't sleep last night, so I am sleepy.|朝の授業はいつも眠いです。|I am always sleepy in morning class.
+10|簡単|かんたん(な)|easy; simple|na-adjective|この問題は簡単です。|This problem is easy.|昨日のテストより簡単でした。|It was easier than yesterday's test.
+10|かかる|かかる|to take time or money|u-verb|学校まで三十分かかります。|It takes thirty minutes to get to school.|旅行に五万円かかりました。|The trip cost fifty thousand yen.
+10|泊まる|とまる|to stay at a hotel, etc.|u-verb|京都のホテルに泊まりました。|I stayed at a hotel in Kyoto.|週末は友達のうちに泊まるつもりです。|I intend to stay at a friend's house this weekend.
+10|なる|なる|to become|u-verb|春になりました。|It has become spring.|日本語が上手になりましたね。|Your Japanese has improved, hasn't it?
+10|決める|きめる|to decide|ru-verb|旅行の日を決めました。|I decided on the day for the trip.|明日、ホテルを決めるつもりです。|I intend to decide on a hotel tomorrow.
+10|ごろごろする|ごろごろする|to stay home and do nothing|irregular-verb|日曜日はうちでごろごろしました。|I lazed around at home on Sunday.|今日はごろごろするつもりです。|I intend to laze around today.
+10|旅行する|りょこうする|to travel|irregular-verb|今年の夏、日本を旅行するつもりです。|I intend to travel around Japan this summer.|去年、友達と旅行しました。|I traveled with my friends last year.
+10|練習する|れんしゅうする|to practice|irregular-verb|毎日、ピアノを練習します。|I practice the piano every day.|友達と日本語を練習しました。|I practiced Japanese with a friend.
+10|一番|いちばん|best; most|adverb-expression|どの季節が一番好きですか。|Which season do you like best?|この店が一番安いです。|This shop is the cheapest.
+10|どっち／どちら|どっち/どちら|which; of two|adverb-expression|すしと天ぷらと、どちらが好きですか。|Which do you like better, sushi or tempura?|どっちのかばんが安いですか。|Which of the two bags is cheaper?
+10|早く／速く|はやく|early; fast|adverb-expression|今日は早く帰ります。|I will go home early today.|この電車は速く走ります。|This train runs fast.
+10|歩いて|あるいて|on foot|adverb-expression|学校まで歩いて行きます。|I go to school on foot.|駅から歩いて十分かかります。|It takes ten minutes on foot from the station.
+10|〜で|で|by transportation; with a tool|adverb-expression|バスで学校に行きます。|I go to school by bus.|ペンで名前を書いてください。|Please write your name with a pen.
+10|どうやって|どうやって|how; by what means|adverb-expression|どうやって学校に行きますか。|How do you get to school?|この料理はどうやって作りますか。|How do you make this dish?
+10|どのぐらい|どのぐらい|how much; how long|adverb-expression|駅までどのぐらいかかりますか。|How long does it take to get to the station?|どのぐらい日本語を勉強しましたか。|How long have you studied Japanese?
+10|〜週間|しゅうかん|for ... weeks|counter|日本に二週間いました。|I was in Japan for two weeks.|夏休みは三週間です。|Summer vacation is three weeks long.
+10|〜か月|かげつ|for ... months|counter|日本語を六か月勉強しました。|I studied Japanese for six months.|日本に一か月いるつもりです。|I intend to be in Japan for one month.
+10|〜年|ねん|... years|counter|日本語を三年勉強しています。|I have been studying Japanese for three years.|この町に五年住んでいます。|I have lived in this town for five years.
+10|このごろ|このごろ|these days|adverb-expression|このごろ、寒くなりましたね。|It has become cold lately, hasn't it?|このごろ、よく運動しています。|I have been exercising often these days.
+10|〜後|ご|in ... time; after ...|suffix|三日後に帰ります。|I'll return in three days.|一時間後に会いましょう。|Let's meet in one hour.
+10|〜か〜|か|or|adverb-expression|コーヒーかお茶を飲みます。|I'll have coffee or green tea.|土曜日か日曜日に行くつもりです。|I intend to go on Saturday or Sunday.
+11|外国|がいこく|foreign country|noun|外国に行ったことがあります。|I have been to a foreign country.|将来、外国で働きたいです。|I want to work in a foreign country in the future.
+11|川|かわ|river|noun|この川で泳いだことがあります。|I have swum in this river.|川の近くでキャンプをしました。|I camped near the river.
+11|温泉|おんせん|spa; hot spring|noun|温泉に入りたいです。|I want to bathe in a hot spring.|日本の温泉に行ったことがあります。|I have been to a hot spring in Japan.
+11|釣り|つり|fishing|noun|週末に釣りに行きたいです。|I want to go fishing this weekend.|父はよく川で釣りをします。|My father often fishes in the river.
+11|湖|みずうみ|lake|noun|湖の近くで写真を撮りました。|I took pictures near the lake.|この湖で泳いだことがありますか。|Have you ever swum in this lake?
+11|山|やま|mountain|noun|山に登りたいです。|I want to climb a mountain.|週末に山でキャンプをしました。|I camped in the mountains this weekend.
+11|キャンプ|キャンプ|camp|noun|友達とキャンプをしました。|I went camping with my friends.|山でキャンプをしたことがあります。|I have camped in the mountains.
+11|ドライブ|ドライブ|drive|noun|日曜日にドライブに行きたいです。|I want to go for a drive on Sunday.|海までドライブをしました。|I went for a drive to the sea.
+11|神社|じんじゃ|shrine|noun|お正月に神社に行きました。|I went to a shrine at New Year's.|この神社に行ったことがありますか。|Have you ever been to this shrine?
+11|美術館|びじゅつかん|art museum|noun|週末に美術館に行きたいです。|I want to go to an art museum this weekend.|美術館で有名な絵を見ました。|I saw a famous painting at the art museum.
+11|社長|しゃちょう|president of a company|noun|社長は今、会議をしています。|The company president is in a meeting now.|将来、社長になりたいです。|I want to become a company president in the future.
+11|歌手|かしゅ|singer|noun|あの歌手の歌が好きです。|I like that singer's songs.|将来、歌手になりたいです。|I want to become a singer in the future.
+11|ルームメイト|ルームメイト|roommate|noun|ルームメイトと一緒に住んでいます。|I live with my roommate.|ルームメイトと料理したり、映画を見たりします。|I do things like cooking and watching movies with my roommate.
+11|ホストファミリー|ホストファミリー|host family|noun|ホストファミリーはとても親切です。|My host family is very kind.|ホストファミリーと旅行したことがあります。|I have traveled with my host family.
+11|将来|しょうらい|future|noun|将来、日本で働きたいです。|I want to work in Japan in the future.|将来は日本語の先生になりたいです。|I want to become a Japanese teacher in the future.
+11|夢|ゆめ|dream|noun|将来の夢は医者になることです。|My dream for the future is to become a doctor.|昨日、面白い夢を見ました。|I had an interesting dream yesterday.
+11|お祭り|おまつり|festival|noun|夏にお祭りに行きました。|I went to a festival in summer.|日本のお祭りで踊ったことがあります。|I have danced at a Japanese festival.
+11|お正月|おしょうがつ|New Year's|noun|お正月は家族と過ごしたいです。|I want to spend New Year's with my family.|お正月に神社に行きました。|I went to a shrine at New Year's.
+11|お菓子|おかし|snacks; sweets|noun|日本のお菓子を買いたいです。|I want to buy Japanese sweets.|子供の時、よくお菓子を食べました。|I often ate sweets when I was a child.
+11|ビール|ビール|beer|noun|冷たいビールを飲みたいです。|I want to drink a cold beer.|日本のビールを飲んだことがあります。|I have drunk Japanese beer.
+11|おもちゃ|おもちゃ|toy|noun|子供におもちゃを買いました。|I bought a toy for a child.|このおもちゃで遊んだことがあります。|I have played with this toy.
+11|今学期|こんがっき|this semester|noun|今学期は四つ授業を取っています。|I am taking four classes this semester.|今学期は日本語をもっと勉強したいです。|I want to study Japanese more this semester.
+11|来学期|らいがっき|next semester|noun|来学期、日本に留学したいです。|I want to study abroad in Japan next semester.|来学期は歴史の授業を取るつもりです。|I intend to take a history class next semester.
+11|授業|じゅぎょう|class|noun|日本語の授業は九時に始まります。|Japanese class starts at nine.|授業をサボったことがありません。|I have never skipped class.
+11|こちら|こちら|this person; polite|noun|こちらは私の先生です。|This is my teacher.|こちらは父の友達です。|This is my father's friend.
+11|うそをつく|うそをつく|to tell a lie|u-verb|うそをつかないでください。|Please don't lie.|子供の時、うそをついたことがあります。|I told a lie when I was a child.
+11|おなかがすく|おなかがすく|to become hungry|u-verb|おなかがすきました。|I am hungry.|おなかがすきましたから、何か食べたいです。|I am hungry, so I want to eat something.
+11|飼う|かう|to own a pet|u-verb|うちで猫を飼っています。|We have a pet cat at home.|子供の時、犬を飼っていました。|I had a pet dog when I was a child.
+11|サボる|サボる|to cut class|u-verb|昨日、授業をサボりました。|I skipped class yesterday.|授業をサボらないでください。|Please don't skip class.
+11|取る|とる|to take a class; to get a grade|u-verb|今学期、日本語の授業を取っています。|I am taking a Japanese class this semester.|試験でいい点を取りました。|I got a good score on the exam.
+11|習う|ならう|to learn|u-verb|子供の時、ピアノを習いました。|I learned piano when I was a child.|日本で料理を習いたいです。|I want to learn cooking in Japan.
+11|登る|のぼる|to climb|u-verb|去年、富士山に登りました。|I climbed Mount Fuji last year.|あの山に登ったことがあります。|I have climbed that mountain.
+11|走る|はしる|to run|u-verb|毎朝、公園を走ります。|I run in the park every morning.|駅まで走りました。|I ran to the station.
+11|疲れる|つかれる|to get tired|ru-verb|今日はとても疲れました。|I got very tired today.|疲れていますから、早く寝たいです。|I am tired, so I want to go to bed early.
+11|やめる|やめる|to quit|ru-verb|先月、アルバイトをやめました。|I quit my part-time job last month.|たばこをやめたいです。|I want to quit smoking.
+11|けんかする|けんかする|to have a fight; to quarrel|irregular-verb|昨日、弟とけんかしました。|I had a quarrel with my younger brother yesterday.|友達とけんかしたことがあります。|I have had a quarrel with a friend.
+11|紹介する|しょうかいする|to introduce|irregular-verb|先生に友達を紹介しました。|I introduced my friend to the teacher.|家族を紹介したいです。|I would like to introduce my family.
+11|ダイエットする|ダイエットする|to go on a diet|irregular-verb|今、ダイエットしています。|I am on a diet now.|ダイエットしたことがありますか。|Have you ever been on a diet?
+11|遅刻する|ちこくする|to be late for an appointment|irregular-verb|昨日、授業に遅刻しました。|I was late for class yesterday.|授業に遅刻したことがありません。|I have never been late for class.
+11|留学する|りゅうがくする|to study abroad|irregular-verb|来年、日本に留学したいです。|I want to study abroad in Japan next year.|外国に留学したことがありますか。|Have you ever studied abroad?
+11|出身|しゅっしん|coming from a place|noun|出身は東京です。|I am from Tokyo.|お母さんはどちらの出身ですか。|Where is your mother from?
+11|久しぶり|ひさしぶり|It has been a long time.|adverb-expression|久しぶりに友達に会いました。|I saw a friend for the first time in a long time.|久しぶりに映画を見たいです。|I want to watch a movie for the first time in a while.
+11|まあまあ|まあまあ|okay; so-so|adverb-expression|試験はまあまあでした。|The exam went so-so.|日本語はまあまあ分かります。|I understand Japanese reasonably well.
+11|もっと|もっと|more|adverb-expression|もっと日本語を勉強したいです。|I want to study Japanese more.|もっとゆっくり話してください。|Please speak more slowly.
+11|後|あと|after an event|noun|授業の後で図書館に行きます。|I go to the library after class.|晩ご飯の後で散歩しました。|I took a walk after dinner.
+11|そして|そして|and then|adverb-expression|京都でお寺を見ました、そしてお土産を買いました。|I saw temples in Kyoto and then bought souvenirs.|朝ご飯を食べました、そして学校に行きました。|I ate breakfast and then went to school.
+11|〜だけ|だけ|just; only|adverb-expression|今日は一時間だけ勉強しました。|I studied for only one hour today.|水だけ飲みたいです。|I only want to drink water.
+11|〜点|てん|... points|counter|試験で九十点を取りました。|I got ninety points on the exam.|百点を取りたいです。|I want to get one hundred points.
+11|作家|さっか|writer|noun|将来は作家になりたいです。|I want to become a writer in the future.|この作家の本を読んだことがあります。|I have read a book by this writer.
+11|ジャーナリスト|ジャーナリスト|journalist|noun|姉はジャーナリストです。|My older sister is a journalist.|ジャーナリストに会ったことがあります。|I have met a journalist.
+11|警察官|けいさつかん|police officer|noun|駅で警察官に道を聞きました。|I asked a police officer for directions at the station.|兄は警察官になりたいと言っていました。|My older brother said he wants to become a police officer.
+11|消防士|しょうぼうし|firefighter|noun|父は消防士です。|My father is a firefighter.|将来、消防士になりたいです。|I want to become a firefighter in the future.
+11|教師|きょうし|schoolteacher|noun|母は高校の教師です。|My mother is a high school teacher.|日本語の教師になりたいです。|I want to become a Japanese teacher.
+11|研究者|けんきゅうしゃ|researcher|noun|大学で研究者に会いました。|I met a researcher at the university.|将来は研究者になりたいです。|I want to become a researcher in the future.
+11|宇宙飛行士|うちゅうひこうし|astronaut|noun|子供の時、宇宙飛行士になりたかったです。|I wanted to become an astronaut when I was a child.|宇宙飛行士の本を読んだことがあります。|I have read a book about astronauts.
+11|スポーツ選手|スポーツせんしゅ|athlete|noun|兄はスポーツ選手です。|My older brother is an athlete.|有名なスポーツ選手に会ったことがあります。|I have met a famous athlete.
+11|大統領|だいとうりょう|president of a country|noun|大統領の名前を知っていますか。|Do you know the president's name?|テレビで大統領の話を聞きました。|I listened to the president's speech on TV.
+11|俳優|はいゆう|actor; actress|noun|あの俳優が好きです。|I like that actor.|将来、俳優になりたいです。|I want to become an actor in the future.
+11|シェフ|シェフ|chef|noun|このレストランのシェフは有名です。|The chef at this restaurant is famous.|シェフに料理を習いたいです。|I want to learn cooking from a chef.
+11|漫画家|まんがか|cartoonist; manga artist|noun|兄は漫画家になりたいと言っていました。|My older brother said he wants to become a manga artist.|有名な漫画家に会ったことがあります。|I have met a famous manga artist.
+12|おなか|おなか|stomach|noun|おなかが痛いんです。|My stomach hurts.|おなかがすいたので、何か食べたいです。|I am hungry, so I want to eat something.
+12|足|あし|leg; foot|noun|昨日、たくさん歩いたので、足が痛いです。|My feet hurt because I walked a lot yesterday.|足を洗ってください。|Please wash your feet.
+12|のど|のど|throat|noun|のどが痛いんです。|My throat hurts.|のどが渇いたので、水を飲みます。|I am thirsty, so I'll drink some water.
+12|歯|は|tooth|noun|歯が痛いので、病院に行きます。|My tooth hurts, so I am going to the hospital.|毎朝、歯を磨きます。|I brush my teeth every morning.
+12|インフルエンザ|インフルエンザ|influenza|noun|インフルエンザなので、学校を休みます。|I have the flu, so I'll be absent from school.|インフルエンザになったことがあります。|I have had the flu.
+12|風邪|かぜ|cold; illness|noun|風邪を引いたんです。|I caught a cold.|風邪なので、早く寝ます。|I have a cold, so I'll go to bed early.
+12|せき|せき|cough|noun|せきが出るんです。|I have a cough.|せきが出るので、薬を飲みました。|I had a cough, so I took medicine.
+12|二日酔い|ふつかよい|hangover|noun|昨日、飲みすぎたので、二日酔いです。|I drank too much yesterday, so I have a hangover.|二日酔いで頭が痛いです。|My head hurts from a hangover.
+12|ホームシック|ホームシック|homesickness|noun|ホームシックなので、家族に電話しました。|I felt homesick, so I called my family.|留学中にホームシックになりました。|I became homesick while studying abroad.
+12|アレルギー|アレルギー|allergy|noun|卵のアレルギーがあります。|I have an egg allergy.|アレルギーなので、この料理を食べてはいけません。|I have an allergy, so I must not eat this dish.
+12|ジュース|ジュース|juice|noun|甘いジュースを飲みすぎました。|I drank too much sweet juice.|水かジュースを持ってきてください。|Please bring water or juice.
+12|卵|たまご|egg|noun|朝ご飯に卵を食べます。|I eat eggs for breakfast.|卵を三つ使ってください。|Please use three eggs.
+12|服|ふく|clothes|noun|新しい服を買いたいです。|I want to buy new clothes.|寒いので、暖かい服を着てください。|It is cold, so please wear warm clothes.
+12|物|もの|thing; concrete object|noun|甘い物を食べすぎました。|I ate too many sweet things.|これは何に使う物ですか。|What is this thing used for?
+12|プレゼント|プレゼント|present|noun|誕生日にプレゼントをもらいました。|I received a present on my birthday.|母のプレゼントを買いに行きます。|I am going to buy a present for my mother.
+12|切符|きっぷ|train ticket|noun|駅で切符を買いました。|I bought a ticket at the station.|京都までの切符を二枚ください。|Two tickets to Kyoto, please.
+12|〜代|だい|charge; fee|suffix|電話代を払いました。|I paid the phone bill.|電車代はいくらかかりますか。|How much is the train fare?
+12|用事|ようじ|business to take care of|noun|今日は用事があるんです。|I have something to take care of today.|用事があるので、先に帰ります。|I have something to take care of, so I'll go home first.
+12|お手洗い|おてあらい|restroom|noun|お手洗いはどこですか。|Where is the restroom?|お手洗いに行ってもいいですか。|May I go to the restroom?
+12|試合|しあい|match; game|noun|明日、サッカーの試合があります。|There is a soccer match tomorrow.|雨なので、試合はないと思います。|It is raining, so I think there will be no match.
+12|政治|せいじ|politics|noun|日本の政治に興味があります。|I am interested in Japanese politics.|政治についての本を読みました。|I read a book about politics.
+12|成績|せいせき|grade; academic results|noun|今学期は成績がよくなりました。|My grades improved this semester.|成績が悪いので、もっと勉強しなければいけません。|My grades are bad, so I must study more.
+12|彼女|かのじょ|she; girlfriend|noun|彼女は日本語の先生です。|She is a Japanese teacher.|兄は彼女と映画を見に行きました。|My older brother went to watch a movie with his girlfriend.
+12|彼|かれ|he; boyfriend|noun|彼は私の友達です。|He is my friend.|彼は来年、日本に留学するつもりです。|He intends to study abroad in Japan next year.
+12|彼氏|かれし|boyfriend|noun|姉の彼氏は大学生です。|My older sister's boyfriend is a college student.|彼氏と別れたので、寂しいです。|I broke up with my boyfriend, so I feel lonely.
+12|意味|いみ|meaning|noun|この単語の意味を教えてください。|Please tell me the meaning of this word.|意味が分からないので、先生に聞きます。|I don't understand the meaning, so I'll ask the teacher.
+12|狭い|せまい|narrow; not spacious|i-adjective|この部屋は狭すぎます。|This room is too small.|道が狭いので、ゆっくり運転してください。|The road is narrow, so please drive slowly.
+12|広い|ひろい|wide; spacious|i-adjective|この部屋は広くて、きれいです。|This room is spacious and clean.|もっと広い家に住みたいです。|I want to live in a more spacious house.
+12|悪い|わるい|bad|i-adjective|今日は天気が悪いです。|The weather is bad today.|成績が悪いので、心配しています。|My grades are bad, so I am worried.
+12|痛い|いたい|hurt; painful|i-adjective|頭が痛いんです。|My head hurts.|歯が痛いので、何も食べたくないです。|My tooth hurts, so I don't want to eat anything.
+12|甘い|あまい|sweet|i-adjective|このケーキは甘すぎます。|This cake is too sweet.|甘い物を食べすぎないほうがいいです。|You had better not eat too many sweet things.
+12|多い|おおい|there are many ...|i-adjective|この町は人が多いです。|There are many people in this town.|宿題が多いので、今日は出かけません。|I have a lot of homework, so I won't go out today.
+12|素敵|すてき(な)|nice; lovely|na-adjective|素敵なプレゼントをもらいました。|I received a lovely present.|素敵なレストランに行きたいです。|I want to go to a nice restaurant.
+12|歩く|あるく|to walk|u-verb|毎日、三十分ぐらい歩いています。|I walk for about thirty minutes every day.|駅まで歩いたほうがいいです。|You had better walk to the station.
+12|風邪を引く|かぜをひく|to catch a cold|u-verb|先週、風邪を引きました。|I caught a cold last week.|風邪を引いたので、今日は休みます。|I caught a cold, so I'll rest today.
+12|熱がある|ねつがある|to have a fever|u-verb|熱があるんです。|I have a fever.|熱があるので、病院に行ったほうがいいです。|You have a fever, so you had better go to the hospital.
+12|のどが渇く|のどがかわく|to become thirsty|u-verb|のどが渇いたので、水を飲みました。|I was thirsty, so I drank water.|たくさん歩いて、のどが渇きました。|I walked a lot and got thirsty.
+12|払う|はらう|to pay|u-verb|レストランでお金を払いました。|I paid at the restaurant.|今日は電話代を払わなければいけません。|I must pay the phone bill today.
+12|なくす|なくす|to lose|u-verb|財布をなくしたんです。|I lost my wallet.|電車で切符をなくしました。|I lost my ticket on the train.
+12|興味がある|きょうみがある|to be interested in ...|u-verb|日本の文化に興味があります。|I am interested in Japanese culture.|政治に興味があるので、毎日新聞を読みます。|I am interested in politics, so I read the newspaper every day.
+12|せきが出る|せきがでる|to have a cough|ru-verb|せきが出るので、薬を飲みます。|I have a cough, so I'll take medicine.|昨日からせきが出ています。|I have had a cough since yesterday.
+12|別れる|わかれる|to break up; to separate|ru-verb|先月、彼氏と別れました。|I broke up with my boyfriend last month.|彼女と別れたので、寂しいです。|I broke up with my girlfriend, so I feel lonely.
+12|緊張する|きんちょうする|to get nervous|irregular-verb|試験の前は緊張します。|I get nervous before exams.|初めて日本語で話したので、緊張しました。|I spoke in Japanese for the first time, so I got nervous.
+12|心配する|しんぱいする|to worry|irregular-verb|母は私の体を心配しています。|My mother is worried about my health.|試験の成績を心配しています。|I am worried about my exam grade.
+12|お大事に|おだいじに|Get well soon.|adverb-expression|どうぞお大事に。|Please take care of yourself.|お大事に、ゆっくり休んでください。|Get well soon, and please rest well.
+12|元気がない|げんきがない|don't look well; lack energy|adverb-expression|今日は元気がないですね。|You don't look well today.|弟は風邪なので、元気がありません。|My younger brother has a cold, so he has no energy.
+12|できるだけ|できるだけ|as much as possible|adverb-expression|できるだけ早く帰ってください。|Please come home as early as possible.|できるだけ野菜を食べたほうがいいです。|You had better eat as many vegetables as possible.
+12|多分|たぶん|probably; maybe|adverb-expression|多分、明日は雨です。|It will probably rain tomorrow.|彼は多分、家にいると思います。|I think he is probably at home.
+12|もうすぐ|もうすぐ|very soon|adverb-expression|もうすぐ試験が始まります。|The exam will start very soon.|もうすぐ夏休みです。|Summer vacation is coming soon.
+12|初めて|はじめて|for the first time|adverb-expression|初めてすしを食べました。|I ate sushi for the first time.|初めて日本に来たので、緊張しています。|I am nervous because I have come to Japan for the first time.
+12|二三日|にさんにち|for two to three days|noun|二三日、休んだほうがいいです。|You had better rest for two or three days.|二三日、薬を飲んでください。|Please take the medicine for two or three days.
+12|それに|それに|moreover|adverb-expression|この部屋は広いです、それに静かです。|This room is spacious, and moreover it is quiet.|今日は雨です、それに寒いです。|It is raining today, and moreover it is cold.
+12|同じ|おなじ|same|adverb-expression|友達と同じクラスです。|I am in the same class as my friend.|同じ本を持っています。|I have the same book.

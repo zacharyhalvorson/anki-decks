@@ -12348,5 +12348,845 @@
     "image": "vocab-b06ef1599a2d-redraw-clean.png",
     "alt": "Visual example of counter for flat objects",
     "reason": "A concrete example illustrates the counter category or expression."
+  },
+  {
+    "word": "とんかつ",
+    "reading": "とんかつ",
+    "image": "genki1-2277066050305.png",
+    "alt": "A sliced golden panko-breaded pork cutlet on a tiny plain oval plate, pale pork cross-section visible, a very small cabbage garnish. The cutlet dominates; no other dishes.",
+    "reason": "Reviewed as an answer-side mnemonic for pork cutlet. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "メニュー",
+    "reading": "メニュー",
+    "image": "genki1-2537165396890.png",
+    "alt": "An open restaurant menu booklet standing slightly open, three small unlabelled food illustrations on its pages, no letters or numbers, no table or people. Clearly a restaurant menu rather than a novel.",
+    "reason": "Reviewed as an answer-side mnemonic for menu. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "スマホ",
+    "reading": "スマホ",
+    "image": "genki1-2854335329129.png",
+    "alt": "One modern smartphone alone, thin dark bezel, blank muted blue touchscreen, tiny camera lens, no app icons, letters or numbers. Whole device visible, no other props.",
+    "reason": "Unmistakable concrete target reviewed as the only question cue; no answer text, competing target, or background."
+  },
+  {
+    "word": "ハンバーガー",
+    "reading": "ハンバーガー",
+    "image": "genki1-2007300879301.png",
+    "alt": "One classic hamburger alone with golden sesame bun, beef patty, lettuce and tomato slice. No plate, fries, drink, wrapping, floor or background pattern of any kind.",
+    "reason": "Unmistakable concrete target reviewed as the only question cue; no answer text, competing target, or background."
+  },
+  {
+    "word": "デート",
+    "reading": "デート",
+    "image": "genki1-2243312396516.png",
+    "alt": "Two expressive adult partners on a romantic cafe date, shy warm smiles and affectionate eye contact, one small shared cafe table and two cups, one tiny flower. Clearly romantic atmosphere, no full cafe background.",
+    "reason": "Reviewed as an answer-side mnemonic for romantic date. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "本屋",
+    "reading": "ほんや",
+    "image": "genki1-2026506800125.png",
+    "alt": "A compact isolated bookstore shopfront with books displayed prominently in the window and shelves visible through the open door. No shop sign, lettering or labels. Books are unmistakable.",
+    "reason": "Reviewed as an answer-side mnemonic for bookstore. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "バス停",
+    "reading": "バスてい",
+    "image": "genki1-2521894921615.png",
+    "alt": "A waiting adult beside a plain round bus-stop pole and one small bench, a city bus approaching behind. No writing or pictograms on the sign, no broad street background.",
+    "reason": "Reviewed as an answer-side mnemonic for bus stop. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "ゲーム",
+    "reading": "ゲーム",
+    "image": "genki1-2879434708273.png",
+    "alt": "An adult playing a video game with a clearly visible handheld controller and a small television showing simple colorful geometric game shapes without letters. No console branding, full room, words or broad background.",
+    "reason": "Reviewed as an answer-side mnemonic for game. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "かっこいい",
+    "reading": "かっこいい",
+    "image": "genki1-2552967373354.png",
+    "alt": "One stylish good-looking adult man in a well-fitting muted olive jacket, relaxed confident posture, neat hair and friendly face. Whole subject visible; no admirers, hearts, stars or background.",
+    "reason": "Reviewed as an answer-side mnemonic for good-looking. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "サーフィン",
+    "reading": "サーフィン",
+    "image": "genki1-1917501075221.png",
+    "alt": "One adult surfer balancing naturally on a surfboard across one compact curling blue wave, whole body and board visible, no beach or broad ocean scene.",
+    "reason": "Reviewed as an answer-side mnemonic for surfing. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "連れてくる",
+    "reading": "つれてくる",
+    "image": "genki1-2311275576579.png",
+    "alt": "An adult host at a doorway greeting two adults who have just arrived together, one arriving friend gently introducing the companion. Clear incoming arrival at the host's home, no luggage.",
+    "reason": "Reviewed as an answer-side mnemonic for to bring a person. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "持ってくる",
+    "reading": "もってくる",
+    "image": "genki1-2638916523798.png",
+    "alt": "An adult arriving toward an adult host in a doorway and handing over a small closed tote of supplies. Clear motion toward the recipient and arrival, whole people visible.",
+    "reason": "Reviewed as an answer-side mnemonic for to bring a thing. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "急ぐ",
+    "reading": "いそぐ",
+    "image": "genki1-2878035944180.png",
+    "alt": "An adult hurrying with a forward-leaning brisk running posture, glancing at a wristwatch, carrying a small shoulder bag. Short motion lines, no train, no giant clock, whole body visible.",
+    "reason": "Reviewed as an answer-side mnemonic for to hurry. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "頭がいい",
+    "reading": "あたまがいい",
+    "image": "genki1-2311021928239.png",
+    "alt": "A clever adult student calmly completing a small geometric puzzle with all the pieces fitting perfectly, an attentive thoughtful smile. A compact desk fragment and puzzle only, no letters or numbers.",
+    "reason": "Reviewed as an answer-side mnemonic for bright; clever. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "背が高い",
+    "reading": "せがたかい",
+    "image": "genki1-2695138836665.png",
+    "alt": "A noticeably tall adult standing naturally beside an average-height adult, feet aligned on the same baseline, the tall person's head clearly higher. Whole bodies, neutral friendly appearance, no measuring scale or labels.",
+    "reason": "Reviewed as an answer-side mnemonic for tall; stature. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "背が低い",
+    "reading": "せがひくい",
+    "image": "genki1-2754737854080.png",
+    "alt": "A noticeably short adult standing naturally beside an average-height adult, feet aligned on the same baseline. Both are clearly adults, short person visually prominent, friendly neutral depiction, no scale or labels.",
+    "reason": "Reviewed as an answer-side mnemonic for short; stature. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "サークル",
+    "reading": "サークル",
+    "image": "genki1-1927539433387.png",
+    "alt": "Three college-age adults sharing a cheerful tennis-club meeting with two tennis rackets and one small club table. Focus on a friendly organized group activity, not playing a match, no text or logos.",
+    "reason": "Reviewed as an answer-side mnemonic for club activity. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "乾杯",
+    "reading": "かんぱい",
+    "image": "genki1-2807243235539.png",
+    "alt": "Two anatomically natural adult hands gently clinking two simple beer mugs in a toast, a small cheerful motion accent at the touching rims. No faces, table, words or background.",
+    "reason": "Reviewed as an answer-side mnemonic for Cheers!; a toast. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "バーベキュー",
+    "reading": "バーベキュー",
+    "image": "genki1-2132801802922.png",
+    "alt": "Two adults cooking outdoors at one compact barbecue grill with skewered vegetables and meat, cheerful shared cookout, only essential grill and food, no broad patio or garden background.",
+    "reason": "Reviewed as an answer-side mnemonic for barbecue. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "スペイン",
+    "reading": "スペイン",
+    "image": "genki1-2155669792519.png",
+    "alt": "A compact Spain memory vignette with the recognizable Sagrada Familia basilica and one classical Spanish guitar, muted warm terracotta palette. No flags, letters, maps or broad ground plane.",
+    "reason": "Reviewed as an answer-side mnemonic for Spain. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "ホームステイ",
+    "reading": "ホームステイ",
+    "image": "genki1-2249694923453.png",
+    "alt": "A warm adult host couple welcoming an adult international student with a small suitcase at their modest home doorway. Friendly introduction, clearly a family home, no signs or text.",
+    "reason": "Reviewed as an answer-side mnemonic for homestay; living with a local family. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "トマト",
+    "reading": "トマト",
+    "image": "genki1-2453595877701.png",
+    "alt": "One ripe red tomato alone with a small olive-green leafy calyx. Round tomato silhouette, no knife, board, plate, basket or other foods.",
+    "reason": "Unmistakable concrete target reviewed as the only question cue; no answer text, competing target, or background."
+  },
+  {
+    "word": "カラオケ",
+    "reading": "カラオケ",
+    "image": "genki1-2748214325108.png",
+    "alt": "Two adults in a tiny karaoke vignette, one singing into a handheld microphone while the other happily follows a small screen with colored music bars but no words. Small sofa fragment only, no stage audience.",
+    "reason": "Reviewed as an answer-side mnemonic for karaoke. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "お風呂に入る",
+    "reading": "おふろにはいる",
+    "image": "genki1-2161576615338.png",
+    "alt": "An adult relaxing in a small deep Japanese bathtub, only head and shoulders visible above opaque water, modest and nonsexual. Small steam curls, a tiny wooden stool, no bathroom walls or broad floor.",
+    "reason": "Reviewed as an answer-side mnemonic for to take a bath. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "持っていく",
+    "reading": "もっていく",
+    "image": "genki1-2584946478398.png",
+    "alt": "An adult carrying a closed tote of supplies away from a home doorway toward the right, shown from a slight rear three-quarter angle. A host remains in the doorway behind; clearly taking the thing away, not arriving.",
+    "reason": "Reviewed as an answer-side mnemonic for to take a thing. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "意地悪",
+    "reading": "いじわる(な)",
+    "image": "genki1-2385905259206.png",
+    "alt": "An adult spitefully pulling a shared umbrella away from another adult who is left surprised by a few raindrops. Mild mean behavior, no violence, two whole natural figures, compact vignette.",
+    "reason": "Reviewed as an answer-side mnemonic for mean-spirited. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "ピザ",
+    "reading": "ピザ",
+    "image": "genki1-1888436785549.png",
+    "alt": "One round baked cheese-and-tomato pizza with one triangular slice slightly pulled forward. Pizza alone, golden crust and red sauce visible, no boxes, people, cutlery or other foods.",
+    "reason": "Unmistakable concrete target reviewed as the only question cue; no answer text, competing target, or background."
+  },
+  {
+    "word": "スキー",
+    "reading": "スキー",
+    "image": "genki1-2076404828822.png",
+    "alt": "One adult skiing in a natural balanced pose on two clearly visible skis, poles in both hands, compact little streak of snow under the skis. Whole subject and equipment visible, no mountain background.",
+    "reason": "Reviewed as an answer-side mnemonic for ski. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "チケット",
+    "reading": "チケット",
+    "image": "genki1-2155675970925.png",
+    "alt": "Two simple blank admission tickets with unmistakable perforated detachable stubs and softly colored borders, slightly overlapping. No letters, numbers, prices, logos or extra objects.",
+    "reason": "Reviewed as an answer-side mnemonic for ticket. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "歌舞伎",
+    "reading": "かぶき",
+    "image": "genki1-2717535299171.png",
+    "alt": "One adult Kabuki performer in traditional kumadori makeup and a restrained patterned kimono, striking a recognizable mie pose. Whole body visible, no writing, fan inscriptions, audience or broad stage.",
+    "reason": "Reviewed as an answer-side mnemonic for Kabuki; traditional Japanese theatrical art. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "メール",
+    "reading": "メール",
+    "image": "genki1-2881682269698.png",
+    "alt": "A small open laptop with a simple envelope icon centered on its screen and one adult hand near the keyboard. No words, interface labels or letters. Clear electronic mail context, not a paper letter.",
+    "reason": "Reviewed as an answer-side mnemonic for e-mail. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "薬を飲む",
+    "reading": "くすりをのむ",
+    "image": "genki1-2019509932339.png",
+    "alt": "An adult taking a small tablet with a glass of water, a tiny plain unlabeled medicine bottle nearby. Swallowing medicine is the clear action, no other drinks or table spread.",
+    "reason": "Reviewed as an answer-side mnemonic for to take medicine. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "人気がある",
+    "reading": "にんきがある",
+    "image": "genki1-2190069363776.png",
+    "alt": "A small group of smiling adults eagerly queuing to greet a warmly received adult performer, friendly enthusiastic interest. No hearts, celebrity likenesses, text or large background.",
+    "reason": "Reviewed as an answer-side mnemonic for to be popular. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "ごろごろする",
+    "reading": "ごろごろする",
+    "image": "genki1-2524453196557.png",
+    "alt": "A relaxed adult lazily lounging on a compact sofa with feet up and a small cushion, no studying, chores or other action. Whole body visible, no broad living-room background.",
+    "reason": "Reviewed as an answer-side mnemonic for to stay home and do nothing. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "お金持ち",
+    "reading": "おかねもち",
+    "image": "genki1-2116609722720.png",
+    "alt": "A well-dressed affluent adult holding a small purse beside a neat little stack of generic blank coins and a modest luxury car silhouette. No currency symbols, numbers or branding, no broad background.",
+    "reason": "Reviewed as an answer-side mnemonic for rich person. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "すし",
+    "reading": "すし",
+    "image": "genki1-2134685529091.png",
+    "alt": "A small plain platter of three clearly recognizable nigiri sushi pieces, salmon, tuna and shrimp over white rice, plus one nori-wrapped maki roll. No other foods, sauces or chopsticks.",
+    "reason": "Unmistakable concrete target reviewed as the only question cue; no answer text, competing target, or background."
+  },
+  {
+    "word": "天ぷら",
+    "reading": "てんぷら",
+    "image": "genki1-2287430409089.png",
+    "alt": "Two golden battered shrimp with visible red tails and one small battered shiso leaf on a tiny plain ceramic plate. Tempura batter, not panko crumbs. No white fabric, halo, tablecloth, paper or broad shadow.",
+    "reason": "Reviewed as an answer-side mnemonic for tempura. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "新幹線",
+    "reading": "しんかんせん",
+    "image": "genki1-2623242949303.png",
+    "alt": "One complete compact three-car Japanese bullet train with a long smooth aerodynamic nose, white body and muted blue stripe, continuous dark windshield. Whole nose, tail and wheels visible. No logos, text, station or large track scene.",
+    "reason": "Unmistakable concrete target reviewed as the only question cue; no answer text, competing target, or background."
+  },
+  {
+    "word": "美容院",
+    "reading": "びよういん",
+    "image": "genki1-2796736271974.png",
+    "alt": "An adult hairstylist carefully cutting another adult client's hair in a salon chair, compact mirror and scissors as the only props. Natural hands, whole people visible, no full salon interior.",
+    "reason": "Reviewed as an answer-side mnemonic for beauty parlor; hair salon. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "ツアー",
+    "reading": "ツアー",
+    "image": "genki1-2840939243907.png",
+    "alt": "One adult tour guide holding a small plain olive pennant leading three adult travelers with small day bags, a tiny temple gate hint behind. No letters, maps, labels or broad scenery.",
+    "reason": "Reviewed as an answer-side mnemonic for tour. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "泊まる",
+    "reading": "とまる",
+    "image": "genki1-2404467738961.png",
+    "alt": "An adult traveler unpacking a small overnight bag beside a simple hotel bed, a compact bedside lamp and room-key card. Clear settling in for a hotel stay, no full room background.",
+    "reason": "Reviewed as an answer-side mnemonic for to stay at a hotel, etc.. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "久しぶり",
+    "reading": "ひさしぶり",
+    "image": "genki1-1898794379672.png",
+    "alt": "Two adult old friends warmly recognizing each other after a long absence, delighted open expressions and a friendly two-handed greeting. No clocks, calendars, speech bubbles, lettering or background.",
+    "reason": "Reviewed as an answer-side mnemonic for It has been a long time.. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "留学する",
+    "reading": "りゅうがくする",
+    "image": "genki1-2279048046646.png",
+    "alt": "An adult international student carrying textbooks and a small rolling suitcase arriving at a university entrance, clearly study-related travel. Compact campus doorway only, no flags, words, logos or broad ground.",
+    "reason": "Reviewed as an answer-side mnemonic for to study abroad. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "ダイエットする",
+    "reading": "ダイエットする",
+    "image": "genki1-2497274112227.png",
+    "alt": "An adult thoughtfully choosing a modest balanced plate of vegetables and protein while setting aside a large dessert, calm positive expression. No scales, numbers, body-shaming or labels.",
+    "reason": "Reviewed as an answer-side mnemonic for to go on a diet. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "釣り",
+    "reading": "つり",
+    "image": "genki1-1910220711499.png",
+    "alt": "One adult sitting on a small folding stool fishing with a long rod over a tiny isolated patch of river water, a small fish just visible near the line. Whole body and rod visible, no landscape.",
+    "reason": "Reviewed as an answer-side mnemonic for fishing. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "消防士",
+    "reading": "しょうぼうし",
+    "image": "genki1-2133519937557.png",
+    "alt": "An adult firefighter in simple protective helmet and turnout gear holding a coiled fire hose, friendly composed face. No fire scene, lettering, badge text or branding. Whole person visible.",
+    "reason": "Reviewed as an answer-side mnemonic for firefighter. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "宇宙飛行士",
+    "reading": "うちゅうひこうし",
+    "image": "genki1-2168799594989.png",
+    "alt": "One adult astronaut in a recognizable white spacesuit with a rounded helmet held under one arm, compact life-support pack. Whole figure visible, no national flags, mission patches, text, rocket or space background.",
+    "reason": "Reviewed as an answer-side mnemonic for astronaut. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "ジャーナリスト",
+    "reading": "ジャーナリスト",
+    "image": "genki1-2302131938111.png",
+    "alt": "An adult journalist interviewing another adult with a handheld microphone and a small blank notepad. Clear attentive reporting interaction, no logos, visible writing or press labels.",
+    "reason": "Reviewed as an answer-side mnemonic for journalist. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "俳優",
+    "reading": "はいゆう",
+    "image": "genki1-2482254166788.png",
+    "alt": "An adult actor rehearsing an expressive dramatic pose beside a small unlabelled film clapperboard and a tiny folded script without writing. Whole figure visible, no audience or broad stage.",
+    "reason": "Reviewed as an answer-side mnemonic for actor; actress. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "ルームメイト",
+    "reading": "ルームメイト",
+    "image": "genki1-2536408136839.png",
+    "alt": "Two adult roommates sharing a compact apartment vignette with two distinct mugs and two small bags beside a shared desk, friendly everyday interaction. No romantic gestures, family cues, letters or broad room background.",
+    "reason": "Reviewed as an answer-side mnemonic for roommate. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "漫画家",
+    "reading": "まんがか",
+    "image": "genki1-2557406937617.png",
+    "alt": "An adult manga artist drawing clear black-and-white comic panels at a small desk, pen in a natural hand, a few panel pages with pictures but absolutely no lettering or speech text. Whole figure visible.",
+    "reason": "Reviewed as an answer-side mnemonic for cartoonist; manga artist. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "温泉",
+    "reading": "おんせん",
+    "image": "genki1-2594082709690.png",
+    "alt": "A small outdoor Japanese hot-spring stone pool with gentle steam, one adult head and shoulders modestly above opaque water, two small rocks and a tiny plant. No full mountain background, signs or text.",
+    "reason": "Reviewed as an answer-side mnemonic for spa; hot spring. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "大統領",
+    "reading": "だいとうりょう",
+    "image": "genki1-2653699296725.png",
+    "alt": "A dignified fictional adult president giving a formal address at a small wooden podium, two compact microphones, generic plain draped fabric without flags or symbols. No real-person likeness, seals, lettering or audience.",
+    "reason": "Reviewed as an answer-side mnemonic for president of a country. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "シェフ",
+    "reading": "シェフ",
+    "image": "genki1-2701196307192.png",
+    "alt": "One adult chef in a white toque and simple apron holding a small frying pan and wooden spoon, natural hands and confident friendly expression. Whole person visible, no kitchen background, branding or writing.",
+    "reason": "Reviewed as an answer-side mnemonic for chef. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "キャンプ",
+    "reading": "キャンプ",
+    "image": "genki1-2771665746483.png",
+    "alt": "One complete compact camping tent beside a very small safe campfire ring and a rolled sleeping mat. Camping is unmistakable, no people or broad forest, ground plane or sky.",
+    "reason": "Reviewed as an answer-side mnemonic for camp. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "サボる",
+    "reading": "サボる",
+    "image": "genki1-1915646582132.png",
+    "alt": "An adult college student lounging outside a classroom doorway while other adult students are visibly studying inside, the skipping student hiding a textbook behind their back. Compact vignette, no text or clocks.",
+    "reason": "Reviewed as an answer-side mnemonic for to cut class. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "おなかがすく",
+    "reading": "おなかがすく",
+    "image": "genki1-1956175409315.png",
+    "alt": "An adult holding their stomach with a hungry expression while looking at a small empty plate and one fork. Whole person visible, no writing, speech bubbles, pain marks or other food.",
+    "reason": "Reviewed as an answer-side mnemonic for to become hungry. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "飼う",
+    "reading": "かう",
+    "image": "genki1-2291517204040.png",
+    "alt": "An adult gently feeding their pet cat from a small bowl at home, a relaxed affectionate relationship, cat collar and little pet bed as restrained context. Whole adult and cat visible, no writing or broad room.",
+    "reason": "Reviewed as an answer-side mnemonic for to own a pet. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "うそをつく",
+    "reading": "うそをつく",
+    "image": "genki1-2709435901024.png",
+    "alt": "An adult telling an obvious small fib, one hand gesturing denial while the other hides crossed fingers behind their back beside a broken flowerpot. Another adult listens skeptically. Natural anatomy, no long cartoon nose, words or speech bubbles.",
+    "reason": "Reviewed as an answer-side mnemonic for to tell a lie. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "お大事に",
+    "reading": "おだいじに",
+    "image": "genki1-1954812810743.png",
+    "alt": "A caring adult gently handing a warm scarf and small tissue packet to an unwell seated adult, kind well-wishing expression. Modest compact caregiving scene, no medical text or background.",
+    "reason": "Reviewed as an answer-side mnemonic for Get well soon.. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "緊張する",
+    "reading": "きんちょうする",
+    "image": "genki1-2555830296870.png",
+    "alt": "An adult student nervously preparing to speak to a tiny seated audience, clasped hands and tense shoulders, a small blank podium. No words, exclamation marks or full room background.",
+    "reason": "Reviewed as an answer-side mnemonic for to get nervous. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "せき",
+    "reading": "せき",
+    "image": "genki1-1812989479219.png",
+    "alt": "An adult coughing naturally into the crook of one elbow, slightly hunched shoulders, a tiny cough motion accent. Whole upper body and face visible, no words, smoke, droplets, background or medical equipment.",
+    "reason": "Reviewed as an answer-side mnemonic for cough. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "アレルギー",
+    "reading": "アレルギー",
+    "image": "genki1-2055891579390.png",
+    "alt": "An adult with watery eyes sneezes into a tissue beside spring flowers, an everyday seasonal pollen allergy reminder.",
+    "reason": "Reviewed as an answer-side mnemonic for allergy. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "二日酔い",
+    "reading": "ふつかよい",
+    "image": "genki1-2368178486356.png",
+    "alt": "An adult seated with a tired hungover expression and one hand holding their forehead, one glass of water and one empty unlabelled beer bottle nearby. No sickness gore, words, calendar, broad table or background.",
+    "reason": "Reviewed as an answer-side mnemonic for hangover. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "のど",
+    "reading": "のど",
+    "image": "genki1-2375246077309.png",
+    "alt": "An adult with an open mouth gently indicating the front of their throat with one finger, clearly focusing on the throat area. Natural head and upper torso, no red glow, medical labels, diagrams or broad background.",
+    "reason": "Reviewed as an answer-side mnemonic for throat. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "ホームシック",
+    "reading": "ホームシック",
+    "image": "genki1-2863406757974.png",
+    "alt": "An adult student in a small unfamiliar room hugging a framed family photograph and looking wistful, a small suitcase nearby. The photo shows simple family figures without writing. No tears exaggerated, text or broad room background.",
+    "reason": "Reviewed as an answer-side mnemonic for homesickness. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "別れる",
+    "reading": "わかれる",
+    "image": "genki1-2583407530642.png",
+    "alt": "Two adult former romantic partners sadly walking away from each other in opposite directions, one looking back, clear emotional separation. Whole figures visible, no broken-heart symbol, text or broad landscape.",
+    "reason": "Reviewed as an answer-side mnemonic for to break up; to separate. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "のどが渇く",
+    "reading": "のどがかわく",
+    "image": "genki1-1902317178550.png",
+    "alt": "An adult reaching eagerly for a clear glass of water with a thirsty expression, one hand lightly at the throat. Water is the only prop, no heat sun, writing, speech bubbles or broad table.",
+    "reason": "Reviewed as an answer-side mnemonic for to become thirsty. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal."
+  },
+  {
+    "word": "いい",
+    "reading": "いい",
+    "image": "vocab-fb5dae7d6075.png",
+    "alt": "Illustration of good",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. good"
+  },
+  {
+    "word": "カフェ",
+    "reading": "カフェ",
+    "image": "vocab-f7fa1cdfba8c.png",
+    "alt": "Illustration of cafe; coffee shop",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. cafe"
+  },
+  {
+    "word": "一人で",
+    "reading": "ひとりで",
+    "image": "vocab-436b3180e9d2.png",
+    "alt": "Illustration of one person; alone",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. alone"
+  },
+  {
+    "word": "やさしい",
+    "reading": "やさしい",
+    "image": "vocab-27235c8c2edc-v2.png",
+    "alt": "Illustration of easy",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. easy; kind"
+  },
+  {
+    "word": "きれい",
+    "reading": "きれい(な)",
+    "image": "vocab-1167a7c53c79-v2.png",
+    "alt": "Illustration of beautiful; clean",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. beautiful; clean"
+  },
+  {
+    "word": "にぎやか",
+    "reading": "にぎやか(な)",
+    "image": "vocab-1aee51d973c7.png",
+    "alt": "Illustration of lively; bustling",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. lively"
+  },
+  {
+    "word": "大好き",
+    "reading": "だいすき(な)",
+    "image": "vocab-b73d3d2f3546.png",
+    "alt": "Illustration of love; really like",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. very fond of; to love"
+  },
+  {
+    "word": "好き",
+    "reading": "すき(な)",
+    "image": "vocab-e1af3ccb508f.png",
+    "alt": "Illustration of liked; favorite",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. fond of; to like"
+  },
+  {
+    "word": "嫌い",
+    "reading": "きらい(な)",
+    "image": "vocab-4011f8b701d5.png",
+    "alt": "Illustration of disliked; hated",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. to dislike"
+  },
+  {
+    "word": "大嫌い",
+    "reading": "だいきらい(な)",
+    "image": "vocab-adb3274cd4e1-v2.png",
+    "alt": "Illustration of really dislike; hate",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. to hate"
+  },
+  {
+    "word": "元気",
+    "reading": "げんき(な)",
+    "image": "vocab-2b90751d9066.png",
+    "alt": "Illustration of healthy; energetic",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. healthy; energetic"
+  },
+  {
+    "word": "静か",
+    "reading": "しずか(な)",
+    "image": "vocab-f055b977c76a.png",
+    "alt": "Illustration of quiet",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. quiet"
+  },
+  {
+    "word": "暇",
+    "reading": "ひま(な)",
+    "image": "vocab-af89b6fe4939.png",
+    "alt": "Illustration of free time; not busy",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. not busy; free time"
+  },
+  {
+    "word": "大変",
+    "reading": "たいへん(な)",
+    "image": "vocab-d9d354870c27.png",
+    "alt": "Illustration of very; greatly; tough; terrible",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. tough; difficult situation"
+  },
+  {
+    "word": "シャワーを浴びる",
+    "reading": "シャワーをあびる",
+    "image": "vocab-0d401c28d319.png",
+    "alt": "Illustration of to take (a shower); to bathe in",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. to take a shower"
+  },
+  {
+    "word": "たばこを吸う",
+    "reading": "たばこをすう",
+    "image": "vocab-885378641fd4.png",
+    "alt": "Illustration of to smoke; breathe in",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. to smoke"
+  },
+  {
+    "word": "やせています",
+    "reading": "やせています",
+    "image": "vocab-1c9ee56566d9.png",
+    "alt": "Illustration of to lose weight",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. to be thin"
+  },
+  {
+    "word": "太っています",
+    "reading": "ふとっています",
+    "image": "vocab-043f6d1c4bb8.png",
+    "alt": "Illustration of to gain weight",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. to be on the heavy side; overweight"
+  },
+  {
+    "word": "知っています",
+    "reading": "しっています",
+    "image": "vocab-a4b8d10f9f81.png",
+    "alt": "Illustration of to know",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. I know."
+  },
+  {
+    "word": "便利",
+    "reading": "べんり(な)",
+    "image": "vocab-7414686d77d0.png",
+    "alt": "Illustration of convenient",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. convenient"
+  },
+  {
+    "word": "親切",
+    "reading": "しんせつ(な)",
+    "image": "vocab-38ce51060720.png",
+    "alt": "Illustration of kind; helpful",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. kind"
+  },
+  {
+    "word": "眼鏡",
+    "reading": "めがね",
+    "image": "vocab-a72809ef45c9.png",
+    "alt": "Illustration of glasses",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. glasses"
+  },
+  {
+    "word": "男の人",
+    "reading": "おとこのひと",
+    "image": "vocab-0112f18a46a6.png",
+    "alt": "Illustration of man; male",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. man"
+  },
+  {
+    "word": "女の人",
+    "reading": "おんなのひと",
+    "image": "vocab-d2dd9f2d371e-v2.png",
+    "alt": "Illustration of woman; female",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. woman"
+  },
+  {
+    "word": "やせる",
+    "reading": "やせる",
+    "image": "vocab-1c9ee56566d9.png",
+    "alt": "Illustration of to lose weight",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. to lose weight"
+  },
+  {
+    "word": "残念ですね",
+    "reading": "ざんねんですね",
+    "image": "vocab-5a0fb999a035.png",
+    "alt": "Illustration of regrettable; unfortunate",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. That's too bad."
+  },
+  {
+    "word": "遅く",
+    "reading": "おそく",
+    "image": "vocab-a828a7f11efd-corrected.png",
+    "alt": "Illustration of to be late",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. late; doing something late"
+  },
+  {
+    "word": "下手",
+    "reading": "へた(な)",
+    "image": "vocab-e602be035c54.png",
+    "alt": "Illustration of unskillful; poor at",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. clumsy; poor at ..."
+  },
+  {
+    "word": "有名",
+    "reading": "ゆうめい(な)",
+    "image": "vocab-ba75ebefef8b-v2.png",
+    "alt": "Illustration of famous",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. famous"
+  },
+  {
+    "word": "上手",
+    "reading": "じょうず(な)",
+    "image": "vocab-8e6fdf77c474.png",
+    "alt": "Illustration of skillful; good at",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. skillful; good at ..."
+  },
+  {
+    "word": "明後日",
+    "reading": "あさって",
+    "image": "vocab-e82f4f9bab4b.png",
+    "alt": "Illustration of the day after tomorrow",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. the day after tomorrow"
+  },
+  {
+    "word": "遅くなる",
+    "reading": "おそくなる",
+    "image": "vocab-a828a7f11efd-corrected.png",
+    "alt": "Illustration of to be late",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. to be late"
+  },
+  {
+    "word": "運動する",
+    "reading": "うんどうする",
+    "image": "vocab-9cc2183ca52e.png",
+    "alt": "Illustration of exercise",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. to exercise"
+  },
+  {
+    "word": "早く／速く",
+    "reading": "はやく",
+    "image": "vocab-b80c8308c2b4-v2.png",
+    "alt": "Illustration of early",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. early; fast"
+  },
+  {
+    "word": "歩いて",
+    "reading": "あるいて",
+    "image": "vocab-32d6ad5f5d6c.png",
+    "alt": "Illustration of to walk",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. on foot"
+  },
+  {
+    "word": "簡単",
+    "reading": "かんたん(な)",
+    "image": "vocab-98d1f7f600d5.png",
+    "alt": "Illustration of easy; simple",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. easy; simple"
+  },
+  {
+    "word": "有名人",
+    "reading": "ゆうめいじん",
+    "image": "vocab-ba75ebefef8b-v2.png",
+    "alt": "Illustration of famous",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. celebrity"
+  },
+  {
+    "word": "けんかする",
+    "reading": "けんかする",
+    "image": "vocab-cf7668a12ff8.png",
+    "alt": "Illustration of to fight; quarrel",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. to have a fight; to quarrel"
+  },
+  {
+    "word": "遅刻する",
+    "reading": "ちこくする",
+    "image": "vocab-a828a7f11efd-corrected.png",
+    "alt": "Illustration of to be late",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. to be late for an appointment"
+  },
+  {
+    "word": "教師",
+    "reading": "きょうし",
+    "image": "vocab-25d96cdf55e8.png",
+    "alt": "Illustration of teacher",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. schoolteacher"
+  },
+  {
+    "word": "警察官",
+    "reading": "けいさつかん",
+    "image": "vocab-cf7f4a279071.png",
+    "alt": "Illustration of police officer",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. police officer"
+  },
+  {
+    "word": "ドライブ",
+    "reading": "ドライブ",
+    "image": "vocab-8cf3ad090543.png",
+    "alt": "Illustration of to drive",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. drive"
+  },
+  {
+    "word": "スポーツ選手",
+    "reading": "スポーツせんしゅ",
+    "image": "vocab-cbaf4d2009ba-redraw.png",
+    "alt": "Illustration of player; athlete",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. athlete"
+  },
+  {
+    "word": "ホストファミリー",
+    "reading": "ホストファミリー",
+    "image": "genki1-2249694923453.png",
+    "alt": "A warm adult host couple welcoming an adult international student with a small suitcase at their modest home doorway. Friendly introduction, clearly a family home, no signs or text.",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. host family"
+  },
+  {
+    "word": "歌手",
+    "reading": "かしゅ",
+    "image": "vocab-5c791d2ddf96.png",
+    "alt": "Illustration of to sing",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. singer"
+  },
+  {
+    "word": "元気がない",
+    "reading": "げんきがない",
+    "image": "vocab-132e4e08e3d4.png",
+    "alt": "Illustration of to get tired",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. don't look well; lack energy"
+  },
+  {
+    "word": "素敵",
+    "reading": "すてき(な)",
+    "image": "vocab-98add51d2956.png",
+    "alt": "Illustration of lovely; wonderful",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. nice; lovely"
+  },
+  {
+    "word": "おなか",
+    "reading": "おなか",
+    "image": "vocab-c5c1a478a6e2.png",
+    "alt": "Illustration of stomach",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. stomach"
+  },
+  {
+    "word": "せきが出る",
+    "reading": "せきがでる",
+    "image": "genki1-1812989479219.png",
+    "alt": "An adult coughing naturally into the crook of one elbow, slightly hunched shoulders, a tiny cough motion accent. Whole upper body and face visible, no words, smoke, droplets, background or medical equipment.",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. to have a cough"
+  },
+  {
+    "word": "熱がある",
+    "reading": "ねつがある",
+    "image": "vocab-0b8670d25b07.png",
+    "alt": "Illustration of fever; heat",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. to have a fever"
+  },
+  {
+    "word": "風邪を引く",
+    "reading": "かぜをひく",
+    "image": "vocab-72d1d858a7f7.png",
+    "alt": "Illustration of cold (illness)",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. to catch a cold"
+  },
+  {
+    "word": "興味がある",
+    "reading": "きょうみがある",
+    "image": "vocab-f7fe1bc303c9.png",
+    "alt": "Illustration of interest",
+    "reason": "Reviewed on light and dark at card size for this GENKI sense; answer-side context only. to be interested in ..."
   }
 ]

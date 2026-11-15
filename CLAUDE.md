@@ -6,7 +6,7 @@ Anki (AnkiMobile iOS is the primary platform) via import-merge. Zach studies at
 
 ## What's here
 
-- `GENKI I Vocab.apkg` — 66 notes (L1 so far; tags `genki-01` + part of speech)
+- `GENKI I Vocab.apkg` — 660 notes, lessons 1–12 (tags `genki-01` through `genki-12` + part of speech)
 - `GENKI II Vocab.apkg` — 589 notes, GENKI II lessons 13–23
 - `JLPT N4.apkg` — 1150 notes
 - `JLPT N5.apkg` — 751 notes (built Sep 2026; see "JLPT N5 deck" below)
@@ -71,7 +71,7 @@ Rebuild by rezipping the same structure (mp3s can be STORED, rest DEFLATED).
     `k-label` + `k-r` spans, `k-radical`, `k-components`).
   - Stroke data: `assets/_kanji_strokes.js` sets `window.KANJI_STROKES`
     (kanji → KanjiVG path list, viewBox 0 0 109 109) for every kanji in the
-    five decks (883). `apply_templates.py` embeds it in each `.apkg` as a
+    five decks (901). `apply_templates.py` embeds it in each `.apkg` as a
     `_`-prefixed media file under a CONTENT-HASHED name
     (`_kanji_strokes_<md5[:8]>.js`) and rewrites the templates' `<script src>`
     to match (the template sources keep the plain name). Reason (found Sep 27
@@ -404,3 +404,11 @@ sentences and their audio; kanji breakdown only when it has content. Preserve
 normal-card transitions, note/card identity, scheduling, and the ten-field,
 two-template schema. Rebuilding packages does not import them into the live
 Anki collection. Native Anki behavior must be checked separately from a browser.
+
+## GENKI I lessons 1–12 (November 2026)
+
+The third-edition textbook in `../GENKI /` supplied the vocabulary and additional-vocabulary lists. `assets/genki1/README.md` records page numbers, lesson counts, build commands and visual decisions. The original 66 notes and 132 card rows are preserved; 594 notes were added. Every note has two examples with full furigana and separate gTTS clips. Five original L1 second examples were simplified to L1 grammar. Repeated family/occupation vocabulary retains its earliest existing lesson.
+
+The complete 660-note visual audit is `assets/genki1/visual-audit.json`: 596 illustrated, 64 deliberately text-only. Seventy new illustrations cover actions, adjectives, roles, expressions and concrete nouns; 52 new matching reuses include two aliases of new scenes. Only six newly generated concrete images were approved as image-only questions. All others remain answer-side reminders. Exact-sense overrides distinguish 前 = front and 取る = taking a class / getting a grade.
+
+Use `scripts/build_genki1.py` for content and audio. Its `templates` command runs the unmodified shared apply script in a verified staging tree when iCloud artwork is offline, reusing hash-checked WebPs already in the exports and checksum-verifying selected PNGs. Rebuilding does not import or sync live Anki.

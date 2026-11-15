@@ -1,0 +1,26 @@
+{
+  "notes": 660,
+  "cards": 1320,
+  "lessons": {
+    "genki-01": 66,
+    "genki-02": 48,
+    "genki-03": 56,
+    "genki-04": 62,
+    "genki-05": 52,
+    "genki-06": 47,
+    "genki-07": 52,
+    "genki-08": 55,
+    "genki-09": 55,
+    "genki-10": 55,
+    "genki-11": 60,
+    "genki-12": 52
+  },
+  "original_notes_preserved": 66,
+  "original_card_rows_unchanged": 132,
+  "two_examples_per_note": true,
+  "all_furigana_round_trips": true,
+  "all_media_resolve": true,
+  "schema_and_ids_unchanged": true,
+  "illustrated_notes": 596,
+  "size_bytes": 75511386
+}

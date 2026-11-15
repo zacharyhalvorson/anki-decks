@@ -50,7 +50,7 @@ Verb POS labels are broken out by conjugation class using JMdict:
 Two card templates per note:
 
 - **Recognition** (Japanese → English): front shows the word in Japanese; back shows the same word with its reading as furigana above the kanji (aligned per kanji run, e.g. お願[ねが]いします), the English meaning, a part-of-speech row, the two example sentences, and the kanji breakdown.
-- **Production** (image or English → Japanese): 192 reviewed concrete-vocabulary cards show an image-only prompt. Other cards keep the English gloss. Image answers shrink to the normal compact banner and show the Japanese word, reading, English meaning, both example sentences, and kanji breakdown. Word audio uses Anki’s normal automatic answer playback; tapping the word replays it. Existing card identities and schedules are preserved; no third card is added.
+- **Production** (image or English → Japanese): 235 reviewed concrete-vocabulary cards show an image-only prompt. Other cards keep the English gloss. Image answers shrink to the normal compact banner and show the Japanese word, reading, English meaning, both example sentences, and kanji breakdown. Word audio uses Anki’s normal automatic answer playback; tapping the word replays it. Existing card identities and schedules are preserved; no third card is added.
 
 Template sources live in `templates/` (`card.css`, `recognition_front.html`, `production_front.html`, `recognition_back.html`, `production_back.html`, `runtime.js`, `tap_guard.js`) and the stroke-data asset in `assets/_kanji_strokes.js` (KanjiVG paths for every kanji that appears in the decks, embedded in each `.apkg` as a `_`-prefixed media file). `python3 scripts/apply_templates.py` re-applies the templates and asset — see `CLAUDE.md` for the invariants it respects. It writes all four templates (both fronts, both backs).
 
@@ -77,7 +77,7 @@ Template sources live in `templates/` (`card.css`, `recognition_front.html`, `pr
 
 ## Card illustrations
 
-`assets/card-visuals/manifest.json` maps exact word/readings to reusable transparent artwork. Shared meanings can explicitly reuse an image; spelling or grammatical reading variants are listed separately so coverage is reviewable. `coverage.json` inventories the vocabulary and marks completed entries. The reviewed catalog covers 1,763 word/readings with 1,754 distinct illustrations. Only nine entries reuse artwork for matching meanings; 37 grammatical items are deliberately text-only to avoid misleading cues.
+`assets/card-visuals/manifest.json` maps exact word/readings to reusable transparent artwork. Shared meanings can explicitly reuse an image; spelling or grammatical reading variants are listed separately so coverage is reviewable. `coverage.json` inventories the vocabulary and marks completed entries. The reviewed catalog covers 1,883 word/readings with 1,822 distinct general illustrations, plus 11 exact-sense overrides. Matching spellings and grammatical variants explicitly reuse artwork. GENKI I has 596 illustrated notes and 64 deliberately text-only notes; its [complete review list](../assets/genki1/text-only-notes.md) explains those choices.
 
 Run `python3 scripts/apply_templates.py` to apply the catalog and shared templates to all five deck exports. It keeps note identities, scheduling, audio, fields, and original media intact, and verifies the output before replacing each package. Importing the packages into Anki is a separate step.
 
@@ -87,7 +87,7 @@ The feedback preview remains under `experiments/card-visuals/`; canonical artwor
 
 ## Image-first production selection
 
-`assets/card-visuals/image-production.json` is the reviewed allowlist: 128 exact word/reading/meaning entries, producing 192 cards across the decks. GENKI I has 1, GENKI II 37, JLPT N4 89, JLPT N5 63, and Quartet I 2. The smaller counts in GENKI I and Quartet reflect their vocabulary and current artwork; abstract concepts, social roles, and pictures with unclear targets retain English prompts.
+`assets/card-visuals/image-production.json` is the reviewed allowlist: 134 exact word/reading/meaning entries, producing 235 cards across the decks. GENKI I has 44, GENKI II 37, JLPT N4 89, JLPT N5 63, and Quartet I 2. Eligibility depends on the exact sense and reviewed artwork; abstract concepts, social roles, and pictures with unclear targets retain English prompts.
 
 Eligibility also requires the reviewed artwork hash to match. Changing selected artwork requires reviewing it again. `templates/image_production.js` handles the prompt and compact reveal; existing Recognition and nonselected Production behavior remains. `python3 scripts/test_image_production.py` verifies packaged eligibility, media, audio placement, and the unchanged two-card schema. The apply script additionally checks existing card rows and scheduling, note identity, full answer content, media integrity, and package CRCs.
 

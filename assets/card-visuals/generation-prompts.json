@@ -17490,5 +17490,1330 @@
     "prompt": "Use case: illustration-story. One Japanese vocabulary mnemonic for 〜枚 (〜まい), meaning counter for flat objects. For counters, show a small countable group of the correct object category; for expressions, show a clear everyday situation demonstrating the meaning. Not a generic filler image. Warm hand-painted storybook gouache and pencil texture. Transparent alpha background without any halo, paper or floor rectangle, mist or glow. Wide 3:1 canvas, whole subjects centered with 15% clear transparent padding above and below. No lettering, captions, logos or watermark. Readable small on both white and dark gray cards.",
     "tool": "built-in image_gen",
     "source": "assets/card-visuals/images/vocab-b06ef1599a2d-redraw-clean.png"
+  },
+  {
+    "word": "とんかつ",
+    "reading": "とんかつ",
+    "image": "genki1-2277066050305.png",
+    "alt": "A sliced golden panko-breaded pork cutlet on a tiny plain oval plate, pale pork cross-section visible, a very small cabbage garnish. The cutlet dominates; no other dishes.",
+    "reason": "Reviewed as an answer-side mnemonic for pork cutlet. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "pork cutlet",
+    "prompt": "Create ONE Japanese vocabulary illustration for とんかつ. Scene: A Japanese tonkatsu: one golden panko-breaded pork cutlet sliced into thick strips with a pale pork cross-section visible, neatly resting on a very small plain oval ceramic plate. Tiny restrained shred of cabbage at the rear only, no rice, bowls, sauce bottle, cutlery, table or person. The cutlet dominates the entire vignette. This is an answer-side memory illustration; show the exact stated sense. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-b57df619-d504-41ec-b388-de475090f225.png",
+    "source_sha256": "97526f149cc760a6f91f3a983779e1dfc4af8dca41bc359e50392151f0b4bfcc",
+    "output": "assets/card-visuals/images/genki1-2277066050305.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "メニュー",
+    "reading": "メニュー",
+    "image": "genki1-2537165396890.png",
+    "alt": "An open restaurant menu booklet standing slightly open, three small unlabelled food illustrations on its pages, no letters or numbers, no table or people. Clearly a restaurant menu rather than a novel.",
+    "reason": "Reviewed as an answer-side mnemonic for menu. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "menu",
+    "prompt": "Japanese vocabulary: メニュー (メニュー), exact meaning: menu. Create one answer-side memory illustration. Scene: An open restaurant menu booklet standing slightly open, three small unlabelled food illustrations on its pages, no letters or numbers, no table or people. Clearly a restaurant menu rather than a novel. Keep every painted subject inside the central 60% of the height, with fully empty transparent surroundings, no checkerboard pattern. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-abcb6d7c-9eb8-4e97-96d1-91e223bd0ca5.png",
+    "source_sha256": "d0d8e74744e3798c0a6bdf264617662d208a085fb0ece205251d3db2c1ec9c7b",
+    "output": "assets/card-visuals/images/genki1-2537165396890.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "スマホ",
+    "reading": "スマホ",
+    "image": "genki1-2854335329129.png",
+    "alt": "One modern smartphone alone, thin dark bezel, blank muted blue touchscreen, tiny camera lens, no app icons, letters or numbers. Whole device visible, no other props.",
+    "reason": "Unmistakable concrete target reviewed as the only question cue; no answer text, competing target, or background.",
+    "meaning": "smartphone; mobile",
+    "prompt": "Create ONE Japanese vocabulary illustration for スマホ. Scene: One modern smartphone alone, upright at a slight three-quarter angle, thin dark bezel, large softly muted blue blank glass touchscreen, small camera lens, no app icons or writing. Whole device visible. It must unmistakably be a modern smartphone rather than a remote, calculator, or old flip phone. This will be the ONLY question cue: make the named target unmistakable, with no competing objects. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-62f1cea2-f3ea-4e8e-b29f-3d5cf8904a85.png",
+    "source_sha256": "c0802c75193bc5b00562a555c641b2d7639305091e07d69a05bf68025745a371",
+    "output": "assets/card-visuals/images/genki1-2854335329129.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": true
+  },
+  {
+    "word": "ハンバーガー",
+    "reading": "ハンバーガー",
+    "image": "genki1-2007300879301.png",
+    "alt": "One classic hamburger alone with golden sesame bun, beef patty, lettuce and tomato slice. No plate, fries, drink, wrapping, floor or background pattern of any kind.",
+    "reason": "Unmistakable concrete target reviewed as the only question cue; no answer text, competing target, or background.",
+    "meaning": "hamburger",
+    "prompt": "Edit this hamburger illustration: preserve only the exact painted hamburger, including its bun, lettuce, tomato and beef patty. Remove EVERY checkerboard square, background pattern, colored halo, white haze and drop shadow. Genuine fully transparent alpha must surround the burger on every side. No painted checkerboard, no white rectangle, no background at all. Keep the burger intact and centered, occupying at most 60% of a wide 3:1 canvas's height, leaving generous fully transparent margins above and below. Do not add any objects, writing or decoration.",
+    "references": [
+      "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-a0ecff1f-7717-42f9-8cf6-c68bf6a04ed7.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-a59b020f-5e7a-4b24-912f-239478788e98.png",
+    "source_sha256": "034c4d122be0aa26a3f7910d898e94d7943ece4a022ff583b3e7cdfb88e581c2",
+    "output": "assets/card-visuals/images/genki1-2007300879301.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": true
+  },
+  {
+    "word": "デート",
+    "reading": "デート",
+    "image": "genki1-2243312396516.png",
+    "alt": "Two expressive adult partners on a romantic cafe date, shy warm smiles and affectionate eye contact, one small shared cafe table and two cups, one tiny flower. Clearly romantic atmosphere, no full cafe background.",
+    "reason": "Reviewed as an answer-side mnemonic for romantic date. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "romantic date",
+    "prompt": "Japanese vocabulary: デート (デート), exact meaning: romantic date. Create one answer-side memory illustration. Scene: Two expressive adult partners on a romantic cafe date, shy warm smiles and affectionate eye contact, one small shared cafe table and two cups, one tiny flower. Clearly romantic atmosphere, no full cafe background. Keep every painted subject inside the central 60% of the height, with fully empty transparent surroundings, no checkerboard pattern. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-0d6a520d-0435-4763-b054-ed7c3325c148.png",
+    "source_sha256": "38cbf92bef43fde36ac674a6f973374a6bf3b7dcbb84c3b0f2aa7b91d30ef417",
+    "output": "assets/card-visuals/images/genki1-2243312396516.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "本屋",
+    "reading": "ほんや",
+    "image": "genki1-2026506800125.png",
+    "alt": "A compact isolated bookstore shopfront with books displayed prominently in the window and shelves visible through the open door. No shop sign, lettering or labels. Books are unmistakable.",
+    "reason": "Reviewed as an answer-side mnemonic for bookstore. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "bookstore",
+    "prompt": "Japanese vocabulary: 本屋 (ほんや), exact meaning: bookstore. Create ONE answer-side memory illustration, not an image-only question. Scene: A compact isolated bookstore shopfront with books displayed prominently in the window and shelves visible through the open door. No shop sign, lettering or labels. Books are unmistakable. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-57d06019-7073-4c87-b892-59dde255dc86.png",
+    "source_sha256": "98d2c4195d2d34d6f056fa04f65d2943cf04cf618395167fa8774a25544293dc",
+    "output": "assets/card-visuals/images/genki1-2026506800125.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "バス停",
+    "reading": "バスてい",
+    "image": "genki1-2521894921615.png",
+    "alt": "A waiting adult beside a plain round bus-stop pole and one small bench, a city bus approaching behind. No writing or pictograms on the sign, no broad street background.",
+    "reason": "Reviewed as an answer-side mnemonic for bus stop. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "bus stop",
+    "prompt": "Japanese vocabulary: バス停 (バスてい), exact meaning: bus stop. Create ONE answer-side memory illustration, not an image-only question. Scene: A waiting adult beside a plain round bus-stop pole and one small bench, a city bus approaching behind. No writing or pictograms on the sign, no broad street background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-dda6dc21-a52b-45a6-858f-d44a56799182.png",
+    "source_sha256": "6f703db29067b75795bf985f45bdaeac4061589c3939ecf35fe12b16802b8af7",
+    "output": "assets/card-visuals/images/genki1-2521894921615.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "前",
+    "reading": "まえ",
+    "image": "genki1-sense-2728770806260.png",
+    "alt": "A small orange cat sitting directly in front of a simple wooden chair, the cat clearly between the viewer and chair legs. Straight-on view, no arrows, labels or other objects. Spatial in-front-of sense, not temporal before.",
+    "reason": "Reviewed as an answer-side mnemonic for front. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "front",
+    "prompt": "Japanese vocabulary: 前 (まえ), exact meaning: front. Create ONE answer-side memory illustration, not an image-only question. Scene: A small orange cat sitting directly in front of a simple wooden chair, the cat clearly between the viewer and chair legs. Straight-on view, no arrows, labels or other objects. Spatial in-front-of sense, not temporal before. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-77ec970d-1f25-4c01-a9be-43808c5168b0.png",
+    "source_sha256": "ea00cac08c8691ef491fedde4c55118a7244aa709c21fe282651ebefb2a1daaf",
+    "output": "assets/card-visuals/images/genki1-sense-2728770806260.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "ゲーム",
+    "reading": "ゲーム",
+    "image": "genki1-2879434708273.png",
+    "alt": "An adult playing a video game with a clearly visible handheld controller and a small television showing simple colorful geometric game shapes without letters. No console branding, full room, words or broad background.",
+    "reason": "Reviewed as an answer-side mnemonic for game. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "game",
+    "prompt": "Japanese vocabulary: ゲーム (ゲーム), exact meaning: game. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult playing a video game with a clearly visible handheld controller and a small television showing simple colorful geometric game shapes without letters. No console branding, full room, words or broad background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-2e23c977-e9dd-4fbd-b24a-a1b9ba29443b.png",
+    "source_sha256": "8a3de7fcf1cc8e9350bcb3f2e9c74c87e747012ab3e3116bb73167ff2139a3fd",
+    "output": "assets/card-visuals/images/genki1-2879434708273.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "かっこいい",
+    "reading": "かっこいい",
+    "image": "genki1-2552967373354.png",
+    "alt": "One stylish good-looking adult man in a well-fitting muted olive jacket, relaxed confident posture, neat hair and friendly face. Whole subject visible; no admirers, hearts, stars or background.",
+    "reason": "Reviewed as an answer-side mnemonic for good-looking. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "good-looking",
+    "prompt": "Japanese vocabulary: かっこいい (かっこいい), exact meaning: good-looking. Create ONE answer-side memory illustration, not an image-only question. Scene: One stylish good-looking adult man in a well-fitting muted olive jacket, relaxed confident posture, neat hair and friendly face. Whole subject visible; no admirers, hearts, stars or background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-6c83defa-633f-447a-ac85-70c17175bea7.png",
+    "source_sha256": "27accecb5963acd7c53106c1310e1da8d9f8b9d87a2f949ccc5637aaa3334ac4",
+    "output": "assets/card-visuals/images/genki1-2552967373354.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "サーフィン",
+    "reading": "サーフィン",
+    "image": "genki1-1917501075221.png",
+    "alt": "One adult surfer balancing naturally on a surfboard across one compact curling blue wave, whole body and board visible, no beach or broad ocean scene.",
+    "reason": "Reviewed as an answer-side mnemonic for surfing. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "surfing",
+    "prompt": "Japanese vocabulary: サーフィン (サーフィン), exact meaning: surfing. Create ONE answer-side memory illustration, not an image-only question. Scene: One adult surfer balancing naturally on a surfboard across one compact curling blue wave, whole body and board visible, no beach or broad ocean scene. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-3ef3c7c5-8b28-4af6-b869-d9604483d676.png",
+    "source_sha256": "eed44d10458d333186e4ecc84c00d1ac91020ae11e6a11ad16f3c9033ed8d37c",
+    "output": "assets/card-visuals/images/genki1-1917501075221.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "連れてくる",
+    "reading": "つれてくる",
+    "image": "genki1-2311275576579.png",
+    "alt": "An adult host at a doorway greeting two adults who have just arrived together, one arriving friend gently introducing the companion. Clear incoming arrival at the host's home, no luggage.",
+    "reason": "Reviewed as an answer-side mnemonic for to bring a person. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to bring a person",
+    "prompt": "Japanese vocabulary: 連れてくる (つれてくる), exact meaning: to bring a person. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult host at a doorway greeting two adults who have just arrived together, one arriving friend gently introducing the companion. Clear incoming arrival at the host's home, no luggage. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-21b3ec97-55b5-4ae4-bd49-4d5e86269dcd.png",
+    "source_sha256": "dfac3c757d4839fdba7ef3678cacf71882d9a099c19285926b7fcf8768202345",
+    "output": "assets/card-visuals/images/genki1-2311275576579.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "持ってくる",
+    "reading": "もってくる",
+    "image": "genki1-2638916523798.png",
+    "alt": "An adult arriving toward an adult host in a doorway and handing over a small closed tote of supplies. Clear motion toward the recipient and arrival, whole people visible.",
+    "reason": "Reviewed as an answer-side mnemonic for to bring a thing. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to bring a thing",
+    "prompt": "Japanese vocabulary: 持ってくる (もってくる), exact meaning: to bring a thing. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult arriving toward an adult host in a doorway and handing over a small closed tote of supplies. Clear motion toward the recipient and arrival, whole people visible. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-c26cdafe-755b-4f4e-9457-7a2bdd06fc99.png",
+    "source_sha256": "71cafc424de273ac37c54c726a6776273d3dc739c39570c495b0bd27c441ceb1",
+    "output": "assets/card-visuals/images/genki1-2638916523798.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "急ぐ",
+    "reading": "いそぐ",
+    "image": "genki1-2878035944180.png",
+    "alt": "An adult hurrying with a forward-leaning brisk running posture, glancing at a wristwatch, carrying a small shoulder bag. Short motion lines, no train, no giant clock, whole body visible.",
+    "reason": "Reviewed as an answer-side mnemonic for to hurry. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to hurry",
+    "prompt": "Japanese vocabulary: 急ぐ (いそぐ), exact meaning: to hurry. Create one answer-side memory illustration. Scene: An adult hurrying with a forward-leaning brisk running posture, glancing at a wristwatch, carrying a small shoulder bag. Short motion lines, no train, no giant clock, whole body visible. Keep the whole vignette inside the middle 60% of the canvas height, separated from all edges by completely empty transparent alpha. NO haze, white wash, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-5e7a01ce-4c81-4308-b71c-ac27ba325e6a.png",
+    "source_sha256": "50da163eca426df4fc56321a340ba451063738d667a544ba98ece3e8ca9f2e74",
+    "output": "assets/card-visuals/images/genki1-2878035944180.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "頭がいい",
+    "reading": "あたまがいい",
+    "image": "genki1-2311021928239.png",
+    "alt": "A clever adult student calmly completing a small geometric puzzle with all the pieces fitting perfectly, an attentive thoughtful smile. A compact desk fragment and puzzle only, no letters or numbers.",
+    "reason": "Reviewed as an answer-side mnemonic for bright; clever. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "bright; clever",
+    "prompt": "Japanese vocabulary: 頭がいい (あたまがいい), exact meaning: bright; clever. Create ONE answer-side memory illustration, not an image-only question. Scene: A clever adult student calmly completing a small geometric puzzle with all the pieces fitting perfectly, an attentive thoughtful smile. A compact desk fragment and puzzle only, no letters or numbers. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-df0611b7-9deb-42f0-b8bd-cc807a6a06d1.png",
+    "source_sha256": "22ff0808620e55fc2a947bbdba9ee93e403444d6f9e6a027b3e5980c236f93e3",
+    "output": "assets/card-visuals/images/genki1-2311021928239.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "背が高い",
+    "reading": "せがたかい",
+    "image": "genki1-2695138836665.png",
+    "alt": "A noticeably tall adult standing naturally beside an average-height adult, feet aligned on the same baseline, the tall person's head clearly higher. Whole bodies, neutral friendly appearance, no measuring scale or labels.",
+    "reason": "Reviewed as an answer-side mnemonic for tall; stature. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "tall; stature",
+    "prompt": "Japanese vocabulary: 背が高い (せがたかい), exact meaning: tall; stature. Create ONE answer-side memory illustration, not an image-only question. Scene: A noticeably tall adult standing naturally beside an average-height adult, feet aligned on the same baseline, the tall person's head clearly higher. Whole bodies, neutral friendly appearance, no measuring scale or labels. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-bdce0ea0-f160-4b5d-a086-9461045f1f9f.png",
+    "source_sha256": "e722ba205e83bde6c7efbe6e86d2442064543979a6acaaba8477d61afd6eb697",
+    "output": "assets/card-visuals/images/genki1-2695138836665.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "背が低い",
+    "reading": "せがひくい",
+    "image": "genki1-2754737854080.png",
+    "alt": "A noticeably short adult standing naturally beside an average-height adult, feet aligned on the same baseline. Both are clearly adults, short person visually prominent, friendly neutral depiction, no scale or labels.",
+    "reason": "Reviewed as an answer-side mnemonic for short; stature. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "short; stature",
+    "prompt": "Japanese vocabulary: 背が低い (せがひくい), exact meaning: short; stature. Create ONE answer-side memory illustration, not an image-only question. Scene: A noticeably short adult standing naturally beside an average-height adult, feet aligned on the same baseline. Both are clearly adults, short person visually prominent, friendly neutral depiction, no scale or labels. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-90290699-4c85-4db7-a545-262d97a826bf.png",
+    "source_sha256": "d5ae37630197e29289770370e6aec30cb31f05fc3889a54b3382e6b35c1b95a7",
+    "output": "assets/card-visuals/images/genki1-2754737854080.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "サークル",
+    "reading": "サークル",
+    "image": "genki1-1927539433387.png",
+    "alt": "Three college-age adults sharing a cheerful tennis-club meeting with two tennis rackets and one small club table. Focus on a friendly organized group activity, not playing a match, no text or logos.",
+    "reason": "Reviewed as an answer-side mnemonic for club activity. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "club activity",
+    "prompt": "Japanese vocabulary: サークル (サークル), exact meaning: club activity. Create ONE answer-side memory illustration, not an image-only question. Scene: Three college-age adults sharing a cheerful tennis-club meeting with two tennis rackets and one small club table. Focus on a friendly organized group activity, not playing a match, no text or logos. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-272aaddf-300b-4533-82fb-782aa1906fbf.png",
+    "source_sha256": "3b0801b9e650e3e5e211d8d9a6de2702dd78324b1c5b2ce18ed85a27a3f073f4",
+    "output": "assets/card-visuals/images/genki1-1927539433387.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "乾杯",
+    "reading": "かんぱい",
+    "image": "genki1-2807243235539.png",
+    "alt": "Two anatomically natural adult hands gently clinking two simple beer mugs in a toast, a small cheerful motion accent at the touching rims. No faces, table, words or background.",
+    "reason": "Reviewed as an answer-side mnemonic for Cheers!; a toast. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "Cheers!; a toast",
+    "prompt": "Japanese vocabulary: 乾杯 (かんぱい), exact meaning: Cheers!; a toast. Create ONE answer-side memory illustration, not an image-only question. Scene: Two anatomically natural adult hands gently clinking two simple beer mugs in a toast, a small cheerful motion accent at the touching rims. No faces, table, words or background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-13ea2fd5-e7b2-418b-99a9-361a3747b439.png",
+    "source_sha256": "0bf5a9f434030ff80c721b9983c8f556afb5418a8990b9bb3b1408e0727d5c7e",
+    "output": "assets/card-visuals/images/genki1-2807243235539.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "バーベキュー",
+    "reading": "バーベキュー",
+    "image": "genki1-2132801802922.png",
+    "alt": "Two adults cooking outdoors at one compact barbecue grill with skewered vegetables and meat, cheerful shared cookout, only essential grill and food, no broad patio or garden background.",
+    "reason": "Reviewed as an answer-side mnemonic for barbecue. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "barbecue",
+    "prompt": "Japanese vocabulary: バーベキュー (バーベキュー), exact meaning: barbecue. Create ONE answer-side memory illustration, not an image-only question. Scene: Two adults cooking outdoors at one compact barbecue grill with skewered vegetables and meat, cheerful shared cookout, only essential grill and food, no broad patio or garden background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-18e59008-ca5c-4318-9d63-86757fdf8b98.png",
+    "source_sha256": "a3a5fecd8292e0561634ccf1d7932d89b0d023050a5287a85ffe8698eb8c38ff",
+    "output": "assets/card-visuals/images/genki1-2132801802922.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "スペイン",
+    "reading": "スペイン",
+    "image": "genki1-2155669792519.png",
+    "alt": "A compact Spain memory vignette with the recognizable Sagrada Familia basilica and one classical Spanish guitar, muted warm terracotta palette. No flags, letters, maps or broad ground plane.",
+    "reason": "Reviewed as an answer-side mnemonic for Spain. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "Spain",
+    "prompt": "Japanese vocabulary: スペイン (スペイン), exact meaning: Spain. Create ONE answer-side memory illustration, not an image-only question. Scene: A compact Spain memory vignette with the recognizable Sagrada Familia basilica and one classical Spanish guitar, muted warm terracotta palette. No flags, letters, maps or broad ground plane. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-469637b1-96a7-4ec9-bb4b-b152bca3e53b.png",
+    "source_sha256": "499a9f1004e876f8dc219596c84dec857a5672b2bd8e666cce214802f865ef2d",
+    "output": "assets/card-visuals/images/genki1-2155669792519.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "ホームステイ",
+    "reading": "ホームステイ",
+    "image": "genki1-2249694923453.png",
+    "alt": "A warm adult host couple welcoming an adult international student with a small suitcase at their modest home doorway. Friendly introduction, clearly a family home, no signs or text.",
+    "reason": "Reviewed as an answer-side mnemonic for homestay; living with a local family. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "homestay; living with a local family",
+    "prompt": "Japanese vocabulary: ホームステイ (ホームステイ), exact meaning: homestay; living with a local family. Create ONE answer-side memory illustration, not an image-only question. Scene: A warm adult host couple welcoming an adult international student with a small suitcase at their modest home doorway. Friendly introduction, clearly a family home, no signs or text. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-7aee0cf9-def5-457a-b11e-ca2f1746f79c.png",
+    "source_sha256": "c99a1e8ec501658b4428b41ced7f6c011945b83dba2fa9f48722340a4f0bd601",
+    "output": "assets/card-visuals/images/genki1-2249694923453.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "トマト",
+    "reading": "トマト",
+    "image": "genki1-2453595877701.png",
+    "alt": "One ripe red tomato alone with a small olive-green leafy calyx. Round tomato silhouette, no knife, board, plate, basket or other foods.",
+    "reason": "Unmistakable concrete target reviewed as the only question cue; no answer text, competing target, or background.",
+    "meaning": "tomato",
+    "prompt": "Use case: illustration-story. The supplied cat illustration is a STYLE REFERENCE ONLY. Create ONE new Japanese vocabulary illustration for トマト (トマト), meaning tomato. Scene: ONE plump ripe red tomato with its small natural olive-green leafy calyx, with a tiny three-quarter view of its rounded form. Tomato alone, no knife, cutting board, bowl, plate, basket, person, other vegetables, face, or writing. This image will be the ONLY question cue. Make TOMATO the unmistakable visual focus, clearly a tomato rather than an apple or pepper. Warm hand-painted storybook gouache with fine pencil texture, matching the supplied image's rendering and restrained olive, terracotta, ochre and muted blue palette. Wide 3:1 horizontal composition with genuine transparent alpha background. Compact isolated vignette, whole tomato fully visible and centered, at least 15% transparent padding above and below and 10% at left and right. Readable at approximately 390 by 130 pixels on white and charcoal card backgrounds. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad drop shadow, halo, mist or glow.",
+    "references": [
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-31ea0ec5-c9e1-459b-9138-8727c42aeb1a.png",
+    "source_sha256": "2da5cb8abe81b3a46f1229478d7ea4e303fcdd836496b844cae36f9afa8d3c9d",
+    "output": "assets/card-visuals/images/genki1-2453595877701.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": true
+  },
+  {
+    "word": "カラオケ",
+    "reading": "カラオケ",
+    "image": "genki1-2748214325108.png",
+    "alt": "Two adults in a tiny karaoke vignette, one singing into a handheld microphone while the other happily follows a small screen with colored music bars but no words. Small sofa fragment only, no stage audience.",
+    "reason": "Reviewed as an answer-side mnemonic for karaoke. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "karaoke",
+    "prompt": "Japanese vocabulary: カラオケ (カラオケ), exact meaning: karaoke. Create ONE answer-side memory illustration, not an image-only question. Scene: Two adults in a tiny karaoke vignette, one singing into a handheld microphone while the other happily follows a small screen with colored music bars but no words. Small sofa fragment only, no stage audience. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-09cff7d0-5985-465f-bfe2-0c511e447d8f.png",
+    "source_sha256": "9a6f2cc72c5451d88dcf3238b6eae7417b4c4c78a9859a30dafa892e7221b986",
+    "output": "assets/card-visuals/images/genki1-2748214325108.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "お風呂に入る",
+    "reading": "おふろにはいる",
+    "image": "genki1-2161576615338.png",
+    "alt": "An adult relaxing in a small deep Japanese bathtub, only head and shoulders visible above opaque water, modest and nonsexual. Small steam curls, a tiny wooden stool, no bathroom walls or broad floor.",
+    "reason": "Reviewed as an answer-side mnemonic for to take a bath. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to take a bath",
+    "prompt": "Japanese vocabulary: お風呂に入る (おふろにはいる), exact meaning: to take a bath. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult relaxing in a small deep Japanese bathtub, only head and shoulders visible above opaque water, modest and nonsexual. Small steam curls, a tiny wooden stool, no bathroom walls or broad floor. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-b782f384-75ae-4f52-8f18-8a3473cab067.png",
+    "source_sha256": "17955097bfcd27a9184510abac118a3f62094374839ecb226581459c5c6d7909",
+    "output": "assets/card-visuals/images/genki1-2161576615338.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "持っていく",
+    "reading": "もっていく",
+    "image": "genki1-2584946478398.png",
+    "alt": "An adult carrying a closed tote of supplies away from a home doorway toward the right, shown from a slight rear three-quarter angle. A host remains in the doorway behind; clearly taking the thing away, not arriving.",
+    "reason": "Reviewed as an answer-side mnemonic for to take a thing. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to take a thing",
+    "prompt": "Japanese vocabulary: 持っていく (もっていく), exact meaning: to take a thing. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult carrying a closed tote of supplies away from a home doorway toward the right, shown from a slight rear three-quarter angle. A host remains in the doorway behind; clearly taking the thing away, not arriving. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-e2e63d16-1fcf-4123-a41f-afd4101135d3.png",
+    "source_sha256": "3f99822b87ae5db6baeee77ae8339b63b8839583caf7c3def065cfcc5d625dea",
+    "output": "assets/card-visuals/images/genki1-2584946478398.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "意地悪",
+    "reading": "いじわる(な)",
+    "image": "genki1-2385905259206.png",
+    "alt": "An adult spitefully pulling a shared umbrella away from another adult who is left surprised by a few raindrops. Mild mean behavior, no violence, two whole natural figures, compact vignette.",
+    "reason": "Reviewed as an answer-side mnemonic for mean-spirited. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "mean-spirited",
+    "prompt": "Japanese vocabulary: 意地悪 (いじわる(な)), exact meaning: mean-spirited. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult spitefully pulling a shared umbrella away from another adult who is left surprised by a few raindrops. Mild mean behavior, no violence, two whole natural figures, compact vignette. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-03406113-f61f-47b2-ac77-1b9b4488ed20.png",
+    "source_sha256": "093d0320859022cb950a7d19fcee6691d04bd63ad9785f78d7d16ca0ea6dae2e",
+    "output": "assets/card-visuals/images/genki1-2385905259206.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "ピザ",
+    "reading": "ピザ",
+    "image": "genki1-1888436785549.png",
+    "alt": "One round baked cheese-and-tomato pizza with one triangular slice slightly pulled forward. Pizza alone, golden crust and red sauce visible, no boxes, people, cutlery or other foods.",
+    "reason": "Unmistakable concrete target reviewed as the only question cue; no answer text, competing target, or background.",
+    "meaning": "pizza",
+    "prompt": "Use case: illustration-story. The two supplied images are STYLE REFERENCES ONLY. Create ONE entirely new Japanese vocabulary illustration for ピザ (ピザ), meaning pizza. Scene: one whole round baked cheese-and-tomato pizza, seen from a low three-quarter angle with its round shape clearly visible, one triangular slice pulled just slightly forward but still beside the pizza. No people, plates, cutlery, boxes, other foods or drinks. This image will be the ONLY question cue. Make PIZZA the unmistakable visual focus. Warm hand-painted storybook gouache with fine pencil texture; restrained olive, terracotta, ochre and muted blue palette matching the supplied images' brush texture and rendering without copying their subjects. Wide 3:1 horizontal canvas, genuine transparent alpha background. Compact isolated vignette with the whole pizza fully visible and centered; at least 15% transparent padding above and below and 10% at left and right. Readable at 390 by 130 pixels on both white and charcoal card backgrounds. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad drop shadow, halo, mist or glow. Natural food proportions; enough red tomato sauce, melted cheese and golden crust to identify pizza instantly, not a pie or a wheel.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-0550ce9c-7c09-4ed9-8426-d94139b6cfb8.png",
+    "source_sha256": "17bec4741f40ee1bc333c36e71cf8e39e1944b60640ec085a3b5e1cc1c90cb33",
+    "output": "assets/card-visuals/images/genki1-1888436785549.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": true
+  },
+  {
+    "word": "スキー",
+    "reading": "スキー",
+    "image": "genki1-2076404828822.png",
+    "alt": "One adult skiing in a natural balanced pose on two clearly visible skis, poles in both hands, compact little streak of snow under the skis. Whole subject and equipment visible, no mountain background.",
+    "reason": "Reviewed as an answer-side mnemonic for ski. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "ski",
+    "prompt": "Japanese vocabulary: スキー (スキー), exact meaning: ski. Create ONE answer-side memory illustration, not an image-only question. Scene: One adult skiing in a natural balanced pose on two clearly visible skis, poles in both hands, compact little streak of snow under the skis. Whole subject and equipment visible, no mountain background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-c4076e09-0910-4f47-b9e0-6b112bba0079.png",
+    "source_sha256": "7a33e80a92f3488fcc790dd49941d303c3ca6e4e2f893f5684f58e2c2cfa7d97",
+    "output": "assets/card-visuals/images/genki1-2076404828822.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "チケット",
+    "reading": "チケット",
+    "image": "genki1-2155675970925.png",
+    "alt": "Two simple blank admission tickets with unmistakable perforated detachable stubs and softly colored borders, slightly overlapping. No letters, numbers, prices, logos or extra objects.",
+    "reason": "Reviewed as an answer-side mnemonic for ticket. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "ticket",
+    "prompt": "Japanese vocabulary: チケット (チケット), exact meaning: ticket. Create ONE answer-side memory illustration, not an image-only question. Scene: Two simple blank admission tickets with unmistakable perforated detachable stubs and softly colored borders, slightly overlapping. No letters, numbers, prices, logos or extra objects. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-03b979ae-8bb9-4daf-9c46-c5ab46abcb3c.png",
+    "source_sha256": "55dd20b5f08254347a28af6e8eeacb3c40e4dc7bdfed64994bc384777ff62180",
+    "output": "assets/card-visuals/images/genki1-2155675970925.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "歌舞伎",
+    "reading": "かぶき",
+    "image": "genki1-2717535299171.png",
+    "alt": "One adult Kabuki performer in traditional kumadori makeup and a restrained patterned kimono, striking a recognizable mie pose. Whole body visible, no writing, fan inscriptions, audience or broad stage.",
+    "reason": "Reviewed as an answer-side mnemonic for Kabuki; traditional Japanese theatrical art. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "Kabuki; traditional Japanese theatrical art",
+    "prompt": "Japanese vocabulary: 歌舞伎 (かぶき), exact meaning: Kabuki; traditional Japanese theatrical art. Create ONE answer-side memory illustration, not an image-only question. Scene: One adult Kabuki performer in traditional kumadori makeup and a restrained patterned kimono, striking a recognizable mie pose. Whole body visible, no writing, fan inscriptions, audience or broad stage. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-3b77975c-75ba-4dd1-9ab3-4047c68336fd.png",
+    "source_sha256": "1d2da62351bfff26f7ad5cf8367546337eb6705ca91736c9e43f1db55a559e4c",
+    "output": "assets/card-visuals/images/genki1-2717535299171.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "メール",
+    "reading": "メール",
+    "image": "genki1-2881682269698.png",
+    "alt": "A small open laptop with a simple envelope icon centered on its screen and one adult hand near the keyboard. No words, interface labels or letters. Clear electronic mail context, not a paper letter.",
+    "reason": "Reviewed as an answer-side mnemonic for e-mail. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "e-mail",
+    "prompt": "Japanese vocabulary: メール (メール), exact meaning: e-mail. Create ONE answer-side memory illustration, not an image-only question. Scene: A small open laptop with a simple envelope icon centered on its screen and one adult hand near the keyboard. No words, interface labels or letters. Clear electronic mail context, not a paper letter. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-d431ddeb-226e-43d5-8964-bf41e4883600.png",
+    "source_sha256": "ae30888cc0d960a82901057726c6ac6d192a1d6d126d1b48c5f703e18a201908",
+    "output": "assets/card-visuals/images/genki1-2881682269698.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "薬を飲む",
+    "reading": "くすりをのむ",
+    "image": "genki1-2019509932339.png",
+    "alt": "An adult taking a small tablet with a glass of water, a tiny plain unlabeled medicine bottle nearby. Swallowing medicine is the clear action, no other drinks or table spread.",
+    "reason": "Reviewed as an answer-side mnemonic for to take medicine. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to take medicine",
+    "prompt": "Japanese vocabulary: 薬を飲む (くすりをのむ), exact meaning: to take medicine. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult taking a small tablet with a glass of water, a tiny plain unlabeled medicine bottle nearby. Swallowing medicine is the clear action, no other drinks or table spread. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-3bc158f6-f813-4214-a3f1-ba9b2e0188b5.png",
+    "source_sha256": "1b2affd57f502dc02352b17a94031038e767072f1eaec71d9cd5124754320cd2",
+    "output": "assets/card-visuals/images/genki1-2019509932339.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "人気がある",
+    "reading": "にんきがある",
+    "image": "genki1-2190069363776.png",
+    "alt": "A small group of smiling adults eagerly queuing to greet a warmly received adult performer, friendly enthusiastic interest. No hearts, celebrity likenesses, text or large background.",
+    "reason": "Reviewed as an answer-side mnemonic for to be popular. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to be popular",
+    "prompt": "Japanese vocabulary: 人気がある (にんきがある), exact meaning: to be popular. Create ONE answer-side memory illustration, not an image-only question. Scene: A small group of smiling adults eagerly queuing to greet a warmly received adult performer, friendly enthusiastic interest. No hearts, celebrity likenesses, text or large background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-8d5b7aa3-894e-469f-ba82-6d634d74f01a.png",
+    "source_sha256": "ebe00f1228ecb22cccc7b281f64528747856d0d25ec76c683059ee3fb2c7f2eb",
+    "output": "assets/card-visuals/images/genki1-2190069363776.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "ごろごろする",
+    "reading": "ごろごろする",
+    "image": "genki1-2524453196557.png",
+    "alt": "A relaxed adult lazily lounging on a compact sofa with feet up and a small cushion, no studying, chores or other action. Whole body visible, no broad living-room background.",
+    "reason": "Reviewed as an answer-side mnemonic for to stay home and do nothing. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to stay home and do nothing",
+    "prompt": "Japanese vocabulary: ごろごろする (ごろごろする), exact meaning: to stay home and do nothing. Create ONE answer-side memory illustration, not an image-only question. Scene: A relaxed adult lazily lounging on a compact sofa with feet up and a small cushion, no studying, chores or other action. Whole body visible, no broad living-room background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-b586c2f9-e9ec-4aba-8f77-5a2d3c45cc30.png",
+    "source_sha256": "83d474b83853e1dbaafec38efdb2e16027e1dd45498a389a600eccf270da8ef0",
+    "output": "assets/card-visuals/images/genki1-2524453196557.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "お金持ち",
+    "reading": "おかねもち",
+    "image": "genki1-2116609722720.png",
+    "alt": "A well-dressed affluent adult holding a small purse beside a neat little stack of generic blank coins and a modest luxury car silhouette. No currency symbols, numbers or branding, no broad background.",
+    "reason": "Reviewed as an answer-side mnemonic for rich person. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "rich person",
+    "prompt": "Japanese vocabulary: お金持ち (おかねもち), exact meaning: rich person. Create ONE answer-side memory illustration, not an image-only question. Scene: A well-dressed affluent adult holding a small purse beside a neat little stack of generic blank coins and a modest luxury car silhouette. No currency symbols, numbers or branding, no broad background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-c26bb45c-d1b7-48a0-b6de-9492bca8d709.png",
+    "source_sha256": "4833870baa8a8bc881d460874c492073db506e7ce26997c4f5482c73ab88ec6e",
+    "output": "assets/card-visuals/images/genki1-2116609722720.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "すし",
+    "reading": "すし",
+    "image": "genki1-2134685529091.png",
+    "alt": "A small plain platter of three clearly recognizable nigiri sushi pieces, salmon, tuna and shrimp over white rice, plus one nori-wrapped maki roll. No other foods, sauces or chopsticks.",
+    "reason": "Unmistakable concrete target reviewed as the only question cue; no answer text, competing target, or background.",
+    "meaning": "sushi",
+    "prompt": "Create ONE Japanese vocabulary illustration for すし. Scene: A tiny unlabelled plain ceramic platter containing three distinct Japanese nigiri sushi pieces: salmon, tuna and shrimp, each clearly resting on a little oval mound of white rice, plus one small nori-wrapped maki roll. Sushi is the sole subject. No sauces, chopsticks, drinks, people or competing dishes. This will be the ONLY question cue; make the target unmistakable with no competing objects. Leave a generous empty transparent border: keep the painted subjects inside the central 60% of the canvas height. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-04d009b1-045a-4cbe-858f-950dd3e9cbc8.png",
+    "source_sha256": "3066f5419f625aac496169077cfd175990afbdadb9557ef157d556f5fecce5df",
+    "output": "assets/card-visuals/images/genki1-2134685529091.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": true
+  },
+  {
+    "word": "天ぷら",
+    "reading": "てんぷら",
+    "image": "genki1-2287430409089.png",
+    "alt": "Two golden battered shrimp with visible red tails and one small battered shiso leaf on a tiny plain ceramic plate. Tempura batter, not panko crumbs. No white fabric, halo, tablecloth, paper or broad shadow.",
+    "reason": "Reviewed as an answer-side mnemonic for tempura. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "tempura",
+    "prompt": "Edit this tempura illustration. Preserve the exact shrimp tempura, green tempura leaf, ceramic plate, warm gouache colors and pencil texture. REMOVE ALL white fabric, white backdrop, white fog, white halo and broad shadow behind or around the plate. The only visible opaque pixels should belong to the tempura and the plate itself. Surround them on every side with genuine fully transparent alpha, including above the shrimp tails and below the plate. Keep the complete plate and complete shrimp tails, no cropping. Keep a wide 3:1 canvas with at least 15% empty transparent padding above and below the food. Absolutely no tablecloth, tissue, paper, surface, background or glow. This is a transparent cutout vocabulary asset.",
+    "references": [
+      "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-618a7ab2-3b71-4e6d-9a15-4e9eb7d69e75.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-83264020-0e80-4811-8c23-e33212c1115c.png",
+    "source_sha256": "59a0d9d268963abd5d22ec514610c04560b9c08b983768b6acc13b5b62541dd4",
+    "output": "assets/card-visuals/images/genki1-2287430409089.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "新幹線",
+    "reading": "しんかんせん",
+    "image": "genki1-2623242949303.png",
+    "alt": "One complete compact three-car Japanese bullet train with a long smooth aerodynamic nose, white body and muted blue stripe, continuous dark windshield. Whole nose, tail and wheels visible. No logos, text, station or large track scene.",
+    "reason": "Unmistakable concrete target reviewed as the only question cue; no answer text, competing target, or background.",
+    "meaning": "Shinkansen; bullet train",
+    "prompt": "Create ONE Japanese vocabulary illustration for 新幹線. Scene: One complete compact three-car Japanese high-speed bullet train in white with a restrained muted blue stripe, very long smooth aerodynamic nose, continuous dark windshield, shown at a low three-quarter angle. Entire train including nose, tail and wheels visible. No people, station, logos, lettering or large track scene. Clearly a Shinkansen rather than an ordinary commuter train. This will be the ONLY question cue; make the target unmistakable with no competing objects. Leave a generous empty transparent border: keep the painted subjects inside the central 60% of the canvas height. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-26e93293-f364-4bcd-8af2-bc2be63f6f7b.png",
+    "source_sha256": "28b99afcb136b8b0ee3346404bd806ba1d485a50c13c1b12e51b351283af5d65",
+    "output": "assets/card-visuals/images/genki1-2623242949303.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": true
+  },
+  {
+    "word": "美容院",
+    "reading": "びよういん",
+    "image": "genki1-2796736271974.png",
+    "alt": "An adult hairstylist carefully cutting another adult client's hair in a salon chair, compact mirror and scissors as the only props. Natural hands, whole people visible, no full salon interior.",
+    "reason": "Reviewed as an answer-side mnemonic for beauty parlor; hair salon. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "beauty parlor; hair salon",
+    "prompt": "Japanese vocabulary: 美容院 (びよういん), exact meaning: beauty parlor; hair salon. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult hairstylist carefully cutting another adult client's hair in a salon chair, compact mirror and scissors as the only props. Natural hands, whole people visible, no full salon interior. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-c58f7855-b91f-4dd8-b98b-9ab4a3f534f0.png",
+    "source_sha256": "9ec5a96430dcb87b2ca83c94eb1349bab8b763ad59ee1130066ce9b5c7b0b7b0",
+    "output": "assets/card-visuals/images/genki1-2796736271974.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "ツアー",
+    "reading": "ツアー",
+    "image": "genki1-2840939243907.png",
+    "alt": "One adult tour guide holding a small plain olive pennant leading three adult travelers with small day bags, a tiny temple gate hint behind. No letters, maps, labels or broad scenery.",
+    "reason": "Reviewed as an answer-side mnemonic for tour. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "tour",
+    "prompt": "Japanese vocabulary: ツアー (ツアー), exact meaning: tour. Create ONE answer-side memory illustration, not an image-only question. Scene: One adult tour guide holding a small plain olive pennant leading three adult travelers with small day bags, a tiny temple gate hint behind. No letters, maps, labels or broad scenery. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-c16b4518-6d0c-423c-b844-58117d2e4226.png",
+    "source_sha256": "44c165b058a31fb6f686c5b832704621deb1bb182e2724a8b282610a250eb818",
+    "output": "assets/card-visuals/images/genki1-2840939243907.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "泊まる",
+    "reading": "とまる",
+    "image": "genki1-2404467738961.png",
+    "alt": "An adult traveler unpacking a small overnight bag beside a simple hotel bed, a compact bedside lamp and room-key card. Clear settling in for a hotel stay, no full room background.",
+    "reason": "Reviewed as an answer-side mnemonic for to stay at a hotel, etc.. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to stay at a hotel, etc.",
+    "prompt": "Japanese vocabulary: 泊まる (とまる), exact meaning: to stay at a hotel, etc.. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult traveler unpacking a small overnight bag beside a simple hotel bed, a compact bedside lamp and room-key card. Clear settling in for a hotel stay, no full room background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-c26ec7e8-b840-4410-9c64-002b16e2595f.png",
+    "source_sha256": "5d092824b0db955bf2ed6e086de9d7bf59423cd45666acf9de632287b69b5109",
+    "output": "assets/card-visuals/images/genki1-2404467738961.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "久しぶり",
+    "reading": "ひさしぶり",
+    "image": "genki1-1898794379672.png",
+    "alt": "Two adult old friends warmly recognizing each other after a long absence, delighted open expressions and a friendly two-handed greeting. No clocks, calendars, speech bubbles, lettering or background.",
+    "reason": "Reviewed as an answer-side mnemonic for It has been a long time.. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "It has been a long time.",
+    "prompt": "Edit this existing Japanese vocabulary illustration. Preserve the exact characters, poses, essential objects, warm gouache and pencil style, palette, and wide composition. Remove ALL of the broad gray-white cloudy halo, mist, glow, paper-colored backdrop and floor shadow around and between the subjects. These empty areas must be truly transparent alpha zero, including above their heads and gaps between limbs and objects. Keep the people, cat and essential props opaque with clean natural painted edges. Do not redraw the story or add anything. Fully isolated transparent-background cutout of the existing vignette for 久しぶり.",
+    "references": [
+      "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-cb53f672-b766-4bb9-9de5-b6a55cacd934.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-2d4308af-9711-489c-90f0-b3820ce823dc.png",
+    "source_sha256": "304ae37adbc786fd90ff85c6145d53a36955cbea0f5c8d2a496efa77dfa5fc24",
+    "output": "assets/card-visuals/images/genki1-1898794379672.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "留学する",
+    "reading": "りゅうがくする",
+    "image": "genki1-2279048046646.png",
+    "alt": "An adult international student carrying textbooks and a small rolling suitcase arriving at a university entrance, clearly study-related travel. Compact campus doorway only, no flags, words, logos or broad ground.",
+    "reason": "Reviewed as an answer-side mnemonic for to study abroad. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to study abroad",
+    "prompt": "Japanese vocabulary: 留学する (りゅうがくする), exact meaning: to study abroad. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult international student carrying textbooks and a small rolling suitcase arriving at a university entrance, clearly study-related travel. Compact campus doorway only, no flags, words, logos or broad ground. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-ea27c76d-3da5-438d-a613-62e79520e86e.png",
+    "source_sha256": "a9ff9d8640d705fab52f89b1f06e3aa4e649c060bfc974f21fea3d96b54f040b",
+    "output": "assets/card-visuals/images/genki1-2279048046646.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "ダイエットする",
+    "reading": "ダイエットする",
+    "image": "genki1-2497274112227.png",
+    "alt": "An adult thoughtfully choosing a modest balanced plate of vegetables and protein while setting aside a large dessert, calm positive expression. No scales, numbers, body-shaming or labels.",
+    "reason": "Reviewed as an answer-side mnemonic for to go on a diet. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to go on a diet",
+    "prompt": "Japanese vocabulary: ダイエットする (ダイエットする), exact meaning: to go on a diet. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult thoughtfully choosing a modest balanced plate of vegetables and protein while setting aside a large dessert, calm positive expression. No scales, numbers, body-shaming or labels. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-f5623530-da99-4e3c-b898-27a6c4d22a78.png",
+    "source_sha256": "702e35a5094aaaf55b67ab3e7a5e7ca985b03503978fc09797f5bb14c46db0ad",
+    "output": "assets/card-visuals/images/genki1-2497274112227.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "釣り",
+    "reading": "つり",
+    "image": "genki1-1910220711499.png",
+    "alt": "One adult sitting on a small folding stool fishing with a long rod over a tiny isolated patch of river water, a small fish just visible near the line. Whole body and rod visible, no landscape.",
+    "reason": "Reviewed as an answer-side mnemonic for fishing. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "fishing",
+    "prompt": "Japanese vocabulary: 釣り (つり), exact meaning: fishing. Create ONE answer-side memory illustration, not an image-only question. Scene: One adult sitting on a small folding stool fishing with a long rod over a tiny isolated patch of river water, a small fish just visible near the line. Whole body and rod visible, no landscape. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-ce4ee419-c16d-406f-bd08-aafec4e6e7eb.png",
+    "source_sha256": "681220501a8652d3735569264d7be914da388346aacbbc2b816ffa29945cddf4",
+    "output": "assets/card-visuals/images/genki1-1910220711499.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "消防士",
+    "reading": "しょうぼうし",
+    "image": "genki1-2133519937557.png",
+    "alt": "An adult firefighter in simple protective helmet and turnout gear holding a coiled fire hose, friendly composed face. No fire scene, lettering, badge text or branding. Whole person visible.",
+    "reason": "Reviewed as an answer-side mnemonic for firefighter. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "firefighter",
+    "prompt": "Japanese vocabulary: 消防士 (しょうぼうし), exact meaning: firefighter. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult firefighter in simple protective helmet and turnout gear holding a coiled fire hose, friendly composed face. No fire scene, lettering, badge text or branding. Whole person visible. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-c54db0af-bda0-49f4-8640-5772118f367c.png",
+    "source_sha256": "005090a08f0df5d0aead971137eec165da4eca3bd33c10601e597ee99970972e",
+    "output": "assets/card-visuals/images/genki1-2133519937557.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "宇宙飛行士",
+    "reading": "うちゅうひこうし",
+    "image": "genki1-2168799594989.png",
+    "alt": "One adult astronaut in a recognizable white spacesuit with a rounded helmet held under one arm, compact life-support pack. Whole figure visible, no national flags, mission patches, text, rocket or space background.",
+    "reason": "Reviewed as an answer-side mnemonic for astronaut. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "astronaut",
+    "prompt": "Japanese vocabulary: 宇宙飛行士 (うちゅうひこうし), exact meaning: astronaut. Create ONE answer-side memory illustration, not an image-only question. Scene: One adult astronaut in a recognizable white spacesuit with a rounded helmet held under one arm, compact life-support pack. Whole figure visible, no national flags, mission patches, text, rocket or space background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-499f45f2-dc58-4808-8dad-258a8476344c.png",
+    "source_sha256": "a7c76c455490e4ec250e0988779f3157d595b68232d17fbab2508d1e43cd4d5d",
+    "output": "assets/card-visuals/images/genki1-2168799594989.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "ジャーナリスト",
+    "reading": "ジャーナリスト",
+    "image": "genki1-2302131938111.png",
+    "alt": "An adult journalist interviewing another adult with a handheld microphone and a small blank notepad. Clear attentive reporting interaction, no logos, visible writing or press labels.",
+    "reason": "Reviewed as an answer-side mnemonic for journalist. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "journalist",
+    "prompt": "Japanese vocabulary: ジャーナリスト (ジャーナリスト), exact meaning: journalist. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult journalist interviewing another adult with a handheld microphone and a small blank notepad. Clear attentive reporting interaction, no logos, visible writing or press labels. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-63bf1900-368d-4422-94f3-c67fb5cc9ff5.png",
+    "source_sha256": "5feef4d60ac82cfb8d2cadd4623e622beb24cb9f2e26ecde0919f597543682c5",
+    "output": "assets/card-visuals/images/genki1-2302131938111.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "俳優",
+    "reading": "はいゆう",
+    "image": "genki1-2482254166788.png",
+    "alt": "An adult actor rehearsing an expressive dramatic pose beside a small unlabelled film clapperboard and a tiny folded script without writing. Whole figure visible, no audience or broad stage.",
+    "reason": "Reviewed as an answer-side mnemonic for actor; actress. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "actor; actress",
+    "prompt": "Japanese vocabulary: 俳優 (はいゆう), exact meaning: actor; actress. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult actor rehearsing an expressive dramatic pose beside a small unlabelled film clapperboard and a tiny folded script without writing. Whole figure visible, no audience or broad stage. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-5b4ee170-db7f-4290-afcb-4f5f4f5d7873.png",
+    "source_sha256": "9dede4d23c986aace9f179d7e1e10908a8640337f33500f69e5a75e1211877ce",
+    "output": "assets/card-visuals/images/genki1-2482254166788.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "ルームメイト",
+    "reading": "ルームメイト",
+    "image": "genki1-2536408136839.png",
+    "alt": "Two adult roommates sharing a compact apartment vignette with two distinct mugs and two small bags beside a shared desk, friendly everyday interaction. No romantic gestures, family cues, letters or broad room background.",
+    "reason": "Reviewed as an answer-side mnemonic for roommate. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "roommate",
+    "prompt": "Japanese vocabulary: ルームメイト (ルームメイト), exact meaning: roommate. Create ONE answer-side memory illustration, not an image-only question. Scene: Two adult roommates sharing a compact apartment vignette with two distinct mugs and two small bags beside a shared desk, friendly everyday interaction. No romantic gestures, family cues, letters or broad room background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-db8bb394-bc71-4494-983b-da390ddd572b.png",
+    "source_sha256": "f9c10feef7e1c86a619c2b3cea5f5b44c063db3de18281ce7382f27b0c82eb92",
+    "output": "assets/card-visuals/images/genki1-2536408136839.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "漫画家",
+    "reading": "まんがか",
+    "image": "genki1-2557406937617.png",
+    "alt": "An adult manga artist drawing clear black-and-white comic panels at a small desk, pen in a natural hand, a few panel pages with pictures but absolutely no lettering or speech text. Whole figure visible.",
+    "reason": "Reviewed as an answer-side mnemonic for cartoonist; manga artist. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "cartoonist; manga artist",
+    "prompt": "Japanese vocabulary: 漫画家 (まんがか), exact meaning: cartoonist; manga artist. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult manga artist drawing clear black-and-white comic panels at a small desk, pen in a natural hand, a few panel pages with pictures but absolutely no lettering or speech text. Whole figure visible. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-9ee358e6-88f0-459c-89d5-242da8b84ae8.png",
+    "source_sha256": "4573f14d8041d6fa567bc48fd2b884cc861b4079001543b7ad4667facc16dda3",
+    "output": "assets/card-visuals/images/genki1-2557406937617.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "温泉",
+    "reading": "おんせん",
+    "image": "genki1-2594082709690.png",
+    "alt": "A small outdoor Japanese hot-spring stone pool with gentle steam, one adult head and shoulders modestly above opaque water, two small rocks and a tiny plant. No full mountain background, signs or text.",
+    "reason": "Reviewed as an answer-side mnemonic for spa; hot spring. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "spa; hot spring",
+    "prompt": "Japanese vocabulary: 温泉 (おんせん), exact meaning: spa; hot spring. Create ONE answer-side memory illustration, not an image-only question. Scene: A small outdoor Japanese hot-spring stone pool with gentle steam, one adult head and shoulders modestly above opaque water, two small rocks and a tiny plant. No full mountain background, signs or text. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-de2f1db1-db33-4c1f-b15e-684db2f0cbe7.png",
+    "source_sha256": "5f05d2437bb1cff54c063082a1c1414a48b88ab69a433c0bf2c19f8d62dbd047",
+    "output": "assets/card-visuals/images/genki1-2594082709690.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "大統領",
+    "reading": "だいとうりょう",
+    "image": "genki1-2653699296725.png",
+    "alt": "A dignified fictional adult president giving a formal address at a small wooden podium, two compact microphones, generic plain draped fabric without flags or symbols. No real-person likeness, seals, lettering or audience.",
+    "reason": "Reviewed as an answer-side mnemonic for president of a country. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "president of a country",
+    "prompt": "Japanese vocabulary: 大統領 (だいとうりょう), exact meaning: president of a country. Create ONE answer-side memory illustration, not an image-only question. Scene: A dignified fictional adult president giving a formal address at a small wooden podium, two compact microphones, generic plain draped fabric without flags or symbols. No real-person likeness, seals, lettering or audience. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-03e02dae-84e7-4a81-9a95-6c89d7157d8c.png",
+    "source_sha256": "3ac90c83d96d95f1f4293d348bbb2c2821f4ed18ec81d59e466584e8c6b478ee",
+    "output": "assets/card-visuals/images/genki1-2653699296725.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "シェフ",
+    "reading": "シェフ",
+    "image": "genki1-2701196307192.png",
+    "alt": "One adult chef in a white toque and simple apron holding a small frying pan and wooden spoon, natural hands and confident friendly expression. Whole person visible, no kitchen background, branding or writing.",
+    "reason": "Reviewed as an answer-side mnemonic for chef. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "chef",
+    "prompt": "Japanese vocabulary: シェフ (シェフ), exact meaning: chef. Create ONE answer-side memory illustration, not an image-only question. Scene: One adult chef in a white toque and simple apron holding a small frying pan and wooden spoon, natural hands and confident friendly expression. Whole person visible, no kitchen background, branding or writing. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-99cc3dc6-6735-4975-b7e5-b14ce90de195.png",
+    "source_sha256": "887911d0be7a52d9abcb5c6a8af5ca32644303a8f33f9b03b050caac8948c4a9",
+    "output": "assets/card-visuals/images/genki1-2701196307192.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "キャンプ",
+    "reading": "キャンプ",
+    "image": "genki1-2771665746483.png",
+    "alt": "One complete compact camping tent beside a very small safe campfire ring and a rolled sleeping mat. Camping is unmistakable, no people or broad forest, ground plane or sky.",
+    "reason": "Reviewed as an answer-side mnemonic for camp. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "camp",
+    "prompt": "Japanese vocabulary: キャンプ (キャンプ), exact meaning: camp. Create ONE answer-side memory illustration, not an image-only question. Scene: One complete compact camping tent beside a very small safe campfire ring and a rolled sleeping mat. Camping is unmistakable, no people or broad forest, ground plane or sky. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-c47e1496-4776-465f-aad4-3f5fa9ff0fca.png",
+    "source_sha256": "14c86a9c1044c596be0ea73e2185280f0da4eec9c47a74940a5224f29cbae6da",
+    "output": "assets/card-visuals/images/genki1-2771665746483.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "サボる",
+    "reading": "サボる",
+    "image": "genki1-1915646582132.png",
+    "alt": "An adult college student lounging outside a classroom doorway while other adult students are visibly studying inside, the skipping student hiding a textbook behind their back. Compact vignette, no text or clocks.",
+    "reason": "Reviewed as an answer-side mnemonic for to cut class. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to cut class",
+    "prompt": "Japanese vocabulary: サボる (サボる), exact meaning: to cut class. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult college student lounging outside a classroom doorway while other adult students are visibly studying inside, the skipping student hiding a textbook behind their back. Compact vignette, no text or clocks. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-c7122352-d202-48a5-bafb-57e57cbd4822.png",
+    "source_sha256": "5844c48fafced8882942bff82902bd287de71709abce9e1e8039ce891c770d90",
+    "output": "assets/card-visuals/images/genki1-1915646582132.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "おなかがすく",
+    "reading": "おなかがすく",
+    "image": "genki1-1956175409315.png",
+    "alt": "An adult holding their stomach with a hungry expression while looking at a small empty plate and one fork. Whole person visible, no writing, speech bubbles, pain marks or other food.",
+    "reason": "Reviewed as an answer-side mnemonic for to become hungry. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to become hungry",
+    "prompt": "Japanese vocabulary: おなかがすく (おなかがすく), exact meaning: to become hungry. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult holding their stomach with a hungry expression while looking at a small empty plate and one fork. Whole person visible, no writing, speech bubbles, pain marks or other food. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-972d6a8f-794b-4d1d-954c-1dfe3ebd86ce.png",
+    "source_sha256": "f6ddca65135e84fd50502007cdb72a02447be33dcbed59fc1b83637b2471fd78",
+    "output": "assets/card-visuals/images/genki1-1956175409315.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "取る",
+    "reading": "とる",
+    "image": "genki1-sense-2175868527889.png",
+    "alt": "An adult college student receiving a graded exam paper from a teacher, pleased but natural expression, small classroom desk fragment. The paper has simple check marks only, no letters, numbers or readable text. Illustrates getting a grade in a class, not taking a physical object off a shelf.",
+    "reason": "Reviewed as an answer-side mnemonic for to take a class; to get a grade. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to take a class; to get a grade",
+    "prompt": "Japanese vocabulary: 取る (とる), exact meaning: to take a class; to get a grade. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult college student receiving a graded exam paper from a teacher, pleased but natural expression, small classroom desk fragment. The paper has simple check marks only, no letters, numbers or readable text. Illustrates getting a grade in a class, not taking a physical object off a shelf. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-a8698de2-d207-4aa4-a5f5-07576885f587.png",
+    "source_sha256": "5cf385ee5109d336acb84ff624116563de93c3cb701f3347428b766e46a80835",
+    "output": "assets/card-visuals/images/genki1-sense-2175868527889.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "飼う",
+    "reading": "かう",
+    "image": "genki1-2291517204040.png",
+    "alt": "An adult gently feeding their pet cat from a small bowl at home, a relaxed affectionate relationship, cat collar and little pet bed as restrained context. Whole adult and cat visible, no writing or broad room.",
+    "reason": "Reviewed as an answer-side mnemonic for to own a pet. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to own a pet",
+    "prompt": "Edit this existing Japanese vocabulary illustration. Preserve the exact characters, poses, essential objects, warm gouache and pencil style, palette, and wide composition. Remove ALL of the broad gray-white cloudy halo, mist, glow, paper-colored backdrop and floor shadow around and between the subjects. These empty areas must be truly transparent alpha zero, including above their heads and gaps between limbs and objects. Keep the people, cat and essential props opaque with clean natural painted edges. Do not redraw the story or add anything. Fully isolated transparent-background cutout of the existing vignette for 飼う.",
+    "references": [
+      "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-ce56f7bc-e47d-4294-9246-d90cb41ec514.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-9c90fd29-304a-4c73-924d-afc986774d05.png",
+    "source_sha256": "d3de5a302870667d4117f1aa5e52f69578258d62e7da34ef146b8230e046a1fd",
+    "output": "assets/card-visuals/images/genki1-2291517204040.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "うそをつく",
+    "reading": "うそをつく",
+    "image": "genki1-2709435901024.png",
+    "alt": "An adult telling an obvious small fib, one hand gesturing denial while the other hides crossed fingers behind their back beside a broken flowerpot. Another adult listens skeptically. Natural anatomy, no long cartoon nose, words or speech bubbles.",
+    "reason": "Reviewed as an answer-side mnemonic for to tell a lie. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to tell a lie",
+    "prompt": "Japanese vocabulary: うそをつく (うそをつく), exact meaning: to tell a lie. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult telling an obvious small fib, one hand gesturing denial while the other hides crossed fingers behind their back beside a broken flowerpot. Another adult listens skeptically. Natural anatomy, no long cartoon nose, words or speech bubbles. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-f2dc189e-34c9-4a3e-b023-4c8b7d6d3fc4.png",
+    "source_sha256": "8331bb5ddc0287b3882bf8de376bb67212a6b7a78785c0a25feef788e293293c",
+    "output": "assets/card-visuals/images/genki1-2709435901024.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "お大事に",
+    "reading": "おだいじに",
+    "image": "genki1-1954812810743.png",
+    "alt": "A caring adult gently handing a warm scarf and small tissue packet to an unwell seated adult, kind well-wishing expression. Modest compact caregiving scene, no medical text or background.",
+    "reason": "Reviewed as an answer-side mnemonic for Get well soon.. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "Get well soon.",
+    "prompt": "Japanese vocabulary: お大事に (おだいじに), exact meaning: Get well soon.. Create ONE answer-side memory illustration, not an image-only question. Scene: A caring adult gently handing a warm scarf and small tissue packet to an unwell seated adult, kind well-wishing expression. Modest compact caregiving scene, no medical text or background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-da316130-9b6f-4e8d-be33-0c06416a1062.png",
+    "source_sha256": "73639624d249f38e20afbc1d1e6477d7fb15e71d65dd244261791d7135840b9e",
+    "output": "assets/card-visuals/images/genki1-1954812810743.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "緊張する",
+    "reading": "きんちょうする",
+    "image": "genki1-2555830296870.png",
+    "alt": "An adult student nervously preparing to speak to a tiny seated audience, clasped hands and tense shoulders, a small blank podium. No words, exclamation marks or full room background.",
+    "reason": "Reviewed as an answer-side mnemonic for to get nervous. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to get nervous",
+    "prompt": "Japanese vocabulary: 緊張する (きんちょうする), exact meaning: to get nervous. Create one answer-side memory illustration. Scene: An adult student nervously preparing to speak to a tiny seated audience, clasped hands and tense shoulders, a small blank podium. No words, exclamation marks or full room background. Keep the whole vignette inside the middle 60% of the canvas height, separated from all edges by completely empty transparent alpha. NO haze, white wash, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-66380214-76ac-459c-8c2c-a360f2bdf929.png",
+    "source_sha256": "268f1281d2df49caca1d75c1783a3323888fc00c59a5b4847542e50eb3e81b04",
+    "output": "assets/card-visuals/images/genki1-2555830296870.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "せき",
+    "reading": "せき",
+    "image": "genki1-1812989479219.png",
+    "alt": "An adult coughing naturally into the crook of one elbow, slightly hunched shoulders, a tiny cough motion accent. Whole upper body and face visible, no words, smoke, droplets, background or medical equipment.",
+    "reason": "Reviewed as an answer-side mnemonic for cough. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "cough",
+    "prompt": "Japanese vocabulary: せき (せき), exact meaning: cough. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult coughing naturally into the crook of one elbow, slightly hunched shoulders, a tiny cough motion accent. Whole upper body and face visible, no words, smoke, droplets, background or medical equipment. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-6c524258-65f3-4f57-aa0c-5daccaed0720.png",
+    "source_sha256": "d73f223aa9b77cf4e3cf2db1ad249a9f72ed5a30e929ef9c08cee9e77cbd9d9a",
+    "output": "assets/card-visuals/images/genki1-1812989479219.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "アレルギー",
+    "reading": "アレルギー",
+    "image": "genki1-2055891579390.png",
+    "alt": "An adult with watery eyes sneezes into a tissue beside spring flowers, an everyday seasonal pollen allergy reminder.",
+    "reason": "Reviewed as an answer-side mnemonic for allergy. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "allergy",
+    "prompt": "Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.\nCreate one answer-side Japanese vocabulary mnemonic for アレルギー (アレルギー), allergy. Scene: A fully visible adult with watery eyes holding a tissue and sneezing beside a small spring flower arrangement, showing a familiar seasonal pollen allergy. Gentle ordinary everyday scene, natural anatomy. No text, no diagram, no floating symbols, no broad backdrop. Keep all empty space truly transparent with no halo or mist.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-839546ac-265e-4516-a0ba-7c84c5205cad.png",
+    "source_sha256": "d19bb5b42fd7ece110d72461a324ab68f421d2493d99109d99b82ed6324216f1",
+    "output": "assets/card-visuals/images/genki1-2055891579390.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "二日酔い",
+    "reading": "ふつかよい",
+    "image": "genki1-2368178486356.png",
+    "alt": "An adult seated with a tired hungover expression and one hand holding their forehead, one glass of water and one empty unlabelled beer bottle nearby. No sickness gore, words, calendar, broad table or background.",
+    "reason": "Reviewed as an answer-side mnemonic for hangover. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "hangover",
+    "prompt": "Japanese vocabulary: 二日酔い (ふつかよい), exact meaning: hangover. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult seated with a tired hungover expression and one hand holding their forehead, one glass of water and one empty unlabelled beer bottle nearby. No sickness gore, words, calendar, broad table or background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-5cc5751a-9ab6-47bc-a5a4-c381bc81d6e4.png",
+    "source_sha256": "a50099397950b8efd78580d160e8b9f12fd44d58b36e04c1d4ba51e17c2c2bc3",
+    "output": "assets/card-visuals/images/genki1-2368178486356.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "のど",
+    "reading": "のど",
+    "image": "genki1-2375246077309.png",
+    "alt": "An adult with an open mouth gently indicating the front of their throat with one finger, clearly focusing on the throat area. Natural head and upper torso, no red glow, medical labels, diagrams or broad background.",
+    "reason": "Reviewed as an answer-side mnemonic for throat. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "throat",
+    "prompt": "Japanese vocabulary: のど (のど), exact meaning: throat. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult with an open mouth gently indicating the front of their throat with one finger, clearly focusing on the throat area. Natural head and upper torso, no red glow, medical labels, diagrams or broad background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-bc8e0222-e390-46d8-977f-ba7cc0a56bf9.png",
+    "source_sha256": "c2c7dab75c50edd68d1973133712b5d246a6e4b956534fd42d19c9b47ed87fdd",
+    "output": "assets/card-visuals/images/genki1-2375246077309.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "ホームシック",
+    "reading": "ホームシック",
+    "image": "genki1-2863406757974.png",
+    "alt": "An adult student in a small unfamiliar room hugging a framed family photograph and looking wistful, a small suitcase nearby. The photo shows simple family figures without writing. No tears exaggerated, text or broad room background.",
+    "reason": "Reviewed as an answer-side mnemonic for homesickness. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "homesickness",
+    "prompt": "Japanese vocabulary: ホームシック (ホームシック), exact meaning: homesickness. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult student in a small unfamiliar room hugging a framed family photograph and looking wistful, a small suitcase nearby. The photo shows simple family figures without writing. No tears exaggerated, text or broad room background. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-fa0443d7-6bed-45c0-8e4a-d863dc3d7983.png",
+    "source_sha256": "6d0abb9131bc225fc8d2759d1ee4afbf4e6169ce7dd2265f77684f966d85ffa9",
+    "output": "assets/card-visuals/images/genki1-2863406757974.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "別れる",
+    "reading": "わかれる",
+    "image": "genki1-2583407530642.png",
+    "alt": "Two adult former romantic partners sadly walking away from each other in opposite directions, one looking back, clear emotional separation. Whole figures visible, no broken-heart symbol, text or broad landscape.",
+    "reason": "Reviewed as an answer-side mnemonic for to break up; to separate. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to break up; to separate",
+    "prompt": "Japanese vocabulary: 別れる (わかれる), exact meaning: to break up; to separate. Create ONE answer-side memory illustration, not an image-only question. Scene: Two adult former romantic partners sadly walking away from each other in opposite directions, one looking back, clear emotional separation. Whole figures visible, no broken-heart symbol, text or broad landscape. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-f5514414-d2ee-4509-a1d2-37a07af50f56.png",
+    "source_sha256": "bff389e68c766bd544331a225b2127232d587192e4a3c326a02a14b03ef7ab23",
+    "output": "assets/card-visuals/images/genki1-2583407530642.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
+  },
+  {
+    "word": "のどが渇く",
+    "reading": "のどがかわく",
+    "image": "genki1-1902317178550.png",
+    "alt": "An adult reaching eagerly for a clear glass of water with a thirsty expression, one hand lightly at the throat. Water is the only prop, no heat sun, writing, speech bubbles or broad table.",
+    "reason": "Reviewed as an answer-side mnemonic for to become thirsty. Contextual scenes retain the English question; complete subjects, readable silhouettes and clean transparency on white and charcoal.",
+    "meaning": "to become thirsty",
+    "prompt": "Japanese vocabulary: のどが渇く (のどがかわく), exact meaning: to become thirsty. Create ONE answer-side memory illustration, not an image-only question. Scene: An adult reaching eagerly for a clear glass of water with a thirsty expression, one hand lightly at the throat. Water is the only prop, no heat sun, writing, speech bubbles or broad table. All subjects fully visible and isolated inside the middle 60% of the height. The surrounding canvas must contain ZERO paint: genuinely transparent alpha, NOT a white wash, halo, haze, floor, paper or checkerboard. Warm hand-painted storybook gouache with fine pencil texture, restrained olive, terracotta, ochre, and muted blue palette, natural proportions and clean readable silhouettes matching the two supplied style references. Create ONE illustration only, on a wide 3:1 horizontal canvas with genuine transparent alpha. Compact isolated vignette, whole subjects fully visible and centered; at least 15% transparent padding above and below and 10% left and right. Readable at 390 by 130 pixels on white or charcoal. No lettering, labels, captions, logos, watermark, opaque background, paper rectangle, scene-wide floor, broad shadow, halo, mist or glow. Adults only if people are needed, anatomically natural hands. Style references only; do not copy their subjects.",
+    "references": [
+      "vocab-330471442ce4-v2.png",
+      "vocab-fdf9d40719eb.png"
+    ],
+    "tool": "image_gen",
+    "source": "/Users/zacharyhalvorson/.codex/generated_images/01a1dfe1-4ac7-7433-b9b4-3de1f444241f/exec-642251ac-0bab-4515-8922-0eb79a3450b9.png",
+    "source_sha256": "472ef060ab5042b285387ae38967aab1d011c045eed62745357bb4a436a4b532",
+    "output": "assets/card-visuals/images/genki1-1902317178550.png",
+    "reviewed_light_and_dark": true,
+    "question_reviewed": false
   }
 ]

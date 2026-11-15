@@ -896,6 +896,48 @@
       "meaning": "cherry blossoms; cherry tree",
       "image": "vocab-424b47033813.png",
       "image_sha256": "caf725d6579c330dcf411a756443c201cff1d7295e470524cb43cdb10f27e7ea"
+    },
+    {
+      "word": "スマホ",
+      "reading": "スマホ",
+      "meaning": "smartphone; mobile",
+      "image": "genki1-2854335329129.png",
+      "image_sha256": "c0802c75193bc5b00562a555c641b2d7639305091e07d69a05bf68025745a371"
+    },
+    {
+      "word": "ハンバーガー",
+      "reading": "ハンバーガー",
+      "meaning": "hamburger",
+      "image": "genki1-2007300879301.png",
+      "image_sha256": "034c4d122be0aa26a3f7910d898e94d7943ece4a022ff583b3e7cdfb88e581c2"
+    },
+    {
+      "word": "トマト",
+      "reading": "トマト",
+      "meaning": "tomato",
+      "image": "genki1-2453595877701.png",
+      "image_sha256": "2da5cb8abe81b3a46f1229478d7ea4e303fcdd836496b844cae36f9afa8d3c9d"
+    },
+    {
+      "word": "ピザ",
+      "reading": "ピザ",
+      "meaning": "pizza",
+      "image": "genki1-1888436785549.png",
+      "image_sha256": "17bec4741f40ee1bc333c36e71cf8e39e1944b60640ec085a3b5e1cc1c90cb33"
+    },
+    {
+      "word": "すし",
+      "reading": "すし",
+      "meaning": "sushi",
+      "image": "genki1-2134685529091.png",
+      "image_sha256": "3066f5419f625aac496169077cfd175990afbdadb9557ef157d556f5fecce5df"
+    },
+    {
+      "word": "新幹線",
+      "reading": "しんかんせん",
+      "meaning": "Shinkansen; bullet train",
+      "image": "genki1-2623242949303.png",
+      "image_sha256": "28b99afcb136b8b0ee3346404bd806ba1d485a50c13c1b12e51b351283af5d65"
     }
   ]
 }
