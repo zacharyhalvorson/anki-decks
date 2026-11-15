@@ -1,14 +1,14 @@
 # Japanese vocabulary decks for Anki
 
-Choose a deck for your textbook or JLPT level. Each download includes the vocabulary, illustrations, and recordings for the words and example sentences.
+The deck exports are in [`decks/`](decks/). Choose a deck for your textbook or JLPT level. Each download includes the vocabulary, illustrations, and recordings for the words and example sentences.
 
 | Download | Coverage | Vocabulary notes | File size |
 |---|---|---:|---:|
-| [GENKI I (.apkg)](https://github.com/zacharyhalvorson/anki-decks/raw/refs/heads/main/GENKI%20I%20Vocab.apkg) | Lessons 1–12 | 660 | 76 MB |
-| [GENKI II (.apkg)](https://github.com/zacharyhalvorson/anki-decks/raw/refs/heads/main/GENKI%20II%20Vocab.apkg) | Lessons 13–23 | 589 | 111 MB |
-| [Quartet I (.apkg)](https://github.com/zacharyhalvorson/anki-decks/raw/refs/heads/main/Quartet%20I%20Vocab.apkg) | Lessons 1–2 | 175 | 39 MB |
-| [JLPT N5 (.apkg)](https://github.com/zacharyhalvorson/anki-decks/raw/refs/heads/main/JLPT%20N5.apkg) | Beginner vocabulary | 751 | 106 MB |
-| [JLPT N4 (.apkg)](https://github.com/zacharyhalvorson/anki-decks/raw/refs/heads/main/JLPT%20N4.apkg) | N4 vocabulary | 1,150 | 179 MB |
+| [GENKI I (.apkg)](https://github.com/zacharyhalvorson/anki-decks/raw/refs/heads/main/decks/GENKI%20I%20Vocab.apkg) | Lessons 1–12 | 660 | 76 MB |
+| [GENKI II (.apkg)](https://github.com/zacharyhalvorson/anki-decks/raw/refs/heads/main/decks/GENKI%20II%20Vocab.apkg) | Lessons 13–23 | 589 | 111 MB |
+| [Quartet I (.apkg)](https://github.com/zacharyhalvorson/anki-decks/raw/refs/heads/main/decks/Quartet%20I%20Vocab.apkg) | Lessons 1–2 | 175 | 39 MB |
+| [JLPT N5 (.apkg)](https://github.com/zacharyhalvorson/anki-decks/raw/refs/heads/main/decks/JLPT%20N5.apkg) | Beginner vocabulary | 751 | 106 MB |
+| [JLPT N4 (.apkg)](https://github.com/zacharyhalvorson/anki-decks/raw/refs/heads/main/decks/JLPT%20N4.apkg) | N4 vocabulary | 1,150 | 179 MB |
 
 ## Import your download
 
@@ -18,4 +18,4 @@ Choose a deck for your textbook or JLPT level. Each download includes the vocabu
 
 Each vocabulary note gives you two cards. One asks you to recognize the Japanese word. The other asks you to produce it from an English cue or, for selected concrete words, a picture. Tap a word or example sentence on the answer to hear its recording.
 
-[GENKI I coverage and build notes](assets/genki1/README.md) · [Cards without illustrations](assets/genki1/text-only-notes.md) · [Card features and data sources](docs/deck-guide.md) · [Maintaining the decks and creating matching artwork](CLAUDE.md)
+[GENKI I coverage and build notes](assets/genki1/README.md) · [Cards without illustrations](assets/genki1/text-only-notes.md) · [Card features and data sources](docs/deck-guide.md) · [Maintaining the decks and creating matching artwork](AGENTS.md)

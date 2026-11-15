@@ -5,7 +5,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class ArrivalPackage(unittest.TestCase):
     def test_packaged_card_and_templates(self):
-        with tempfile.TemporaryDirectory() as tmp, zipfile.ZipFile(ROOT/'JLPT N4.apkg') as z:
+        with tempfile.TemporaryDirectory() as tmp, zipfile.ZipFile(ROOT/'decks'/'JLPT N4.apkg') as z:
             z.extract('collection.anki21',tmp)
             con=sqlite3.connect(Path(tmp)/'collection.anki21')
             flds,sfld,csum=con.execute('select flds,sfld,csum from notes where id=1776868953041').fetchone()

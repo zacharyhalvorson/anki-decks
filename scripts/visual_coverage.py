@@ -9,7 +9,7 @@ keys = {(e['word'],e['reading']) for e in manifest}
 assert len(keys) == len(manifest)
 report = {'catalog_entries':len(keys),'unique_images':len({e['image'] for e in manifest}),'decks':{}}
 for deck in DECKS:
-    with tempfile.TemporaryDirectory() as temp, zipfile.ZipFile(ROOT / (deck+'.apkg')) as archive:
+    with tempfile.TemporaryDirectory() as temp, zipfile.ZipFile(ROOT / 'decks' / (deck+'.apkg')) as archive:
         archive.extract('collection.anki21',temp)
         con=sqlite3.connect(Path(temp)/'collection.anki21')
         notes=[row[0].split('\x1f') for row in con.execute('select flds from notes')]

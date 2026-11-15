@@ -27,6 +27,5 @@ The arrival note was subsequently corrected from つく to 着く. Both sense ke
 
 The reusable style prompt, reference images, image-first selection criteria,
 and registration/build workflow are in **Matching illustrations for future
-cards** in [`../../CLAUDE.md`](../../CLAUDE.md). Both `CLAUDE.md` and `AGENTS.md`
-point future agents to that guidance. Historical prompts remain in
+cards** in [`../../AGENTS.md`](../../AGENTS.md). `AGENTS.md` is the single project instruction file. Historical prompts remain in
 `generation-prompts.json`; the reusable prompt is a consolidated template.

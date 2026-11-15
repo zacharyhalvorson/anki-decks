@@ -18,7 +18,7 @@ runtime = (ROOT / 'templates/runtime.js').read_text()
 fields = ['Word', 'Reading', 'Meaning', 'PartOfSpeech', 'ExampleJA', 'FuriganaExample', 'ExampleEN', 'KanjiBreakdown', 'WordAudio', 'ExampleAudio']
 samples = {}
 for deck in ['GENKI II Vocab.apkg', 'JLPT N5.apkg', 'JLPT N4.apkg']:
-    with tempfile.TemporaryDirectory() as tmp, zipfile.ZipFile(ROOT / deck) as z:
+    with tempfile.TemporaryDirectory() as tmp, zipfile.ZipFile(ROOT / 'decks' / deck) as z:
         z.extract('collection.anki21', tmp)
         media = {v:k for k,v in json.loads(z.read('media')).items()}
         with sqlite3.connect(str(Path(tmp) / 'collection.anki21')) as db:

@@ -12,7 +12,7 @@ def norm(t):return b.hira(re.sub(r'[〜～\s()（）]','',re.sub(r'[(（][なの
 
 def audit():
  manifest=json.loads((CAT/'manifest.json').read_text());byword={e['word']:e for e in manifest}
- z,c,media=b.read_deck(ROOT/'GENKI I Vocab.apkg');members={v:k for k,v in media.items()};rows=[];pictures=[]
+ z,c,media=b.read_deck(b.DECK_DIR/'GENKI I Vocab.apkg');members={v:k for k,v in media.items()};rows=[];pictures=[]
  for nid,tags,raw in c.execute('select id,tags,flds from notes order by tags,id'):
   f=raw.split(chr(31));e=next((x for x in manifest if x['word']==f[0] and x['reading']==f[1]),None)
   row={'nid':nid,'word':f[0],'reading':f[1],'meaning':f[2],'lesson':next(t for t in tags.split() if t.startswith('genki-'))}

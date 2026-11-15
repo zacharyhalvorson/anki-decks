@@ -5,7 +5,7 @@ HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[1]
 spec=importlib.util.spec_from_file_location('renderer',ROOT/'experiments/card-visuals/build.py');renderer=importlib.util.module_from_spec(spec);spec.loader.exec_module(renderer)
 media_dir=HERE/'media';media_dir.mkdir(exist_ok=True);samples=[]
 for deck,words in [('GENKI I Vocab',['コンピューター','専攻','読む','住む','猫','本','新幹線','宇宙飛行士','二日酔い','〜後','急ぐ','飼う','緊張する','前','取る','スマホ','ピザ','トマト','ハンバーガー','すし','久しぶり']),('GENKI II Vocab',['階段','ひげ','財布']),('JLPT N4',['猫','意味']),('JLPT N5',['りんご']),('Quartet I Vocab',['桜'])]:
- with zipfile.ZipFile(ROOT/(deck+'.apkg')) as z,tempfile.TemporaryDirectory() as tmp:
+ with zipfile.ZipFile(ROOT/'decks'/(deck+'.apkg')) as z,tempfile.TemporaryDirectory() as tmp:
   z.extract('collection.anki21',tmp);db=sqlite3.connect(tmp+'/collection.anki21');models=json.loads(db.execute('select models from col').fetchone()[0]);media=json.loads(z.read('media'))
   for mid,raw in db.execute('select mid,flds from notes'):
    f=raw.split('\x1f')

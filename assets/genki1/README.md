@@ -33,9 +33,11 @@ Both examples are original study examples, checked for the lesson's grammar, wit
 
 The new scenes include verbs, adjectives, expressions and occupations, as well as objects. The exact-sense overrides for 前 and 取る fix mismatched artwork. Answer-side mnemonic scenes retain English Production questions. Only スマホ, ピザ, トマト, ハンバーガー, すし and 新幹線 were newly approved as image-only cues; together with matching existing approved senses, GENKI I has 44 image-first Production cards.
 
-All new artwork was generated with `image_gen` from the style in `CLAUDE.md`, using the inspected chair and cat references. PNGs are saved in `assets/card-visuals/images/`; actual prompts, references and source/output provenance are in the shared `generation-prompts.json`. `generated-records.json` also retains unsuccessful/superseded attempts; `visual-decisions.json` pins reviewed SHA-256 hashes. Every accepted image was inspected at about 390 × 130 on white and charcoal. Two hazy scenes were edited and reviewed again. Review sheets are reproducible and ignored; `samples/` contains actual packaged card screenshots.
+All new artwork was generated with `image_gen` from the style in `AGENTS.md`, using the inspected chair and cat references. PNGs are saved in `assets/card-visuals/images/`; actual prompts, references and source/output provenance are in the shared `generation-prompts.json`. `generated-records.json` also retains unsuccessful/superseded attempts; `visual-decisions.json` pins reviewed SHA-256 hashes. Every accepted image was inspected at about 390 × 130 on white and charcoal. Two hazy scenes were edited and reviewed again. Review sheets are reproducible and ignored; `samples/` contains actual packaged card screenshots.
 
 ## Rebuild
+
+Canonical exports live in `decks/`; run these commands from the repository root.
 
 Use a Python environment with Pillow, fugashi, unidic-lite, gTTS, requests and pypdfium2; `cwebp` must be on PATH.
 

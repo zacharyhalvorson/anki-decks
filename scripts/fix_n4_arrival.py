@@ -63,4 +63,4 @@ def repair(path):
         os.replace(staged, path)
         print('Corrected 着く, both display fields for sentence two, and the kanji breakdown; identity and scheduling preserved')
 
-if __name__ == '__main__': repair(ROOT / 'JLPT N4.apkg')
+if __name__ == '__main__': repair(ROOT / 'decks' / 'JLPT N4.apkg')

@@ -16,7 +16,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from card_visuals import image_bytes
-SOURCE = ROOT / 'GENKI II Vocab.apkg'
+SOURCE = ROOT / 'decks' / 'GENKI II Vocab.apkg'
 OUT = HERE / 'build'
 
 

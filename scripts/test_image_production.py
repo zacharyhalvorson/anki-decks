@@ -8,7 +8,7 @@ class ImageProductionTest(unittest.TestCase):
   selected={'|'.join(e[k] for k in ('word','reading','meaning')) for e in entries}
   report=json.loads((ROOT/'assets/card-visuals/image-production-report.json').read_text())
   for d in report['decks']:
-   with self.subTest(deck=d['deck']),zipfile.ZipFile(ROOT/(d['deck']+'.apkg')) as z,tempfile.TemporaryDirectory() as tmp:
+   with self.subTest(deck=d['deck']),zipfile.ZipFile(ROOT/'decks'/(d['deck']+'.apkg')) as z,tempfile.TemporaryDirectory() as tmp:
     z.extract('collection.anki21',tmp);db=sqlite3.connect(tmp+'/collection.anki21');models=json.loads(db.execute('select models from col').fetchone()[0]);media={v:k for k,v in json.loads(z.read('media')).items()};count=0
     for model in models.values():
      self.assertEqual([(t['name'],t['ord']) for t in model['tmpls']],[('Recognition',0),('Production',1)])

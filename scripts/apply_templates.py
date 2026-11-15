@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply templates/ + assets/ to every .apkg in the repo (import-merge safe).
+"""Apply templates/ + assets/ to every .apkg in decks/ (import-merge safe).
 
 - replaces the note type's CSS and all four templates (both fronts, both backs)
 - inlines templates/runtime.js and templates/tap_guard.js into the backs (answer side ignores card taps; fronts still flip on tap)
@@ -87,7 +87,7 @@ def snapshot(dbpath):
     return {(i, g) for i, g, _ in notes}, refs
 
 for deck in DECKS:
-    src = f"{ROOT}/{deck}.apkg"
+    src = f"{ROOT}/decks/{deck}.apkg"
     if not os.path.exists(src):
         print(f"-- {deck}: not found, skipping"); continue
 

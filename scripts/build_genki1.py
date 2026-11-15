@@ -6,6 +6,7 @@ Run with the dependencies in assets/genki1/README.md. No live Anki writes.
 from pathlib import Path
 import argparse, collections, hashlib, html, json, re, sqlite3, time, zipfile
 ROOT = Path(__file__).resolve().parents[1]
+DECK_DIR = ROOT / 'decks'
 DATA = ROOT / 'assets/genki1'
 WORK = ROOT / '_to_delete/genki1-build'
 BOOK = ROOT.parent / 'GENKI ' / 'GENKI 1 (3rd Edition).pdf'
@@ -37,7 +38,7 @@ def render():
 def inventory():
     WORK.mkdir(parents=True, exist_ok=True)
     examples = collections.defaultdict(list)
-    for path in ROOT.glob('*.apkg'):
+    for path in DECK_DIR.glob('*.apkg'):
         z,c,m=read_deck(path)
         for tags,flds in c.execute('select tags,flds from notes'):
             f=flds.split(chr(31))
@@ -152,7 +153,7 @@ def audio():
         if not r.get('nid'):
             t=normalize_word(r['reading']);jobs['genki1_wd_'+hashlib.md5(('gtts-ja:'+t).encode()).hexdigest()[:16]+'.mp3']=t
         for t in r['tts']:jobs['genki1_ex_'+hashlib.md5(('gtts-ja:'+t).encode()).hexdigest()[:16]+'.mp3']=t
-    z,_,media=read_deck(ROOT/'GENKI I Vocab.apkg')
+    z,_,media=read_deck(DECK_DIR/'GENKI I Vocab.apkg')
     for member,name in media.items():
         if name in jobs and not (cache/name).exists():(cache/name).write_bytes(z.read(member))
     z.close()
@@ -187,7 +188,7 @@ def ruby(surface,reading):
 
 def kanji_resources():
     result={}
-    for path in ROOT.glob('*.apkg'):
+    for path in DECK_DIR.glob('*.apkg'):
         z,c,_=read_deck(path)
         for f, in c.execute('select flds from notes'):
             f=f.split(chr(31))
@@ -249,7 +250,7 @@ def refs(fields):
 def build():
     from card_visuals import apply_visuals
     reuse_packaged_artwork()
-    rows=prepare();path=ROOT/'GENKI I Vocab.apkg';z,c,media=read_deck(path)
+    rows=prepare();path=DECK_DIR/'GENKI I Vocab.apkg';z,c,media=read_deck(path)
     before_cards=c.execute('select * from cards order by id').fetchall()
     before_notes={n[0]:n for n in c.execute('select * from notes')}
     now=int(time.time());models=json.loads(c.execute('select models from col').fetchone()[0]);mid=1800000000003;did=1800000000004
@@ -315,7 +316,7 @@ def build():
     check(path)
 
 def check(path=None,write_report=True):
-    path=path or ROOT/'GENKI I Vocab.apkg';z,c,media=read_deck(path)
+    path=path or DECK_DIR/'GENKI I Vocab.apkg';z,c,media=read_deck(path)
     assert z.testzip() is None and c.execute('pragma integrity_check').fetchone()[0]=='ok'
     notes=c.execute('select * from notes order by id').fetchall();cards=c.execute('select * from cards order by id').fetchall()
     baseline=json.loads((DATA/'baseline.json').read_text());old={n[0]:n for n in baseline['notes']};by_id={n[0]:n for n in notes}
@@ -371,7 +372,7 @@ def reuse_packaged_artwork():
     import card_visuals
     lookup,senses=card_visuals.visual_lookup(ROOT/'assets/card-visuals')
     index={}
-    for path in ROOT.glob('*.apkg'):
+    for path in DECK_DIR.glob('*.apkg'):
         z,c,m=read_deck(path);members={v:k for k,v in m.items()}
         for f, in c.execute('select flds from notes'):
             f=f.split(chr(31));entry=card_visuals.select_visual(lookup,senses,f)
@@ -416,7 +417,7 @@ def stage_reading_audio():
     if target.is_symlink():target.unlink()
     target.mkdir(parents=True,exist_ok=True)
     clips={}
-    for path in ROOT.glob('*.apkg'):
+    for path in DECK_DIR.glob('*.apkg'):
         with zipfile.ZipFile(path) as archive:
             media=json.loads(archive.read('media'))
             for key,name in media.items():
@@ -440,6 +441,7 @@ def templates():
             target=WORK/'templates/assets/card-visuals/optimized';target.mkdir(exist_ok=True)
             shutil.copyfile(cache,target/cache.name)
     stage=WORK/'templates';(stage/'scripts').mkdir(exist_ok=True)
+    (stage/'decks').mkdir(exist_ok=True)
     shutil.copyfile(ROOT/'scripts/apply_templates.py',stage/'scripts/apply_templates.py')
     links={'templates':ROOT/'templates','assets/dictionary':ROOT/'assets/dictionary','assets/_kanji_strokes.js':ROOT/'assets/_kanji_strokes.js'}
     for name in ['manifest.json','sense-overrides.json','image-production.json']:
@@ -447,15 +449,15 @@ def templates():
     for name,source in links.items():
         dest=stage/name
         if not dest.exists():dest.symlink_to(source,target_is_directory=source.is_dir())
-    for path in ROOT.glob('*.apkg'):
-        dest=stage/path.name
+    for path in DECK_DIR.glob('*.apkg'):
+        dest=stage/'decks'/path.name
         if dest.exists():dest.unlink()
         os.link(path,dest)
     sys.argv=[str(stage/'scripts/apply_templates.py')]
     runpy.run_path(sys.argv[0],run_name='__main__')
     # The unmodified shared builder checks everything before each staged output.
-    for path in ROOT.glob('*.apkg'):
-        pending=path.with_suffix('.apkg.tmp');shutil.copyfile(stage/path.name,pending);os.replace(pending,path)
+    for path in DECK_DIR.glob('*.apkg'):
+        pending=path.with_suffix('.apkg.tmp');shutil.copyfile(stage/'decks'/path.name,pending);os.replace(pending,path)
     shutil.copyfile(stage/'assets/card-visuals/image-production-report.json',ROOT/'assets/card-visuals/image-production-report.json')
 
 if __name__ == '__main__':
