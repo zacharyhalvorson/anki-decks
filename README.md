@@ -84,7 +84,7 @@ Verb POS labels are broken out by conjugation class using JMdict:
 Two card templates per note:
 
 - **Recognition** (Japanese → English): front shows the word in Japanese; back shows the same word with its reading as furigana above the kanji (aligned per kanji run, e.g. お願[ねが]いします), the English meaning, a part-of-speech row, the two example sentences, and the kanji breakdown.
-- **Production** (English → Japanese): front shows the English gloss; back adds the Japanese word (with furigana), part of speech, example, and kanji breakdown.
+- **Production** (image or English → Japanese): 192 reviewed concrete-vocabulary cards show an image-only prompt. Other cards keep the English gloss. Image answers shrink to the normal compact banner and show the Japanese word, reading, English meaning, both example sentences, and kanji breakdown. Word audio uses Anki’s normal automatic answer playback; tapping the word replays it. Existing card identities and schedules are preserved; no third card is added.
 
 Template sources live in `templates/` (`card.css`, `recognition_front.html`, `production_front.html`, `recognition_back.html`, `production_back.html`, `runtime.js`, `tap_guard.js`) and the stroke-data asset in `assets/_kanji_strokes.js` (KanjiVG paths for every kanji that appears in the decks, embedded in each `.apkg` as a `_`-prefixed media file). `python3 scripts/apply_templates.py` re-applies the templates and asset — see `CLAUDE.md` for the invariants it respects. It writes all four templates (both fronts, both backs).
 
@@ -118,3 +118,13 @@ Run `python3 scripts/apply_templates.py` to apply the catalog and shared templat
 `templates/visuals.css`, `visuals.js`, and `visual_front.js` implement the image slide/fade/scale, moving answer block, word resizing, Production cue color change, outgoing hint movement/fade, late-image fade, and reduced-motion behavior. Front-side geometry is captured when the client retains its WebView; other clients use a calculated fallback. Actual AnkiMobile transition verification remains outstanding.
 
 The feedback preview remains under `experiments/card-visuals/`; canonical artwork and motion now live under `assets/` and `templates/`. The interactive preview selects up to 40 catalog entries present in GENKI II, and its gallery includes all illustrated GENKI II words.
+
+## Image-first production selection
+
+`assets/card-visuals/image-production.json` is the reviewed allowlist: 128 exact word/reading/meaning entries, producing 192 cards across the decks. GENKI I has 1, GENKI II 37, JLPT N4 89, JLPT N5 63, and Quartet I 2. The smaller counts in GENKI I and Quartet reflect their vocabulary and current artwork; abstract concepts, social roles, and pictures with unclear targets retain English prompts.
+
+Eligibility also requires the reviewed artwork hash to match. Changing selected artwork requires reviewing it again. `templates/image_production.js` handles the prompt and compact reveal; existing Recognition and nonselected Production behavior remains. `python3 scripts/test_image_production.py` verifies packaged eligibility, media, audio placement, and the unchanged two-card schema. The apply script additionally checks existing card rows and scheduling, note identity, full answer content, media integrity, and package CRCs.
+
+Import the updated `.apkg` files into your existing collection normally, then sync. No fields or card types were added, so note-type merging is not required for this change. The files have been rebuilt and browser-checked; native AnkiMobile transition behavior still needs device verification.
+
+To inspect actual packaged templates locally, run `python3 experiments/image-production/build_packaged.py` and serve `experiments/image-production/`; open `packaged.html`. The original motion study remains at `index.html`.

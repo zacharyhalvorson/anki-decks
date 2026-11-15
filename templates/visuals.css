@@ -1,6 +1,11 @@
 /* Answer-only compact reveal. Fronts and unillustrated cards keep their layout. */
-/* Avoid painting the unpositioned answer before its reveal is prepared. */
-.card:has(.vocab-visual):not(.visual-ready) { visibility: hidden; }
+/* Anki can paint inserted HTML before evaluating its template scripts.
+   Suppress that intermediate layout, but automatically show it after 700ms
+   even if scripts fail. Never depend on JavaScript to make a card readable. */
+.card[data-notap]:has(.vocab-visual):not(.visual-ready) {
+  animation: visual-prepare-fallback 700ms step-end both;
+}
+@keyframes visual-prepare-fallback { from { opacity: 0; } to { opacity: 1; } }
 .vocab-visual { margin: 0; text-align: center; }
 .card.has-vocab-visual > .vocab-visual {
   margin: -24px 0 0;
@@ -19,9 +24,11 @@
   margin: 0 auto;
   border-radius: 0;
   transform-origin: center center;
+
+}
+.card.visual-ready .vocab-visual img {
   animation: visual-entrance 560ms cubic-bezier(.4, 0, .2, 1) both;
 }
-body.vocab-visual-page { margin: 0; }
 .card.has-vocab-visual .front-word-ruby {
   font-size: 32px;
   line-height: 1.35;
@@ -45,12 +52,12 @@ body.vocab-visual-page { margin: 0; }
 .card.visual-ready:not(.prod) .front-word-ruby {
   animation: visual-word 560ms cubic-bezier(.4, 0, .2, 1) both;
 }
-.card.has-vocab-visual .meaning,
-.card.has-vocab-visual .wordinfo,
-.card.has-vocab-visual .example,
-.card.has-vocab-visual .kanji-breakdown,
-.card.has-vocab-visual .fw-read,
-.card.has-vocab-visual .fr {
+.card.visual-ready .meaning,
+.card.visual-ready .wordinfo,
+.card.visual-ready .example,
+.card.visual-ready .kanji-breakdown,
+.card.visual-ready .fw-read,
+.card.visual-ready .fr {
   animation: visual-details 400ms ease-out 100ms both;
 }
 .card.visual-ready.prod .front-english {
@@ -100,4 +107,25 @@ body.vocab-visual-page { margin: 0; }
 .card.visual-ready.prod .word-block { animation: visual-details 400ms ease-out 100ms both; }
 @media (prefers-reduced-motion: reduce) {
   .card.visual-ready.prod .word-block { animation: none; }
+}
+
+/* Image-first Production: final banner and answer metrics match Recognition. */
+.image-production-prompt { margin:16px 0 0; }
+.image-production-prompt img { display:block; width:100%; max-width:480px; height:320px; object-fit:contain; margin:0 auto; }
+.image-production-question > .front-english,
+.image-production-question > .hint { display:none; }
+.image-production-question { min-height:430px; }
+.image-production-content { display:flow-root; }
+.card.image-production-answer.visual-ready .vocab-visual img,
+.card.image-production-answer.visual-ready .front-word-ruby,
+.card.image-production-answer.visual-ready .meaning,
+.card.image-production-answer.visual-ready .wordinfo,
+.card.image-production-answer.visual-ready .example,
+.card.image-production-answer.visual-ready .kanji-breakdown,
+.card.image-production-answer.visual-ready .fw-read,
+.card.image-production-answer.visual-ready .fr { animation:none; }
+@media(max-width:480px) {
+  .image-production-prompt { margin-top:10px; }
+  .image-production-prompt img { height:280px; }
+  .image-production-question { min-height:380px; }
 }

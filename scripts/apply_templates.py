@@ -9,7 +9,9 @@
 - verifies note count, guids and media references before replacing the deck
 """
 import json, os, re, shutil, sqlite3, sys, time, zipfile, tempfile
-from card_visuals import apply_visuals, FIGURE
+from card_visuals import apply_visuals, FIGURE, image_bytes, visual_lookup, select_visual
+from pathlib import Path
+import hashlib
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DECKS = sys.argv[1:] or ["GENKI I Vocab", "GENKI II Vocab", "JLPT N4", "JLPT N5", "Quartet I Vocab"]  # optional: deck names as arguments
@@ -27,7 +29,22 @@ link_script = rd(f"{ROOT}/templates/dictionary_links.js").replace('__DICTIONARY_
 runtime += '\n' + link_script
 tap_guard = rd(f"{ROOT}/templates/tap_guard.js").strip()
 css = rd(f"{ROOT}/templates/card.css") + "\n" + rd(f"{ROOT}/templates/visuals.css")
-def tmpl(name): return rd(f"{ROOT}/templates/{name}.html").replace("__VISUAL_FRONT__", rd(f"{ROOT}/templates/visual_front.js")).replace("__RUNTIME__", runtime).replace("__TAP_GUARD__", tap_guard)
+catalog = Path(ROOT) / 'assets/card-visuals'
+selection = json.loads(rd(str(catalog / 'image-production.json')))['entries']
+lookup, senses = visual_lookup(catalog)
+production_rules = {}
+for entry in selection:
+    fields = [entry[k] for k in ('word', 'reading', 'meaning')]
+    visual = select_visual(lookup, senses, fields)
+    assert visual and visual['image'] == entry['image'], 'Selected image changed; review the Production prompt again'
+    assert hashlib.sha256((catalog / 'images' / visual['image']).read_bytes()).hexdigest() == entry['image_sha256'], 'Selected artwork changed; review it again'
+    filename = 'vocab_visual_' + hashlib.sha256(image_bytes(catalog, visual)).hexdigest()[:16] + '.webp'
+    key = '|'.join(fields)
+    assert key not in production_rules, 'Duplicate Production sense'
+    production_rules[key] = filename
+image_production = rd(f"{ROOT}/templates/image_production.js").replace('__IMAGE_PRODUCTION_RULES__', json.dumps(production_rules, ensure_ascii=True).replace('</', '<\\/'))
+report = {'selected_senses':len(selection), 'decks':[]}
+def tmpl(name): return rd(f"{ROOT}/templates/{name}.html").replace("__IMAGE_PRODUCTION__", image_production).replace("__VISUAL_FRONT__", rd(f"{ROOT}/templates/visual_front.js")).replace("__RUNTIME__", runtime).replace("__TAP_GUARD__", tap_guard)
 afmt = {"Recognition": tmpl("recognition_back"), "Production": tmpl("production_back")}
 qfmt = {"Recognition": tmpl("recognition_front"), "Production": tmpl("production_front")}
 # answer side only: card taps must never trigger AnkiMobile's tap zones there (see templates/tap_guard.js).
@@ -87,6 +104,9 @@ for deck in DECKS:
     original_notes = con.execute("select * from notes order by id").fetchall()
     original_cards = con.execute("select * from cards order by id").fetchall()
     original_schema = {k: (m["flds"], [(t["name"], t["ord"]) for t in m["tmpls"]]) for k, m in models.items()}
+    eligible = [row for row in original_notes if '|'.join(row[6].split('\x1f')[:3]) in production_rules]
+    for row in eligible:
+        assert production_rules['|'.join(row[6].split('\x1f')[:3])] in media.values(), 'Selected prompt media missing'
     now = int(time.time())
     image_add, illustrated, images_changed = apply_visuals(con, media, ROOT, now)
     for m in models.values():
@@ -168,8 +188,16 @@ for deck in DECKS:
                 assert original.read(info.filename) == zchk.read(info.filename), "original media/stub changed"
     zchk.close()
 
+    report['decks'].append({'deck':deck,'image_production_cards':len(eligible),
+        'english_production_cards':len(original_notes)-len(eligible),'total_cards':len(original_cards),
+        'existing_card_rows_unchanged':True,'schema_unchanged':True,
+        'words':[row[6].split('\x1f')[0] for row in eligible]})
     staged = src + ".tmp"
     shutil.copyfile(out, staged)
     os.replace(staged, src)
     shutil.rmtree(work, ignore_errors=True)
     print(f"ok {deck}: notes={len(after_notes)} media={len(media2)} images={illustrated} (changed {images_changed}, added {len(image_add)}) (+{len(kr_add)} reading clips) asset={ASSET} member={idx} dropped={len(stale)} size={os.path.getsize(src)//1024} KB")
+
+report_path = Path(ROOT) / 'assets/card-visuals/image-production-report.json'
+report_path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+print('Image-first Production:', sum(d['image_production_cards'] for d in report['decks']), 'cards across', len(report['decks']), 'decks')

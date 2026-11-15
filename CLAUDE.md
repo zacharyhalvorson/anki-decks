@@ -315,3 +315,92 @@ import-merge); the second sentence lives in the same fields, after a separator:
   `initial_prompt` and kanji/digit tokens suppressed gives kana transcripts that can
   be diffed against the card reading; normal whisper output hides misreadings
   behind kanji.
+
+## Image-first Production (November 2026)
+
+The two-template, ten-field schema remains unchanged. Production uses an image-only front for exact senses in `assets/card-visuals/image-production.json` (reviewed artwork hash required), and English for everything else. `templates/image_production.js` is inlined into both Production sides by `apply_templates.py`. Do not put Anki field placeholders in script comments: they are expanded and may register audio even on the front. Keep automatic word playback native to Anki to avoid double playback. `scripts/test_image_production.py` checks this and the packaged selection.
+
+## Matching illustrations for future cards
+
+Read this section before adding or replacing card artwork. The historical prompts
+are in `assets/card-visuals/generation-prompts.json`; the accepted artwork is
+indexed by `manifest.json`, with exact-sense exceptions in `sense-overrides.json`.
+The image-first rollout reused those images; it did not generate a new style.
+
+### Reusable visual-style prompt
+
+Use the following as the base, filling in the exact word, reading, meaning, and
+scene. This consolidates the saved generation prompts; it is not a verbatim
+record of every historical image request.
+
+> Create ONE Japanese vocabulary illustration for [WORD] ([READING]), meaning
+> [EXACT SENSE]. Scene: [ONE CLEAR, SPECIFIC SCENE]. Warm hand-painted storybook
+> gouache with fine pencil texture; restrained olive, terracotta, ochre, and muted
+> blue colors. Clean, readable silhouettes and natural proportions. Wide 3:1
+> horizontal composition with genuine transparent alpha background. Compact,
+> isolated vignette with only essential props, whole subjects fully visible and
+> centered, at least 15% transparent padding above and below and 10% at left and
+> right. Readable at approximately 390 × 130 pixels on both white and charcoal
+> card backgrounds. No lettering, labels, captions, logos, watermark, opaque
+> background, paper rectangle, scene-wide floor, broad drop shadow, halo, mist,
+> or glow. If a person is necessary, use an expressive adult character with
+> anatomically natural hands. Match the palette, brush texture, and rendering of
+> the supplied existing illustrations without copying their subject matter.
+
+Use the image-generation tool with transparency explicitly enabled. Supply one
+or two existing PNGs from `assets/card-visuals/images/` as style references when
+supported; inspect them first. Good representative references are
+`stairs-transparent.png`, `vocab-330471442ce4-v2.png` (chair), and
+`vocab-fdf9d40719eb.png` (cat). Inspect the manifest if any path has changed.
+
+### Image-first prompt versus answer-side reminder
+
+For a concrete noun intended to replace an English question, add:
+
+> This image will be the ONLY question cue. Make [TARGET OBJECT] the unmistakable
+> visual focus. Prefer the object alone; add a person or prop only if needed to
+> identify it. Avoid competing objects and actions that suggest a different
+> answer. Do not reveal the answer through writing, labels, or symbols.
+
+An answer-side mnemonic may use a more contextual scene, but that does not make
+it suitable as a question. Abstract meanings, social roles, tiny targets, and
+ambiguous scenes keep English prompts. Do not automatically enable image-first
+Production for every noun or every illustrated word. Do not add a third card
+or new phrase cards. Japanese-to-English Recognition remains unchanged.
+
+### Save, review, and package
+
+1. Confirm the exact Word, Reading, and Meaning in the target note before
+   generating. Check existing artwork for reusable matching senses first.
+2. Keep the transparent PNG in `assets/card-visuals/images/`. Save the actual
+   prompt, reference filenames, tool, and source/output provenance in
+   `generation-prompts.json`. Register accepted artwork in `manifest.json`, or
+   `sense-overrides.json` when different meanings share a word/reading.
+   `scripts/register_card_visual.py` handles jobs already in
+   `generation-queue.json`; its arguments are the job index and source PNG path.
+3. Inspect the illustration at card size on light and dark backgrounds. Check
+   the intended meaning, obvious target, no answer text, intact subjects, and
+   genuine transparency. Inspect the image itself, not just its description.
+4. Only after question-side review, add an entry to `image-production.json`
+   containing exact `word`, `reading`, `meaning`, `image`, and `image_sha256`
+   (SHA-256 of the original PNG bytes). The builder rejects changed artwork
+   until it is reviewed again. Do not rely on old reported selection counts.
+5. Run `python3 scripts/apply_templates.py` from `Anki/` to embed content-hashed
+   WebPs and templates in the exports. The shared conversion produces 1200px-wide
+   WebPs; the compact answer banner uses a 3:1 ratio, at most 480 CSS pixels wide.
+   Avoid per-word layout overrides.
+6. Run `python3 scripts/test_image_production.py`,
+   `python3 scripts/test_visual_senses.py`, and the Node checks in
+   `scripts/tests/` (including `image_production_motion.cjs`,
+   `image_production_handoff.cjs`, `visual_handoff.cjs`, and
+   `visual_script_context.cjs`). Build the actual-package browser preview with
+   `python3 experiments/image-production/build_packaged.py`. Include the new
+   vocabulary in its sample list when inspecting it.
+
+Keep the accepted interaction: image-only question; automatic native word audio
+on reveal; the image shrinks upward while the entire answer block moves upward
+from below it on the same timeline; normal compact final spacing; both example
+sentences and their audio; kanji breakdown only when it has content. Preserve
+normal-card transitions, note/card identity, scheduling, and the ten-field,
+two-template schema. Rebuilding packages does not import them into the live
+Anki collection. Native Anki behavior must be checked separately from a browser.

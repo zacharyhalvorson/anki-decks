@@ -1,0 +1,901 @@
+{
+  "policy": "Reviewed concrete vocabulary only. Exact word, reading, meaning and artwork hash must match. All other Production cards retain English prompts.",
+  "entries": [
+    {
+      "word": "コンピューター",
+      "reading": "コンピューター",
+      "meaning": "computer",
+      "image": "vocab-7bd6e06dfb8e.png",
+      "image_sha256": "2fb2c9f63b5e2fc46338d8ec4fb3cb4feb7baf7625d02dab68685409dffc5c87"
+    },
+    {
+      "word": "赤ちゃん",
+      "reading": "あかちゃん",
+      "meaning": "baby",
+      "image": "vocab-5cf3857465fe.png",
+      "image_sha256": "9f45fca66def742e5d0bcad26d61665a6cb2ed3a31458569f42c4773eaf45e1b"
+    },
+    {
+      "word": "トイレ",
+      "reading": "トイレ",
+      "meaning": "toilet; bathroom",
+      "image": "vocab-fd67967c4311.png",
+      "image_sha256": "29bbe4fc3b24e3a836215839f355be061275e84b6da1a712f0e77f6e8790bf13"
+    },
+    {
+      "word": "家",
+      "reading": "いえ/うち",
+      "meaning": "house; home",
+      "image": "vocab-f5a349049791.png",
+      "image_sha256": "eeb6b1ab322151e0e07be1d784c9e7801393968fe247b05ef8eda3b37beeecb7"
+    },
+    {
+      "word": "台所",
+      "reading": "だいどころ",
+      "meaning": "kitchen",
+      "image": "vocab-8f612ce070a1.png",
+      "image_sha256": "9fe5c537a2b376e217fc0b7b1b62f818d9ddb45ad0c5ba4111d36a9bcb581d26"
+    },
+    {
+      "word": "窓",
+      "reading": "まど",
+      "meaning": "window",
+      "image": "vocab-608127a3d2db.png",
+      "image_sha256": "ea653df8e204a70c3834ccf5da3dea3d38647cc1d3b16c3ec6817dfacb15512c"
+    },
+    {
+      "word": "ドア",
+      "reading": "ドア",
+      "meaning": "door",
+      "image": "vocab-ee1c1b734ccf.png",
+      "image_sha256": "2c391733ea44522b6c9c4e4c494c82ed1ad01ba850cc761a18224e6bbe064c9a"
+    },
+    {
+      "word": "門",
+      "reading": "もん",
+      "meaning": "gate",
+      "image": "vocab-aee5b9eab214.png",
+      "image_sha256": "1740f9671ebf61aa44fb4486633fb2a4390dcde1c1135b382cba6812a8c1e3ba"
+    },
+    {
+      "word": "階段",
+      "reading": "かいだん",
+      "meaning": "stairs",
+      "image": "stairs-transparent.png",
+      "image_sha256": "9bd736947684a2857228226e0fcd449d9a161d06ab7911d7bc67a25839622c14"
+    },
+    {
+      "word": "お風呂",
+      "reading": "おふろ",
+      "meaning": "bath",
+      "image": "vocab-2192ef48e313.png",
+      "image_sha256": "da8539f2fe0500d6ada03b74f8731efa133ada6bee7476b79f0eab11baa9ca65"
+    },
+    {
+      "word": "パン",
+      "reading": "パン",
+      "meaning": "bread",
+      "image": "vocab-952b5d838255.png",
+      "image_sha256": "08defd9c2234fd8d89f370b4f9405179fce1275b4fa670d28f5c049d592078fe"
+    },
+    {
+      "word": "魚",
+      "reading": "さかな",
+      "meaning": "fish",
+      "image": "vocab-fe3a71de260c.png",
+      "image_sha256": "a9a98e979a0ec9d85a95a2268ac91922dc13b1dffbe6ecd1cba1b540bc5ad0ef"
+    },
+    {
+      "word": "りんご",
+      "reading": "りんご",
+      "meaning": "apple",
+      "image": "vocab-eca1b44c9a61-v3.png",
+      "image_sha256": "109713e1aa5173795ee9fb71f8bfae648a969c9f491dcf2bfb8f0cff497c47c1"
+    },
+    {
+      "word": "みかん",
+      "reading": "みかん",
+      "meaning": "mandarin orange",
+      "image": "vocab-513849cbfc3e.png",
+      "image_sha256": "ae2e6f3ce3c818ead8143223c40cc4d4fcb55cb2c05ecd24ecd44bb58b9ab48e"
+    },
+    {
+      "word": "弁当",
+      "reading": "べんとう",
+      "meaning": "lunch box",
+      "image": "vocab-fd9971ba64b7.png",
+      "image_sha256": "3c9b14b48ae6b25e306984640ec014a63b549e19eacf1acee080b6e79cb2ba54"
+    },
+    {
+      "word": "山",
+      "reading": "やま",
+      "meaning": "mountain",
+      "image": "vocab-43b1722f9c56.png",
+      "image_sha256": "75e80555b0b0b9cc55135b1bd2b9706939deda01d508c238fea8bfef1f42266c"
+    },
+    {
+      "word": "川",
+      "reading": "かわ",
+      "meaning": "river",
+      "image": "vocab-f49e37e8cb00.png",
+      "image_sha256": "1d38e907deb66d9f9b30627d05ee953405a14f279c281ae8d7d11b69a871d8df"
+    },
+    {
+      "word": "海",
+      "reading": "うみ",
+      "meaning": "sea; ocean",
+      "image": "vocab-07cb3216bb5e.png",
+      "image_sha256": "b133883de90f602dc6b5ab65b5ddf3dab15ece5f92306d1dc515172ecf753bf6"
+    },
+    {
+      "word": "花",
+      "reading": "はな",
+      "meaning": "flower",
+      "image": "vocab-3a0212e0219f.png",
+      "image_sha256": "8014aabe73d1017ffb373bad7a35fcc7e47934743859b13f1a466d45cd8caca5"
+    },
+    {
+      "word": "木",
+      "reading": "き",
+      "meaning": "tree",
+      "image": "vocab-209ac4ed9d7c.png",
+      "image_sha256": "7f80c1074d26a8be0275f42e4b265bf655323170de59b2544f9c20b490deba1d"
+    },
+    {
+      "word": "犬",
+      "reading": "いぬ",
+      "meaning": "dog",
+      "image": "vocab-3818226abcf4.png",
+      "image_sha256": "c4eb88d54de11a509e356f45d6e4fd5de12d034eb0db3723c59c06b393deda3f"
+    },
+    {
+      "word": "猫",
+      "reading": "ねこ",
+      "meaning": "cat",
+      "image": "vocab-fdf9d40719eb.png",
+      "image_sha256": "86c321d4ddb3d54cd3a43b05735251be4abef5e544aa22f54a7c4922a7f54fb1"
+    },
+    {
+      "word": "鳥",
+      "reading": "とり",
+      "meaning": "bird",
+      "image": "vocab-11c4f42c5c0a.png",
+      "image_sha256": "1f7330187b42a0ae214d5c1c8202eee9b8e579ee41309d974c87b86c26b5a1d8"
+    },
+    {
+      "word": "本",
+      "reading": "ほん",
+      "meaning": "book",
+      "image": "vocab-67394519b9a6.png",
+      "image_sha256": "a47943a19ce8611e31b586475593e78131c0af0525364b09bf0eb9cc0664faf2"
+    },
+    {
+      "word": "新聞",
+      "reading": "しんぶん",
+      "meaning": "newspaper",
+      "image": "vocab-c899c96bbf9d.png",
+      "image_sha256": "0bb74a59cc397c47694dbef23388209ed1eb5bf9b14a4f5c10cfe43822d3a166"
+    },
+    {
+      "word": "傘",
+      "reading": "かさ",
+      "meaning": "umbrella",
+      "image": "vocab-aa9951036541.png",
+      "image_sha256": "b96f7f4ba6ab7714f93657c58c1af00a18cafb25dac4310ff72d650ec4ce98b7"
+    },
+    {
+      "word": "時計",
+      "reading": "とけい",
+      "meaning": "watch; clock",
+      "image": "vocab-389a8b3af5f3.png",
+      "image_sha256": "ff1e2d516a635631083dc12942c465e614f23606f4f5039d6eae0f5e975199d9"
+    },
+    {
+      "word": "カメラ",
+      "reading": "カメラ",
+      "meaning": "camera",
+      "image": "vocab-98d36f935410.png",
+      "image_sha256": "581e24003412a32964e1e12eaed583f169f57f6a3e01793836ac31b55d42d4e6"
+    },
+    {
+      "word": "テレビ",
+      "reading": "テレビ",
+      "meaning": "television",
+      "image": "vocab-bd8569413ddc.png",
+      "image_sha256": "15328b10a5bf77cccc178991d5903797c9bccd98edc49b6301f3fe50bec3b0c8"
+    },
+    {
+      "word": "ラジオ",
+      "reading": "ラジオ",
+      "meaning": "radio",
+      "image": "vocab-e857dfb75624.png",
+      "image_sha256": "898aba36d8a303f1f72b08b9055c0965f2f548dfc40f692276dd76fe131b678b"
+    },
+    {
+      "word": "パソコン",
+      "reading": "パソコン",
+      "meaning": "computer",
+      "image": "vocab-3b62e70906c0-v2.png",
+      "image_sha256": "8aadd37b7387f0d1b838aafab0e720c6f7aa70351796f6818a015f36f8df1936"
+    },
+    {
+      "word": "机",
+      "reading": "つくえ",
+      "meaning": "desk",
+      "image": "vocab-0f0bfa742c98-v2.png",
+      "image_sha256": "7f10279726e9e71e09b59f94d987a0a8d126388c9f9a704b681808ea6ef68642"
+    },
+    {
+      "word": "椅子",
+      "reading": "いす",
+      "meaning": "chair",
+      "image": "vocab-330471442ce4-v2.png",
+      "image_sha256": "0e6a8f3106548404d080f5fa1be365032f2d6decaa981fe300a704b0109054bb"
+    },
+    {
+      "word": "テーブル",
+      "reading": "テーブル",
+      "meaning": "table",
+      "image": "vocab-f88b59abc130-v2.png",
+      "image_sha256": "68637d4a53fee4a6aa307b8a34027a9e8721a1711b629fcf79c3032eb842c188"
+    },
+    {
+      "word": "ベッド",
+      "reading": "ベッド",
+      "meaning": "bed",
+      "image": "vocab-842d20e8c99f.png",
+      "image_sha256": "d58900b5e223a4386ad3484399c7ec261f4a054dfb081033889d3a52bb063187"
+    },
+    {
+      "word": "靴",
+      "reading": "くつ",
+      "meaning": "shoes",
+      "image": "vocab-79dd3137ca88.png",
+      "image_sha256": "391eb0ec00bb793e8a09cad53969d1cb8e395bdf3796b9325bc751bf6496245b"
+    },
+    {
+      "word": "帽子",
+      "reading": "ぼうし",
+      "meaning": "hat; cap",
+      "image": "vocab-6776bb5af622.png",
+      "image_sha256": "9c619133e3189821ea5844537d68c78702b5852d60f456a0a2777904e6d84cae"
+    },
+    {
+      "word": "シャツ",
+      "reading": "シャツ",
+      "meaning": "shirt",
+      "image": "vocab-2fa130f5fe04.png",
+      "image_sha256": "662acb739532eed2b852fed8f8de1a308c5a1995af4286c55cc1de057793f26a"
+    },
+    {
+      "word": "スカート",
+      "reading": "スカート",
+      "meaning": "skirt",
+      "image": "vocab-2331522e629a.png",
+      "image_sha256": "b2e91a4bd8bfa8889ded1d905981207733a726a5f18c012e95576114c63e78ba"
+    },
+    {
+      "word": "ネクタイ",
+      "reading": "ネクタイ",
+      "meaning": "necktie",
+      "image": "vocab-550f25f7b1cb.png",
+      "image_sha256": "120c4920fc987cf30b21c5db5df1f1d4ffb65b9fc9aa64e14c20e517b5be554c"
+    },
+    {
+      "word": "箱",
+      "reading": "はこ",
+      "meaning": "box",
+      "image": "vocab-6d688721ee07.png",
+      "image_sha256": "dd231c1c14ca08b99fd24b50e3e3e064d70a7aecf529d6b0412e8959e12146ab"
+    },
+    {
+      "word": "皿",
+      "reading": "さら",
+      "meaning": "plate",
+      "image": "vocab-26d61e9149bd.png",
+      "image_sha256": "f1cd64ce57c571cc4a29171f085baa781bbd4965e2d0315d585fab73b54695e4"
+    },
+    {
+      "word": "封筒",
+      "reading": "ふうとう",
+      "meaning": "envelope",
+      "image": "vocab-ceb1cabebe26.png",
+      "image_sha256": "f7487af1e0018721f2fc2b47ffd8cb166ee1fa5d5ed01d88a76c9937cd9c4d51"
+    },
+    {
+      "word": "地図",
+      "reading": "ちず",
+      "meaning": "map",
+      "image": "vocab-465656f7f1ef.png",
+      "image_sha256": "8c496a263ea2ff1152603a296571f8d872b376bbb266af6122b93b15a924d640"
+    },
+    {
+      "word": "車",
+      "reading": "くるま",
+      "meaning": "car",
+      "image": "vocab-93aceb77276b.png",
+      "image_sha256": "2684c7822bde916f6a086b8c28b25aa60d801c09e44cbd2a257386dab3894770"
+    },
+    {
+      "word": "タクシー",
+      "reading": "タクシー",
+      "meaning": "taxi",
+      "image": "vocab-785348e47358.png",
+      "image_sha256": "bc62a436967229e582b51405f534e93ad847014a1fd4be5f444285d358c80207"
+    },
+    {
+      "word": "バス",
+      "reading": "バス",
+      "meaning": "bus",
+      "image": "vocab-e3aa483e441c.png",
+      "image_sha256": "f6bee8a7325b54fa4fba42305e317515d8768c2dcdd5894bbc571b8b63701e7c"
+    },
+    {
+      "word": "電車",
+      "reading": "でんしゃ",
+      "meaning": "train",
+      "image": "vocab-859a6d4446c4.png",
+      "image_sha256": "8dd6169a6d9b5a2da5ad7cdfd9605c74d6963488468e9e0a1d766922b60bb5cf"
+    },
+    {
+      "word": "飛行機",
+      "reading": "ひこうき",
+      "meaning": "airplane",
+      "image": "vocab-6ec3d3471d2a.png",
+      "image_sha256": "1b332dcb6637965ecf9d4fd1c8193b0d258743d480b736735fa7b0e1a48a55ff"
+    },
+    {
+      "word": "自転車",
+      "reading": "じてんしゃ",
+      "meaning": "bicycle",
+      "image": "vocab-7d4ecf553485.png",
+      "image_sha256": "470bd93d14440587549f8cfa79796a4b76e6485ca90cd738a58808e896892d34"
+    },
+    {
+      "word": "船",
+      "reading": "ふね",
+      "meaning": "ship; boat",
+      "image": "vocab-b530735f27ae.png",
+      "image_sha256": "d28ab9805c3a28c6262b28bfb05a1c725756020e16ea2d4bef464eea59e5437e"
+    },
+    {
+      "word": "信号",
+      "reading": "しんごう",
+      "meaning": "traffic light",
+      "image": "vocab-a3875deb2e2f.png",
+      "image_sha256": "344fec561f4a253221b6a6c3370b5e2b63778fae242f9fedec16b915d9b0f0e7"
+    },
+    {
+      "word": "橋",
+      "reading": "はし",
+      "meaning": "bridge",
+      "image": "vocab-d23a2a2f3813.png",
+      "image_sha256": "7476b029e08857f130d12a665c40282a551944ada92fe11f7573cc4c84778660"
+    },
+    {
+      "word": "プール",
+      "reading": "プール",
+      "meaning": "pool",
+      "image": "vocab-5cfa17f3078c.png",
+      "image_sha256": "b678c494a7a89244ed1e0d067161dee0e11c9fa0810b6021137643f9a896211e"
+    },
+    {
+      "word": "エレベーター",
+      "reading": "エレベーター",
+      "meaning": "elevator",
+      "image": "vocab-bcd52356d1d3.png",
+      "image_sha256": "5039e989dcff306e513da2eef1645eb663f923a8324f2697376620c465875da4"
+    },
+    {
+      "word": "エアコン",
+      "reading": "エアコン",
+      "meaning": "air conditioner",
+      "image": "vocab-d664f5f16063.png",
+      "image_sha256": "3b2704add2eed5a6babfa6976cf2e8784a49645dd47551dedb5181b1b2cfd6ca"
+    },
+    {
+      "word": "冷蔵庫",
+      "reading": "れいぞうこ",
+      "meaning": "refrigerator",
+      "image": "vocab-338228095ec6.png",
+      "image_sha256": "c614be8084171336bbd48b1e2afef8a0837040172f12210cd9201e6f8000f12f"
+    },
+    {
+      "word": "石鹸",
+      "reading": "せっけん",
+      "meaning": "soap",
+      "image": "vocab-4a8b211e77f0-v2-redraw.png",
+      "image_sha256": "581aedb90d83adb4b19f8b1f5f22b874d826f5b4208f63278cab064ac96d03c6"
+    },
+    {
+      "word": "お皿",
+      "reading": "おさら",
+      "meaning": "plate (polite)",
+      "image": "vocab-138f76b1b7de.png",
+      "image_sha256": "42048da5b5d670e3ed8ce94d4880b8f796f3d26a318d26f875cf9a39427c50b2"
+    },
+    {
+      "word": "コート",
+      "reading": "コート",
+      "meaning": "coat",
+      "image": "vocab-8f52cf396d79.png",
+      "image_sha256": "81a31a6108a586ed4bce4e3038aaa2508849dfba07ae5e2517a37e28a01f0ef9"
+    },
+    {
+      "word": "セーター",
+      "reading": "セーター",
+      "meaning": "sweater",
+      "image": "vocab-19c16248a6ef.png",
+      "image_sha256": "5a9899757791df0f14c338ea40e50b8a7a6600bbff9ae39b65de53de4a31d8f4"
+    },
+    {
+      "word": "島",
+      "reading": "しま",
+      "meaning": "island",
+      "image": "vocab-3f15cec5d7c6.png",
+      "image_sha256": "e0053ada5f64cd8d308caac7038364434e8776e61440daf874ef141e1d88e5ec"
+    },
+    {
+      "word": "森",
+      "reading": "もり",
+      "meaning": "forest",
+      "image": "vocab-ff1d678c7b43.png",
+      "image_sha256": "9bb076f8f9eea1c936bbe635c1506f1210a1fadae6c4b04a9e3838ea6220eb16"
+    },
+    {
+      "word": "石",
+      "reading": "いし",
+      "meaning": "stone; rock",
+      "image": "vocab-13e267063d14.png",
+      "image_sha256": "911731832e0e44e53fc0abd76b9703f57ac2c493711df767773509ad6dc1d481"
+    },
+    {
+      "word": "月",
+      "reading": "つき",
+      "meaning": "moon",
+      "image": "vocab-5aac156c7e95.png",
+      "image_sha256": "892cbf0beb86c62248ab6936faa01cf51ec66283a66a0ce567c951716aad1b38"
+    },
+    {
+      "word": "太陽",
+      "reading": "たいよう",
+      "meaning": "sun",
+      "image": "vocab-a5c6bd1d736c-v2.png",
+      "image_sha256": "3d95100529693f2252442a74f873ca8b2e9d562e1831b06364e669605b9bf047"
+    },
+    {
+      "word": "神社",
+      "reading": "じんじゃ",
+      "meaning": "shrine",
+      "image": "vocab-2865dd15b708.png",
+      "image_sha256": "52ec7c050c3325415b8097e1ff2f3844375d6e7d8829ee7304956071e1d0fc4d"
+    },
+    {
+      "word": "教会",
+      "reading": "きょうかい",
+      "meaning": "church",
+      "image": "vocab-fdc00b0b5e08.png",
+      "image_sha256": "b61e75e714e00fd4c9ab306896a712af79537e21dc22d9514cf3f5df0fd1d0e6"
+    },
+    {
+      "word": "ゴミ箱",
+      "reading": "ゴミばこ",
+      "meaning": "trash can",
+      "image": "vocab-25f27b301c4a-v2.png",
+      "image_sha256": "ade27170c4cf3f95a9cb77edd0a639b7589d83ce0c777183b83aacd030847f84"
+    },
+    {
+      "word": "畳",
+      "reading": "たたみ",
+      "meaning": "tatami mat",
+      "image": "vocab-d23459e92719.png",
+      "image_sha256": "732406cf2d4fbeb449e69ff34cb296c7e14a61cd3bfb22477267c2c38afaf00d"
+    },
+    {
+      "word": "布団",
+      "reading": "ふとん",
+      "meaning": "futon",
+      "image": "vocab-da864bafbf4b.png",
+      "image_sha256": "f05f5b3d390ce1d2259bbad03cedb83d490e0a307ac5f14464b0fac25154233b"
+    },
+    {
+      "word": "鏡",
+      "reading": "かがみ",
+      "meaning": "mirror",
+      "image": "vocab-8bd98b72de7c.png",
+      "image_sha256": "ff681431c205f23beea935776aa2bc14e795df7c6f74c917aa39440e6a57b10d"
+    },
+    {
+      "word": "人形",
+      "reading": "にんぎょう",
+      "meaning": "doll",
+      "image": "vocab-9d59131e684e.png",
+      "image_sha256": "3bd8fa6a81a64d5ac04d5a8498b63e8cdbff0f9890fac22b441aa5e3ae3dde58"
+    },
+    {
+      "word": "ケーキ",
+      "reading": "ケーキ",
+      "meaning": "cake",
+      "image": "vocab-1600839278d1.png",
+      "image_sha256": "04a12b24d97db67cbfb295f2ae642b26d83f909dd0ef1ce71af7fe137ddf7a2e"
+    },
+    {
+      "word": "アイスクリーム",
+      "reading": "アイスクリーム",
+      "meaning": "ice cream",
+      "image": "vocab-044112c9199e.png",
+      "image_sha256": "8f5a9fe305760225a434c3365944dfb9d77a5251a9af1e3d60d1372be42b914c"
+    },
+    {
+      "word": "サラダ",
+      "reading": "サラダ",
+      "meaning": "salad",
+      "image": "vocab-98235d51fb79.png",
+      "image_sha256": "a09d26d7b25a081457b98a6a8cab3370977227bcfef5773d596d70dd079628e6"
+    },
+    {
+      "word": "ビール",
+      "reading": "ビール",
+      "meaning": "beer",
+      "image": "vocab-34b4a34f1dc8-redraw.png",
+      "image_sha256": "dd74be509d5c1eef4329fb9ba05bd5ac8cdee9106456de01b5e2c0f230a47ea6"
+    },
+    {
+      "word": "ワイン",
+      "reading": "ワイン",
+      "meaning": "wine",
+      "image": "vocab-22dd43d3fd88.png",
+      "image_sha256": "515e057464d6e3cd477b2ae1c71a763fe1fe42565d8ecb22a03e08a7945cb740"
+    },
+    {
+      "word": "ベル",
+      "reading": "ベル",
+      "meaning": "bell",
+      "image": "vocab-66f1b9f8452b.png",
+      "image_sha256": "ac34015f8e0d07ffd72307d1217a7c48931d1307891aeef1ce56ce1faf7e80e4"
+    },
+    {
+      "word": "指輪",
+      "reading": "ゆびわ",
+      "meaning": "ring (jewelry)",
+      "image": "vocab-3481b8eab0cd-redraw.png",
+      "image_sha256": "d6c7b2c430ce7024a34118ae51168c1d843b7ae7b6ead68b16c948b5c869aa00"
+    },
+    {
+      "word": "サンダル",
+      "reading": "サンダル",
+      "meaning": "sandals",
+      "image": "vocab-aa46ef0d142b.png",
+      "image_sha256": "ab9576246617bbb88cc39b2afc75ea293797ccee35729163f03c8465ef5a6f26"
+    },
+    {
+      "word": "手袋",
+      "reading": "てぶくろ",
+      "meaning": "gloves",
+      "image": "vocab-721da948d063.png",
+      "image_sha256": "423a906332830d88c73453d170080bf4e8a1201abf89111a8e8d87fe41c3654c"
+    },
+    {
+      "word": "マフラー",
+      "reading": "マフラー",
+      "meaning": "scarf; muffler",
+      "image": "vocab-d28e8268f921.png",
+      "image_sha256": "75a82318c88305323256b829a351085b96335a3fefd871bb595ed7318c603c3f"
+    },
+    {
+      "word": "ワンピース",
+      "reading": "ワンピース",
+      "meaning": "dress (one-piece)",
+      "image": "vocab-f51d43d95a45.png",
+      "image_sha256": "e6f9fa013a47bc01010144962341ba7f2a74c1ba418442cd4c4ae0573aff612b"
+    },
+    {
+      "word": "ジーンズ",
+      "reading": "ジーンズ",
+      "meaning": "jeans",
+      "image": "vocab-8e246d7879f4.png",
+      "image_sha256": "b8901be96f8706cfbaa577cbe65044973ae5e3b75d0ed1b735b2225df71fe5fd"
+    },
+    {
+      "word": "Tシャツ",
+      "reading": "ティーシャツ",
+      "meaning": "T-shirt",
+      "image": "vocab-a75a085cd3c1.png",
+      "image_sha256": "532fbff2263597f32f831c9bdc2f33e2e914c9431caa1fb9fdc18ee630e44616"
+    },
+    {
+      "word": "スーツ",
+      "reading": "スーツ",
+      "meaning": "suit",
+      "image": "vocab-58d372ff64c0-redraw.png",
+      "image_sha256": "258b6a6149140c5b4d85b3bce8f6b5a1604fcd5494629c88e93e36dfaeb1a37b"
+    },
+    {
+      "word": "ピアノ",
+      "reading": "ピアノ",
+      "meaning": "piano",
+      "image": "vocab-a3ae3c522167.png",
+      "image_sha256": "c3a292bc2f58b7cbdda84f5d0535f87ddc8d95eb350e230eddf4c3da0397dfad"
+    },
+    {
+      "word": "ギター",
+      "reading": "ギター",
+      "meaning": "guitar",
+      "image": "vocab-f9afc6f87805-redraw.png",
+      "image_sha256": "6bb29811a5f8577cb78f22088cb040f35168189c119da3fbad8552b55cf3d573"
+    },
+    {
+      "word": "花火",
+      "reading": "はなび",
+      "meaning": "fireworks",
+      "image": "vocab-6790c442394b.png",
+      "image_sha256": "9898cac49c5b27666acd3ce4a2039394738f8af3aaf229e1553a288c647665bc"
+    },
+    {
+      "word": "シャワー",
+      "reading": "シャワー",
+      "meaning": "shower",
+      "image": "vocab-b8f358ad4a12-redraw-clean.png",
+      "image_sha256": "c88bdd6c8c8b5f2e0fe88b4fffb209f51cbab0c9516f21881e66492a6312e324"
+    },
+    {
+      "word": "テープレコーダー",
+      "reading": "テープレコーダー",
+      "meaning": "tape recorder",
+      "image": "vocab-9ba235b535f3.png",
+      "image_sha256": "73790ad7b6140d64667d3fa3afa95037f33ab76125f667aca7a75db7324472ac"
+    },
+    {
+      "word": "ポスト",
+      "reading": "ポスト",
+      "meaning": "mailbox; postbox",
+      "image": "vocab-080a691c55ec.png",
+      "image_sha256": "b99f14e6aec511bf0b4c585fc9d174d16cd5293449c8d6ceaccce1c4b19f663e"
+    },
+    {
+      "word": "ラジカセ",
+      "reading": "ラジカセ",
+      "meaning": "radio cassette player",
+      "image": "vocab-dbc53e2cef38.png",
+      "image_sha256": "7f386bb82d692edb5e26eec9a9d2f1d1a4b99b32e9cc2e3e35213ee4a3293481"
+    },
+    {
+      "word": "飴",
+      "reading": "あめ",
+      "meaning": "(hard) candy",
+      "image": "vocab-6e89a465d5fd.png",
+      "image_sha256": "d4a4759e36fe07409e36dcfbf104a79ba07c4348d294e163b6b84812156a8289"
+    },
+    {
+      "word": "家",
+      "reading": "いえ",
+      "meaning": "house; home",
+      "image": "vocab-71491c4cbccf.png",
+      "image_sha256": "c6c6159b534eccb243e158d4c57ea220b1d0d02d4de57797f1777e457d532d21"
+    },
+    {
+      "word": "花瓶",
+      "reading": "かびん",
+      "meaning": "(flower) vase",
+      "image": "vocab-54be6385f217-redraw.png",
+      "image_sha256": "eedce6a235866e5f7d61a453996cab2dfbd73271efbfa748b6b6db8b5a891977"
+    },
+    {
+      "word": "カレンダー",
+      "reading": "カレンダー",
+      "meaning": "calendar",
+      "image": "vocab-1360c78789e2.png",
+      "image_sha256": "a846c248da2533b2744909754755e97ca0d03ec85b296e6aa727d93228e18c5d"
+    },
+    {
+      "word": "ストーブ",
+      "reading": "ストーブ",
+      "meaning": "heater; stove",
+      "image": "vocab-12d0e61b9153.png",
+      "image_sha256": "72a2fa86bd5edff8f4f91114cdf34061ab2d5fefb377cf0bcd5f801af1969a01"
+    },
+    {
+      "word": "灰皿",
+      "reading": "はいざら",
+      "meaning": "ashtray",
+      "image": "vocab-c6ea8d220df8-redraw.png",
+      "image_sha256": "937203f90b0b4adfdc611bdad70e157f2fb1ebb2199603e250cf14762cc9726c"
+    },
+    {
+      "word": "本棚",
+      "reading": "ほんだな",
+      "meaning": "bookshelf",
+      "image": "vocab-01222bca8825.png",
+      "image_sha256": "c57c51292dc1817de37ba05b2149778b37d470daed3f16aa9600f47d4ac7538e"
+    },
+    {
+      "word": "自動車",
+      "reading": "じどうしゃ",
+      "meaning": "automobile; car",
+      "image": "vocab-a55635452383.png",
+      "image_sha256": "51cce41038c1f87ea20ae7981596e12aaa8a6f4bc08bbc0173ac01d7fdc3b7c3"
+    },
+    {
+      "word": "着物",
+      "reading": "きもの",
+      "meaning": "kimono; Japanese traditional dress",
+      "image": "vocab-69d9bfce9ba1.png",
+      "image_sha256": "596a4a4b623c0151eeebdae95fdda16211f254461b5d2ea6fe04646dd218bc25"
+    },
+    {
+      "word": "バイク",
+      "reading": "バイク",
+      "meaning": "motorcycle",
+      "image": "vocab-f379dc717b4e.png",
+      "image_sha256": "163bb7ce8219ed4a11bf40954c541e9c8093da14eaf1940b08630cd0731d5a06"
+    },
+    {
+      "word": "象",
+      "reading": "ぞう",
+      "meaning": "elephant",
+      "image": "vocab-26d6abbfa276.png",
+      "image_sha256": "dd2895d428a92cb57eaa57c94ef1def0d0200fa1f0864a1a2fc47141d166c340"
+    },
+    {
+      "word": "チョコレート",
+      "reading": "チョコレート",
+      "meaning": "chocolate",
+      "image": "vocab-cf058bffbdc9.png",
+      "image_sha256": "c24d9a5aad243bdda94186d5b78aa2bf5b09174df6d01d67c1351490cfe46c0e"
+    },
+    {
+      "word": "マフラー",
+      "reading": "マフラー",
+      "meaning": "winter scarf",
+      "image": "vocab-d28e8268f921.png",
+      "image_sha256": "75a82318c88305323256b829a351085b96335a3fefd871bb595ed7318c603c3f"
+    },
+    {
+      "word": "指輪",
+      "reading": "ゆびわ",
+      "meaning": "ring",
+      "image": "vocab-3481b8eab0cd-redraw.png",
+      "image_sha256": "d6c7b2c430ce7024a34118ae51168c1d843b7ae7b6ead68b16c948b5c869aa00"
+    },
+    {
+      "word": "ぬいぐるみ",
+      "reading": "ぬいぐるみ",
+      "meaning": "stuffed animal (e.g., teddy bear)",
+      "image": "vocab-0ac78ccdf745.png",
+      "image_sha256": "c75ed4f7ebfb53c26c61f73892130da1e3214b963f8d9bb90b4adcdf53b811dc"
+    },
+    {
+      "word": "お皿",
+      "reading": "おさら",
+      "meaning": "plate; dish",
+      "image": "vocab-138f76b1b7de.png",
+      "image_sha256": "42048da5b5d670e3ed8ce94d4880b8f796f3d26a318d26f875cf9a39427c50b2"
+    },
+    {
+      "word": "ジャケット",
+      "reading": "ジャケット",
+      "meaning": "jacket",
+      "image": "vocab-0b5bbfc69355.png",
+      "image_sha256": "6e10db837f86497ecbc19d4337b9d0c02af419cb597a7e3ab3f130fa182b8789"
+    },
+    {
+      "word": "プール",
+      "reading": "プール",
+      "meaning": "swimming pool",
+      "image": "vocab-5cfa17f3078c.png",
+      "image_sha256": "b678c494a7a89244ed1e0d067161dee0e11c9fa0810b6021137643f9a896211e"
+    },
+    {
+      "word": "パンダ",
+      "reading": "パンダ",
+      "meaning": "panda",
+      "image": "vocab-287c3504de15.png",
+      "image_sha256": "3724968af40ac10acf0acc18c0326243e2caff1cd81fc1f72224ca6f65906122"
+    },
+    {
+      "word": "ひげ",
+      "reading": "ひげ",
+      "meaning": "beard",
+      "image": "vocab-b7eef0d03cdb.png",
+      "image_sha256": "b98d1b01ac94d2f4f9f1e8570ea21d162027f9bd6898e96dc6529c445300e19c"
+    },
+    {
+      "word": "ブーツ",
+      "reading": "ブーツ",
+      "meaning": "boots",
+      "image": "vocab-636628342e65.png",
+      "image_sha256": "0f64ec6268595c2478eeda1b50b1def00b9871e077f2ad10a75961b9c0b6df75"
+    },
+    {
+      "word": "電子レンジ",
+      "reading": "でんしレンジ",
+      "meaning": "microwave oven",
+      "image": "vocab-ad73221b6bdd.png",
+      "image_sha256": "db76e0e9c5a640f3048662af58e1cc3885eb15bcf10de83fefd64afeb8a9782a"
+    },
+    {
+      "word": "ヒーター",
+      "reading": "ヒーター",
+      "meaning": "heater",
+      "image": "vocab-a131ba07a4b2-redraw.png",
+      "image_sha256": "133976ed477df1c1506d9a41c2167c30de811fb1d5b589c54b1f706b3c40a64c"
+    },
+    {
+      "word": "カーテン",
+      "reading": "カーテン",
+      "meaning": "curtain",
+      "image": "vocab-927a2d30af3e.png",
+      "image_sha256": "54cca1b070f865c80ca14d9472b1dc0e63dfdef3fbcf06769e71e3111de1d1fd"
+    },
+    {
+      "word": "ソファ",
+      "reading": "ソファ",
+      "meaning": "sofa",
+      "image": "vocab-61c891d785e7.png",
+      "image_sha256": "d6a396454a0ae24f12d45095bc055c6073c971985cb2e7c6b9f2d1cc08920310"
+    },
+    {
+      "word": "バナナ",
+      "reading": "バナナ",
+      "meaning": "banana",
+      "image": "vocab-d2f9d71c5590.png",
+      "image_sha256": "145cb18c005225d629c89cd4fae8fbf94a38d3f78ffcff3dd78e6ddfcdc52ec8"
+    },
+    {
+      "word": "ポップコーン",
+      "reading": "ポップコーン",
+      "meaning": "popcorn",
+      "image": "vocab-2975a84bd0a6.png",
+      "image_sha256": "38afc3684b84837e688c1eedef840ea85aa3cd91e887391e7b70959270d4afaa"
+    },
+    {
+      "word": "桜",
+      "reading": "さくら",
+      "meaning": "cherry blossom",
+      "image": "vocab-424b47033813.png",
+      "image_sha256": "caf725d6579c330dcf411a756443c201cff1d7295e470524cb43cdb10f27e7ea"
+    },
+    {
+      "word": "扇子",
+      "reading": "せんす",
+      "meaning": "(hand) fan",
+      "image": "vocab-28e56a98298d.png",
+      "image_sha256": "674d4a4170ae6986aecb3a78d9d2d6ec43858a50fe0c6cad0585ccbecc6142c4"
+    },
+    {
+      "word": "ヘッドホン",
+      "reading": "ヘッドホン",
+      "meaning": "headphones",
+      "image": "vocab-e6b8c2d6a495.png",
+      "image_sha256": "bd3ffc38ee0915e3ca2dfd163f7fea465fc4dbb8e71eba26f8d6c0b86448984f"
+    },
+    {
+      "word": "おにぎり",
+      "reading": "おにぎり",
+      "meaning": "rice ball",
+      "image": "vocab-60fc0ff5db1a-redraw.png",
+      "image_sha256": "2ab2285d17116bebfad96d3bd3adc2aad3ce29775644e40da7b56a3b57489430"
+    },
+    {
+      "word": "猿",
+      "reading": "さる",
+      "meaning": "monkey",
+      "image": "vocab-5e7fcd44ea85.png",
+      "image_sha256": "bfd30be31ab485c1f8a846586f36d3c464def8f6d2c88514378246d8abf5ede8"
+    },
+    {
+      "word": "ひげ",
+      "reading": "ひげ",
+      "meaning": "beard; mustache; whiskers",
+      "image": "vocab-b7eef0d03cdb.png",
+      "image_sha256": "b98d1b01ac94d2f4f9f1e8570ea21d162027f9bd6898e96dc6529c445300e19c"
+    },
+    {
+      "word": "桜",
+      "reading": "さくら",
+      "meaning": "cherry blossoms; cherry tree",
+      "image": "vocab-424b47033813.png",
+      "image_sha256": "caf725d6579c330dcf411a756443c201cff1d7295e470524cb43cdb10f27e7ea"
+    }
+  ]
+}

@@ -22,3 +22,11 @@ Reviewed all 1,150 N4 entries (1,137 illustrated and 13 intentionally text-only)
 `sense-overrides.json` takes precedence over the legacy catalog using an exact `(Word, Reading, Meaning)` match. This keeps homographs such as つく (arrive versus turn on) and する (do versus decide on) separate. If a meaning field changes, review its override too; unmatched meanings fall back to the legacy catalog. The new sources retain their transparent PNGs and receive content-hashed WebP names during packaging. This pass rebuilds only `JLPT N4.apkg`; other exports are unchanged. Run `python3 Anki/scripts/test_visual_senses.py` to check sense separation.
 
 The arrival note was subsequently corrected from つく to 着く. Both sense keys are retained in the override file so rebuilding an older export cannot restore the lamp image.
+
+## Adding matching artwork
+
+The reusable style prompt, reference images, image-first selection criteria,
+and registration/build workflow are in **Matching illustrations for future
+cards** in [`../../CLAUDE.md`](../../CLAUDE.md). Both `CLAUDE.md` and `AGENTS.md`
+point future agents to that guidance. Historical prompts remain in
+`generation-prompts.json`; the reusable prompt is a consolidated template.

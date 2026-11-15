@@ -1,7 +1,10 @@
 (function () {
-  var script = document.currentScript;
-  var root = script && script.closest('.card');
+  // Anki's <body> also has class="card". Locate our explicit key, never
+  // currentScript.closest('.card'), which can resolve to that outer body.
+  var keys = document.querySelectorAll('.visual-key');
+  var root = keys.length ? keys[keys.length - 1].closest('div.card') : null;
   if (!root) return;
+  if (root.classList.contains('image-production-answer')) return;
   var question = window.ankiVisualQuestion;
   window.ankiVisualQuestion = null;
   var key = root.querySelector('.visual-key');
@@ -28,7 +31,6 @@
       else if (image.complete) revealImage();
       else image.addEventListener('load', revealImage, {once: true});
     }
-    document.body.classList.add('vocab-visual-page');
     var content = document.createElement('div');
     content.className = 'visual-content';
     Array.from(root.children).forEach(function (child) {
@@ -49,6 +51,7 @@
       ? question.top - headingRect.top
       : question.center - headingRect.top - headingRect.height / 2;
     root.style.setProperty('--visual-content-start', start + 'px');
+    var animateHint = function () {
     if (question && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
       var hint = document.createElement('div');
       hint.textContent = question.hint.text;
@@ -65,10 +68,20 @@
       hint.animate([{opacity: 1}, {opacity: 0}],
         {duration: 180, easing: 'ease-out', fill: 'forwards'}).onfinish = function () { hint.remove(); };
     }
-    root.classList.add('visual-ready');
-  } else {
-    document.body.classList.remove('vocab-visual-page');
+    };
+    var startReveal = function () {
+      if (!root.isConnected) return;
+      root.classList.add('visual-ready');
+      animateHint();
+      if (window.ankiVisualBridge) window.ankiVisualBridge();
+    };
+    // Start on Anki's visible frame, not while #qa is transparent.
+    var reviewer = null;
+    try { if (window.require) reviewer = window.require('anki/reviewer'); } catch (_) {}
+    if (reviewer && reviewer.onShownHook) reviewer.onShownHook.push(startReveal);
+    else startReveal();
   }
+  if (!visual && window.ankiVisualBridge) window.ankiVisualBridge();
   var breakdown = root.querySelector('.kanji-breakdown');
   if (breakdown && !breakdown.querySelector('.k-brk') && !breakdown.textContent.trim()) breakdown.remove();
 })();

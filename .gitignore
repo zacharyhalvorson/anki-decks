@@ -9,3 +9,14 @@ __pycache__/
 # Rebuildable illustration cache and browser preview
 assets/card-visuals/optimized/
 experiments/card-visuals/build/
+
+# Rebuilt by experiments/image-production/build_packaged.py from the .apkg files
+experiments/image-production/media/
+experiments/image-production/packaged.html
+
+# Review contact sheets (large rendered JPEGs; decisions live in the JSON files)
+assets/card-visuals/review/*/sheet-*.jpg
+
+# Finder / iCloud conflict copies ("name 2.ext")
+* [0-9].*
+* [0-9]
